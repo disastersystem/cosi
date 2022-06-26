@@ -6,7 +6,8 @@
         if (res.ok) {
             return {
                 props: {
-                    scholarships: data
+                    // scholarship: data
+                    scholarship: 'test'
                 }
             }
         }
@@ -14,13 +15,15 @@
 </script>
 
 <script>
-    export let scholarships
+    // export let scholarship
 </script>
 
-<ul class="mt-40">
-    <!-- {#each scholarships as { id, title }, i} -->
-        <li>
-            { scholarships.title }
-        </li>
-    <!-- {/each} -->
-</ul>
+<main>
+    <div class="flex justify-center">
+        <div class="flex justify-between mt-60" style="max-width: 750px;">
+            <h2 class="cosi-title-1">COSI Erasmus+ EMJMD scholarships</h2>
+
+
+        </div>
+    </div>
+</main>

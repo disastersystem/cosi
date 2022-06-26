@@ -5,7 +5,7 @@
                 <h3 class="font-bold">{ title }</h3>
             </div>
             <div>
-                <p>{ subtitle }</p>
+                <p class="cosi-p" style="margin-bottom: 0px;">{ subtitle }</p>
             </div>
         </div>
         <div>

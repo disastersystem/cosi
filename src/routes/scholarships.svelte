@@ -108,17 +108,36 @@
             <p class="cosi-p mt-4">
                 COSI students are registered in Jean Monnet University during the full period of the programme, irrespective of their location in European host campuses. They are considered as international students registered in a French higher education institution and as such, eligible to several French scholarships opportunities.
             </p>
-            <p class="cosi-p mt-4">
+            <!-- <p class="cosi-p mt-4">
                 Browse CampusBourse, the grant search engine powered by CampusFrance to know more about these programmes:
-            </p>
-            <img src="" alt="">
-            <p class="cosi-p mt-4">
-                To find out more scholarships opportunities, visit, our partner (supported by the European Commission):
-            </p>
-            <img src="" alt="">
-            <img src="" alt="">
+            </p> -->
+            <div class="mt-4 mb-4">
+                <LinkCard
+                    title={'CampusBourse'}
+                    subtitle={'Grant search engine powered by CampusFrance'}
+                    path={'https://test.com'}
+                />
+            </div>
 
-            <h3 class="cosi-title-3 mb-4 mt-6">Syrian students living in exile in France</h3>
+            <p class="cosi-p mt-4">
+                To find more scholarships opportunities, visit our partners (supported by the European Commission):
+            </p>
+            <div class="mt-4 mb-4">
+                <LinkCard
+                    title={'The Global Study Awards'}
+                    subtitle={''}
+                    path={'https://test.com'}
+                />
+            </div>
+            <div class="mt-4 mb-4">
+                <LinkCard
+                    title={'Scholarship Portal EU'}
+                    subtitle={''}
+                    path={'https://test.com'}
+                />
+            </div>
+
+            <h3 class="cosi-title-3 mb-4 mt-10">Syrian students living in exile in France</h3>
             <p class="cosi-p">
                 In the framework of the French aid program to Syria and Syrian nationals currently in France, the government launched a new scholarship program:
                 <a href="http://www.campusfrance.org/fr/programme_syrie" class="external">
