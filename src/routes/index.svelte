@@ -14,7 +14,8 @@
                     2-year Master degree in Applied Colour Science,<br> brought to you by 4 European leading universities
                 </p>
 
-                <a href="about" class="mt-10" style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
+                <a href="/about" class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2
+                focus:ring-offset-gray-100 focus:ring-indigo-500" style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
                     <div class="flex items-center">
                         <div class="uppercase pr-4">Learn about COSI</div>
                         <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +44,7 @@
                     ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
                     scholarship strategy to attract the best international students
                 </p>
-                <a href="scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
+                <a href="/scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
                     <span class="pr-2">Scholarship overview</span> <img src="icons/arrow-right.svg" alt="">
                 </a>
             </div>
@@ -231,7 +232,7 @@
             <h2 class="cosi-title-2 mb-6" style="color: #253A90;">Learn more about</h2>
             <div class="flex">
                 <!-- <a href="courses" style="display: block;"> -->
-                <a href="courses" class="p-10 mr-6" style="border: 1px solid #ddd; border-radius: 20px;">
+                <a href="/courses" class="p-10 mr-6" style="border: 1px solid #ddd; border-radius: 20px;">
                     <div class="flex justify-center">
                         <img src="icons/book.svg" alt="" style="height: 30px;">
                     </div>
@@ -241,7 +242,7 @@
                 <!-- </a> -->
 
                 <!-- <a href="career" style="display: block;"> -->
-                <a href="career" class="p-10 mr-2" style="border: 1px solid #ddd; border-radius: 20px;">
+                <a href="/career" class="p-10 mr-2" style="border: 1px solid #ddd; border-radius: 20px;">
                     <div class="flex justify-center">
                         <img src="icons/suitcase2.svg" alt="" style="height: 30px;">
                     </div>
@@ -251,7 +252,7 @@
                 <!-- </a> -->
 
                 <!-- <a href="research" style="display: block;"> -->
-                <a href="research" class="p-10 ml-4" style="border: 1px solid #ddd; border-radius: 20px;">
+                <a href="/research" class="p-10 ml-4" style="border: 1px solid #ddd; border-radius: 20px;">
                     <div class="flex justify-center">
                         <img src="icons/science.svg" alt="" style="height: 30px;">
                     </div>
@@ -268,7 +269,8 @@
             <h2 class="cosi-title-3 font-bold text-center mb-3">Call for applications study years 2022 - 2024</h2>
             <h3 class="text-center" style="font-weight: 500; font-style: italic;">8. oct 2021 to January 10th 2022</h3>
             <div class="flex justify-center mt-6">
-                <a href="application" class="uppercase" style="display: inline-block; margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
+                <a href="/application" class="uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
+                focus:ring-offset-gray-100 focus:ring-indigo-500" style="display: inline-block; margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
                     Apply
                 </a>
             </div>

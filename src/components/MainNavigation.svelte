@@ -8,10 +8,11 @@
     import { Transition } from "@rgossiaux/svelte-headlessui";
 
     let menu = { about: false, contact: false, application: false }
-
-    function toggleAbout() { menu.about = !menu.about }
-    function toggleApplication() { menu.application = !menu.application }
-    function toggleContact() { menu.contact = !menu.contact }
+    
+    function closeDropdowns() { menu.about = false; menu.contact = false; menu.application = false; }
+    function toggleAbout() { menu.contact = false; menu.application = false; menu.about = !menu.about; }
+    function toggleApplication() { menu.about = false; menu.contact = false; menu.application = !menu.application }
+    function toggleContact() { menu.about = false; menu.application = false; menu.contact = !menu.contact }
 </script>
 
 <nav style="z-index: 10;">
@@ -20,11 +21,13 @@
         COSI
     </div>
     <div class="flex items-center">
-        <a href="/" class="text-sm font-medium text-gray-700">Home</a>
+        <a on:click={closeDropdowns} href="/" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+            Home
+        </a>
 
         <div class="relative inline-block text-left">
             <!-- border border-gray-300 shadow-sm -->
-            <div>
+            <div class="ml-2 mr-2">
                 <button on:click={toggleAbout} type="button" class="inline-flex justify-center w-full rounded-md 
                  px-4 py-2 bg-white text-sm font-medium text-gray-700
                  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
@@ -47,52 +50,54 @@
                 leaveTo="transform opacity-0 scale-95"
             >
                 <div
-                    class="origin-top-right absolute left-1/2 transform -translate-x-1/2 mt-2 p-6 pb-8 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    class="origin-top-right absolute left-1/2 transform -translate-x-1/2 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="menu-button"
                     tabindex="-1"
+                    style="background: #5853A0;"
                 >
+                <!-- style="background: #5853A0;" -->
                     <div class="flex">
-                        <div>
-                            <div class="py-1" role="none" style="width: 240px;">
+                        <div class="cosi-border-right pt-4 pb-4 pl-4">
+                            <div class="py-1" role="none" style="width: 216px;">
                                 <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-                                <h3 class="cosi-title-4 px-4 py-2">About</h3>
-                                <a href="adf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Overview of program</a>
-                                <a href="ddd" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Corporate relations</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Social media</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Alumni</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Legal notice</a>
+                                <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">About</h3>
+                                <a on:click={closeDropdowns} href="/about/overview-of-program" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Overview of program</a>
+                                <a on:click={closeDropdowns} href="/corporate-relations" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Corporate relations</a>
+                                <a on:click={closeDropdowns} href="/social-media" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-3">Social media</a>
+                                <a on:click={closeDropdowns} href="/alumni" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-4">Alumni</a>
+                                <a on:click={closeDropdowns} href="/legal-notice" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-5">Legal notice</a>
                             </div>
                         </div>
-                        <div>
-                            <div class="py-1" role="none" style="width: 260px;">
-                                <h3 class="cosi-title-4 px-4 py-2">Program structure</h3>
-                                <a href="adf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Courses</a>
-                                <a href="ddd" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Learning outcomes</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Awarded degrees</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Summer internship</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Master's thesis</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Student agreement</a>
+                        <div class="cosi-border-right pt-4 pb-4">
+                            <div class="py-1 pl-4" role="none" style="width: 254px;">
+                                <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">Program structure</h3>
+                                <a on:click={closeDropdowns} href="/courses" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-6">Courses</a>
+                                <a on:click={closeDropdowns} href="/learning-outcomes" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-7">Learning outcomes</a>
+                                <a on:click={closeDropdowns} href="/awarded-degrees" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-8">Awarded degrees</a>
+                                <a on:click={closeDropdowns} href="/summer-internship" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-9">Summer internship</a>
+                                <a on:click={closeDropdowns} href="/masters-thesis" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-10">Master's thesis</a>
+                                <a on:click={closeDropdowns} href="/student-agreement" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-11">Student agreement</a>
                             </div>
                         </div>
-                        <div>
-                            <div class="py-1" role="none" style="width: 270px;">
-                                <h3 class="cosi-title-4 px-4 py-2">Costs and funding</h3>
-                                <a href="adf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Participation costs</a>
-                                <a href="ddd" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Scholarships and finance</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Scholarship disbursment</a>
+                        <div class="cosi-border-right pt-4 pb-4">
+                            <div class="py-1 pl-4" role="none" style="width: 250px;">
+                                <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">Costs and funding</h3>
+                                <a on:click={closeDropdowns} href="/participation-costs" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-12">Participation costs</a>
+                                <a on:click={closeDropdowns} href="/scholarships" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-13">Scholarships and finance</a>
+                                <a on:click={closeDropdowns} href="/scholarships-disbursment" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-14">Scholarship disbursment</a>
                             </div>
                         </div>
-                        <div>
-                            <div class="py-1" role="none" style="width: 260px;">
-                                <h3 class="cosi-title-4 px-4 py-2">Prepare your stay</h3>
-                                <a href="adf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Norway</a>
-                                <a href="ddd" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">France</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Spain</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Finland</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Preparatory reading</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Learn local languages</a>
+                        <div class="pt-4 pb-4 pr-4">
+                            <div class="py-1 pl-4" role="none" style="width: 250px;">
+                                <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">Prepare your stay</h3>
+                                <a on:click={closeDropdowns} href="/norway" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-15">Norway</a>
+                                <a on:click={closeDropdowns} href="/france" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-16">France</a>
+                                <a on:click={closeDropdowns} href="/spain" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-17">Spain</a>
+                                <a on:click={closeDropdowns} href="/finland" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-18">Finland</a>
+                                <a on:click={closeDropdowns} href="/preparatory-reading" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-19">Preparatory reading</a>
+                                <a on:click={closeDropdowns} href="/learn-local-languages" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-20">Learn local languages</a>
                             </div>
                         </div>
                     </div>
@@ -100,15 +105,17 @@
             </Transition>
         </div>
 
-        <a href="career" class="text-sm font-medium text-gray-700">Career prospects</a>
+        <a on:click={closeDropdowns} href="/career" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
+        focus:ring-offset-gray-100 focus:ring-indigo-500">Career prospects</a>
 
-        <a href="research" class="text-sm font-medium text-gray-700">Research</a>
+        <a on:click={closeDropdowns} href="/research" class="ml-2 mr-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
+        focus:ring-offset-gray-100 focus:ring-indigo-500">Research</a>
 
         <div class="relative inline-block text-left">
             <!-- border border-gray-300 shadow-sm -->
             <div>
-                <button on:click={toggleApplication} type="button" class="inline-flex justify-center w-full rounded-md 
-                 px-4 py-2 bg-white text-sm font-medium text-gray-700
+                <button on:click={toggleApplication} type="button" class="inline-flex justify-center rounded-md 
+                ml-2 mr-2 px-4 py-2 bg-white text-sm font-medium text-gray-700
                  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
                  focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
                     Application
@@ -129,20 +136,21 @@
                 leaveTo="transform opacity-0 scale-95"
             >
                 <div
-                    class="origin-top-right absolute right-0 mt-2 p-6 pb-8 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    class="origin-top-right absolute right-0 mt-2 p-4 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="menu-button"
                     tabindex="-1"
+                    style="background: #5853A0;"
                 >
                     <div class="flex">
                         <div>
                             <div class="py-1" role="none" style="width: 240px;">
                                 <!-- <h3 class="cosi-title-4 px-4 py-2">Application</h3> -->
-                                <a href="adf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Application eligibility criteria</a>
-                                <a href="ddd" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Apply to COSI</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Appeal procedure</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">FAQ</a>
+                                <a on:click={closeDropdowns} href="/application/eligibility-critera" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Application eligibility criteria</a>
+                                <a on:click={closeDropdowns} href="/application/apply" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Apply to COSI</a>
+                                <a on:click={closeDropdowns} href="/application/appeal" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">Appeal procedure</a>
+                                <a on:click={closeDropdowns} href="/application/faq" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">FAQ</a>
                             </div>
                         </div>
                     </div>
@@ -175,132 +183,31 @@
                 leaveTo="transform opacity-0 scale-95"
             >
                 <div
-                    class="origin-top-right absolute right-0 mt-2 p-6 pb-8 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    class="origin-top-right absolute right-0 mt-2 p-4 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="menu-button"
                     tabindex="-1"
+                    style="background: #5853A0;"
                 >
                     <div class="flex">
                         <div>
                             <div class="py-1" role="none" style="width: 240px;">
                                 <!-- <h3 class="cosi-title-4 px-4 py-2">Application</h3> -->
-                                <a href="adf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Contact</a>
-                                <a href="ddd" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Academic services</a>
-                                <a href="dsf" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Be our guest lecturer</a>
+                                <a on:click={closeDropdowns} href="/contact" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Contact</a>
+                                <a on:click={closeDropdowns} href="/academic-services" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Academic services</a>
+                                <a on:click={closeDropdowns} href="/guest-lecturer" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">Be our guest lecturer</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </Transition>
         </div>
-        <!-- <Menu>
-            <MenuButton class="inline-flex justify-center w-full px-3 py-4">
-                Contact
-            </MenuButton>
-            <MenuItems
-                class="absolute right-0 w-56 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-                style="background: #716CB7;"
-            >
-                <MenuItem let:active class="text-white">
-                    <a href="/overview" class:active>Overview of program</a>
-                </MenuItem>
-                <MenuItem let:active>
-                    <a href="/corporate" class:active>Corporate relations</a>
-                </MenuItem>
-                <MenuItem let:active>
-                    <a href="/social" class:active>Social media</a>
-                </MenuItem>
-                <MenuItem let:active>
-                    <a href="/alumni" class:active>Alumni</a>
-                </MenuItem>
-                <MenuItem let:active>
-                    <a href="/legal" class:active>Legal notice</a>
-                </MenuItem>
-            </MenuItems>
-        </Menu> -->
 
-
-        
-
-        <!-- {#if menu.open}
-        <div class="fixed top-20 right-0 flex p-6 mr-10" style="background: #5853A0;">
-            <div class="mr-6">
-                <h3 class="cosi-title-4" style="color: #fff;">About</h3>
-                <div>
-                    <a href="overview-of-program" style="color: #fff;">Overview of program</a>
-                </div>
-                <div>
-                    <a href="corporate-relations" style="color: #fff;">Corporate relations</a>
-                </div>
-                <div>
-                    <a href="social-media" style="color: #fff;">Social media</a>
-                </div>
-                <div>
-                    <a href="alumni" style="color: #fff;">Alumni</a>
-                </div>
-                <div>
-                    <a href="legal" style="color: #fff;">Legal notice</a>
-                </div>
-            </div>
-            <div class="mr-6">
-                <h3 class="cosi-title-4 text-white" style="color: #fff;">Programme structure</h3>
-                <div>
-                    <a href="courses" style="color: #fff;">Courses</a>
-                </div>
-                <div>
-                    <a href="learning-outcomes" style="color: #fff;">Learning outcomes</a>
-                </div>
-                <div>
-                    <a href="awarded-degrees" style="color: #fff;">Awarded degrees</a>
-                </div>
-                <div>
-                    <a href="summer-internship" style="color: #fff;">Summer internship</a>
-                </div>
-                <div>
-                    <a href="masters-thesis" style="color: #fff;">Master's thesis</a>
-                </div>
-                <div>
-                    <a href="student-agreement" style="color: #fff;">Student agreement</a>
-                </div>
-            </div>
-            <div class="mr-6">
-                <h3 class="cosi-title-4 text-white" style="color: #fff;">Costs and funding</h3>
-                <div>
-                    <a href="participation-costs" style="color: #fff;">Participation costs</a>
-                </div>
-                <div>
-                    <a href="scholarships" style="color: #fff;">Scholarships and finance</a>
-                </div>
-                <div>
-                    <a href="scholarships-disbursment" style="color: #fff;">Scholarship disbursment</a>
-                </div>
-            </div>
-            <div>
-                <h3 class="cosi-title-4" style="color: #fff;">Prepare your stay</h3>
-                <div>
-                    <a href="norway" style="color: #fff;">Norway</a>
-                </div>
-                <div>
-                    <a href="france" style="color: #fff;">France</a>
-                </div>
-                <div>
-                    <a href="spain" style="color: #fff;">Spain</a>
-                </div>
-                <div>
-                    <a href="finland" style="color: #fff;">Finland</a>
-                </div>
-                <div>
-                    <a href="preparatory-reading" style="color: #fff;">Preparatory reading</a>
-                </div>
-                <div>
-                    <a href="learn-local-languages" style="color: #fff;">Learn local languages</a>
-                </div>
-            </div>
-        </div>
-        {/if} -->
-
-        <a href="news" class="text-sm font-medium text-gray-700">News</a>
+        <a on:click={closeDropdowns} href="/news" class="ml-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
+        focus:ring-offset-gray-100 focus:ring-indigo-500">
+            News
+        </a>
     </div>
 </nav>
 
@@ -328,10 +235,13 @@
         color: #000;
         text-decoration: none;
     }
-    /* nav div p {
-        display: block;
-        padding: 15px 15px;
-        color: #000;
-        text-decoration: none;
+    .cosi-border-right {
+        border-right: 1px solid rgba(161, 152, 209, 0.425);
+    }
+    .cosi-light-purple {
+        color: #D9D7FF;
+    }
+    /* .cosi-purple-2 {
+        color: #A198D1;
     } */
 </style>

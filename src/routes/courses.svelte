@@ -14,9 +14,6 @@
 </script>
 
 <script>
-    import MainNavigation from '../components/MainNavigation.svelte'
-    import Footer from '../components/Footer.svelte'
-
     // let courses = {
     //     ntnu: {
     //         mandatory: [],
@@ -26,8 +23,6 @@
     // }
 </script>
 
-<MainNavigation/>
-
 <main>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 750px;">
@@ -35,9 +30,9 @@
             <p class="cosi-headline">
                 The courses in the COSI program are structured so that the skills learnt address the needs of a diverse range of sectors (multimedia, health care, cosmetic, automotive, and food-processing) bridging a talent gap in the industry where colour imaging experts are in high demand. The two areas of focus are spectral technologies and applied colour imaging.
             </p>
-            <p class="cosi-headline">
+            <!-- <p class="cosi-headline">
                 Take a look at the courses and the mobility choices below.
-            </p>
+            </p> -->
         </div>
     </div>
 
@@ -70,7 +65,8 @@
                 </div>
                 
                 <div class="flex flex-col justify-center items-center">
-                    <h2 class="cosi-title-2 mb-6 mt-20">Semester 2</h2>
+                    <h2 class="cosi-title-2 mb-0 mt-20">Semester 2</h2>
+                    <p class="mt-0 mb-6 pt-1 pb-0 italic">Choose one specialisation</p>
                     <div class="flex">
                         <div class="p-10 mr-6" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                             <h4 class="uppercase text-xs">France</h4>
@@ -130,7 +126,8 @@
                 </div>
                 
                 <div class="flex flex-col justify-center items-center">
-                    <h2 class="cosi-title-2 mb-6 mt-20">Semester 3</h2>
+                    <h2 class="cosi-title-2 mt-20">Semester 3</h2>
+                    <p class="mt-0 mb-6 pt-1 pb-0 italic">Choose one specialisation</p>
                     <div class="flex">
                         <div class="p-10 mr-6" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                             <h4 class="uppercase text-xs">Finland</h4>
@@ -199,7 +196,7 @@
 
 
             <div class="flex justify-center mt-16">
-                <a href="about" class="mt-10" style="display: inline-block; font-size: 13px; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
+                <a href="/awarded-degrees" class="mt-10" style="display: inline-block; font-size: 13px; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
                     <div class="flex items-center">
                         <div class="uppercase pr-4">Awarded degrees</div>
                         <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -209,7 +206,7 @@
                 </a>
             </div>
     
-            <!-- <a href="about" class="mt-10" style="display: inline-block; font-size: 13px; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
+            <!-- <a href="/about" class="mt-10" style="display: inline-block; font-size: 13px; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
                 <div class="flex items-center">
                     <div class="uppercase pr-4">Course catalogue (.xsl)</div>
                     <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -220,5 +217,3 @@
         </div>
     </div>
 </main>
-
-<Footer/>

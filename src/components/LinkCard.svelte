@@ -1,4 +1,4 @@
-<a href="{path}">
+<a href="/{path}">
     <div class="flex justify-between items-center p-6" style="border: 1px solid #ddd; border-radius: 16px;">
         <div>
             <div>

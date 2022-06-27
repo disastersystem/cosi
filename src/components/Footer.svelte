@@ -4,7 +4,7 @@
             <img src="cosi-white.svg" alt="" style="width: 100px;" class="mb-2">
             <div>
                 <p style="font-size: 14px;" class="mb-10">All rights reserved COSI 2015-2022</p>
-                <a href="legal" alt="" style="text-decoration: underline; font-size: 14px;" class="uppercase">Legal notice</a>
+                <a href="/legal-notice" alt="" style="text-decoration: underline; font-size: 14px;" class="uppercase">Legal notice</a>
             </div>
         </div>
         <div class="flex flex-col mt-3">

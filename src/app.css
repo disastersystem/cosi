@@ -7,11 +7,13 @@ body {
     /* font-size: 16px; */
     margin: 0;
     padding: 0;
+    overflow-y: scroll;
 }
 
 .cosi-title-1 {
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 56px;
     color: #253A90;
     margin-top: 5px;
