@@ -5,22 +5,28 @@
     //     MenuItems,
     //     MenuItem,
     // } from "@rgossiaux/svelte-headlessui";
+    import { Disclosure, DisclosureButton, DisclosurePanel } from "@rgossiaux/svelte-headlessui";
     import { Transition } from "@rgossiaux/svelte-headlessui";
 
     let menu = { about: false, contact: false, application: false }
+    let drawer = false
     
     function closeDropdowns() { menu.about = false; menu.contact = false; menu.application = false; }
     function toggleAbout() { menu.contact = false; menu.application = false; menu.about = !menu.about; }
     function toggleApplication() { menu.about = false; menu.contact = false; menu.application = !menu.application }
     function toggleContact() { menu.about = false; menu.application = false; menu.contact = !menu.contact }
+
+    function openDrawer() { drawer = true }
+    function closeDrawer() { drawer = false }
 </script>
 
-<nav style="z-index: 10;">
+<nav class="z-10">
     <div class="logo">
         <img src="logo.svg" alt="" style="width: 40px;">
         COSI
     </div>
-    <div class="flex items-center">
+
+    <div class="hidden lg:flex items-center">
         <a on:click={closeDropdowns} href="/" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             Home
         </a>
@@ -28,10 +34,7 @@
         <div class="relative inline-block text-left">
             <!-- border border-gray-300 shadow-sm -->
             <div class="ml-2 mr-2">
-                <button on:click={toggleAbout} type="button" class="inline-flex justify-center w-full rounded-md 
-                 px-4 py-2 bg-white text-sm font-medium text-gray-700
-                 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
-                 focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
+                <button on:click={toggleAbout} type="button" class="inline-flex justify-center w-full rounded-md px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
                     About COSI program
                     <!-- Heroicon name: solid/chevron-down -->
                     <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -105,19 +108,18 @@
             </Transition>
         </div>
 
-        <a on:click={closeDropdowns} href="/career" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
-        focus:ring-offset-gray-100 focus:ring-indigo-500">Career prospects</a>
+        <a on:click={closeDropdowns} href="/career" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+            Career prospects
+        </a>
 
-        <a on:click={closeDropdowns} href="/research" class="ml-2 mr-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
-        focus:ring-offset-gray-100 focus:ring-indigo-500">Research</a>
+        <a on:click={closeDropdowns} href="/research" class="ml-2 mr-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+            Research
+        </a>
 
         <div class="relative inline-block text-left">
             <!-- border border-gray-300 shadow-sm -->
             <div>
-                <button on:click={toggleApplication} type="button" class="inline-flex justify-center rounded-md 
-                ml-2 mr-2 px-4 py-2 bg-white text-sm font-medium text-gray-700
-                 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
-                 focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
+                <button on:click={toggleApplication} type="button" class="inline-flex justify-center rounded-md ml-2 mr-2 px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
                     Application
                     <!-- Heroicon name: solid/chevron-down -->
                     <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -147,7 +149,7 @@
                         <div>
                             <div class="py-1" role="none" style="width: 240px;">
                                 <!-- <h3 class="cosi-title-4 px-4 py-2">Application</h3> -->
-                                <a on:click={closeDropdowns} href="/application/eligibility-critera" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Application eligibility criteria</a>
+                                <a on:click={closeDropdowns} href="/application/eligibility-criteria" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Application eligibility criteria</a>
                                 <a on:click={closeDropdowns} href="/application/apply" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Apply to COSI</a>
                                 <a on:click={closeDropdowns} href="/application/appeal" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">Appeal procedure</a>
                                 <a on:click={closeDropdowns} href="/application/faq" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">FAQ</a>
@@ -161,10 +163,7 @@
         <div class="relative inline-block text-left">
             <!-- border border-gray-300 shadow-sm -->
             <div>
-                <button on:click={toggleContact} type="button" class="inline-flex justify-center w-full rounded-md 
-                 px-4 py-2 bg-white text-sm font-medium text-gray-700
-                 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
-                 focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
+                <button on:click={toggleContact} type="button" class="inline-flex justify-center w-full rounded-md px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500" id="menu-button" aria-expanded="true" aria-haspopup="true">
                     Contact
                     <!-- Heroicon name: solid/chevron-down -->
                     <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -204,12 +203,376 @@
             </Transition>
         </div>
 
-        <a on:click={closeDropdowns} href="/news" class="ml-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2
-        focus:ring-offset-gray-100 focus:ring-indigo-500">
+        <a on:click={closeDropdowns} href="/news" class="ml-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             News
         </a>
     </div>
+
+    <div on:click={openDrawer} class="lg:hidden flex items-center cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </div>
 </nav>
+
+<!--
+    Mobile side-menu
+-->
+<div class="relative z-40 hidden" class:active={ drawer } role="dialog" aria-modal="true"> <!-- lg:hidden -->
+    <!--
+        Off-canvas menu backdrop, show/hide based on off-canvas menu state.
+
+        Entering: "transition-opacity ease-linear duration-300"
+        From: "opacity-0"
+        To: "opacity-100"
+        Leaving: "transition-opacity ease-linear duration-300"
+        From: "opacity-100"
+        To: "opacity-0"
+    -->
+    <div on:click={ closeDrawer } class="fixed inset-0 bg-black bg-opacity-25"></div>
+
+    <!-- <Transition
+        show
+        enter="transition ease-in-out duration-300 transform"
+        enterFrom="translate-x-full"
+        enterTo="translate-x-0"
+        leave="transition ease-in-out duration-300 transform"
+        leaveFrom="translate-x-0"
+        leaveTo="translate-x-full"
+    > -->
+        <div class="fixed inset-0 flex z-40">
+            <!--
+            Off-canvas menu, show/hide based on off-canvas menu state.
+
+            Entering: "transition ease-in-out duration-300 transform"
+                From: "translate-x-full"
+                To: "translate-x-0"
+            Leaving: "transition ease-in-out duration-300 transform"
+                From: "translate-x-0"
+                To: "translate-x-full"
+            -->
+            <div class="ml-auto relative max-w-xs w-full h-full bg-white shadow-xl py-4 pb-12 flex flex-col overflow-y-auto">
+                <div class="px-4 flex items-center justify-between">
+                    <h2 class="text-lg font-medium text-gray-900">Menu</h2>
+                    <button on:click={ closeDrawer } type="button" class="-mr-2 w-10 h-10 bg-white p-2 rounded-md flex items-center justify-center text-gray-400">
+                        <span class="sr-only">Close menu</span>
+                        <!-- Heroicon name: outline/x -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Filters -->
+                <div class="mt-4 border-t border-gray-200">
+                    <h3 class="sr-only">Main menu</h3>
+
+                    <ul class="font-medium text-gray-900 px-2 pt-4">
+                        <li>
+                            <a href="/" class="block px-2 py-3">Home</a>
+                        </li>
+                        <!-- <li>
+                            <a href="/research" class="block px-2 py-3">Research</a>
+                        </li>
+                        <li>
+                            <a href="/career-prospects" class="block px-2 py-3">Career prospects</a>
+                        </li> -->
+                    </ul>
+
+                    <!-- Only have overflow-x-hidden while animation!!!!!!!!!!!!!! -->
+                    <!-- border-t border-gray-200 -->
+                    <div class="px-4 overflow-x-hidden">
+                        <Disclosure let:open>
+                            <DisclosureButton class="w-full">
+                                <div class="flex justify-between pt-4 pb-4">
+                                    <div class="text-gray-900 text-left">About COSI program</div>
+                                    <div>
+                                        <span class="ml-6 flex items-center">
+                                            {#if open}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {:else}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {/if}
+                                        </span>
+                                    </div>
+                                </div>
+                            </DisclosureButton>
+    
+                            <Transition
+                                enter="transition ease-in-out duration-300 transform"
+                                enterFrom="translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="transition ease-in-out duration-300 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="translate-x-full"
+                            >
+                                <DisclosurePanel>
+                                    <div class="p-4">
+                                        <a href="/about" class="block mb-6">Overview of program</a>
+                                        <a href="/corporate-relations" class="block mb-6">Corporate relations</a>
+                                        <a href="/social-media" class="block mb-6">Social media</a>
+                                        <a href="/alumni" class="block mb-6">Alumni</a>
+                                        <a href="/legal-notice" class="block mb-6">Legal notice</a>
+                                    </div>
+                                </DisclosurePanel>
+                            </Transition>
+                        </Disclosure>
+                    </div>
+
+                    <div class="px-4 overflow-x-hidden">
+                        <Disclosure let:open>
+                            <DisclosureButton class="w-full">
+                                <div class="flex justify-between pt-4 pb-4">
+                                    <div class="text-gray-900 text-left">Program structure</div>
+                                    <div>
+                                        <span class="ml-6 flex items-center">
+                                            {#if open}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {:else}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {/if}
+                                        </span>
+                                    </div>
+                                </div>
+                            </DisclosureButton>
+    
+                            <Transition
+                                enter="transition ease-in-out duration-300 transform"
+                                enterFrom="translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="transition ease-in-out duration-300 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="translate-x-full"
+                            >
+                                <DisclosurePanel>
+                                    <div class="p-4">
+                                        <a href="/courses" class="block mb-6">Courses</a>
+                                        <a href="/learning-outcomes" class="block mb-6">Learning outcomes</a>
+                                        <a href="/awarded-degrees" class="block mb-6">Awarded degrees</a>
+                                        <a href="/summer-internship" class="block mb-6">Summer internship</a>
+                                        <a href="/masters-thesis" class="block mb-6">Master's thesis</a>
+                                        <a href="/student-agreement" class="block mb-6">Student agreement</a>
+                                    </div>
+                                </DisclosurePanel>
+                            </Transition>
+                        </Disclosure>
+                    </div>
+
+                    <div class="px-4 overflow-x-hidden">
+                        <Disclosure let:open>
+                            <DisclosureButton class="w-full">
+                                <div class="flex justify-between pt-4 pb-4">
+                                    <div class="text-gray-900 text-left">Costs and funding</div>
+                                    <div>
+                                        <span class="ml-6 flex items-center">
+                                            {#if open}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {:else}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {/if}
+                                        </span>
+                                    </div>
+                                </div>
+                            </DisclosureButton>
+    
+                            <Transition
+                                enter="transition ease-in-out duration-300 transform"
+                                enterFrom="translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="transition ease-in-out duration-300 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="translate-x-full"
+                            >
+                                <DisclosurePanel>
+                                    <div class="p-4">
+                                        <a href="/participation-costs" class="block mb-6">Participation costs</a>
+                                        <a href="/scholarships" class="block mb-6">Scholarships and finance</a>
+                                        <a href="/scholarships-disbursment" class="block mb-6">Scholarships disbursment</a>
+                                    </div>
+                                </DisclosurePanel>
+                            </Transition>
+                        </Disclosure>
+                    </div>
+
+                    <ul class="font-medium text-gray-900 px-2">
+                        <li>
+                            <a href="/career-prospects" class="block px-2 py-3">Career prospects</a>
+                        </li>
+                        <li>
+                            <a href="/research" class="block px-2 py-3">Research</a>
+                        </li>
+                    </ul>
+
+                    <div class="px-4 overflow-x-hidden">
+                        <Disclosure let:open>
+                            <DisclosureButton class="w-full">
+                                <div class="flex justify-between pt-4 pb-4">
+                                    <div class="text-gray-900 text-left">Prepare your stay</div>
+                                    <div>
+                                        <span class="ml-6 flex items-center">
+                                            {#if open}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {:else}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {/if}
+                                        </span>
+                                    </div>
+                                </div>
+                            </DisclosureButton>
+    
+                            <Transition
+                                enter="transition ease-in-out duration-300 transform"
+                                enterFrom="translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="transition ease-in-out duration-300 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="translate-x-full"
+                            >
+                                <DisclosurePanel>
+                                    <div class="p-4">
+                                        <a href="/norway" class="block mb-6">Norway</a>
+                                        <a href="/france" class="block mb-6">France</a>
+                                        <a href="/spain" class="block mb-6">Spain</a>
+                                        <a href="/finland" class="block mb-6">Finland</a>
+                                        <a href="/preparatory-readings" class="block mb-6">Preparatory readings</a>
+                                        <a href="/learn-local-languages" class="block mb-6">Learn local languages</a>
+                                    </div>
+                                </DisclosurePanel>
+                            </Transition>
+                        </Disclosure>
+                    </div>
+
+                    <div class="px-4">
+                        <Disclosure let:open>
+                            <DisclosureButton class="w-full">
+                                <div class="flex justify-between pt-4 pb-4">
+                                    <div class="text-gray-900 text-left">Application</div>
+                                    <div>
+                                        <span class="ml-6 flex items-center">
+                                            {#if open}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {:else}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {/if}
+                                        </span>
+                                    </div>
+                                </div>
+                            </DisclosureButton>
+    
+                            <Transition
+                                enter="transition ease-in-out duration-300 transform"
+                                enterFrom="translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="transition ease-in-out duration-300 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="translate-x-full"
+                            >
+                                <DisclosurePanel>
+                                    <div class="p-4">
+                                        <a href="/application/eligibility-criteria" class="block mb-6">Application eligibility criteria</a>
+                                        <a href="/application/apply" class="block mb-6">Apply to COSI</a>
+                                        <a href="/application/appeal" class="block mb-6">Appeal procedure</a>
+                                        <a href="/application/faq" class="block mb-6">FAQ</a>
+                                    </div>
+                                </DisclosurePanel>
+                            </Transition>
+                        </Disclosure>
+                    </div>
+
+                    <div class="px-4">
+                        <Disclosure let:open>
+                            <DisclosureButton class="w-full">
+                                <div class="flex justify-between pt-4 pb-4">
+                                    <div class="text-gray-900 text-left">Contact</div>
+                                    <div>
+                                        <span class="ml-6 flex items-center">
+                                            {#if open}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {:else}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {/if}
+                                        </span>
+                                    </div>
+                                </div>
+                            </DisclosureButton>
+    
+                            <Transition
+                                enter="transition ease-in-out duration-300 transform"
+                                enterFrom="translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="transition ease-in-out duration-300 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="translate-x-full"
+                            >
+                                <DisclosurePanel>
+                                    <div class="p-4">
+                                        <a href="/contect" class="block mb-6">Contact</a>
+                                        <a href="/academic-services" class="block mb-6">Academic services</a>
+                                        <a href="/guest-lecturer" class="block mb-6">Be our guest lecturer</a>
+                                    </div>
+                                </DisclosurePanel>
+                            </Transition>
+                        </Disclosure>
+                    </div>
+
+                    <ul class="font-medium text-gray-900 px-2">
+                        <li>
+                            <a href="/news" class="block px-2 py-3">News</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    <!-- </Transition> -->
+
+
+    <!-- <h3 class="-mx-2 -my-3 flow-root">
+            <button type="button" class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500" aria-controls="filter-section-mobile-0" aria-expanded="false">
+                <span class="font-medium text-gray-900"> Color </span>
+                <span class="ml-6 flex items-center">
+                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                    </svg>
+                    <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+            </button>
+        </h3>
+        <div class="pt-6" id="filter-section-mobile-0">
+            <div class="space-y-6">
+                <div class="flex items-center">
+                    <input id="filter-mobile-color-0" name="color[]" value="white" type="checkbox" class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500">
+                    <label for="filter-mobile-color-0" class="ml-3 min-w-0 flex-1 text-gray-500"> White </label>
+                </div>
+            </div>
+        </div> -->
+</div>
 
 <style>
     .logo {
@@ -235,13 +598,16 @@
         color: #000;
         text-decoration: none;
     }
+
     .cosi-border-right {
         border-right: 1px solid rgba(161, 152, 209, 0.425);
     }
+
     .cosi-light-purple {
         color: #D9D7FF;
     }
-    /* .cosi-purple-2 {
-        color: #A198D1;
-    } */
+
+    .active {
+        display: block;
+    }
 </style>

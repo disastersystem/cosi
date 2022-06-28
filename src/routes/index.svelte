@@ -269,9 +269,15 @@
             <h2 class="cosi-title-3 font-bold text-center mb-3">Call for applications study years 2022 - 2024</h2>
             <h3 class="text-center" style="font-weight: 500; font-style: italic;">8. oct 2021 to January 10th 2022</h3>
             <div class="flex justify-center mt-6">
-                <a href="/application" class="uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
-                focus:ring-offset-gray-100 focus:ring-indigo-500" style="display: inline-block; margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
-                    Apply
+                <a href="/application/apply" class="flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
+                focus:ring-offset-gray-100 focus:ring-indigo-500"
+                style="margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
+                    <span>Apply</span>
+                    <div class="pl-2">
+                        <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
+                        </svg>
+                    </div>
                 </a>
             </div>
         </div>
