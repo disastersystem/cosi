@@ -23,7 +23,7 @@
     // }
 </script>
 
-<main>
+<main class="px-6">
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 750px;">
             <h1 class="cosi-title-1">Courses</h1>

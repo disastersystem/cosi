@@ -51,9 +51,9 @@
     export let groups
 </script>
 
-<main>
+<main class="px-6">
     <div class="flex justify-center">
-        <div class="mt-40" style="max-width: 750px;">
+        <div class="mt-40" style="max-width: 766px;">
             <h1 class="cosi-title-1">Scholarships and finance</h1>
 
             <p class="cosi-headline">
@@ -119,7 +119,7 @@
                 />
             </div>
 
-            <p class="cosi-p mt-4">
+            <p class="cosi-p mt-6">
                 To find more scholarships opportunities, visit our partners (supported by the European Commission):
             </p>
             <div class="mt-4 mb-4">

@@ -53,7 +53,13 @@
                 leaveTo="transform opacity-0 scale-95"
             >
                 <div
-                    class="origin-top-right absolute left-1/2 transform -translate-x-1/2 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+                    class="
+                    origin-top-right absolute
+                    lg:left-1/3
+                    transform
+                    -translate-x-0 md:-translate-x-1/5 lg:-translate-x-1/4 xl:-translate-x-1/4
+                    mt-2
+                    rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
                     role="menu"
                     aria-orientation="vertical"
                     aria-labelledby="menu-button"
@@ -419,6 +425,47 @@
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">
+                                    <div class="text-gray-900 text-left">Application</div>
+                                    <div>
+                                        <span class="ml-6 flex items-center">
+                                            {#if open}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {:else}
+                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+                                                </svg>
+                                            {/if}
+                                        </span>
+                                    </div>
+                                </div>
+                            </DisclosureButton>
+    
+                            <Transition
+                                enter="transition ease-in-out duration-300 transform"
+                                enterFrom="translate-x-full"
+                                enterTo="translate-x-0"
+                                leave="transition ease-in-out duration-300 transform"
+                                leaveFrom="translate-x-0"
+                                leaveTo="translate-x-full"
+                            >
+                                <DisclosurePanel>
+                                    <div class="p-4">
+                                        <a href="/application/eligibility-criteria" class="block mb-6">Application eligibility criteria</a>
+                                        <a href="/application/apply" class="block mb-6">Apply to COSI</a>
+                                        <a href="/application/appeal" class="block mb-6">Appeal procedure</a>
+                                        <a href="/application/faq" class="block mb-6">FAQ</a>
+                                    </div>
+                                </DisclosurePanel>
+                            </Transition>
+                        </Disclosure>
+                    </div>
+
+                    <div class="px-4 overflow-x-hidden">
+                        <Disclosure let:open>
+                            <DisclosureButton class="w-full">
+                                <div class="flex justify-between pt-4 pb-4">
                                     <div class="text-gray-900 text-left">Prepare your stay</div>
                                     <div>
                                         <span class="ml-6 flex items-center">
@@ -458,48 +505,7 @@
                         </Disclosure>
                     </div>
 
-                    <div class="px-4">
-                        <Disclosure let:open>
-                            <DisclosureButton class="w-full">
-                                <div class="flex justify-between pt-4 pb-4">
-                                    <div class="text-gray-900 text-left">Application</div>
-                                    <div>
-                                        <span class="ml-6 flex items-center">
-                                            {#if open}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                                    <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
-                                                </svg>
-                                            {:else}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                                    <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
-                                                </svg>
-                                            {/if}
-                                        </span>
-                                    </div>
-                                </div>
-                            </DisclosureButton>
-    
-                            <Transition
-                                enter="transition ease-in-out duration-300 transform"
-                                enterFrom="translate-x-full"
-                                enterTo="translate-x-0"
-                                leave="transition ease-in-out duration-300 transform"
-                                leaveFrom="translate-x-0"
-                                leaveTo="translate-x-full"
-                            >
-                                <DisclosurePanel>
-                                    <div class="p-4">
-                                        <a href="/application/eligibility-criteria" class="block mb-6">Application eligibility criteria</a>
-                                        <a href="/application/apply" class="block mb-6">Apply to COSI</a>
-                                        <a href="/application/appeal" class="block mb-6">Appeal procedure</a>
-                                        <a href="/application/faq" class="block mb-6">FAQ</a>
-                                    </div>
-                                </DisclosurePanel>
-                            </Transition>
-                        </Disclosure>
-                    </div>
-
-                    <div class="px-4">
+                    <div class="px-4 overflow-x-hidden">
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">

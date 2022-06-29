@@ -59,7 +59,7 @@
             question: 'Is a background in colour science necessary to be eligible?',
             answer: `
                 <p class="cosi-p">
-                    No, we don't required background in Colour science, as this is the aim of the Programme to educate student to this interdisciplinary field.
+                    No, we don't required a background in Colour science, as this is the aim of the Programme to educate student to this interdisciplinary field.
                 <p>
             `
         },

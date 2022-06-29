@@ -1,7 +1,7 @@
 <main>
-    <div class="flex justify-center">
-        <div class="flex justify-between mt-60" style="max-width: 1000px;">
-            <div style="width: 650px;">
+    <div class="flex justify-center px-6">
+        <div class="flex justify-between items-center px-6 mt-40 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40" style="max-width: 1400px;">
+            <div class="w-full md:w-2/3 md:pr-14" style="max-width: 650px;">
                 <h3 class="uppercase" style="color: #253A90; font-weight: 400; margin-bottom: 5px; color: #5853A0;">
                     Erasmus Mundus + Joint Master Degree
                 </h3>
@@ -14,8 +14,11 @@
                     2-year Master degree in Applied Colour Science,<br> brought to you by 4 European leading universities
                 </p>
 
-                <a href="/about" class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2
-                focus:ring-offset-gray-100 focus:ring-indigo-500" style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
+                <a
+                    href="/about"
+                    class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                    style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;"
+                >
                     <div class="flex items-center">
                         <div class="uppercase pr-4">Learn about COSI</div>
                         <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,45 +27,14 @@
                     </div>
                 </a>
             </div>
-            <div class="w-1/3">
-                <img src="camera.png" alt="" style="width: 400px;">
+
+            <div class="sm:hidden md:block">
+                <img src="camera.png" alt="" class="hidden sm:hidden md:block" style="width: 600px;">
             </div>
         </div>
     </div>
 
-    <div class="flex justify-center">
-        <div class="flex mt-40" style="max-width: 1000px;">
-            <div class="w-1/2 pr-10">
-                <div style="height: 28px;">
-                    <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
-                    <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;">
-                </div>
-                <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
-                    Generous Scholarships
-                </h2>
-                <p style="color: #54567C;">
-                    ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
-                    scholarship strategy to attract the best international students
-                </p>
-                <a href="/scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
-                    <span class="pr-2">Scholarship overview</span> <img src="icons/arrow-right.svg" alt="">
-                </a>
-            </div>
-            <div class="w-1/2 pl-10">
-                <div style="height: 30px;">
-                    <img src="icons/medal.svg" alt="" style="display: inline-block; height: 100%;">
-                </div>
-                <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
-                    Global academic excellence meeting worldwide markets
-                </h2>
-                <p style="color: #54567C;">
-                    Over the years COSI graduates have been employed in world leading industries and universities.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="flex justify-center mt-20 p-20" style="background: #5853A0;">
+    <div class="flex justify-center mt-40 p-20" style="background: #5853A0;">
         <!-- <div style="position: absolute; left: 10px;">
             <div class="flex" style="width: 180px;">
                 <img src="uef-campus.png" alt="" class="m-2">
@@ -133,10 +105,40 @@
         </div>
     </div>
 
-    <div class="flex justify-center">
+    <div class="flex justify-center px-6">
         <div style="max-width: 1000px;">
-            <div class="flex mt-20">
-                <div class="flex-1 pr-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-40">
+                <div class="w-full pr-10">
+                    <div style="height: 28px;">
+                        <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
+                        <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;">
+                    </div>
+                    <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
+                        Generous Scholarships
+                    </h2>
+                    <p style="color: #54567C;">
+                        ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
+                        scholarship strategy to attract the best international students
+                    </p>
+                    <a href="/scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
+                        <span class="pr-2">Scholarship overview</span> <img src="icons/arrow-right.svg" alt="">
+                    </a>
+                </div>
+                <div class="w-full pl-0 md:pl-10 mt-16 md:mt-0">
+                    <div style="height: 30px;">
+                        <img src="icons/medal.svg" alt="" style="display: inline-block; height: 100%;">
+                    </div>
+                    <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
+                        Global academic excellence meeting worldwide markets
+                    </h2>
+                    <p style="color: #54567C;">
+                        Over the years COSI graduates have been employed in world leading industries and universities.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-0 md:mt-16">
+                <div class="flex-1 mt-16 md:mt-0">
                     <div style="height: 30px;">
                         <img src="icons/medal.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
@@ -148,7 +150,7 @@
                         point and contact person.
                     </p>
                 </div>
-                <div class="flex-1 pl-10">
+                <div class="flex-1 pl-0 md:pl-10 mt-16 md:mt-0">
                     <div style="height: 28px;">
                         <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
@@ -160,8 +162,9 @@
                     </p>
                 </div>
             </div>
-            <div class="flex mt-16">
-                <div class="flex-1 pr-10">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-0 md:mt-16">
+                <div class="md:pr-10 mt-16 md:mt-0">
                     <div style="height: 30px;">
                         <img src="icons/globe.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
@@ -173,7 +176,7 @@
                         Academic partners in Asia and Europe.
                     </p>
                 </div>
-                <div class="flex-1 pl-10">
+                <div class="pl-0 md:pl-10 mt-16 md:mt-0">
                     <div style="height: 28px;">
                         <img src="icons/suitcase.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
@@ -188,84 +191,8 @@
         </div>
     </div>
 
-    <div class="flex justify-center mt-40">
+    <div class="flex justify-center mt-40 mb-40 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
-            <h2 class="cosi-title-2 mb-2" style="color: #253A90;">Partners</h2>
-            <h3 class="cosi-title-4 mb-2">Associated industrial partners</h3>
-            <div style="display: flex; flex-wrap: wrap; align-items: center;">
-                <div style="padding: 20px;"><img src="partners/industry/meta.png" alt="" style="width: 100%; display:block;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/hp.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/Huawei.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/picterus.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/sedoptica.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/vilmori-mikado.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/barco.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/BARBIERI.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/huddly.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/mihaly.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/3DUniversum.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/Spektralion.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/DXO.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/Chromasens.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/industry/COGNEX.png" alt="" style="width: 100%;"></div>
-            </div>
-            <h3 class="cosi-title-4 mb-2">Academic partners</h3>
-            <div style="display: flex; flex-wrap: wrap; align-items: center;">
-                <div style="padding: 20px;"><img src="partners/academic/Amirkabir University of Technology.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/Chulalongkorn University logo.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/Group 27.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/img-layout-inspo 1.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/Khulna University logo.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/kuleuven_cmyk_logo-2.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/Technological University of Tajikistan 1.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/Tribhuvan University.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/ufmg logo 1.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/Universidade do Minho logo.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/University of Milan Bicocca 1.png" alt="" style="width: 100%;"></div>
-                <div style="padding: 20px;"><img src="partners/academic/university of Zagreb.png" alt="" style="width: 100%;"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="flex justify-center mt-40">
-        <div style="max-width: 1000px; flex-grow: 1;">
-            <h2 class="cosi-title-2 mb-6" style="color: #253A90;">Learn more about</h2>
-            <div class="flex">
-                <!-- <a href="courses" style="display: block;"> -->
-                <a href="/courses" class="p-10 mr-6" style="border: 1px solid #ddd; border-radius: 20px;">
-                    <div class="flex justify-center">
-                        <img src="icons/book.svg" alt="" style="height: 30px;">
-                    </div>
-                    <h3 class="cosi-title-4 mt-4 text-center">Courses</h3>
-                    <p style="color: #2A2E4F;" class="text-center">Read more about the curriculum and semester mobility</p>
-                </a>
-                <!-- </a> -->
-
-                <!-- <a href="career" style="display: block;"> -->
-                <a href="/career" class="p-10 mr-2" style="border: 1px solid #ddd; border-radius: 20px;">
-                    <div class="flex justify-center">
-                        <img src="icons/suitcase2.svg" alt="" style="height: 30px;">
-                    </div>
-                    <h3 class="cosi-title-4 mt-4 text-center">Career prospects</h3>
-                    <p style="color: #2A2E4F;" class="text-center">Read more about your work opportunities after graduation</p>
-                </a>
-                <!-- </a> -->
-
-                <!-- <a href="research" style="display: block;"> -->
-                <a href="/research" class="p-10 ml-4" style="border: 1px solid #ddd; border-radius: 20px;">
-                    <div class="flex justify-center">
-                        <img src="icons/science.svg" alt="" style="height: 30px;">
-                    </div>
-                    <h3 class="cosi-title-4 mt-4 text-center">Research</h3>
-                    <p style="color: #2A2E4F;" class="text-center">Read more about COSI research and theses subjects</p>
-                </a>
-                <!-- </a> -->
-            </div>
-        </div>
-    </div>
-
-    <div class="flex justify-center mt-40">
-        <div style="margin-bottom: 100px; max-width: 1000px; flex-grow: 1;">
             <h2 class="cosi-title-3 font-bold text-center mb-3">Call for applications study years 2022 - 2024</h2>
             <h3 class="text-center" style="font-weight: 500; font-style: italic;">8. oct 2021 to January 10th 2022</h3>
             <div class="flex justify-center mt-6">
@@ -279,6 +206,87 @@
                         </svg>
                     </div>
                 </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center mt-40 px-6">
+        <div style="max-width: 1000px; flex-grow: 1;">
+            <h2 class="cosi-title-2 mb-2" style="color: #253A90;">Partners</h2>
+            <h3 class="cosi-title-4 mb-2 mt-10">Associated industrial partners</h3>
+            <div style="display: flex; flex-wrap: wrap; align-items: center;">
+                <div class="px-4 py-4" style="width: 180px;"><img src="partners/industry/meta.png" alt="" style="width: 100%; display:block;"></div>
+                <div class="px-4 py-4" style="width: 90px;"><img src="partners/industry/hp.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 90px;"><img src="partners/industry/Huawei.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 220px;"><img src="partners/industry/sedoptica.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 170px;"><img src="partners/industry/COGNEX.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 170px;"><img src="partners/industry/vilmori-mikado.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 100px;"><img src="partners/industry/barco.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 220px;"><img src="partners/industry/BARBIERI.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 170px;"><img src="partners/industry/huddly.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 170px;"><img src="partners/industry/mihaly.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 100px;"><img src="partners/industry/3DUniversum.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 170px;"><img src="partners/industry/Spektralion.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 140px;"><img src="partners/industry/DXO.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 180px;"><img src="partners/industry/Chromasens.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 170px;"><img src="partners/industry/picterus.png" alt="" style="width: 100%;"></div>
+            </div>
+            <h3 class="cosi-title-4 mb-2 mt-10">Academic partners</h3>
+            <div style="display: flex; flex-wrap: wrap; align-items: center;">
+                <div class="px-4 py-4" style="width: 120px;"><img src="partners/academic/Amirkabir University of Technology.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 180px;"><img src="partners/academic/Chulalongkorn University logo.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 200px;"><img src="partners/academic/Group 27.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 100px;"><img src="partners/academic/img-layout-inspo 1.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 80px;"><img src="partners/academic/Khulna University logo.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 150px;"><img src="partners/academic/kuleuven_cmyk_logo-2.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 90px;"><img src="partners/academic/Technological University of Tajikistan 1.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 100px;"><img src="partners/academic/Tribhuvan University.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 130px;"><img src="partners/academic/ufmg logo 1.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 120px;"><img src="partners/academic/Universidade do Minho logo.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 90px;"><img src="partners/academic/University of Milan Bicocca 1.png" alt="" style="width: 100%;"></div>
+                <div class="px-4 py-4" style="width: 90px;"><img src="partners/academic/university of Zagreb.png" alt="" style="width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center mt-40 px-6">
+        <div style="max-width: 1000px; flex-grow: 1;">
+            <h2 class="cosi-title-2 mb-6" style="color: #253A90;">Learn more about</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3">
+
+                <a href="/courses" class="relative p-10 md:mr-6" style="border: 1px solid #ddd; border-radius: 20px;">
+                    <div class="flex justify-center">
+                        <img src="icons/book.svg" alt="" style="height: 30px;">
+                    </div>
+                    <h3 class="cosi-title-4 mt-4 text-center">Courses</h3>
+                    <p style="color: #2A2E4F;" class="text-center">
+                        Read more about the curriculum and semester mobility
+                    </p>
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                </a>
+
+                <a href="/career" class="relative p-10 md:mr-2 mt-4 md:mt-0" style="border: 1px solid #ddd; border-radius: 20px;">
+                    <div class="flex justify-center">
+                        <img src="icons/suitcase2.svg" alt="" style="height: 30px;">
+                    </div>
+                    <h3 class="cosi-title-4 mt-4 text-center">Career prospects</h3>
+                    <p style="color: #2A2E4F;" class="text-center">
+                        Read more about your work opportunities after graduation
+                    </p>
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                </a>
+
+                <a href="/research" class="relative p-10 md:ml-4 mt-4 md:mt-0" style="border: 1px solid #ddd; border-radius: 20px;">
+                    <div class="flex justify-center">
+                        <img src="icons/science.svg" alt="" style="height: 30px;">
+                    </div>
+                    <h3 class="cosi-title-4 mt-4 text-center">Research</h3>
+                    <p style="color: #2A2E4F;" class="text-center">
+                        Read more about COSI research and theses subjects
+                    </p>
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                </a>
+
             </div>
         </div>
     </div>

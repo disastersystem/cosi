@@ -3,8 +3,8 @@
 </script>
 
 <main>
-    <div class="flex justify-center">
-        <div class="mt-40" style="max-width: 750px;">
+    <div class="flex justify-center px-6">
+        <div class="mt-40" style="max-width: 766px;">
             <h1 class="cosi-title-1">Overview of program</h1>
 
             <p class="cosi-headline">
@@ -18,7 +18,7 @@
             <div>
                 <div class="flex mb-10 mt-10">
                     <div class="flex w-1/2 pr-2">
-                        <div class="mr-4" style="width: 40px;">
+                        <div class="mr-4" style="width: 36px;">
                             <img src="../ntnu-logo-color.png" alt="">
                         </div>
                         <div>
@@ -97,41 +97,43 @@
             <p class="cosi-p">
                 This results is a knowledge base encompassing most of today's research fields in colour sciences.
             </p>
-            
-            <div class="mb-4">
-                <p class="font-bold">Applied colour sciences</p>
-                <p class="cosi-p">University Jean Monnet</p>
-            </div>
-            <div class="mb-4">
-                <p class="font-bold">Applied advanced colorimetry</p>
-                <p class="cosi-p">University of Granada</p>
-            </div>
-            <div class="mb-4">
-                <p class="font-bold">Spectral technologies</p>
-                <p class="cosi-p">University of Eastern Finland</p>
-            </div>
-            <div class="mb-4">
-                <p class="font-bold">Applied Colour Imaging</p>
-                <p class="cosi-p">Norwegian University of Science and Technology</p>
-            </div>
-            <div class="mb-4">
-                <p class="font-bold">Informatics & Telemedicine</p>
-                <p class="cosi-p">Institut Teknologi Bandung in Indonesia Biomedical</p>
-            </div>
-            <div class="mb-4">
-                <p class="font-bold">Visual Perception and Cognition</p>
-                <p class="cosi-p">Toyohashi University of Technology</p>
-            </div>
-            <div class="mb-4">
-                <p class="font-bold">Intelligent Lighting</p>
-                <p class="cosi-p">Monash University, Sunway Campus</p>
-            </div>
-            <div class="mb-6">
-                <p class="font-bold">Application or Colour Technology</p>
-                <p class="cosi-p">Chulalongkorn University</p>
-            </div>
 
-            <p class="cosi-p">
+            <ul class="cosi-ul">
+                <li>
+                    <span class="font-bold">Application or Colour Technology</span>
+                    <span>Chulalongkorn University</span>
+                </li>
+                <li>
+                    <span class="font-bold">Visual Perception and Cognition</span>
+                    <span>Toyohashi University of Technology</span>
+                </li>
+                <li>
+                    <span class="font-bold">Applied advanced colorimetry</span>
+                    <span>University of Granada</span>
+                </li>
+                <li>
+                    <span class="font-bold">Informatics & Telemedicine</span>
+                    <span>Institut Teknologi Bandung in Indonesia Biomedical</span>
+                </li>
+                <li>
+                    <span class="font-bold">Applied Colour Imaging</span>
+                    <span>Norwegian University of Science and Technology</span>
+                </li>
+                <li>
+                    <span class="font-bold">Applied colour sciences</span>
+                    <span>University Jean Monnet</span>
+                </li>
+                <li>
+                    <span class="font-bold">Spectral technologies</span>
+                    <span>University of Eastern Finland</span>
+                </li>
+                <li>
+                    <span class="font-bold">Intelligent Lighting</span>
+                    <span>Monash University, Sunway Campus</span>
+                </li>
+            </ul>
+
+            <p class="cosi-p mt-6">
                 Learning technologies such as online-teaching allow us to offer a high-quality course catalogue which is flexible, evolving over time and consistent in content and sequence. This is made possible thanks to the use of innovative teaching delivery methods, universities cross-fertilization and mutual learning through academic and staff mobility and backed-up by strong quality assurance.
             </p>
             <p class="cosi-p">
