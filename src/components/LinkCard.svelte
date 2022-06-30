@@ -16,6 +16,6 @@
 
 <script>
     export let title
-    export let subtitle
+    export let subtitle = ''
     export let path
 </script>

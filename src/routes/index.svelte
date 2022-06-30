@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center mt-40 p-20" style="background: #5853A0;">
+    <div class="mobility-container flex justify-center mt-40 p-20">
         <!-- <div style="position: absolute; left: 10px;">
             <div class="flex" style="width: 180px;">
                 <img src="uef-campus.png" alt="" class="m-2">
@@ -51,6 +51,15 @@
                 <div class="flex-1">
                     <h2 class="cosi-title-2 mb-3 text-white">Built-in European Mobility</h2>
                     <h5 style="color: white; margin-top: 0.2em; font-weight: 500;">Live & learn in 4 different campuses</h5>
+
+                    <!-- <div class="flex">
+                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
+                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
+                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
+                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
+                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
+                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
+                    </div> -->
 
                     <div class="mt-20">
                         <div class="flex mb-12">
@@ -98,7 +107,7 @@
                         any single institution
                     </h4>
 
-                    <img src="map.svg" alt="" style="width: 500px;">
+                    <img src="map.svg" alt="" style="width: 500px;" class="hidden sm:block">
                 </div>
             </div>
 
@@ -120,6 +129,16 @@
                         ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
                         scholarship strategy to attract the best international students
                     </p>
+                    <!-- <a href="/scholarships" class="flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-offset-gray-100 focus:ring-indigo-500"
+                    style="margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
+                        <span class="pr-2">Scholarship overview</span>
+                        <div class="pl-2">
+                            <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
+                            </svg>
+                        </div>
+                    </a> -->
                     <a href="/scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
                         <span class="pr-2">Scholarship overview</span> <img src="icons/arrow-right.svg" alt="">
                     </a>
@@ -139,10 +158,30 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 mt-0 md:mt-16">
                 <div class="flex-1 mt-16 md:mt-0">
-                    <div style="height: 30px;">
-                        <img src="icons/medal.svg" alt="" style="display: inline-block; height: 100%;">
+                    <div style="height: 42px;" class="-mt-2">
+                        <img src="icons/user-check.svg" alt="" style="display: inline-block; height: 100%;">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; height: 100%; color: #253A90;" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="0.7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg> -->
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg> -->
                     </div>
-                    <h2 class="cosi-title-2 mt-2 mb-4">
+                    <h2 class="cosi-title-2 mt-1 mb-4">
                         Customized academic and administrative services
                     </h2>
                     <p style="color: #54567C;">
@@ -168,6 +207,9 @@
                     <div style="height: 30px;">
                         <img src="icons/globe.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg> -->
                     <h2 class="cosi-title-2 mt-2 mb-4">
                         International recognition
                     </h2>
@@ -213,7 +255,20 @@
     <div class="flex justify-center mt-40 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
             <h2 class="cosi-title-2 mb-2" style="color: #253A90;">Partners</h2>
-            <h3 class="cosi-title-4 mb-2 mt-10">Associated industrial partners</h3>
+
+            <!-- <div class="flex">
+                <div class="mr-6">
+                    <h6 class="cosi-title-2">15</h6>
+                    industry partners
+                </div>
+                <div>
+                    <h6 class="cosi-title-2">12</h6>
+                    academic partners
+                </div>
+            </div> -->
+
+            <h6 class="cosi-title-2 mt-10">15</h6>
+            <h3 class="cosi-title-3 mb-2">Associated industrial partners</h3>
             <div style="display: flex; flex-wrap: wrap; align-items: center;">
                 <div class="px-4 py-4" style="width: 180px;"><img src="partners/industry/meta.png" alt="" style="width: 100%; display:block;"></div>
                 <div class="px-4 py-4" style="width: 90px;"><img src="partners/industry/hp.png" alt="" style="width: 100%;"></div>
@@ -231,7 +286,8 @@
                 <div class="px-4 py-4" style="width: 180px;"><img src="partners/industry/Chromasens.png" alt="" style="width: 100%;"></div>
                 <div class="px-4 py-4" style="width: 170px;"><img src="partners/industry/picterus.png" alt="" style="width: 100%;"></div>
             </div>
-            <h3 class="cosi-title-4 mb-2 mt-10">Academic partners</h3>
+            <h6 class="cosi-title-2 mt-10">12</h6>
+            <h3 class="cosi-title-3 mb-2">Academic partners</h3>
             <div style="display: flex; flex-wrap: wrap; align-items: center;">
                 <div class="px-4 py-4" style="width: 120px;"><img src="partners/academic/Amirkabir University of Technology.png" alt="" style="width: 100%;"></div>
                 <div class="px-4 py-4" style="width: 180px;"><img src="partners/academic/Chulalongkorn University logo.png" alt="" style="width: 100%;"></div>
@@ -251,7 +307,7 @@
 
     <div class="flex justify-center mt-40 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
-            <h2 class="cosi-title-2 mb-6" style="color: #253A90;">Learn more about</h2>
+            <h2 class="cosi-title-2 mb-8" style="color: #253A90;">Learn more about</h2>
             <div class="grid grid-cols-1 md:grid-cols-3">
 
                 <a href="/courses" class="relative p-10 md:mr-6" style="border: 1px solid #ddd; border-radius: 20px;">
@@ -291,3 +347,11 @@
         </div>
     </div>
 </main>
+
+<style>
+    .mobility-container {
+        background: #5853A0;
+        background-image: url("grid2.svg");
+        background-repeat: repeat-y repeat-x;
+    }
+</style>

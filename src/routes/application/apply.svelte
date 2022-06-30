@@ -1,6 +1,10 @@
+<script>
+    import CirclePoint from '../../components/Point.svelte'
+</script>
+
 <main>
-    <div class="flex justify-center">
-        <div class="mt-40 mb-40" style="max-width: 750px;">
+    <div class="flex justify-center px-6">
+        <div class="mt-40 mb-40" style="max-width: 766px;">
             <h1 class="cosi-title-1">Apply to COSI</h1>
 
             <h3 class="cosi-title-3 mt-10">
@@ -18,17 +22,147 @@
             <p class="cosi-p">
                 If you have any questions, do not hesitate to <a href="/contact" class="external">contact</a>
             </p>
+
+            <h3 class="cosi-title-4 mt-16">1. Make sure you are eligible to apply</h3>
+            <p class="cosi-p">
+                All applicants must document the following in order for their applications to be considered for admission:
+            </p>
+            <ul class="cosi-ul">
+                <li>
+                    A Bachelor's degree from an accredited institution in the topic of computer science, optics, physics, mathematics, signal processing, electronics, cognitive psychology, or other relevant adequate education.
+                </li>
+                <li>
+                    Applicants must have completed at least 5 ECTS University level course on any programming language - other courses completed outside the University may be considered on an individual basis-, and at least 5 ECTS in mathematics.
+                </li>
+                <li>
+                    Applicants should preferably have a course on image processing, imaging, color science, photonics, vision, computer graphics, computer vision, machine learning, or justify of an experience in related fields.
+                </li>
+                <li>
+                    Knowledge of English, i.e. Applicants have to demonstrate that they meet the level B2 within the CEFR (exemptions from the need to document level B2 are native English speakers and students who have completed a degree in an English-speaking country).
+                </li>
+            </ul>
+            <p class="cosi-p">
+                Applicants should be fully aware of the financial costs of the programme and cost of living in hosting countries. While our scholarship policy will allow most of the students to finance the entire studies period, self-funded students who were not awarded a scholarship grant will be required to submit a Guarantee of full financial support (annexed to the Learning Agreement and prior to enrollment).
+            </p>
+            <h6 class="cosi-title-5 mb-2 mt-6">
+                Adequate financial resources
+            </h6>
+            <p class="cosi-p">
+                Applicants should be fully aware of the financial costs of the programme and cost of living in hosting countries. While our scholarship policy will allow most of the students to finance the entire studies period, self-funded students who were not awarded a scholarship grant will be required to submit a Guarantee of full financial support (annexed to the Learning Agreement and prior to enrollment).
+            </p>
+
+            <h2 class="cosi-title-4 mt-12">
+                2. Determine if you are from a Programme or Partner country and assess your financial ability in case you are not awarded a Erasmus+ JMD scholarship
+            </h2>
+            <p class="cosi-p">
+                Self-funded students will be able to pay participation costs in three instalments.
+            </p>
+            <p class="cosi-p">
+                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. Very generous scholarships are available.
+            </p>
+            <a href="/participation-costs" class="external">What do I pay for?</a>
+
+            <h4 class="cosi-title-4 mt-12 mb-4">3. Prepare your application files</h4>
+            <p class="cosi-p">
+                Please make sure you have all documents available in english and PDF format before starting the application process in step 4. You will need to upload the following documents:
+            </p>
+            <p class="cosi-p font-bold mt-8">
+                Check-list:
+            </p>
+            <ul class="cosi-ul">
+                <li>Transcript of records</li>
+                <li>Bachelor's diploma</li>
+                <li>Documentation of English language proficiency</li>
+                <li>Motivation letter</li>
+                <li>CV</li>
+                <li>A minimum of two letters of recommendation</li>
+                <li>Proof of nationality</li>
+                <li>Documented last 5 years residence history</li>
+            </ul>
+            <p class="cosi-p font-bold mt-10">
+                Recommendation to prepare the documents:
+            </p>
+            <ul class="cosi-ul">
+                <li>CV: preferably in Europass format.</li>
+                <li>
+                    Motivation letter: Motivation must be documented by means of a motivation letter containing information about the applicant’s reason for applying, their interest in the programme, their ideas of applied research and their professional development plan. In addition:
+                    <ul class="cosi-ul ml-4">
+                        <li>State and argument your preferred choice of mobility for semester 2 and 3.</li>
+                        <li>Clearly declare that you've never benefited from an Erasmus Mundus Master Course grant.</li>
+                        <li>Indicate your references.</li>
+                    </ul>
+                </li>
+                <li>
+                    Documented last 5 years residence history:
+                    <ul class="cosi-ul ml-4">
+                        <li>
+                            Document where you explain your residency during the last 5 years Current residence certificate in accordance with your municipality normal registration rules AND a certificate from your place of work, study or training issued by the employer or institution in question. Both documents must have been issued within 12 months before the submission deadline. The place of residence should be verified on the basis of the provision of the documents listed in the PRADO website. Past residence certificate(s) (last five years only)
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4 class="cosi-title-4 mt-12 mb-4">
+                4. Apply to søknadsweb
+            </h4>
+            <p class="cosi-p">
+                When your documents are ready, go to <a href="https://søknadsweb.no" alt="">Søknadsweb</a>
+            </p>
+            <p class="cosi-p">
+                Step-by-step recipe to register on Søknadsweb:
+            </p>
+            <ul class="cosi-ul">
+                <li>Go to the application portal Søknadsweb.</li>
+                <li>Select language in the top right corner where it says "Norsk bokmål".</li>
+                <li>Choose institution: "Norwegian University of Science and Technology"</li>
+                <li>Click on "International Applicant".</li>
+                <li>Click on "Register new international applicant".</li>
+                <li>Answer the question regarding your English qualifications.</li>
+                <li>Answer the question regarding residence permit in Norway.</li>
+                <li>Answer the question concerning financing. Choose the answer "I have a scholarship", since you apply for the COSI EMJMD by submitting your application.</li>
+                <li>You have now reached the application form. Please register as an applicant, and you will receive your password by e-mail.</li>
+                <li>Log on to Søknadsweb with your e-mail address and password, and fill in the application details.</li>
+                <li>As the final step of the application process, you will be asked to submit the required documentation. Upload all the required documents and make sure they have the correct format (.pdf).</li>
+            </ul>
+            <p class="cosi-p">
+                Please note that there is no “submit”-button.
+            </p>
+            <p class="cosi-p">
+                You can change your application as many times as you like up until the deadline.
+            </p>
+
+            <h3 class="cosi-title-2 text-center mt-20">
+                You're all done!
+            </h3>
+            <h4 class="cosi-title-3 mt-2 text-center">
+                You will be notifed of the next step<br>between 10. January and 1. March.
+            </h4>
+            <p class="cosi-p text-center mt-4">
+                In the meantime, take a look at the timelime below<br>to see the full application process.
+            </p>
+            <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 20px;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>
+            </div>
         </div>
     </div>
 
-    <div style="background: #5853A0;">
+    <div style="background: #5853A0;" class="px-6">
         <div class="flex justify-center pt-16 pb-16">
+            <div class="mr-8 mt-40" style="border-right: 1px solid rgba(161, 152, 209, 0.425);"></div>
             <div style="max-width: 750px;">
-                <h2 class="cosi-title-2 text-white">Key dates</h2>
-                <p class="cosi-headline cosi-text-light-purple">Below you'll find a complete timeline of the whole process.</p>
+                <div class="-ml-10">
+                    <h2 class="flex cosi-title-2 text-white">
+                        Key dates
+                        <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#fff" width="30"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32zM0 192H448V464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192zM64 304C64 312.8 71.16 320 80 320H112C120.8 320 128 312.8 128 304V272C128 263.2 120.8 256 112 256H80C71.16 256 64 263.2 64 272V304zM192 304C192 312.8 199.2 320 208 320H240C248.8 320 256 312.8 256 304V272C256 263.2 248.8 256 240 256H208C199.2 256 192 263.2 192 272V304zM336 256C327.2 256 320 263.2 320 272V304C320 312.8 327.2 320 336 320H368C376.8 320 384 312.8 384 304V272C384 263.2 376.8 256 368 256H336zM64 432C64 440.8 71.16 448 80 448H112C120.8 448 128 440.8 128 432V400C128 391.2 120.8 384 112 384H80C71.16 384 64 391.2 64 400V432zM208 384C199.2 384 192 391.2 192 400V432C192 440.8 199.2 448 208 448H240C248.8 448 256 440.8 256 432V400C256 391.2 248.8 384 240 384H208zM320 432C320 440.8 327.2 448 336 448H368C376.8 448 384 440.8 384 432V400C384 391.2 376.8 384 368 384H336C327.2 384 320 391.2 320 400V432z"/></svg>
+                    </h2>
+                    <p class="mt-4 cosi-headline cosi-text-light-purple">
+                        Below you'll find a complete timeline of the whole process.
+                    </p>
+                </div>
 
                 <div class="mt-16">
-                    <h6 class="text-white text-sm italic mb-1" style="color: #EEEEEE;">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1" style="color: #EEEEEE;">
                         <span style="font-weight: 200;">10. jan. 2022</span>
                         <span style="font-weight: 400;">12.00 pm (UTC time)</span>
                     </h6>
@@ -39,14 +173,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">15. feb. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Notification of Ineligibly</h2>
@@ -56,14 +191,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Application second-phase</h2>
@@ -73,14 +209,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Selection Committee</h2>
@@ -90,14 +227,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Notification of Short-list</h2>
@@ -107,14 +245,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Notification of the Selection outcome</h2>
@@ -134,14 +273,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Prepare your stay in Norway</h2>
@@ -151,14 +291,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Notification from the EACEA</h2>
@@ -168,14 +309,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">End of Appeal period</h2>
@@ -185,14 +327,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Commitment Deadline</h2>
@@ -202,14 +345,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Deadline "self-financed" Non-EU students</h2>
@@ -219,14 +363,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Deadline "self-financed" EU students</h2>
@@ -236,14 +381,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">End of E+EMJMD re-allocation</h2>
@@ -253,14 +399,15 @@
                 </div>
 
                 <div class="mt-12">
-                    <h6 class="text-white text-sm italic mb-1 flex">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1 flex">
                         <div class="pr-2">
-                            <div class="font-thin">From</div>
-                            <div class="font-thin">To</div>
+                            <div class="cosi-text-light-purple mb-1">From</div>
+                            <div class="cosi-text-light-purple">To</div>
                         </div>
                         <div>
-                            <div class="font-medium">10. jan. 2022</div>
-                            <div class="font-medium">01. mar. 2022</div>
+                            <div class="mb-1">10. jan. 2022</div>
+                            <div>15. feb. 2022</div>
                         </div>
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Student agreement signature</h2>

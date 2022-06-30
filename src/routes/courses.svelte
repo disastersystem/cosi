@@ -25,7 +25,7 @@
 
 <main class="px-6">
     <div class="flex justify-center mt-40 mb-20">
-        <div style="max-width: 750px;">
+        <div style="max-width: 766px;">
             <h1 class="cosi-title-1">Courses</h1>
             <p class="cosi-headline">
                 The courses in the COSI program are structured so that the skills learnt address the needs of a diverse range of sectors (multimedia, health care, cosmetic, automotive, and food-processing) bridging a talent gap in the industry where colour imaging experts are in high demand. The two areas of focus are spectral technologies and applied colour imaging.
