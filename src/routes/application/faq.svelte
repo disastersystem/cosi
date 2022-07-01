@@ -123,7 +123,7 @@
                             leaveTo="translate-x-full"
                         >
                             <DisclosurePanel>
-                                <div class="p-4">
+                                <div class="px-4 pt-2 pb-10">
                                     {@html answer }
                                 </div>
                             </DisclosurePanel>

@@ -163,7 +163,7 @@
                 </li>
             </ul>
 
-            <div class="mt-10 mb-4">
+            <div class="mt-6 mb-4">
                 <LinkCard
                     title={'Academic Management Board'}
                     subtitle={'How we ensure quality'}
@@ -177,7 +177,7 @@
                 path={'qab'}
             />
 
-            <h2 class="cosi-title-2 mt-10 mb-4">Harmonized validation of learning outcomes</h2>
+            <h2 class="cosi-title-2 mt-12 mb-4">Harmonized validation of learning outcomes</h2>
             <p class="cosi-p">
                 To ensure all stakeholders an even greater accountability and transparency, the partners in COSI take the following steps:
             </p>

@@ -35,7 +35,7 @@
     </div>
 
     <div class="mobility-container flex justify-center mt-40 p-20">
-        <!-- <div style="position: absolute; left: 10px;">
+        <div style="position: absolute; left: 10px;">
             <div class="flex" style="width: 180px;">
                 <img src="uef-campus.png" alt="" class="m-2">
                 <img src="ntnu-campus.png" alt="" class="m-2">
@@ -44,7 +44,7 @@
                 <img src="ujm-campus.png" alt="" class="m-2">
                 <img src="ugr-campus.png" alt="" class="m-2">
             </div>
-        </div> -->
+        </div>
 
         <div style="max-width: 1000px; flex-grow: 1;">
             <div class="flex">
@@ -52,22 +52,13 @@
                     <h2 class="cosi-title-2 mb-3 text-white">Built-in European Mobility</h2>
                     <h5 style="color: white; margin-top: 0.2em; font-weight: 500;">Live & learn in 4 different campuses</h5>
 
-                    <!-- <div class="flex">
-                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
-                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
-                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
-                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
-                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
-                        <div style="border-left: 1px solid #6152B2; height: 1000px; width: 80px;"></div>
-                    </div> -->
-
                     <div class="mt-20">
                         <div class="flex mb-12">
                             <div class="pr-4" style="width: 40px;">
                                 <img src="uef-logo.svg" alt="">
                             </div>
                             <div>
-                                <p class="text-white text-lg font-bold">University of Eastern Finland</p>
+                                <p class="cosi-title-5 text-white text-lg font-bold" style="color: #fff; font-size: 1.3em;">University of Eastern Finland</p>
                                 <p class="italic" style="color: #FFDB6D;">Joensuu, Finland</p>
                             </div>
                         </div>
@@ -76,7 +67,7 @@
                                 <img src="ntnu-logo.svg" alt="">
                             </div>
                             <div>
-                                <p class="text-white text-lg font-bold">Norwegian University of<br>Science and Technology</p>
+                                <p class="cosi-title-5 text-white text-lg font-bold" style="color: #fff; font-size: 1.3em;">Norwegian University of<br>Science and Technology</p>
                                 <p class="italic" style="color: #FFDB6D;">Gjøvik, Norway</p>
                             </div>
                         </div>
@@ -85,7 +76,7 @@
                                 <img src="ujm-logo.svg" alt="" style="display: block; width: 90%;">
                             </div>
                             <div>
-                                <p class="text-white text-lg font-bold">Jean Monnet University</p>
+                                <p class="cosi-title-5 text-white text-lg font-bold" style="color: #fff; font-size: 1.3em;">Jean Monnet University</p>
                                 <p class="italic" style="color: #FFDB6D;">Saint-Étienne, France</p>
                             </div>
                         </div>
@@ -94,7 +85,7 @@
                                 <img src="ugr-logo.svg" alt="">
                             </div>
                             <div>
-                                <p class="text-white text-lg font-bold">University of Granada</p>
+                                <p class="cosi-title-5 text-white text-lg font-bold" style="color: #fff; font-size: 1.3em;">University of Granada</p>
                                 <p class="italic" style="color: #FFDB6D;">Granada, Spain</p>
                             </div>
                         </div>
@@ -107,7 +98,12 @@
                         any single institution
                     </h4>
 
-                    <img src="map.svg" alt="" style="width: 500px;" class="hidden sm:block">
+                    <!-- <img src="path1.svg" alt="">
+                    <img src="path2.svg" alt="">
+                    <img src="path3.svg" alt="">
+                    <img src="path4.svg" alt=""> -->
+
+                    <img src="map-with-paths.svg" alt="" class="hidden sm:block">
                 </div>
             </div>
 
@@ -118,9 +114,10 @@
         <div style="max-width: 1000px;">
             <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-40">
                 <div class="w-full pr-10">
-                    <div style="height: 28px;">
-                        <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
-                        <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;">
+                    <div style="height: 40px;">
+                        <!-- <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
+                        <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;"> -->
+                        <img src="icons/dollar-green.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
                     <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
                         Generous Scholarships
@@ -144,8 +141,8 @@
                     </a>
                 </div>
                 <div class="w-full pl-0 md:pl-10 mt-16 md:mt-0">
-                    <div style="height: 30px;">
-                        <img src="icons/medal.svg" alt="" style="display: inline-block; height: 100%;">
+                    <div style="height: 40px;">
+                        <img src="icons/medal-yellow.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
                     <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
                         Global academic excellence meeting worldwide markets
@@ -159,7 +156,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 mt-0 md:mt-16">
                 <div class="flex-1 mt-16 md:mt-0">
                     <div style="height: 42px;" class="-mt-2">
-                        <img src="icons/user-check.svg" alt="" style="display: inline-block; height: 100%;">
+                        <img src="icons/user-blue.svg" alt="" style="display: inline-block; height: 100%;">
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; height: 100%; color: #253A90;" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="0.7">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg> -->
@@ -190,8 +187,8 @@
                     </p>
                 </div>
                 <div class="flex-1 pl-0 md:pl-10 mt-16 md:mt-0">
-                    <div style="height: 28px;">
-                        <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;">
+                    <div style="height: 40px;">
+                        <img src="icons/grad-yellow.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
                     <h2 class="cosi-title-2 mt-2 mb-4">
                         An education you won't find anywhere else
@@ -204,8 +201,8 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 mt-0 md:mt-16">
                 <div class="md:pr-10 mt-16 md:mt-0">
-                    <div style="height: 30px;">
-                        <img src="icons/globe.svg" alt="" style="display: inline-block; height: 100%;">
+                    <div style="height: 40px;">
+                        <img src="icons/globe-green.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -219,8 +216,8 @@
                     </p>
                 </div>
                 <div class="pl-0 md:pl-10 mt-16 md:mt-0">
-                    <div style="height: 28px;">
-                        <img src="icons/suitcase.svg" alt="" style="display: inline-block; height: 100%;">
+                    <div style="height: 40px;">
+                        <img src="icons/suitcase-red.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
                     <h2 class="cosi-title-2 mt-2 mb-4">
                         Worldwide employability
@@ -229,25 +226,6 @@
                         Be where the future of colour science will happen. We work with many industrial partners.
                     </p>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="flex justify-center mt-40 mb-40 px-6">
-        <div style="max-width: 1000px; flex-grow: 1;">
-            <h2 class="cosi-title-3 font-bold text-center mb-3">Call for applications study years 2022 - 2024</h2>
-            <h3 class="text-center" style="font-weight: 500; font-style: italic;">8. oct 2021 to January 10th 2022</h3>
-            <div class="flex justify-center mt-6">
-                <a href="/application/apply" class="flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
-                focus:ring-offset-gray-100 focus:ring-indigo-500"
-                style="margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
-                    <span>Apply</span>
-                    <div class="pl-2">
-                        <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
-                        </svg>
-                    </div>
-                </a>
             </div>
         </div>
     </div>
@@ -301,6 +279,25 @@
                 <div class="px-4 py-4" style="width: 120px;"><img src="partners/academic/Universidade do Minho logo.png" alt="" style="width: 100%;"></div>
                 <div class="px-4 py-4" style="width: 90px;"><img src="partners/academic/University of Milan Bicocca 1.png" alt="" style="width: 100%;"></div>
                 <div class="px-4 py-4" style="width: 90px;"><img src="partners/academic/university of Zagreb.png" alt="" style="width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center mt-40 mb-20 px-6">
+        <div style="max-width: 1000px; flex-grow: 1;">
+            <h2 class="cosi-title-2 font-bold text-center mb-3">Call for applications study years 2022 - 2024</h2>
+            <h3 class="text-center" style="font-weight: 500; font-style: italic;">Apply from 8. oct 2021 to January 10th 2022</h3>
+            <div class="flex justify-center mt-6">
+                <a href="/application/apply" class="flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
+                focus:ring-offset-gray-100 focus:ring-indigo-500"
+                style="margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
+                    <span>Apply</span>
+                    <div class="pl-2">
+                        <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
+                        </svg>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

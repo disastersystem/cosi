@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center px-6 mt-40 mb-20">
+    <div class="flex justify-center px-6 mt-20 mb-20">
         <div style="max-width: 766px;">
             <h2 class="cosi-title-2 mb-4">Finance your Master Thesis</h2>
 
