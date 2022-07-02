@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Academic services - COSI</title>
+</svelte:head>
+
 <main class="px-6">
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">

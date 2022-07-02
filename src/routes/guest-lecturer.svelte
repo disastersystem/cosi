@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Be our guest lecturer - COSI</title>
+</svelte:head>
+
 <main class="px-6">
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
@@ -9,14 +13,14 @@
                 The consortium offers each year guest lecturer's funding opportunity with competitive remuneration. Travel and accommodation costs of the visiting scholar are funded by the COSI consortium.
             </p>
 
-            <h3 class="cosi-title-2 mt-16 mb-4">
+            <h3 class="cosi-title-2 mt-12 mb-6">
                 Eligibility criteria
             </h3>
             <p class="cosi-p">
-                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<a href="https://survey" class="external">lists of eligible countries</a>)
+                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" class="external">lists of eligible countries</a>)
             </p>
 
-            <h2 class="cosi-title-2 mt-16 mb-6">
+            <h2 class="cosi-title-2 mt-12 mb-6">
                 Selection criteria
             </h2>
             
@@ -32,9 +36,12 @@
                 We equally welcome professors from higher education institutions as well as practionners from the private sector. Academic / professional profile is the main criteria that will be used to assess applications.
             </p>
 
-            <h3 class="cosi-title-5 mt-8 mb-4">
+            <h2 class="cosi-title-2 mt-12 mb-6">
                 How to apply
-            </h3>
+            </h2>
+            <p class="cosi-p">
+                To apply, please send us "mscosi@studier.ntnu.no" the following documents in .pdf:
+            </p>
             <ul class="cosi-ul">
                 <li>
                     <div class="mb-2">A CV, including</div>

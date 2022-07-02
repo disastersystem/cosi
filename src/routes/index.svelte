@@ -247,7 +247,7 @@
 
             <h6 class="cosi-title-2 mt-10">15</h6>
             <h3 class="cosi-title-3 mb-2">Associated industrial partners</h3>
-            <div style="display: flex; flex-wrap: wrap; align-items: center;">
+            <div style="margin-left: -15px; display: flex; flex-wrap: wrap; align-items: center;">
                 <div class="px-4 py-4" style="width: 180px;"><img src="partners/industry/meta.png" alt="" style="width: 100%; display:block;"></div>
                 <div class="px-4 py-4" style="width: 90px;"><img src="partners/industry/hp.png" alt="" style="width: 100%;"></div>
                 <div class="px-4 py-4" style="width: 90px;"><img src="partners/industry/Huawei.png" alt="" style="width: 100%;"></div>
@@ -266,7 +266,7 @@
             </div>
             <h6 class="cosi-title-2 mt-10">12</h6>
             <h3 class="cosi-title-3 mb-2">Academic partners</h3>
-            <div style="display: flex; flex-wrap: wrap; align-items: center;">
+            <div style="margin-left: -15px; display: flex; flex-wrap: wrap; align-items: center;">
                 <div class="px-4 py-4" style="width: 120px;"><img src="partners/academic/Amirkabir University of Technology.png" alt="" style="width: 100%;"></div>
                 <div class="px-4 py-4" style="width: 180px;"><img src="partners/academic/Chulalongkorn University logo.png" alt="" style="width: 100%;"></div>
                 <div class="px-4 py-4" style="width: 200px;"><img src="partners/academic/Group 27.png" alt="" style="width: 100%;"></div>

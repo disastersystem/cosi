@@ -42,7 +42,7 @@ Off-canvas filters for mobile, show/hide based on off-canvas filters state.
         <!-- Filters -->
         <form class="mt-4 border-t border-gray-200">
             <h3 class="sr-only">Categories</h3>
-            <ul role="list" class="font-medium text-gray-900 px-2 py-3">
+            <ul class="font-medium text-gray-900 px-2 py-3">
             <li>
                 <a href="adwa" class="block px-2 py-3"> Totes </a>
             </li>

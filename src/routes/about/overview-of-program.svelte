@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>COSI - overview of program</title>
+</svelte:head>
+
 <script>
     import LinkCard from '../../components/LinkCard.svelte'
 </script>
@@ -14,7 +18,7 @@
                 To achieve this four European Universities are combining their skills and knowledge to offer a two year (120 ECTS) Erasmus Mundus + Joint Master Degree on “Computational Colour and Spectral Imaging (COSI)”.
                 The COSI program is organized by a team of experts in:
             </p>
-            
+
             <div>
                 <div class="flex mb-10 mt-10">
                     <div class="flex w-1/2 pr-2">

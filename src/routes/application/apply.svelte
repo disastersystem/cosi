@@ -51,14 +51,20 @@
                 Applicants should be fully aware of the financial costs of the programme and cost of living in hosting countries. While our scholarship policy will allow most of the students to finance the entire studies period, self-funded students who were not awarded a scholarship grant will be required to submit a Guarantee of full financial support (annexed to the Learning Agreement and prior to enrollment).
             </p>
 
-            <h2 class="cosi-title-4 mt-12">
+            <h2 class="cosi-title-4 mt-12 mb-6">
                 2. Determine if you are from a Programme or Partner country and assess your financial ability in case you are not awarded a Erasmus+ JMD scholarship
             </h2>
             <p class="cosi-p">
-                Self-funded students will be able to pay participation costs in three instalments.
+                Determine if you are from a Programme or Partner country:
+                <a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" class="external">
+                    Lists of eligible countries
+                </a>
             </p>
             <p class="cosi-p">
                 Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. Very generous scholarships are available.
+            </p>
+            <p class="cosi-p">
+                Self-funded students will be able to pay participation costs in three instalments.
             </p>
             <a href="/participation-costs" class="external">What do I pay for?</a>
 
@@ -139,10 +145,11 @@
             </h4>
             <p class="cosi-p text-center mt-4">
                 In the meantime, take a look at the timelime below<br>to see the full application process.
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="margin-left: 6px; display: inline-block; width: 12px;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>
             </p>
-            <div class="flex justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 20px;"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>
-            </div>
+            <!-- <div class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 14px;"><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>
+            </div> -->
         </div>
     </div>
 

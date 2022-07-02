@@ -1,26 +1,39 @@
+<script>
+    let email = ''
+    let message = ''
+
+    function sendMessage(e) {
+        e.preventDefault()
+        console.log(email, message, 'send')
+    }
+</script>
+
 <main class="px-6">
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
             <h1 class="cosi-title-1">Contact</h1>
-            <p class="cosi-headline">
-                <!-- You'll acquire skills and qualifications that will be widely recognized and understood by other education
-                institutions and the labour market. Over the years COSI graduates have been employed in world leading
-                industries and universities. -->
-            </p>
+            <!-- <p class="cosi-headline">
+            </p> -->
 
             <div class="w-full mt-12" style="width: 500px;">
                 <form action="#" method="POST">
-                    <label for="email" class="block text-sm font-medium text-gray-700">Your e-mail</label>
+                    <label for="email" class="block text-sm font-medium text-gray-700">
+                        Your e-mail
+                    </label>
                     <input
+                        bind:value={email}
                         type="text" name="email" id="email"
                         autocomplete="email"
                         class="w-full p-3 focus:ring-indigo-500 focus:border-indigo-500 mt-1
                         block w-full sm:text-sm border border-gray-400 rounded-md"
                     />
 
-                    <label for="message" class="mt-6 block text-sm font-medium text-gray-700">Message</label>
+                    <label for="message" class="mt-6 block text-sm font-medium text-gray-700">
+                        Message
+                    </label>
                     <div class="mt-1">
                         <textarea
+                            bind:value={message}
                             id="message"
                             name="message"
                             rows="8"
@@ -30,7 +43,7 @@
                     </div>
 
                     <div class="mt-6 text-right">
-                        <button type="submit" style="background: #253A90; border-radius: 1000px;" class="uppercase inline-flex justify-center items-center py-2 px-4 border border-transparent
+                        <button on:click={sendMessage} type="submit" style="background: #253A90; border-radius: 1000px;" class="uppercase inline-flex justify-center items-center py-2 px-4 border border-transparent
                             shadow-sm text-sm font-medium rounded-md text-white hover:bg-indigo-700
                             focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                         >

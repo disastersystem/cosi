@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Courses - COSI</title>
+</svelte:head>
+
 <script context="module">
     // export async function load() {
     //     const res = await fetch('https://jsonplaceholder.typicode.com/todos')

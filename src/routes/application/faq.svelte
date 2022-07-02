@@ -67,9 +67,9 @@
             question: 'When I login to my account, my application/s appears as "pending". What should I do?',
             answer: `
                 <p class="cosi-p">
-                    Once you've submitted succesfully your application, a pop-up message indicate that your application has
+                    Once you've succesfully submitted your application, a pop-up message indicate that your application has
                     been saved successfully (in green on the upper-right of the screen) and your application appears as
-                    "pending" in the left menu. As long as you've received a automatic conformation email, this mean your
+                    "pending" in the left menu. As long as you've received a automatic conformation email, this means your
                     application will be considered by the selection committee.
                 <p>
             `

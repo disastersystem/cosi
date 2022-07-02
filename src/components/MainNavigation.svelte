@@ -22,7 +22,7 @@
 
 <nav class="z-10">
     <div class="logo">
-        <img src="logo.svg" alt="" style="width: 40px;">
+        <img src="/logo.svg" alt="" style="width: 40px;">
         COSI
     </div>
 
