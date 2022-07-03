@@ -27,7 +27,7 @@
     </div>
 
     <div class="hidden lg:flex items-center">
-        <a on:click={closeDropdowns} href="/" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        <a sveltekit:prefetch on:click={closeDropdowns} href="/" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             Home
         </a>
 
@@ -118,7 +118,7 @@
             Career prospects
         </a>
 
-        <a on:click={closeDropdowns} href="/research" class="ml-2 mr-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        <a sveltekit:prefetch on:click={closeDropdowns} href="/research" class="ml-2 mr-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             Research
         </a>
 
@@ -269,13 +269,12 @@
                     </button>
                 </div>
 
-                <!-- Filters -->
                 <div class="mt-4 border-t border-gray-200">
                     <h3 class="sr-only">Main menu</h3>
 
                     <ul class="font-medium text-gray-900 px-2 pt-4">
                         <li>
-                            <a href="/" class="block px-2 py-3">Home</a>
+                            <a on:click={ closeDrawer } href="/" class="block px-2 py-3">Home</a>
                         </li>
                         <!-- <li>
                             <a href="/research" class="block px-2 py-3">Research</a>
@@ -318,11 +317,11 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a href="/about" class="block mb-6">Overview of program</a>
-                                        <a href="/corporate-relations" class="block mb-6">Corporate relations</a>
-                                        <a href="/social-media" class="block mb-6">Social media</a>
-                                        <a href="/alumni" class="block mb-6">Alumni</a>
-                                        <a href="/legal-notice" class="block mb-6">Legal notice</a>
+                                        <a on:click={ closeDrawer } href="/about/overview-of-program" class="block mb-6">Overview of program</a>
+                                        <a on:click={ closeDrawer } href="/corporate-relations" class="block mb-6">Corporate relations</a>
+                                        <a on:click={ closeDrawer } href="/social-media" class="block mb-6">Social media</a>
+                                        <a on:click={ closeDrawer } href="/alumni" class="block mb-6">Alumni</a>
+                                        <a on:click={ closeDrawer } href="/legal-notice" class="block mb-6">Legal notice</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -360,12 +359,12 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a href="/courses" class="block mb-6">Courses</a>
-                                        <a href="/learning-outcomes" class="block mb-6">Learning outcomes</a>
-                                        <a href="/awarded-degrees" class="block mb-6">Awarded degrees</a>
-                                        <a href="/summer-internship" class="block mb-6">Summer internship</a>
-                                        <a href="/masters-thesis" class="block mb-6">Master's thesis</a>
-                                        <a href="/student-agreement" class="block mb-6">Student agreement</a>
+                                        <a on:click={ closeDrawer } href="/courses" class="block mb-6">Courses</a>
+                                        <a on:click={ closeDrawer } href="/learning-outcomes" class="block mb-6">Learning outcomes</a>
+                                        <a on:click={ closeDrawer } href="/awarded-degrees" class="block mb-6">Awarded degrees</a>
+                                        <a on:click={ closeDrawer } href="/summer-internship" class="block mb-6">Summer internship</a>
+                                        <a on:click={ closeDrawer } href="/masters-thesis" class="block mb-6">Master's thesis</a>
+                                        <a on:click={ closeDrawer } href="/student-agreement" class="block mb-6">Student agreement</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -403,9 +402,9 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a href="/participation-costs" class="block mb-6">Participation costs</a>
-                                        <a href="/scholarships" class="block mb-6">Scholarships and finance</a>
-                                        <a href="/scholarships-disbursment" class="block mb-6">Scholarships disbursment</a>
+                                        <a on:click={ closeDrawer } href="/participation-costs" class="block mb-6">Participation costs</a>
+                                        <a on:click={ closeDrawer } href="/scholarships" class="block mb-6">Scholarships and finance</a>
+                                        <a on:click={ closeDrawer } href="/scholarships-disbursment" class="block mb-6">Scholarships disbursment</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -414,10 +413,10 @@
 
                     <ul class="font-medium text-gray-900 px-2">
                         <li>
-                            <a href="/career-prospects" class="block px-2 py-3">Career prospects</a>
+                            <a on:click={ closeDrawer } href="/career" class="block px-2 py-3">Career prospects</a>
                         </li>
                         <li>
-                            <a href="/research" class="block px-2 py-3">Research</a>
+                            <a on:click={ closeDrawer } href="/research" class="block px-2 py-3">Research</a>
                         </li>
                     </ul>
 
@@ -452,10 +451,10 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a href="/application/eligibility-criteria" class="block mb-6">Application eligibility criteria</a>
-                                        <a href="/application/apply" class="block mb-6">Apply to COSI</a>
-                                        <a href="/application/appeal" class="block mb-6">Appeal procedure</a>
-                                        <a href="/application/faq" class="block mb-6">FAQ</a>
+                                        <a on:click={ closeDrawer } href="/application/eligibility-criteria" class="block mb-6">Application eligibility criteria</a>
+                                        <a on:click={ closeDrawer } href="/application/apply" class="block mb-6">Apply to COSI</a>
+                                        <a on:click={ closeDrawer } href="/application/appeal" class="block mb-6">Appeal procedure</a>
+                                        <a on:click={ closeDrawer } href="/application/faq" class="block mb-6">FAQ</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -493,12 +492,12 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a href="/norway" class="block mb-6">Norway</a>
-                                        <a href="/france" class="block mb-6">France</a>
-                                        <a href="/spain" class="block mb-6">Spain</a>
-                                        <a href="/finland" class="block mb-6">Finland</a>
-                                        <a href="/preparatory-readings" class="block mb-6">Preparatory readings</a>
-                                        <a href="/learn-local-languages" class="block mb-6">Learn local languages</a>
+                                        <a on:click={ closeDrawer } href="/norway" class="block mb-6">Norway</a>
+                                        <a on:click={ closeDrawer } href="/france" class="block mb-6">France</a>
+                                        <a on:click={ closeDrawer } href="/spain" class="block mb-6">Spain</a>
+                                        <a on:click={ closeDrawer } href="/finland" class="block mb-6">Finland</a>
+                                        <a on:click={ closeDrawer } href="/preparatory-reading" class="block mb-6">Preparatory readings</a>
+                                        <a on:click={ closeDrawer } href="/learn-local-languages" class="block mb-6">Learn local languages</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -536,9 +535,9 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a href="/contect" class="block mb-6">Contact</a>
-                                        <a href="/academic-services" class="block mb-6">Academic services</a>
-                                        <a href="/guest-lecturer" class="block mb-6">Be our guest lecturer</a>
+                                        <a on:click={ closeDrawer } href="/contact" class="block mb-6">Contact</a>
+                                        <a on:click={ closeDrawer } href="/academic-services" class="block mb-6">Academic services</a>
+                                        <a on:click={ closeDrawer } href="/guest-lecturer" class="block mb-6">Be our guest lecturer</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -547,7 +546,7 @@
 
                     <ul class="font-medium text-gray-900 px-2">
                         <li>
-                            <a href="/news" class="block px-2 py-3">News</a>
+                            <a on:click={ closeDrawer } href="/news" class="block px-2 py-3">News</a>
                         </li>
                     </ul>
 

@@ -3,10 +3,11 @@
 </svelte:head>
 
 <script>
+    import {fly} from 'svelte/transition'
     import LinkCard from '../../components/LinkCard.svelte'
 </script>
 
-<main>
+<main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6">
         <div class="mt-40" style="max-width: 766px;">
             <h1 class="cosi-title-1">Overview of program</h1>

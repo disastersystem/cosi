@@ -39,11 +39,22 @@ body {
 .cosi-title-4 {
     font-size: 20px;
     font-weight: bold;
+    /* font-family: 'Poppins', sans-serif; */
     color: #2A2E4F;
 }
 
 .cosi-title-5 {
     font-size: 18px;
+    font-weight: bold;
+    color: #2A2E4F;
+    font-family: 'Roboto';
+}
+
+.cosi-title-6 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-style: italic;
     font-weight: bold;
     color: #2A2E4F;
     font-family: 'Roboto';

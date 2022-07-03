@@ -1,8 +1,9 @@
 <script>
     import CirclePoint from '../components/Point.svelte'
+    import {fly} from 'svelte/transition'
 </script>
 
-<main>
+<main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6 mt-40 mb-20">
         <div style="max-width: 766px;">
             <h1 class="cosi-title-1">Master's thesis</h1>

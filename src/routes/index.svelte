@@ -1,4 +1,8 @@
-<main>
+<script>
+    import {fly} from 'svelte/transition'
+</script>
+
+<main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6">
         <div class="flex justify-between items-center px-6 mt-40 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40" style="max-width: 1400px;">
             <div class="w-full md:w-2/3 md:pr-14" style="max-width: 650px;">
@@ -35,7 +39,7 @@
     </div>
 
     <div class="mobility-container flex justify-center mt-40 p-20">
-        <div style="position: absolute; left: 10px;">
+        <!-- <div style="position: absolute; left: 10px;">
             <div class="flex" style="width: 180px;">
                 <img src="uef-campus.png" alt="" class="m-2">
                 <img src="ntnu-campus.png" alt="" class="m-2">
@@ -44,7 +48,7 @@
                 <img src="ujm-campus.png" alt="" class="m-2">
                 <img src="ugr-campus.png" alt="" class="m-2">
             </div>
-        </div>
+        </div> -->
 
         <div style="max-width: 1000px; flex-grow: 1;">
             <div class="flex">
@@ -119,7 +123,7 @@
                         <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;"> -->
                         <img src="icons/dollar-green.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
-                    <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
+                    <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
                         Generous Scholarships
                     </h2>
                     <p style="color: #54567C;">
@@ -144,7 +148,7 @@
                     <div style="height: 40px;">
                         <img src="icons/medal-yellow.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
-                    <h2 class="cosi-title-2 mb-4" style="margin-top: 10px;">
+                    <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
                         Global academic excellence meeting worldwide markets
                     </h2>
                     <p style="color: #54567C;">
@@ -178,7 +182,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                         </svg> -->
                     </div>
-                    <h2 class="cosi-title-2 mt-1 mb-4">
+                    <h2 class="cosi-title-2 mt-1 mb-2">
                         Customized academic and administrative services
                     </h2>
                     <p style="color: #54567C;">
@@ -190,7 +194,7 @@
                     <div style="height: 40px;">
                         <img src="icons/grad-yellow.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
-                    <h2 class="cosi-title-2 mt-2 mb-4">
+                    <h2 class="cosi-title-2 mt-2 mb-2">
                         An education you won't find anywhere else
                     </h2>
                     <p style="color: #54567C;">
@@ -207,7 +211,7 @@
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg> -->
-                    <h2 class="cosi-title-2 mt-2 mb-4">
+                    <h2 class="cosi-title-2 mt-2 mb-2">
                         International recognition
                     </h2>
                     <p style="color: #54567C;">
@@ -219,7 +223,7 @@
                     <div style="height: 40px;">
                         <img src="icons/suitcase-red.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
-                    <h2 class="cosi-title-2 mt-2 mb-4">
+                    <h2 class="cosi-title-2 mt-2 mb-2">
                         Worldwide employability
                     </h2>
                     <p style="color: #54567C;">
@@ -304,10 +308,10 @@
 
     <div class="flex justify-center mt-40 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
-            <h2 class="cosi-title-2 mb-8" style="color: #253A90;">Learn more about</h2>
+            <h2 class="cosi-title-2 mb-8 text-center" style="color: #253A90;">Learn more about</h2>
             <div class="grid grid-cols-1 md:grid-cols-3">
 
-                <a href="/courses" class="relative p-10 md:mr-6" style="border: 1px solid #ddd; border-radius: 20px;">
+                <a href="/courses" class="relative p-10 md:mx-6" style="border: 1px solid #ddd; border-radius: 15px;">
                     <div class="flex justify-center">
                         <img src="icons/book.svg" alt="" style="height: 30px;">
                     </div>

@@ -1,4 +1,8 @@
-<main>
+<script>
+    import {fly} from 'svelte/transition'
+</script>
+
+<main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center">
         <div class="mt-40" style="max-width: 750px;">
             <h1 class="cosi-title-1">Legal notice</h1>

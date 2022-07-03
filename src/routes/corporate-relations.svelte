@@ -1,8 +1,9 @@
 <script>
     import BgLogo from '../components/BgLogo.svelte'
+    import {fly} from 'svelte/transition'
 </script>
 
-<main class="px-6">
+<main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
             <h1 class="cosi-title-1">Corporate relations</h1>
@@ -20,7 +21,8 @@
                 Associated industrial partners
             </h3>
 
-            <div class="flex flex-wrap">
+            <div class="flex justify-center flex-wrap">
+            <!-- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"> -->
                 <BgLogo>
                     <img src="partners/industry/meta.png" alt="" style="width: 170px; display:block;">
                     <a href="https://about.facebook.com/" target="_blank" class="external mt-4">Meta Platforms, Inc.</a>
@@ -117,7 +119,7 @@
                 Academic partners
             </h3>
 
-            <div class="flex flex-wrap">
+            <div class="flex justify-center flex-wrap">
                 <BgLogo>
                     <img src="partners/academic/kuleuven_cmyk_logo-2.png" alt="" style="width: 120px; display:block;">
                     <a href="https://www.kuleuven.be/english/" target="_blank" class="external mt-4 text-center">KU Leuven</a>

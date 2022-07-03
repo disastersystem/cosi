@@ -15,13 +15,14 @@
 </script>
 
 <script>
+    import {fly} from 'svelte/transition'
     // export let scholarship
 </script>
 
-<main>
+<main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center">
-        <div class="flex justify-between mt-60" style="max-width: 750px;">
-            <h2 class="cosi-title-1">COSI Erasmus+ EMJMD scholarships</h2>
+        <div class="flex justify-between mt-40" style="max-width: 766px;">
+            <!-- <h2 class="cosi-title-1"></h2> -->
 
 
         </div>

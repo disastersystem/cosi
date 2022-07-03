@@ -9,7 +9,7 @@
             </div>
         </div>
         <div>
-            <img src="/icons/arrow-right-black.svg" alt="">
+            <img class="ml-4" src="/icons/arrow-right-black.svg" alt="">
         </div>
     </div>
 </a>

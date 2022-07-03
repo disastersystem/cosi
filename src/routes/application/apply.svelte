@@ -1,8 +1,9 @@
 <script>
+    import {fly} from 'svelte/transition'
     import CirclePoint from '../../components/Point.svelte'
 </script>
 
-<main>
+<main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6">
         <div class="mt-40 mb-40" style="max-width: 766px;">
             <h1 class="cosi-title-1">Apply to COSI</h1>
@@ -20,7 +21,7 @@
                 10. January and 01. March.
             </p>
             <p class="cosi-p">
-                If you have any questions, do not hesitate to <a href="/contact" class="external">contact</a>
+                If you have any questions, do not hesitate to <a href="/contact" class="external">contact us</a>.
             </p>
 
             <h3 class="cosi-title-4 mt-16">1. Make sure you are eligible to apply</h3>
