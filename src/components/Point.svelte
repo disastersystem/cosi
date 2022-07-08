@@ -10,7 +10,7 @@
         background: #5853A0;
         border-radius: 1000px;
     }
-    
+
     .inner-circle {
         background: #A198D1;
         border-radius: 1000px;

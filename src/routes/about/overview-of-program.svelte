@@ -5,11 +5,17 @@
 <script>
     import {fly} from 'svelte/transition'
     import LinkCard from '../../components/LinkCard.svelte'
+    import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6">
         <div class="mt-40" style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/about/overview-of-program', 'Overview of program']
+            ]} />
+
             <h1 class="cosi-title-1">Overview of program</h1>
 
             <p class="cosi-headline">
@@ -172,14 +178,14 @@
                 <LinkCard
                     title={'Academic Management Board'}
                     subtitle={'How we ensure quality'}
-                    path={'amb'}
+                    path={'/amb'}
                 />
             </div>
 
             <LinkCard
                 title={'Quality Assurence Board'}
                 subtitle={'How we plan vision and strategy long-term'}
-                path={'qab'}
+                path={'/qab'}
             />
 
             <h2 class="cosi-title-2 mt-12 mb-4">Harmonized validation of learning outcomes</h2>

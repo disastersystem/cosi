@@ -1,14 +1,20 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div class="content-max-width">
-            <h1 class="cosi-title-1">Spain</h1>
-            <!-- <h1 class="cosi-title-3">University of Jean Monnet</h1> -->
+            <!-- <h1 class="cosi-title-1">University Jean Monnet</h1> -->
+            <!-- <h2 class="cosi-headline">University Jean Monnet</h2> -->
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/france', 'France']
+            ]} />
 
-            <h2 class="cosi-title-2 mb-4 mt-12">
+            <h1 class="cosi-title-1">France - Prepare your stay</h1>
+            <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to France — administrative tasks
             </h2>
 
@@ -96,14 +102,14 @@
             </h5>
 
             <p class="cosi-p">
-                If you are a national of a member state of the European Union (EU) or the European Economic Area (EEA) –  Iceland, Liechtenstein, Norway – or of Switzerland, you are not required to have a specific visa to study in France, a passport of ID card is sufficient. Do not forget to apply before arrival and bring your European Health Insurance Card that will allow you to benefit from heath insurance in France at no costs if you’re under 28 years old.
+                If you are a national of a member state of the European Union (EU) or the European Economic Area (EEA) - Iceland, Liechtenstein, Norway – or of Switzerland, you are not required to have a specific visa to study in France, a passport of ID card is sufficient. Do not forget to apply before arrival and bring your European Health Insurance Card that will allow you to benefit from heath insurance in France at no costs if you’re under 28 years old.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
                 Non-European students
             </h5>
             <p class="cosi-p">
-                While we’ll follow-up and provide any possible support during your visa application (notably by communicating directly with your consulate to advocate for your application and detail compliance of your application with legal criteria as detailed here) please note that this procedure is ultimately your own and sole responsibility and that the granting of the visa is the prerogative of the French government; the Consortium is not able to guarantee successful award of the French visa.
+                While we'll follow-up and provide any possible support during your visa application (notably by communicating directly with your consulate to advocate for your application and detail compliance of your application with legal criteria as detailed here) please note that this procedure is ultimately your own and sole responsibility and that the granting of the visa is the prerogative of the French government; the Consortium is not able to guarantee successful award of the French visa.
             </p>
             <p class="cosi-p">Based on our previous experience, visa issues demand much time and attention. Sometimes it might take up to 4 months. For a more effective result, please start with the visa paperwork as soon as possible, (i.e. as soon as you’ve received the certificate of admission and certificate of residence). Pay attention to small details, such as photos format or amount of passport pages to be copied; double-check all your forms and the data you fill in. Always have copies of originals (good idea to have them in a digital form, too) for your own administration, as well as when submitting applications, since sometimes consulates do not return any documents (make sure you make several copies of the certificate of admission, of the official scholarship confirmation letter from the European Commission; of the insurance policy statement and the insurance card, etc). Rules at embassies change often, so be sure you get the most updated information on the required documents. You should keep your Administrative Coordinator informed if you face visa problems.
             </p>
@@ -111,7 +117,7 @@
             </p>
             <p class="cosi-p">You need to apply to an Extended-stay student visa, with residency permit (VLS-TS). It is important that you request a visa valid 1 year, irrespective of the in-built mobility scheme of the Programme. This visa will serve as a residence permit after completed the right procedure upon arrival, or, for citizens of Algeria only, a “visa “D” Long séjour“.
             </p>
-            <p class="cosi-p">Check first if you’re a citizen of one of the following 35 countries (so-called “countries using CEF procedure”):</p>
+            <p class="cosi-p">Check first if you're a citizen of one of the following 35 countries (so-called “countries using CEF procedure”):</p>
             
             <p class="cosi-p">If so, you will have to register with your local Campus France office to apply for admission and obtain a student visa, using the online CEF procedure. You need to register, then follow the option available for student already accepted to a programme. Your local Campus France office will be your main contact person during your visa application. Please indicate clearly to Campus France that you have already been selected by Universty Jean Monnet (by enclosing to your online file your certificate of preliminary admission and certificate of residence).
             </p>
@@ -129,7 +135,7 @@
                 </li>
                 <li>A insurance certificate (travel insurance)
                 </li>
-                <li>evidence of sufficient financial resources (France’s immigration code does not specify a minimum amount. Prospective students must demonstrate that they possess resources equivalent to the monthly base amounts paid to recipients of French government scholarship grants, about €615. France’s consulates have discretion in applying these guidelines).</li>
+                <li>evidence of sufficient financial resources (France's immigration code does not specify a minimum amount. Prospective students must demonstrate that they possess resources equivalent to the monthly base amounts paid to recipients of French government scholarship grants, about €615. France’s consulates have discretion in applying these guidelines).</li>
             </ul>
 
             <p class="cosi-p">
@@ -151,20 +157,20 @@
             </p>
             
             <h5 class="cosi-title-5 mt-6 mb-1">
-                International Office – Incoming mobility
+                International Office - Incoming mobility
             </h5>
             <p class="cosi-p">
-                21 rue Denis Papin – 2nd  floor<br>
+                21 rue Denis Papin - 2nd  floor<br>
                 42100 Saint-Etienne<br>
                 Open on Mondays, Tuesday, Wednesdays and Thursdays from 8: 30 am to 12:30 am and 01:30 pm to 05:00 pm<br>
                 Open on Fridays mornings from 08:30 am to 12:00 am
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
-                6. Prepare documentation you’ll need during your study
+                6. Prepare documentation you'll need during your study
             </h4>
             <p class="cosi-p">
-                Here is a summary of documents you’ll need to provide at some point and should bring with you before departure:
+                Here is a summary of documents you'll need to provide at some point and should bring with you before departure:
             </p>
             <h5 class="cosi-title-5 mt-6 mb-1">
                 Pre-arrival
@@ -190,13 +196,17 @@
             <ul class="cosi-ul">
                 <li>registration form (provided by the international office)
                 </li>
-                <li>1 ID photograph (official guidelines and standards for photograph quality)<br>
+                <li>
+                    1 ID photograph (official guidelines and standards for photograph quality)<br>
                     http://www.consulfrance-losangeles.org/spip.php?article773<br>
-                    http://www.diplomatie.gouv.fr/en/IMG/pdf/sample_photos_france.pdf</li>
-                <li>certificate of admission (provided by the Consortium)
+                    http://www.diplomatie.gouv.fr/en/IMG/pdf/sample_photos_france.pdf
+                </li>
+                <li>
+                    certificate of admission (provided by the Consortium)
                 </li>
                 <li>copy of first pages of the passport</li>
-                <li>European Health Insurance Card for European student (to be exempted from French health insurance fees)
+                <li>
+                    European Health Insurance Card for European student (to be exempted from French health insurance fees)
                 </li>
                 <li>COSI students (personal insurance certificate from Marsh)</li>
             </ul>
@@ -211,11 +221,11 @@
                 </li>
                 <li>original diploma certificates or certified copies (translation if applicable in English or French)
                 </li>
-                <li>copy of birth certificate (mother and father’s names must appear) (translated in French)</li>
+                <li>copy of birth certificate (mother and father's names must appear) (translated in French)</li>
             </ul>
 
             <p class="cosi-title-6">
-                Housing – registration at the residence	
+                Housing - registration at the residence	
             </p>
             <ul class="cosi-ul">
                 <li>In any case: copy of passport and certificate of registration
@@ -228,7 +238,7 @@
                 Residence permit
             </p>
             <ul class="cosi-ul">
-                <li>copy of birth certificate (mother and father’s names must appear) (translated in French if applicable)copy of passport (first pages and French visa)
+                <li>copy of birth certificate (mother and father's names must appear) (translated in French if applicable)copy of passport (first pages and French visa)
                 </li>
                 <li>evidence of financial means (615 € / month of planned stay in France) and/or scholarship certificate
                 </li>
@@ -241,7 +251,7 @@
                 Residence permit
             </p>
             <ul class="cosi-ul">
-                <li>copy of birth certificate (mother and father’s names must appear) (translated in French if applicable)copy of passport (first pages and French visa)
+                <li>copy of birth certificate (mother and father's names must appear) (translated in French if applicable)copy of passport (first pages and French visa)
                 </li>
                 <li>evidence of financial means (615 € / month of planned stay in France) and/or scholarship certificate
                 </li>
@@ -251,7 +261,7 @@
             </ul>
 
             <p class="cosi-title-6">
-                Housing – housing allowance	
+                Housing - housing allowance	
             </p>
             <ul class="cosi-ul">
                 <li>a translated and certified copy of your birth certificate (in French)
@@ -282,7 +292,7 @@
                 7. Prepare your travel to Saint Etienne
             </h4>
             <p class="cosi-p">
-                Once you’re in France, you must settle by Monday the 7th of September in the residence you’ve booked.
+                Once you're in France, you must settle by Monday the 7th of September in the residence you've booked.
             </p>
             <p class="cosi-p">
                 Important note: Always carry a copy of your passport and visa at any time when abroad in case of police control.
@@ -292,7 +302,7 @@
             </h5>
 
             <p class="cosi-p">
-                Don’t forget to bring some cash in Euros (at least 200 € for travel expenses). From Paris Charles de Gaulle airport (CDG) , you can either:
+                Don't forget to bring some cash in Euros (at least 200 € for travel expenses). From Paris Charles de Gaulle airport (CDG) , you can either:
             </p>
 
             <ul class="cosi-ul">
@@ -312,26 +322,29 @@
                 Coming to Saint-Etienne from Lyon (“Lyon Saint Exupéry“, LYS)
             </h5>
             <p class="cosi-p">
-                Don’t forget to bring some cash in Euros (at least 200 € for travel expenses). From “Lyon Saint Exupéry” airport (LYS), you must:
+                Don't forget to bring some cash in Euros (at least 200 € for travel expenses). From “Lyon Saint Exupéry” airport (LYS), you must:
             </p>
             <ul class="cosi-ul">
                 <li>Then take the Rhonexpress train from Lyon airport to the train station “Lyon Part-Dieu“, the journey takes 30 minutes and cost around 15 €.</li>
-                <li>When you’re in Lyon Part-Dieu, take another regional train (“TER“) to Saint Etienne (“Saint Etienne Chateaucreux“). There is a train running every 30 minutes, the journey takes 45 minutes and cost around 12 €.</li>
+                <li>When you're in Lyon Part-Dieu, take another regional train (“TER“) to Saint Etienne (“Saint Etienne Chateaucreux“). There is a train running every 30 minutes, the journey takes 45 minutes and cost around 12 €.</li>
             </ul>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
-                Once in Saint Etienne train station, you can easily go to your residence / city by tramway (a tram station is located in front of the train station and ticket can be purchased at the station).
+                Once in Saint Etienne train station
             </h5>
+            <p class="cosi-p">
+                You can easily go to your residence / city by tramway (a tram station is located in front of the train station and ticket can be purchased at the station).
+            </p>
 
             <p class="cosi-title-6">
-                Saint-Etienne Chateaucreux to the residence “Carr’Etude‟
+                Saint-Etienne Chateaucreux to the residence "Carr'Etude"
             </p>
             <p class="cosi-p">
                 Take tramway in direction Bellevue/Solaure or Hopitâl nord/La Terrasse and get off at “place Fourneyron”. Then walk by PLACE FOURNEYRON, then RUE CHANTEGRILLET, then SQUARE DU TEMPS PASSÉ to arrive to 33 ALLÉE CHANTEGRILLET.
             </p>
 
             <p class="cosi-title-6">
-                Saint-Etienne Chateaucreux to the residence ‘”Le Littré‟
+                Saint-Etienne Chateaucreux to the residence '"Le Littré"
             </p>
             <p class="cosi-p">
                 Take tramway in direction of T3 Bellevue/Solaure get off at ANATOLE France. Then walk by RUE GAMBETTA, RUE DU ONZE NOVEMBRE, RUE BAR-THÉLEMY RAMIER, RUE ÉMILE LITTRE.
@@ -356,12 +369,12 @@
             </h5>
 
             <p class="cosi-p">
-                We recommend two cheap and convenient hotels in Saint-Etienne in case you don’t have a room booked:
+                We recommend two cheap and convenient hotels in Saint-Etienne in case you don't have a room booked:
             </p>
             <ul class="cosi-ul">
                 <li>Centre international de séjour (from 24,10 euro per night)
                 </li>
-                <li>Hotel BnB – La Terasse (from 45 EUR per night)
+                <li>Hotel BnB - La Terasse (from 45 EUR per night)
                 </li>
                 <li>Hotel Blanc Le Carnot (from 35 EUR per night)
                 </li>

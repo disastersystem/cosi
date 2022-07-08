@@ -20,14 +20,19 @@
     function closeDrawer() { drawer = false }
 </script>
 
-<nav class="z-10">
-    <div class="logo">
-        <img src="/logo.svg" alt="" style="width: 40px;">
-        COSI
+<nav class="z-10 p-0">
+    <div>
+        <a href="/" style="padding: 0; padding-top: 4px; padding-bottom: 2px;">
+            <div class="flex items-center">
+                <div><img src="/logo.svg" alt="" style="width: 40px;"></div>
+                <div class="font-bold text-2xl ml-1 text-gray-800">COSI</div>
+            </div>
+        </a>
     </div>
 
     <div class="hidden lg:flex items-center">
-        <a sveltekit:prefetch on:click={closeDropdowns} href="/" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        <!-- sveltekit:prefetch  -->
+        <a on:click={closeDropdowns} href="/" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             Home
         </a>
 
@@ -257,10 +262,10 @@
                 From: "translate-x-0"
                 To: "translate-x-full"
             -->
-            <div class="ml-auto relative max-w-xs w-full h-full bg-white shadow-xl py-4 pb-12 flex flex-col overflow-y-auto">
+            <div style="background: #5853A0;" class="ml-auto relative max-w-xs w-full h-full shadow-xl py-4 pb-12 flex flex-col overflow-y-auto">
                 <div class="px-4 flex items-center justify-between">
-                    <h2 class="text-lg font-medium text-gray-900">Menu</h2>
-                    <button on:click={ closeDrawer } type="button" class="-mr-2 w-10 h-10 bg-white p-2 rounded-md flex items-center justify-center text-gray-400">
+                    <h2 class="text-lg font-medium cosi-light-purple">Menu</h2>
+                    <button on:click={ closeDrawer } type="button" class="-mr-2 w-10 h-10 p-2 rounded-md flex items-center justify-center cosi-light-purple">
                         <span class="sr-only">Close menu</span>
                         <!-- Heroicon name: outline/x -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -269,12 +274,12 @@
                     </button>
                 </div>
 
-                <div class="mt-4 border-t border-gray-200">
+                <div class="mt-4" style="border-top: 1px solid rgba(161, 152, 209, 0.425);">
                     <h3 class="sr-only">Main menu</h3>
 
-                    <ul class="font-medium text-gray-900 px-2 pt-4">
+                    <ul class="font-medium px-2 pt-4">
                         <li>
-                            <a on:click={ closeDrawer } href="/" class="block px-2 py-3">Home</a>
+                            <a on:click={ closeDrawer } href="/" class="block px-2 py-3 cosi-light-purple">Home</a>
                         </li>
                         <!-- <li>
                             <a href="/research" class="block px-2 py-3">Research</a>
@@ -290,15 +295,15 @@
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">
-                                    <div class="text-gray-900 text-left">About COSI program</div>
+                                    <div class="cosi-light-purple text-left">About COSI program</div>
                                     <div>
                                         <span class="ml-6 flex items-center">
                                             {#if open}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {:else}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {/if}
@@ -317,11 +322,11 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a on:click={ closeDrawer } href="/about/overview-of-program" class="block mb-6">Overview of program</a>
-                                        <a on:click={ closeDrawer } href="/corporate-relations" class="block mb-6">Corporate relations</a>
-                                        <a on:click={ closeDrawer } href="/social-media" class="block mb-6">Social media</a>
-                                        <a on:click={ closeDrawer } href="/alumni" class="block mb-6">Alumni</a>
-                                        <a on:click={ closeDrawer } href="/legal-notice" class="block mb-6">Legal notice</a>
+                                        <a on:click={ closeDrawer } href="/about/overview-of-program" class="block mb-6 cosi-light-purple">Overview of program</a>
+                                        <a on:click={ closeDrawer } href="/corporate-relations" class="block mb-6 cosi-light-purple">Corporate relations</a>
+                                        <a on:click={ closeDrawer } href="/social-media" class="block mb-6 cosi-light-purple">Social media</a>
+                                        <a on:click={ closeDrawer } href="/alumni" class="block mb-6 cosi-light-purple">Alumni</a>
+                                        <a on:click={ closeDrawer } href="/legal-notice" class="block mb-6 cosi-light-purple">Legal notice</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -332,15 +337,15 @@
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">
-                                    <div class="text-gray-900 text-left">Program structure</div>
+                                    <div class="cosi-light-purple text-left">Program structure</div>
                                     <div>
                                         <span class="ml-6 flex items-center">
                                             {#if open}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {:else}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {/if}
@@ -358,13 +363,13 @@
                                 leaveTo="translate-x-full"
                             >
                                 <DisclosurePanel>
-                                    <div class="p-4">
-                                        <a on:click={ closeDrawer } href="/courses" class="block mb-6">Courses</a>
-                                        <a on:click={ closeDrawer } href="/learning-outcomes" class="block mb-6">Learning outcomes</a>
-                                        <a on:click={ closeDrawer } href="/awarded-degrees" class="block mb-6">Awarded degrees</a>
-                                        <a on:click={ closeDrawer } href="/summer-internship" class="block mb-6">Summer internship</a>
-                                        <a on:click={ closeDrawer } href="/masters-thesis" class="block mb-6">Master's thesis</a>
-                                        <a on:click={ closeDrawer } href="/student-agreement" class="block mb-6">Student agreement</a>
+                                    <div class="p-4 cosi-light-purple">
+                                        <a on:click={ closeDrawer } href="/courses" class="block mb-6 cosi-light-purple">Courses</a>
+                                        <a on:click={ closeDrawer } href="/learning-outcomes" class="block mb-6 cosi-light-purple">Learning outcomes</a>
+                                        <a on:click={ closeDrawer } href="/awarded-degrees" class="block mb-6 cosi-light-purple">Awarded degrees</a>
+                                        <a on:click={ closeDrawer } href="/summer-internship" class="block mb-6 cosi-light-purple">Summer internship</a>
+                                        <a on:click={ closeDrawer } href="/masters-thesis" class="block mb-6 cosi-light-purple">Master's thesis</a>
+                                        <a on:click={ closeDrawer } href="/student-agreement" class="block mb-6 cosi-light-purple">Student agreement</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -375,15 +380,15 @@
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">
-                                    <div class="text-gray-900 text-left">Costs and funding</div>
+                                    <div class="cosi-light-purple text-left">Costs and funding</div>
                                     <div>
                                         <span class="ml-6 flex items-center">
                                             {#if open}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {:else}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {/if}
@@ -402,9 +407,9 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a on:click={ closeDrawer } href="/participation-costs" class="block mb-6">Participation costs</a>
-                                        <a on:click={ closeDrawer } href="/scholarships" class="block mb-6">Scholarships and finance</a>
-                                        <a on:click={ closeDrawer } href="/scholarships-disbursment" class="block mb-6">Scholarships disbursment</a>
+                                        <a on:click={ closeDrawer } href="/participation-costs" class="block mb-6 cosi-light-purple">Participation costs</a>
+                                        <a on:click={ closeDrawer } href="/scholarships" class="block mb-6 cosi-light-purple">Scholarships and finance</a>
+                                        <a on:click={ closeDrawer } href="/scholarships-disbursment" class="block mb-6 cosi-light-purple">Scholarships disbursment</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -413,10 +418,10 @@
 
                     <ul class="font-medium text-gray-900 px-2">
                         <li>
-                            <a on:click={ closeDrawer } href="/career" class="block px-2 py-3">Career prospects</a>
+                            <a on:click={ closeDrawer } href="/career" class="block px-2 py-3 cosi-light-purple">Career prospects</a>
                         </li>
                         <li>
-                            <a on:click={ closeDrawer } href="/research" class="block px-2 py-3">Research</a>
+                            <a on:click={ closeDrawer } href="/research" class="block px-2 py-3 cosi-light-purple">Research</a>
                         </li>
                     </ul>
 
@@ -424,15 +429,15 @@
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">
-                                    <div class="text-gray-900 text-left">Application</div>
+                                    <div class="cosi-light-purple text-left">Application</div>
                                     <div>
                                         <span class="ml-6 flex items-center">
                                             {#if open}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {:else}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {/if}
@@ -451,10 +456,10 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a on:click={ closeDrawer } href="/application/eligibility-criteria" class="block mb-6">Application eligibility criteria</a>
-                                        <a on:click={ closeDrawer } href="/application/apply" class="block mb-6">Apply to COSI</a>
-                                        <a on:click={ closeDrawer } href="/application/appeal" class="block mb-6">Appeal procedure</a>
-                                        <a on:click={ closeDrawer } href="/application/faq" class="block mb-6">FAQ</a>
+                                        <a on:click={ closeDrawer } href="/application/eligibility-criteria" class="block mb-6 cosi-light-purple">Application eligibility criteria</a>
+                                        <a on:click={ closeDrawer } href="/application/apply" class="block mb-6 cosi-light-purple">Apply to COSI</a>
+                                        <a on:click={ closeDrawer } href="/application/appeal" class="block mb-6 cosi-light-purple">Appeal procedure</a>
+                                        <a on:click={ closeDrawer } href="/application/faq" class="block mb-6 cosi-light-purple">FAQ</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -465,15 +470,15 @@
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">
-                                    <div class="text-gray-900 text-left">Prepare your stay</div>
+                                    <div class="cosi-light-purple text-left">Prepare your stay</div>
                                     <div>
                                         <span class="ml-6 flex items-center">
                                             {#if open}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {:else}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {/if}
@@ -492,12 +497,12 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a on:click={ closeDrawer } href="/norway" class="block mb-6">Norway</a>
-                                        <a on:click={ closeDrawer } href="/france" class="block mb-6">France</a>
-                                        <a on:click={ closeDrawer } href="/spain" class="block mb-6">Spain</a>
-                                        <a on:click={ closeDrawer } href="/finland" class="block mb-6">Finland</a>
-                                        <a on:click={ closeDrawer } href="/preparatory-reading" class="block mb-6">Preparatory readings</a>
-                                        <a on:click={ closeDrawer } href="/learn-local-languages" class="block mb-6">Learn local languages</a>
+                                        <a on:click={ closeDrawer } href="/norway" class="block mb-6 cosi-light-purple">Norway</a>
+                                        <a on:click={ closeDrawer } href="/france" class="block mb-6 cosi-light-purple">France</a>
+                                        <a on:click={ closeDrawer } href="/spain" class="block mb-6 cosi-light-purple">Spain</a>
+                                        <a on:click={ closeDrawer } href="/finland" class="block mb-6 cosi-light-purple">Finland</a>
+                                        <a on:click={ closeDrawer } href="/preparatory-reading" class="block mb-6 cosi-light-purple">Preparatory readings</a>
+                                        <a on:click={ closeDrawer } href="/learn-local-languages" class="block mb-6 cosi-light-purple">Learn local languages</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -508,15 +513,15 @@
                         <Disclosure let:open>
                             <DisclosureButton class="w-full">
                                 <div class="flex justify-between pt-4 pb-4">
-                                    <div class="text-gray-900 text-left">Contact</div>
+                                    <div class="cosi-light-purple text-left">Contact</div>
                                     <div>
                                         <span class="ml-6 flex items-center">
                                             {#if open}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {:else}
-                                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
                                                 </svg>
                                             {/if}
@@ -535,9 +540,9 @@
                             >
                                 <DisclosurePanel>
                                     <div class="p-4">
-                                        <a on:click={ closeDrawer } href="/contact" class="block mb-6">Contact</a>
-                                        <a on:click={ closeDrawer } href="/academic-services" class="block mb-6">Academic services</a>
-                                        <a on:click={ closeDrawer } href="/guest-lecturer" class="block mb-6">Be our guest lecturer</a>
+                                        <a on:click={ closeDrawer } href="/contact" class="block mb-6 cosi-light-purple">Contact</a>
+                                        <a on:click={ closeDrawer } href="/academic-services" class="block mb-6 cosi-light-purple">Academic services</a>
+                                        <a on:click={ closeDrawer } href="/guest-lecturer" class="block mb-6 cosi-light-purple">Be our guest lecturer</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -546,7 +551,7 @@
 
                     <ul class="font-medium text-gray-900 px-2">
                         <li>
-                            <a on:click={ closeDrawer } href="/news" class="block px-2 py-3">News</a>
+                            <a on:click={ closeDrawer } href="/news" class="block px-2 py-3 cosi-light-purple">News</a>
                         </li>
                     </ul>
 
@@ -580,12 +585,6 @@
 </div>
 
 <style>
-    .logo {
-        display: flex;
-        align-items: center;
-        font-weight: bold;
-        font-size: 22px;
-    }
     nav {
         background-color: #fff;
         position: fixed;

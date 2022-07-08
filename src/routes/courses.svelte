@@ -19,6 +19,7 @@
 
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 
     // let courses = {
     //     ntnu: {
@@ -32,6 +33,11 @@
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/courses', 'Courses']
+            ]} />
+
             <h1 class="cosi-title-1">Courses</h1>
             <p class="cosi-headline">
                 The courses in the COSI program are structured so that the skills learnt address the needs of a diverse range of sectors (multimedia, health care, cosmetic, automotive, and food-processing) bridging a talent gap in the industry where colour imaging experts are in high demand. The two areas of focus are spectral technologies and applied colour imaging.
@@ -57,15 +63,15 @@
 
                         <h4 class="font-bold mb-2">Mandatory courses</h4>
                         <ul class="cosi-ul">
-                            <li>Computer graphics fundamentals and applications</li>
-                            <li>Cross-media colour reproduction</li>
-                            <li>Image processing and analysis</li>
-                            <li>Introduction to research on colur and visual computing</li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IDIG4002#tab=omEmnet" class="external">Computer Graphics Fundamentals and Applications</a></li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4304#tab=omEmnet" class="external">Cross-media Colour Reproduction</a></li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4305#tab=omEmnet" class="external">Introduction to Color Image Processing and Analysis</a></li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4135#tab=omEmnet" class="external">Introduction to Research on Colour and Visual Computing</a></li>
                         </ul>
 
                         <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
                         <ul class="cosi-ul">
-                            <li>Computer graphics fundamentals and applications</li>
+                            <li>Norwegian language and culture (5 ECTS)</li>
                         </ul>
                     </div>
                 </div>
@@ -86,18 +92,18 @@
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li>Advanced image processing</li>
-                                <li>3D models in computer vision</li>
-                                <li>Light matter interaction and materials <br>appearance: from physics to virtual reality</li>
-                                <li>From statistics to data mining</li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-advanced-image-processing.pdf" class="external">Advanced image processing</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-3d-models-in-computer-vision.pdf" class="external">3D models in computer vision</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-light-matter-interaction-and-materials-appearance.pdf" class="external">Light matter interaction and materials <br>appearance: from physics to virtual reality</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/from-statistics-to-data-mining.pdf" class="external">From statistics to data mining</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
-                                <li>Research methodology and project<br>management</li>
-                                <li>Digital innovation and entrepreneurship</li>
-                                <li>Pattern recognition</li>
-                                <li>Real-time 3D visualization</li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/digital-innovation-and-entrepreneurship.pdf" class="external">Digital innovation and entrepreneurship</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/pattern-recognition.pdf" class="external">Pattern recognition</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/11/cosi-ujm-real-time-3d-visualization.pdf" class="external">Real-time 3D visualization</a></li>
+                                <li>French Language and Culture</li>
                             </ul>
                         </div>
 
@@ -125,7 +131,11 @@
                                 <li>Data science</li>
                                 <li>Advanced color and image processing</li>
                                 <li>Human perception and cognition</li>
-                                <li>Spanish language and culture</li>
+                            </ul>
+
+                            <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
+                            <ul class="cosi-ul">
+                                <li>Spanish language and culture (5 ETCS)</li>
                             </ul>
                         </div>
                     </div>
@@ -156,10 +166,14 @@
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
-                                <li>Optical metrology and fabrication</li>
+                                <li>Eye tracking</li>
                                 <li>Robotics and XR</li>
                                 <li>Graph mining</li>
-                                <li>Finnish language</li>
+                            </ul>
+
+                            <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
+                            <ul class="cosi-ul">
+                                <li>Finnish language (2 ETCS)</li>
                             </ul>
                         </div>
 
@@ -176,16 +190,21 @@
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
                                 <li>Specialisation in colour imaging</li>
-                                <li>Specialisation in video processing</li>
                                 <li>Appearance, perception and measurement</li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
                                 <li>Advanced colour management</li>
+                                <li>Specialisation in video processing</li>
                                 <li>Advanced project work</li>
                                 <li>Deep learning for visual computing</li>
                                 <li>Other elective course upon eligibility</li>
+                            </ul>
+
+                            <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
+                            <ul class="cosi-ul">
+                                <li>Norwegian language and culture (5 ETCS)</li>
                             </ul>
                         </div>
                     </div>

@@ -1,10 +1,13 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[ ['/', 'Home'], ['/alumni', 'Alumni'] ]} />
+
             <h1 class="cosi-title-1">Alumni</h1>
 
             <h2 class="cosi-title-2 mt-10 mb-4">
@@ -14,6 +17,14 @@
             <p class="cosi-p">
                 Bosnian CIMET student Samra Tanovic, who've undertook her master thesis at the Color Imaging Lab, was interviewed for the TV show ‘Tesis’, in channel ‘Canal Sur 2’. The interview was broadcasted on May the 6th, 2011. She is designing an algorithm to detect electrical wires automatically using an infrared camera, to avoid helicopter accidents.
             </p>
+
+            <iframe
+                width="766" height="378" src="https://www.youtube.com/embed/wAfGPieu8uc"
+                title="Una estudiante bosnia en la Universidad de Granada: Erasmus e investigadora"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
 
             <h2 class="cosi-title-2 mt-10 mb-4">
                 Alumni embrace careers as researchers

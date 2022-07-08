@@ -1,11 +1,17 @@
 <script>
     import {fly} from 'svelte/transition'
     import LinkCard from '../../components/LinkCard.svelte'
+    import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/application/eligibility-criteria', 'Application eligibility criteria']
+            ]} />
+
             <h1 class="cosi-title-1">Application eligibility criteria</h1>
             <h2 class="cosi-headline mt-4">
                 We're looking for brilliant minds, trained in mathematics, engineering, computer science or physics.
@@ -82,7 +88,7 @@
             </p>
 
             <div class="mt-16 flex">
-                <LinkCard title={'Apply to COSI'} path={'application/apply'} />
+                <LinkCard title={'Apply to COSI'} path={'/application/apply'} />
             </div>
         </div>
     </div>

@@ -1,17 +1,23 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/application/appeal', 'Appeal procedure']
+            ]} />
+
             <h1 class="cosi-title-1">Appeal procedure</h1>
             <p class="cosi-headline">
                 Unsuccessful applicants to the programme and/or an associated scholarship may appeal procedure following the
                 rejection of their application (including application to EMJMD and Consortium scholarships that are attributed
                 at the time of selection).
             </p>
-            <h2 class="cosi-title-2 mt-12 mb-4">
+            <h2 class="cosi-title-2 mt-12 mb-4" id="assessement">
                 How applications are assessed
             </h2>
             <p class="cosi-p">

@@ -1,6 +1,7 @@
 <script>
     import {fly} from 'svelte/transition'
     import LinkCard from '../components/LinkCard.svelte'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 
     const articles = [
         {
@@ -9,17 +10,17 @@
             content: ''
         },
         {
-            id: 24,
+            id: 25,
             title: 'COSI days 2021',
             content: ''
         },
         {
-            id: 24,
+            id: 26,
             title: 'Best paper award',
             content: ''
         },
         {
-            id: 24,
+            id: 27,
             title: 'EMJMD - Call for proposals 2019 - Notification results',
             content: ''
         },
@@ -119,11 +120,19 @@
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/news', 'News']
+            ]} />
+
             <h1 class="cosi-title-1" style="margin-bottom: 40px;">News</h1>
 
             {#each articles as { id, title, content }}
                 <div class="mb-6">
-                    <LinkCard title={ title } path={ 'news/' + id } />
+                    <LinkCard
+                        title={ title }
+                        path={ '/news/' + id }
+                    />
                 </div>
             {/each}
         </div>

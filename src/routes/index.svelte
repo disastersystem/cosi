@@ -5,7 +5,7 @@
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6">
         <div class="flex justify-between items-center px-6 mt-40 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40" style="max-width: 1400px;">
-            <div class="w-full md:w-2/3 md:pr-14" style="max-width: 650px;">
+            <div class="w-full lg:w-2/3 md:pr-20" style="max-width: 650px;">
                 <h3 class="uppercase" style="color: #253A90; font-weight: 400; margin-bottom: 5px; color: #5853A0;">
                     Erasmus Mundus + Joint Master Degree
                 </h3>
@@ -19,7 +19,7 @@
                 </p>
 
                 <a
-                    href="/about"
+                    href="/about/overview-of-program"
                     class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
                     style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;"
                 >
@@ -32,37 +32,84 @@
                 </a>
             </div>
 
-            <div class="sm:hidden md:block">
-                <img src="camera.png" alt="" class="hidden sm:hidden md:block" style="width: 600px;">
+            <div class="md:hidden lg:block">
+                <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px;">
             </div>
         </div>
     </div>
 
-    <div class="mobility-container flex justify-center mt-40 p-20">
-        <!-- <div style="position: absolute; left: 10px;">
-            <div class="flex" style="width: 180px;">
-                <img src="uef-campus.png" alt="" class="m-2">
-                <img src="ntnu-campus.png" alt="" class="m-2">
+    <div class="mobility-container relative flex justify-center mt-40">
+        <div>
+            <div class="flex justify-center">
+                <div style="max-width: 1000px;">
+                    <div class="grid grid-cols-2 px-6 lg:px-0 py-20">
+                        <div>
+                            <h2 class="cosi-title-2 mb-3 text-white">Built-in European Mobility</h2>
+                            <h5 class="cosi-title-5" style="font-weight: normal; color: white;">
+                                Live & learn in 4 different campuses
+                            </h5>
+                        </div>
+                        <div>
+                            <h4 class="pt-2" style="color: white; font-weight: 400;">
+                                A programme as interdisciplinary and innovative as COSI could not be provided at
+                                any single institution
+                            </h4>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="flex" style="width: 180px;">
-                <img src="ujm-campus.png" alt="" class="m-2">
-                <img src="ugr-campus.png" alt="" class="m-2">
+
+            <div style="max-width: 1000px;" class="mb-20">
+                <div class="grid grid-cols-2 gap-4 md:grid-cols-4 px-4 lg:px-0">
+                    <div class="mb-4">
+                        <!-- <a href="https://ntnu.no" target="_blank"> -->
+                            <img src="/ntnu.png" alt="">
+                            <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">Norwegian University of Science and Technology</h5>
+                            <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Gjøvik, Norway</h6>
+                        <!-- </a> -->
+                    </div>
+                    <div class="mb-4">
+                        <img src="/uef.png" alt="">
+                        <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">
+                            University of Eastern Finland
+                        </h5>
+                        <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">
+                            Joensuu, Finland
+                        </h6>
+                    </div>
+                    <div class="mb-4">
+                        <img src="/ujm.png" alt="">
+                        <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">Jean Monnet University</h5>
+                        <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Saint-Étienne, France</h6>
+                    </div>
+                    <div class="mb-4">
+                        <img src="/ugr.png" alt="">
+                        <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">University of Granada</h5>
+                        <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Granada, Spain</h6>
+                    </div>
+                </div>
             </div>
-        </div> -->
 
-        <div style="max-width: 1000px; flex-grow: 1;">
-            <div class="flex">
-                <div class="flex-1">
-                    <h2 class="cosi-title-2 mb-3 text-white">Built-in European Mobility</h2>
-                    <h5 style="color: white; margin-top: 0.2em; font-weight: 500;">Live & learn in 4 different campuses</h5>
+            <!-- <div class="grid grid-cols-3 pb-20">
+                <div style="max-width: 280px;">
+                    <div class="flex">
+                        <div class="mr-4"><img src="/uef-campus.png" alt="" /></div>
+                        <div><img src="/ntnu-campus.png" alt="" /></div>
+                    </div>
+                    <div class="flex mt-4">
+                        <div class="mr-4"><img src="/ujm-campus.png" alt="" /></div>
+                        <div><img src="/ugr-campus.png" alt="" /></div>
+                    </div>
+                </div>
 
-                    <div class="mt-20">
+                <div class="flex">
+                    <div style="width: 600px;">
                         <div class="flex mb-12">
                             <div class="pr-4" style="width: 40px;">
                                 <img src="uef-logo.svg" alt="">
                             </div>
                             <div>
-                                <p class="cosi-title-5 text-white text-lg font-bold" style="color: #fff; font-size: 1.3em;">University of Eastern Finland</p>
+                                <p class="cosi-title-5 text-white text-lg" style="color: #fff; font-size: 1.3em;">University of Eastern Finland</p>
                                 <p class="italic" style="color: #FFDB6D;">Joensuu, Finland</p>
                             </div>
                         </div>
@@ -95,21 +142,11 @@
                         </div>
                     </div>
 
+                    <div>
+                        <img src="map.svg" alt="" class="hidden sm:block">
+                    </div>
                 </div>
-                <div class="flex-1">
-                    <h4 style="color: white; font-weight: 400;">
-                        A programme as interdisciplinary and innovative as COSI could not be provided at
-                        any single institution
-                    </h4>
-
-                    <!-- <img src="path1.svg" alt="">
-                    <img src="path2.svg" alt="">
-                    <img src="path3.svg" alt="">
-                    <img src="path4.svg" alt=""> -->
-
-                    <img src="map-with-paths.svg" alt="" class="hidden sm:block">
-                </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -140,9 +177,22 @@
                             </svg>
                         </div>
                     </a> -->
-                    <a href="/scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
+                    <!-- <a href="/scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
                         <span class="pr-2">Scholarship overview</span> <img src="icons/arrow-right.svg" alt="">
-                    </a>
+                    </a> -->
+                    <div class="flex mt-6">
+                        <a href="/scholarships" class=" px-4 py-2 flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
+                        focus:ring-offset-gray-100 focus:ring-indigo-500"
+                        style="font-size: 13px; font-weight: bold; text-decoration: none; background: #fff;
+                        border: 1px solid #253A90; color: #253A90; border-radius: 1000px;">
+                            <span>Scholarship overview</span>
+                            <div class="pl-2">
+                                <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="w-full pl-0 md:pl-10 mt-16 md:mt-0">
                     <div style="height: 40px;">
@@ -237,6 +287,10 @@
     <div class="flex justify-center mt-40 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
             <h2 class="cosi-title-2 mb-2" style="color: #253A90;">Partners</h2>
+
+            <p class="cosi-p">
+                COSI is brought to you by a world leading university-business cooperation.
+            </p>
 
             <!-- <div class="flex">
                 <div class="mr-6">

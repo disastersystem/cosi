@@ -1,7 +1,8 @@
 <script>
     import {fly} from 'svelte/transition'
-    import { Disclosure, DisclosureButton, DisclosurePanel } from "@rgossiaux/svelte-headlessui";
-    import { Transition } from "@rgossiaux/svelte-headlessui";
+    import { Disclosure, DisclosureButton, DisclosurePanel } from "@rgossiaux/svelte-headlessui"
+    import { Transition } from "@rgossiaux/svelte-headlessui"
+    import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 
     const questions = [
         {
@@ -92,6 +93,13 @@
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center">
         <div class="mt-40 mb-40" style="max-width: 750px;">
+            <div class="ml-4">
+                <BreadCrumbs pages={[
+                    ['/', 'Home'],
+                    ['/application/faq', 'FAQ']
+                ]} />
+            </div>
+
             <h1 class="cosi-title-1 pl-4">FAQ</h1>
             <div class="mt-20">
                 {#each questions as { question, answer }}

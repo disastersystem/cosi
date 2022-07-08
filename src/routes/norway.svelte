@@ -1,17 +1,24 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div class="content-max-width">
-            <h1 class="cosi-title-1">Norwegian University of Science and Technology</h1>
+            <!-- <h1 class="cosi-title-1">Norwegian University of Science and Technology</h1> -->
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/norway', 'Norway']
+            ]} />
+
+            <h1 class="cosi-title-1">Norway - prepare your stay</h1>
 
             <!-- <p class="cosi-p">
                 <a href="/" class="external">UEF Facebook</a>
             </p> -->
 
-            <h2 class="cosi-title-2 mb-4 mt-12">
+            <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to Norway — administrative tasks
             </h2>
 
@@ -224,9 +231,9 @@
                 <li>Housing contract</li>
             </ul>
 
-            <p class="cosi-p font-bold mt-8" style="margin-bottom: 6px;">
+            <h6 class="cosi-title-6" style="margin-bottom: 6px;">
                 Compulsory Health Check: Tuberculosis
-            </p>
+            </h6>
 
             <p class="cosi-p">
                 Immigration regulations require that citizens of the countries listed below must be tested for tuberculosis if they are staying more than three months in Norway. The test is free.

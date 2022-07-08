@@ -1,14 +1,21 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div class="content-max-width">
-            <h1 class="cosi-title-1">Spain</h1>
+            <!-- <h1 class="cosi-title-1">Spain</h1> -->
             <!-- <h1 class="cosi-title-3">University of Granada</h1> -->
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/spain', 'Spain']
+            ]} />
 
-            <h2 class="cosi-title-2 mb-4 mt-12">
+            <h1 class="cosi-title-1">Spain - Prepare your stay</h1>
+
+            <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to Spain — administrative tasks
             </h2>
 

@@ -1,10 +1,16 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/career', 'Career Prospects']
+            ]} />
+
             <h1 class="cosi-title-1">Career prospects</h1>
             <p class="cosi-headline">
                 You'll acquire skills and qualifications that will be widely recognized and understood by other education

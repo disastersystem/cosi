@@ -1,11 +1,17 @@
 <script>
     import {fly} from 'svelte/transition'
     import CirclePoint from '../../components/Point.svelte'
+    import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6">
         <div class="mt-40 mb-40" style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/application/apply', 'Apply to COSI']
+            ]} />
+
             <h1 class="cosi-title-1">Apply to COSI</h1>
 
             <h3 class="cosi-title-3 mt-10">

@@ -1,10 +1,17 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/about/overview-of-program', 'Overview of Program'],
+                ['/qab', 'Quality Assurance Board']
+            ]} />
+
             <h1 class="cosi-title-1">Quality Assurance Board</h1>
             <p class="cosi-headline">
                 The Quality Assurance Board (QAB) leads quality management, enhancement policy design, and implementation. Which reflects our recognition that an active and strategic engagement towards quality assurance is instrumental to the fulfillment of our mission.

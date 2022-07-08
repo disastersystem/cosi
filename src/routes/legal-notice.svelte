@@ -1,10 +1,16 @@
 <script>
     import {fly} from 'svelte/transition'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center">
         <div class="mt-40" style="max-width: 750px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/legal-notice', 'Legal notice']
+            ]} />
+
             <h1 class="cosi-title-1">Legal notice</h1>
 
             <h2 class="cosi-title-2 mt-10 mb-4">

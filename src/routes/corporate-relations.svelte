@@ -1,11 +1,17 @@
 <script>
     import BgLogo from '../components/BgLogo.svelte'
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
     import {fly} from 'svelte/transition'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/corporate-relations', 'Corporate Relations']
+            ]} />
+
             <h1 class="cosi-title-1">Corporate relations</h1>
             <!-- <h2 class="cosi-title-2">
                 Partners

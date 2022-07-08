@@ -1,6 +1,15 @@
+<script>
+    import BreadCrumbs from '../components/Breadcrumbs.svelte'
+</script>
+
 <main class="px-6">
     <div class="flex justify-center mt-40 mb-20">
         <div style="max-width: 766px;">
+            <BreadCrumbs pages={[
+                ['/', 'Home'],
+                ['/learning-outcomes', 'Learning outcomes']
+            ]} />
+
             <h1 class="cosi-title-1">Learning outcomes</h1>
 
             <h3 class="cosi-title-2 mt-16 mb-4">
