@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Legal notice - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'

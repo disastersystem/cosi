@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Apply to COSI - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
     import CirclePoint from '../../components/Point.svelte'

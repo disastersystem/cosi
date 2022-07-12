@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Spain: prepare your stay - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
@@ -15,16 +20,24 @@
 
             <h1 class="cosi-title-1">Spain - Prepare your stay</h1>
 
-            <h2 class="cosi-title-3 mb-4 mt-16">
+            <h2 class="cosi-title-2 mb-4 mt-16">
                 Useful links during your stay
             </h2>
 
-            <p class="cosi-p">
-                <a href="http://www.ugr.university/" class="external">University of Granada</a><br>
-                <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/estudiantes_ugr?lang=en" class="external">International Relations and University Development Cooperation Office</a><br>
-                <a href="http://internacional.ugr.es/pages/guias-y-folletos/guiaestudianteinternacional20102011" class="external">The International Student Guide</a><br>
-                <a href="http://www.turgranada.es/en/" class="external">The province of Granada</a>
-            </p>
+            <ul class="cosi-ul">
+                <li>
+                    <a href="http://www.ugr.university/" class="external">University of Granada</a>
+                </li>
+                <li>
+                    <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/estudiantes_ugr?lang=en" class="external">International Relations and University Development Cooperation Office</a>
+                </li>
+                <li>
+                    <a href="http://internacional.ugr.es/pages/guias-y-folletos/guiaestudianteinternacional20102011" class="external">The International Student Guide</a>
+                </li>
+                <li>
+                    <a href="http://www.turgranada.es/en/" class="external">The province of Granada</a>
+                </li>
+            </ul>
 
             <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to Spain — administrative tasks

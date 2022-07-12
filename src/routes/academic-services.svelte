@@ -1,5 +1,6 @@
 <svelte:head>
     <title>Academic services - COSI</title>
+    <meta name="description" content="">
 </svelte:head>
 
 <script>

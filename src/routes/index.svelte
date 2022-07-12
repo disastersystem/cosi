@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>COSI - Computational Colour and Spectral Imaging</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
 </script>
@@ -33,8 +38,9 @@
             </div>
 
             <div class="md:hidden lg:block">
-                <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px;">
+                <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px; border-top-left-radius: 800px; border-bottom-left-radius: 800px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
                 <!-- <img src="people.jpg" alt="" class="hidden md:hidden lg:block" style="width: 500px;"> -->
+                <!-- border-radius: 50% 0%; -->
             </div>
         </div>
     </div>

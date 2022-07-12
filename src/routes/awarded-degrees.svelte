@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Awarded degrees - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import LinkCard from '../components/LinkCard.svelte'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'

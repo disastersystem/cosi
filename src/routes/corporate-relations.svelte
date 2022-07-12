@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Coporate relations / expert talks - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import BgLogo from '../components/BgLogo.svelte'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'

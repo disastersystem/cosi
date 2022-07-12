@@ -1,5 +1,6 @@
 <svelte:head>
     <title>Courses - COSI</title>
+    <meta name="description" content="">
 </svelte:head>
 
 <script context="module">

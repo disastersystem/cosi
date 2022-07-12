@@ -1,5 +1,6 @@
 <svelte:head>
     <title>Overview of program - COSI</title>
+    <meta name="description" content="">
 </svelte:head>
 
 <script>

@@ -1,5 +1,6 @@
 <svelte:head>
     <title>Be our guest lecturer - COSI</title>
+    <meta name="description" content="">
 </svelte:head>
 
 <script>

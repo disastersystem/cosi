@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Master's thesis - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import CirclePoint from '../components/Point.svelte'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'

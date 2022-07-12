@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Norway: prepare your stay - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
@@ -14,13 +19,17 @@
 
             <h1 class="cosi-title-1">Norway - prepare your stay</h1>
 
-            <h2 class="cosi-title-3 mb-4 mt-16">
+            <h2 class="cosi-title-2 mb-4 mt-16">
                 Useful links during your stay
             </h2>
 
-            <p class="cosi-p">
-                <a href="https://www.ntnu.edu/" class="external">Norwegian University of Science and Technology (english portal)</a>
-            </p>
+            <ul class="cosi-ul">
+                <li>
+                    <a href="https://www.ntnu.edu/" class="external">
+                        Norwegian University of Science and Technology (english portal)
+                    </a>
+                </li>
+            </ul>
 
             <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to Norway — administrative tasks

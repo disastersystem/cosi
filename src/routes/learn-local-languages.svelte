@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Learn local languages - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'

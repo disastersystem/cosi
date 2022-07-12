@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>France: prepare your stay - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
@@ -15,18 +20,33 @@
 
             <h1 class="cosi-title-1">France - Prepare your stay</h1>
 
-            <h2 class="cosi-title-3 mb-4 mt-16">
+            <h2 class="cosi-title-2 mb-4 mt-16">
                 Useful links during your stay
             </h2>
 
-            <p class="cosi-p">
-                <a href="http://portail.univ-st-etienne.fr/bienvenue/universite-jean-monnet-welcomes-you-204691.kjsp?RH=ACCUEIL" class="external">University English portal</a><br>
-                <a href="http://www.campusfrance.org/en/rubrique/vivre-en-france" class="external">General info for international student living in France</a><br>
-                <a href="http://saint-etiennetourisme.com/?lang=en" class="external">What to do in Saint-Etienne</a><br>
-                <a href="http://www.france.fr/en/welcome-france.html" class="external">Info on living in France</a><br>
-                <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" class="external">Discover Lyon and Saint-Etienne!</a><br>
-                <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" class="external">Saint-Etienne: a student city</a>
-            </p>
+            <ul class="cosi-ul">
+                <li>
+                    <a href="http://portail.univ-st-etienne.fr/bienvenue/universite-jean-monnet-welcomes-you-204691.kjsp?RH=ACCUEIL" class="external">University English portal</a>
+                </li>
+                <li>
+                    <a href="http://www.campusfrance.org/en/rubrique/vivre-en-france" class="external">General info for international student living in France</a>
+                </li>
+                <li>
+                    <a href="http://www.campusfrance.org/en/rubrique/vivre-en-france" class="external">General info for international student living in France</a>
+                </li>
+                <li>
+                    <a href="http://saint-etiennetourisme.com/?lang=en" class="external">What to do in Saint-Etienne</a>
+                </li>
+                <li>
+                    <a href="http://www.france.fr/en/welcome-france.html" class="external">Info on living in France</a>
+                </li>
+                <li>
+                    <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" class="external">Discover Lyon and Saint-Etienne!</a>
+                </li>
+                <li>
+                    <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" class="external">Saint-Etienne: a student city</a>
+                </li>
+            </ul>
 
             <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to France — administrative tasks

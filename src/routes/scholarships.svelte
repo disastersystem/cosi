@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Scholarships and finance - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script context="module">
     export async function load({ fetch, params }) {
         const res = await fetch('https://jsonplaceholder.typicode.com/todos')

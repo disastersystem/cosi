@@ -1,12 +1,17 @@
+<svelte:head>
+    <title>FAQ - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
-    import {fly} from 'svelte/transition'
+    import { fly } from 'svelte/transition'
     import { Disclosure, DisclosureButton, DisclosurePanel } from "@rgossiaux/svelte-headlessui"
     import { Transition } from "@rgossiaux/svelte-headlessui"
     import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 
     const questions = [
         {
-            question: 'Do I need to submit separate application to be considered for scholarships?',
+            question: 'Do I need to submit a separate application to be considered for scholarships?',
             answer: `
                 <p class="cosi-p">
                     No. Your online application to COSI degrees will be used to award scholarships managed by the Consortium as well
@@ -35,7 +40,7 @@
             `
         },
         {
-            question: 'I cannot produce, at the time of the online application, results of an internationally recognized English test (TOEFL, TOEIC, ...). Does that make me ineligible?',
+            question: 'I cannot produce, at the time of the online application, results of an internationally recognized English test <span class="text-sm">(</span>TOEFL, TOEIC, ...<span class="text-sm">)</span>. Does that make me ineligible?',
             answer: `
                 <p class="cosi-p">
                     You need to justify your English level at the application deadline. We cannot guarantee that without a
@@ -48,7 +53,7 @@
             `
         },
         {
-            question: 'Am I eligible with a BS in textile industry / Electronics Engineering / Chemistry...?',
+            question: 'Am I eligible with a BS in textile industry <span class="text-sm">/</span> Electronics Engineering <span class="text-sm">/</span> Chemistry...?',
             answer: `
                 <p class="cosi-p">
                     Please check carefully <a class="external" href="/application/eligibility-criteria">this section</a> for academic background requirements.
@@ -69,7 +74,7 @@
             `
         },
         {
-            question: 'When I login to my account, my application/s appears as "pending". What should I do?',
+            question: 'When I login to my account, my application appears as "pending". What should I do?',
             answer: `
                 <p class="cosi-p">
                     Once you've succesfully submitted your application, a pop-up message indicate that your application has
@@ -109,7 +114,7 @@
                     <Disclosure let:open>
                         <DisclosureButton class="w-full">
                             <div class="flex justify-between p-4 border-t border-grey-700">
-                                <div class="font-bold text-gray-900 text-left">{ question }</div>
+                                <div class="font-bold text-gray-900 text-left">{@html question }</div>
                                 <div>
                                     <span class="ml-6 flex items-center">
                                         {#if open}

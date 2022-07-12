@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>COSI - Computational Colour and Spectral Imaging</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import {fly} from 'svelte/transition'
 </script>

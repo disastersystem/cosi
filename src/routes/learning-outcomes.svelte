@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Learning outcomes - COSI</title>
+    <meta name="description" content="">
+</svelte:head>
+
 <script>
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
