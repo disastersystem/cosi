@@ -44,7 +44,7 @@
                 Graduate impact survey
             </h3>
             <p class="cosi-p">
-                Check out the annual <a href="https://survey" class="external">Erasmus Mundus Graduate Impact Survey</a> from EMA.
+                Check out the annual <a href="http://www.em-a.eu/en/erasmus-mundus/graduate-impact-survey.html" class="external">Erasmus Mundus Graduate Impact Survey</a> from EMA.
             </p>
         </div>
     </div>

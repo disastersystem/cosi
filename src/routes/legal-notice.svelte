@@ -19,7 +19,7 @@
 
             <p class="cosi-p">
                 The European Commission support for the production of this publication does not constitute endorsement of the contents which reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.
-                Information relating to individuals (personal data) is collected and used in accordance with the Regulation (EC) N° 45/2001 of the European Parliament and of the Council of 18.12.2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L8 of 12.1.2001, p. 1).The content of this website is published under the Creative Commons BY-NC-ND 3.0 license.
+                Information relating to individuals (personal data) is collected and used in accordance with the Regulation (EC) N° 45/2001 of the European Parliament and of the Council of 18.12.2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L8 of 12.1.2001, p. 1).The content of this website is published under the <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="external">Creative Commons BY-NC-ND 3.0 license</a>.
             </p>
         </div>
     </div>

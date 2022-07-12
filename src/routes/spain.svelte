@@ -15,6 +15,17 @@
 
             <h1 class="cosi-title-1">Spain - Prepare your stay</h1>
 
+            <h2 class="cosi-title-3 mb-4 mt-16">
+                Useful links during your stay
+            </h2>
+
+            <p class="cosi-p">
+                <a href="http://www.ugr.university/" class="external">University of Granada</a><br>
+                <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/estudiantes_ugr?lang=en" class="external">International Relations and University Development Cooperation Office</a><br>
+                <a href="http://internacional.ugr.es/pages/guias-y-folletos/guiaestudianteinternacional20102011" class="external">The International Student Guide</a><br>
+                <a href="http://www.turgranada.es/en/" class="external">The province of Granada</a>
+            </p>
+
             <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to Spain — administrative tasks
             </h2>
@@ -26,19 +37,19 @@
             <ul class="cosi-ul">
                 <li>The best way to find info on where to live in Granada is the COSI alumni network. Connect with them @ Facebook.
                 </li>
-                <li>You can take part in the Buddy Programme (Programa Mentor) for International Students at the UGR to find support from the very beginning of your exchange period from one of the UGR students, who can help you throughout your stay in Granada.
+                <li>You can take part in the <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/nuevas-iniciativas-para-estudiantes-internacionales" class="external">Buddy Programme</a> (Programa Mentor) for International Students at the UGR to find support from the very beginning of your exchange period from one of the UGR students, who can help you throughout your stay in Granada.
                 </li>
-                <li>The UGR's Accomodation Service provides information and assistance concerning all the options open to students searching for somewhere to live during their stay (shared flats, with a family, halls of residence,…)
+                <li>The <a href="http://estudiantes.ugr.es/alojamiento" class="external">UGR's Accomodation Service</a> provides information and assistance concerning all the options open to students searching for somewhere to live during their stay (shared flats, with a family, halls of residence,…)
                 </li>
-                <li>A very useful website offering shared student's (fully-equipped) apartments services in Granada only!
+                <li>A very useful website offering <a href="http://estudiantes.ugr.es/alojamiento" class="external">shared student's (fully-equipped) apartments</a>  services in Granada only!
                 </li>
-                <li>The well-know airbnb.
+                <li>The well-know <a href="https://www.airbnb.com/" class="external">airbnb</a>.
                 </li>
                 <li>www.erasmate.com focuses on (international) student-to-student housing for short term periods and can be used for free by students.</li>
-                <li>The Emperador Carlos V Residence Hall can be a good alternative.</li>
+                <li>The <a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" class="external">Emperador Carlos V Residence Hall</a> can be a good alternative.</li>
                 <li>Eurocongres offers you different shared apartment or university residence in the center of Granada at a walking distance to the COSI venue.
                 </li>
-                <li>ABILILLA Apartments offers you fully equipped apartments in downtown Granada. The apartments are located in a typical “corrala” and very close to the city center and to the Center of Modern Languages (where you will receive Spanish classes).</li>
+                <li><a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" class="external">ABILILLA Apartments</a> offers you fully equipped apartments in downtown Granada. The apartments are located in a typical “corrala” and very close to the city center and to the Center of Modern Languages (where you will receive Spanish classes).</li>
             </ul>
 
             <p class="cosi-p font-bold mt-6" style="margin-bottom: 6px;">
@@ -66,23 +77,23 @@
             </h5>
 
             <p class="cosi-p">
-                Direct flight to Granada: Federico García Lorca Granada – Jaén Airport – has only a connection with several major Spanish cities, because of this it is recommended to first fly to Madrid, Barcelona or Palma de Mallorca and then book a direct flight to Granada. Check your options below:
+                Direct flight to Granada: Federico García Lorca Granada - Jaén Airport - has only a connection with several major Spanish cities, because of this it is recommended to first fly to Madrid, Barcelona or Palma de Mallorca and then book a direct flight to Granada. Check your options below:
             </p>
 
             <ul class="cosi-ul">
-                <li>Madrid: Ibera
+                <li>Madrid: <a href="http://www.iberia.com/fr/?gclid=COCGht7guMoCFUJmGwodTuQA1A" class="external">Ibera</a>
                 </li>
-                <li>Barcelona:  Vueling
+                <li>Barcelona: <a href="http://www.vueling.com/en" class="external">Vueling</a>
                 </li>
-                <li>Palma de Mallorca: Air Europa</li>
+                <li>Palma de Mallorca: <a href="http://www.opodo.fr/vol/compagnie-aerienne/UX/air-europa/?MPortal=google&mktportal=google&CMP=fr-kw-gg-fl5-232107&gclid=CJqMm-3guMoCFYu4GwodM-4BWg" class="external">Air Europa</a></li>
             </ul>
 
-            <p class="cosi-p">Check also Skyscanner to compare flight options to several cities.
+            <p class="cosi-p">Check also <a href="http://skyscanner.com/" class="external">Skyscanner</a> to compare flight options to several cities.
             </p>
             <p class="cosi-p">The airport of Granada is 16 kilometres away from the city.  Taking a taxi is the fastest option to get you to Granada. The ride will cost you around 27€.
             </p>
             <p class="cosi-p">You can also take the bus to the city centre. The ticket costs 3€ and the ride takes approximately 40 minutes.</p>
-            <p class="cosi-p"><a href="/">Bus info here.</a></p>
+            <p class="cosi-p"><a href="http://www.aena.es/csee/Satellite/Aeropuerto-Federico-Garcia-Lorca-Granada-Jaen/en/Page/1237554498674/">Bus info here.</a></p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
                 By Plane direct to Malaga
@@ -96,7 +107,7 @@
             </p>
 
             <p class="cosi-p">
-                You can get a bus from Malaga airport to Granada bus station. This route has several stops along the way and takes 2 hours and 30 minutes. The price is around 11€. Bus info here.
+                You can get a bus from Malaga airport to Granada bus station. This route has several stops along the way and takes 2 hours and 30 minutes. The price is around 11€. <a href="https://www.alsa.es/en/" class="external">Bus info here</a>.
             </p>
 
             <p class="cosi-title-6">
@@ -112,7 +123,7 @@
             </p>
 
             <p class="cosi-p">
-                For international tickets, you should visit Eurolines.
+                For international tickets, you should visit <a href="http://www.eurolines.com/" class="external">Eurolines</a>.
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -128,7 +139,7 @@
             </h5>
 
             <p class="cosi-p">
-                Students who are citizens of the European Union, Iceland, Liechtenstein, Norway or Switzerland are not required to get a visa for Spain since they already have the right to residency, nor are they required to apply for a residence permit. COSI students citizens of EU member country, from countries belonging to the EEA Agreement (Norway, Iceland and Liechtenstein) or from the Swiss Confederation are however required to register, once in Spain, to Central Register of Foreign Citizens (Registro Central de Extranjeros) at the Main Office for Foreign Residents (Oficina de Extranjeros). Application form, supporting documentation and guidelies in english are available here. The “OFFICIAL ERASMUS STUDENT CREDENTIAL” will be issued by UGR in case certificates of admission issued by UJM and URG are not sufficient. You can provide a copy of the European health insurance card if you have one (recommend in addition to COSI health insurance) or the insurance certificate that has been sent to you by our insurance service provider Marsh.
+                Students who are citizens of the European Union, Iceland, Liechtenstein, Norway or Switzerland are not required to get a visa for Spain since they already have the right to residency, nor are they required to apply for a residence permit. COSI students citizens of EU member country, from countries belonging to the EEA Agreement (Norway, Iceland and Liechtenstein) or from the Swiss Confederation are however required to register, once in Spain, to Central Register of Foreign Citizens (Registro Central de Extranjeros) at the Main Office for Foreign Residents (Oficina de Extranjeros). Application form, supporting documentation and guidelies in english are available <a href="http://internacional.ugr.es/pages/movilidad/estudiantes/entrantes/residenciainspain?lang=en#__doku_international_students_registration_at_the_foreign_office_in_granadanon-eu_students_from_non-eu_universities" class="external">here</a>. The “OFFICIAL ERASMUS STUDENT CREDENTIAL” will be issued by UGR in case certificates of admission issued by UJM and URG are not sufficient. You can provide a copy of the <a href="http://ec.europa.eu/social/main.jsp?catId=559" class="external">European health insurance card</a> if you have one (recommend in addition to COSI health insurance) or the insurance certificate that has been sent to you by our insurance service provider Marsh.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -144,7 +155,7 @@
             </p>
 
             <p class="cosi-p">
-                Despite the enlargement of the EU, the Schengen zone and general harmonization of regulations regarding movement within the EU, it is important to understand that most visa issues are under competence of national states, and therefore there are no single regulations and requirements for all European countries. Visas are managed by the Spanish Ministerio de Asuntos Exteriores y Cooperación (Ministry of Foreign Affairs and Cooperation) through its consulates and embassies around the world. You must apply for and obtain your visa through the Spanish consulate nearest to your residence before you travel. Personal appearance at the Spanish Consulate is required in order to submit the documentation. Since visas are never issued in Spain, you must apply for it before you leave your country of residency. Do not attempt to enter Spain without a visa if you need one. There is no emergency procedure, your embassy in Spain can’t help and you will probably be refused entry.
+                Despite the enlargement of the EU, the Schengen zone and general harmonization of regulations regarding movement within the EU, it is important to understand that most visa issues are under competence of national states, and therefore there are no single regulations and requirements for all European countries. Visas are managed by the Spanish Ministerio de Asuntos Exteriores y Cooperación (Ministry of Foreign Affairs and Cooperation) through its consulates and embassies around the world. You must apply for and obtain your visa through the Spanish consulate nearest to your residence before you travel. Personal appearance at the Spanish Consulate is required in order to submit the documentation. Since visas are never issued in Spain, you must apply for it before you leave your country of residency. Do not attempt to enter Spain without a visa if you need one. There is no emergency procedure, your embassy in Spain can't help and you will probably be refused entry.
             </p>
 
             <p class="cosi-p">
@@ -153,16 +164,17 @@
                 69100 Villeurbanne<br>
 
                 04 78 89 64 15<br>
-                cog.lyon@maec.es<br>
-
-                Here is a map with direction from the train station “Lyon Part Dieu”:
-                map goes here
+                <a href="mailto:cog.lyon@maec.es" class="external">cog.lyon@maec.es</a><br>
             </p>
-
             <p class="cosi-p">
+                Here is a map with direction from the train station "Lyon Part Dieu":
+            </p>
+            <iframe title="Map with direction from the train station Lyon Part Dieu" width="766" height="720" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d11131.999147260954!2d4.868907386094228!3d45.77119452176874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e2!4m5!1s0x47f4ea62e23824a5:0x45b1b59a949df8a6!2sLyon-Part-Dieu,%20Lyon!3m2!1d45.760574!2d4.859393!4m5!1s0x47f4ea96f40e9689:0x286a2e6b63f74067!2sConsulat%20Général%20d'Espagne,%201%20Rue%20Louis%20Guérin,%2069100%20Villeurbanne!3m2!1d45.779142!2d4.860618!5e0!3m2!1sen!2sfr!4v1423499192649"></iframe>
+
+            <p class="cosi-p mt-4">
                 No appointment is necessary, but opening hours are Monday to Friday, from 8:30 AM to 1:00 PM. We advise you to make a call before leaving to make sure the consulate is opened before leaving Saint Etienne.
             </p>
-            <p class="cosi-p">Generally, you should apply for the visa at least two months before the expected date of departure. You must first have a valid passport with at least three months until expiry in order to apply, so be sure to allow adequate time to obtain or renew both the passport and get the visa application processed. Don’t leave this to the last minute or you put your travel plans at risk.</p>
+            <p class="cosi-p">Generally, you should apply for the visa at least two months before the expected date of departure. You must first have a valid passport with at least three months until expiry in order to apply, so be sure to allow adequate time to obtain or renew both the passport and get the visa application processed. Don't leave this to the last minute or you put your travel plans at risk.</p>
             <p class="cosi-p">For the application you must contact the consulate that has jurisdiction over your country of permanent residence to find out which procedure applies, i.e. the General Consulate in Lyon. Only they can give you accurate and up-to-date information on the exact type of visa you need to apply for, the process and documentation required. You can contact them at cog.lyon@maec.es to be ready before visiting them.
             </p>
             <p class="cosi-p">For information only, documents usually required for the student visa are (this should be confirmed by the Consulate previous to your request):</p>
@@ -240,7 +252,7 @@
             </p>
 
             <p class="cosi-p">
-                If you need a medical certificate, please ask your administrative coordinator to book a group appointment at the Médecine Préventive Universitaire (Tréfilerie campus, 10, Rue Tréfilerie). You’ll need to bring your vaccination certificate and OFII medical certificate).
+                If you need a medical certificate, please ask your administrative coordinator to book a group appointment at the Médecine Préventive Universitaire (Tréfilerie campus, 10, Rue Tréfilerie). You'll need to bring your vaccination certificate and OFII medical certificate).
             </p>
 
             <p class="cosi-p">
@@ -248,7 +260,7 @@
             </p>
 
             <p class="cosi-p">
-                In case of doubt, please contact Ms Sara Horcas: intlerasmus at ugr.es, intlmobility at ugr.es, intlerasmusmundus at ugr.es (copy your administrative coordinator).
+                In case of doubt, please contact Ms Sara Horcas: <a href="mailto:intlerasmus@ugr.es" class="external">intlerasmus at ugr.es</a>, <a href="mailto:intlmobility@ugr.es" class="external">intlmobility at ugr.es</a>, <a href="mailto:intlerasmusmundus@ugr.es" class="external">intlerasmusmundus at ugr.es</a> (copy your administrative coordinator).
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -315,7 +327,7 @@
             </p>
 
             <p class="cosi-p">
-                List of countries that have signed the “The Hague Accords”
+                <a href="http://www.hcch.net/index_en.php?act=states.listing" class="external">List of countries that have signed the "The Hague Accords"</a>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">

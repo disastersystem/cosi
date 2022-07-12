@@ -75,16 +75,18 @@
                 <li>awarded degrees in national languages and a legalized English translation</li>
             </ul>
 
-            <LinkCard title={'How to collect your diploma'} path="/diploma" />
+            <div class="mt-8">
+                <LinkCard title={'How to collect your diploma'} path="/diploma" />
+            </div>
 
             <h2 class="cosi-title-2 mb-4 mt-20">
                 What next?
             </h2>
             <p class="cosi-p">
-                Thinking about working in the EU? Apply for the <a href="http://awd.com" class="external">EU blue card</a>.
+                Thinking about working in the EU? Apply for the <a href="http://www.eu-bluecard.com/" class="external">EU blue card</a>.
             </p>
             <p class="cosi-p">
-                Please keep in touch with us, we count on alumni to be ambassadors or our programmes,
+                Please keep in touch with us, we count on <a href="/alumni" class="external">alumni</a> to be ambassadors or our programmes,
                 and why not <a href="/guest-lecturer" class="external">teach a course module</a>.
             </p>
         </div>

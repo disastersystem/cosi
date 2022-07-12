@@ -42,9 +42,9 @@
             <p class="cosi-headline">
                 The courses in the COSI program are structured so that the skills learnt address the needs of a diverse range of sectors (multimedia, health care, cosmetic, automotive, and food-processing) bridging a talent gap in the industry where colour imaging experts are in high demand. The two areas of focus are spectral technologies and applied colour imaging.
             </p>
-            <!-- <p class="cosi-headline">
-                Take a look at the courses and the mobility choices below.
-            </p> -->
+            <p class="cosi-headline">
+                Take a look at the courses and the mobility<span style="font-size: 0.9em; padding: 0 2px;">/</span>specialisation choices below.
+            </p>
         </div>
     </div>
 
@@ -52,14 +52,15 @@
         <div>
             <div style="margin-top 300px;">
                 <div class="flex flex-col justify-center items-center">
+                    <p class="mt-0 pt-0 text-sm">August-December</p>
                     <h2 class="cosi-title-2 mb-6">Semester 1</h2>
-                    <div class="p-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
+                    <div class="p-6 md:p-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                         <h4 class="uppercase text-xs">Norway</h4>
                         <div class="flex items-center">
-                            <h2 class="cosi-title-2 mr-4">NTNU</h2>
+                            <h2 class="cosi-title-4 mr-4">NTNU</h2>
                             <img src="ntnu-logo-color.png" alt="" style="width: 28px;">
                         </div>
-                        <h3 class="cosi-title-3 mb-10" style="font-style: normal;">Colour and Visual Computing</h3>
+                        <h3 class="cosi-title-3 mb-10 mt-1" style="font-style: normal; font-size: 1.3em;">Colour and Visual Computing</h3>
 
                         <h4 class="font-bold mb-2">Mandatory courses</h4>
                         <ul class="cosi-ul">
@@ -75,18 +76,20 @@
                         </ul>
                     </div>
                 </div>
-                
-                <div class="flex flex-col justify-center items-center">
-                    <h2 class="cosi-title-2 mb-0 mt-20">Semester 2</h2>
+
+                <div class="mt-20 flex flex-col justify-center items-center overflow-x-auto">
+                    <p class="mt-0 pt-0 text-sm">January-June</p>
+                    <h2 class="cosi-title-2 mb-0">Semester 2</h2>
                     <p class="mt-0 mb-6 pt-1 pb-0 italic">Choose one specialisation</p>
-                    <div class="flex">
-                        <div class="p-10 mr-6" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
+
+                    <div class="grid grid-cols-2 gap-4 md:gap-12">
+                        <div class="p-6 md:p-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                             <h4 class="uppercase text-xs">France</h4>
                             <div class="flex items-center">
-                                <h2 class="cosi-title-2 mr-4">UJM</h2>
+                                <h2 class="cosi-title-4 mr-4">UJM</h2>
                                 <img src="ujm-logo-color.png" alt="" style="width: 24px;">
                             </div>
-                            <h3 class="cosi-title-3 mb-10" style="font-style: normal;">
+                            <h3 class="cosi-title-3 mb-10 mt-1" style="font-style: normal; font-size: 1.3em;">
                                 Color image modelling and <br>understanding
                             </h3>
 
@@ -107,30 +110,30 @@
                             </ul>
                         </div>
 
-                        <div class="p-10 ml-6" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
+                        <div class="p-6 md:p-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                             <h4 class="uppercase text-xs">Spain</h4>
                             <div class="flex items-center">
-                                <h2 class="cosi-title-2 mr-4">UGR</h2>
+                                <h2 class="cosi-title-4 mr-4">UGR</h2>
                                 <img src="ugr-logo-color.svg" alt="" style="width: 36px;">
                             </div>
-                            <h3 class="cosi-title-3 mb-10" style="font-style: normal;">
+                            <h3 class="cosi-title-3 mb-10 mt-1" style="font-style: normal; font-size: 1.3em;">
                                 Photonics, Image and Vision
                             </h3>
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li>Advanced optoelectronics</li>
-                                <li>Computer vision</li>
-                                <li>Advanced colour and spectral imaging</li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_advanced_optoelectronics.pdf" class="external">Advanced optoelectronics</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_computer_vision.pdf" class="external">Computer vision</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_spectral_science.pdf" class="external">Advanced colour and spectral imaging</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
-                                <li>Optical sensors</li>
-                                <li>Remote imaging and sensing</li>
-                                <li>Data science</li>
-                                <li>Advanced color and image processing</li>
-                                <li>Human perception and cognition</li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_course_guide_optical_sensors.pdf" class="external">Optical sensors</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_course_guide_remote_imaging_sensing.pdf" class="external">Remote imaging and sensing</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_data_science.pdf" class="external">Data science</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_advanced_color_image_processing.pdf" class="external">Advanced color and image processing</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_human_perception_cognition.pdf" class="external">Human perception and cognition</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
@@ -140,35 +143,46 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="mt-20 flex flex-col justify-center items-center">
+                    <p class="mt-0 pt-0 text-sm">July/August</p>
+                    <h2 class="cosi-title-2 mb-4">Summer</h2>
+                    <div class="pb-10 pt-8 px-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
+                        <h2 class="cosi-title-4 text-center mb-4">Internship</h2>
+                        <p class="text-center italic">At one of the <a href="/corporate-relations" class="external">associate industrial partners.</a></p>
+                    </div>
+                </div>
                 
-                <div class="flex flex-col justify-center items-center">
-                    <h2 class="cosi-title-2 mt-20">Semester 3</h2>
+                <div class="mt-20 flex flex-col justify-center items-center overflow-x-auto">
+                    <p class="mt-0 pt-0 text-sm">August-December</p>
+                    <h2 class="cosi-title-2">Semester 3</h2>
                     <p class="mt-0 mb-6 pt-1 pb-0 italic">Choose one specialisation</p>
-                    <div class="flex">
-                        <div class="p-10 mr-6" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
+
+                    <div class="grid grid-cols-2 gap-4 md:gap-12">
+                        <div class="p-6 md:p-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                             <h4 class="uppercase text-xs">Finland</h4>
                             <div class="flex items-center">
-                                <h2 class="cosi-title-2 mr-4">UEF</h2>
+                                <h2 class="cosi-title-4 mr-4">UEF</h2>
                                 <img src="uef-logo-color.svg" alt="" style="width: 28px;">
                             </div>
-                            <h3 class="cosi-title-3 mb-10" style="font-style: normal;">
+                            <h3 class="cosi-title-3 mb-10 mt-1" style="font-style: normal; font-size: 1.3em;">
                                 Computational Spectral Imaging
                             </h3>
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li>Applications on photonics</li>
-                                <li>Advanced spectral imaging devices</li>
-                                <li>Color science laboratory</li>
-                                <li>Industrial group project</li>
-                                <li>Advanced deep learning</li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=57223355&Kieli=6" class="external">Applications on photonics</a></li>
+                                <li><a href="https://www3.uef.fi/documents/2412730/2515197/IMLEX_UEF_course_descriptions.pdf/66615164-7995-4048-a6a0-cd53dfeb7431" class="external">Advanced spectral imaging devices</a></li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=37060979&haettuOpas=-1" class="external">Color science laboratory</a></li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opasopintjakstied.jsp?MD5avain=1a45f51b-a226-4ba3-ba1c-5777c1582ef0&Kieli=6&OpinKohd=49421901&KaytOpasPvm=1&sortJarj=6&palaaOpinKohtHak=0" class="external">Industrial group project</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/advanced-deep-learning-course-descriptions-1.docx" class="external">Advanced deep learning</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
                                 <li>Eye tracking</li>
                                 <li>Robotics and XR</li>
-                                <li>Graph mining</li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=37060979&haettuOpas=-1" class="external">Graph mining</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
@@ -177,28 +191,28 @@
                             </ul>
                         </div>
 
-                        <div class="p-10 ml-6" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
+                        <div class="p-6 md:p-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                             <h4 class="uppercase text-xs">Norway</h4>
                             <div class="flex items-center">
-                                <h2 class="cosi-title-2 mr-4">NTNU</h2>
+                                <h2 class="cosi-title-4 mr-4">NTNU</h2>
                                 <img src="ntnu-logo-color.png" alt="" style="width: 28px;">
                             </div>
-                            <h3 class="cosi-title-3 mb-10" style="font-style: normal;">
+                            <h3 class="cosi-title-3 mb-10 mt-1" style="font-style: normal; font-size: 1.3em;">
                                 Colour and Visual Computing 
                             </h3>
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li>Specialisation in colour imaging</li>
-                                <li>Appearance, perception and measurement</li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4895#tab=omEmnet" class="external">Specialisation in colour imaging</a></li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IDIG4003#tab=omEmnet" class="external">Appearance, perception and measurement</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
-                                <li>Advanced colour management</li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4884#tab=omEmnet" class="external">Advanced colour management</a></li>
                                 <li>Specialisation in video processing</li>
-                                <li>Advanced project work</li>
-                                <li>Deep learning for visual computing</li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4894#tab=omEmnet" class="external">Advanced project work</a></li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4392#tab=omEmnet" class="external">Deep learning for visual computing</a></li>
                                 <li>Other elective course upon eligibility</li>
                             </ul>
 
@@ -212,8 +226,8 @@
                 
                 <div class="flex flex-col justify-center items-center">
                     <h2 class="cosi-title-2 mb-6 mt-20">Semester 4</h2>
-                    <div class="p-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
-                        <h2 class="cosi-title-2 text-center mb-4">Master thesis</h2>
+                    <div class="pb-10 pt-8 px-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
+                        <h2 class="cosi-title-4 text-center mb-4">Master thesis</h2>
                         <p class="text-center italic">At any university around the globe!</p>
                     </div>
                 </div>

@@ -15,6 +15,9 @@
                     attribution will be communicated at the same time as the outcome of the selection. Time will be given
                     to applicants to confirm / choose between degrees in the light of the scholarship award.
                 </p>
+                <p class="cosi-p">
+                    However, there is a number of scholarships programmes (bilateral, multilateral) you may be eligible for. We encourage you to look for such opportunities, that can complement the financial support you'll may received from us. We'll provide any needed supporting documentation but application to such programmes are your own responsibility. Application process and supporting documentation differs between programmes.
+                </p>
             `
         },
         {
@@ -83,7 +86,7 @@
                     You should first apply online to the Master's Degree. If you're selected, we'll guide you through the
                     Campus France application, if applicable. We're in direct contact with Campus France offices and
                     work toward simplifying as much as possible the CEF procedure for selected students.
-                    For more info on the CEF process and countries concerned, please visit <a href="/france">this page</a>.
+                    For more info on the CEF process and countries concerned, please visit these pages <a class="external" href="/france">france</a>, <a class="external" href="/spain">spain</a>, <a class="external" href="/norway">norway</a>, <a class="external" href="/finland">finland</a>.
                 <p>
             `
         }

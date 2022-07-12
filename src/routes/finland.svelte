@@ -16,13 +16,13 @@
                 Finland - Prepare your stay
             </h1>
             
-            <!-- <h2 class="cosi-title-3 mb-4 mt-16">
-                Useful links
+            <h2 class="cosi-title-3 mb-4 mt-16">
+                Useful links during your stay
             </h2>
-
+            
             <p class="cosi-p">
-                <a href="/" class="external">UEF Facebook</a>
-            </p> -->
+                <a href="http://www.uef.fi/en/studies/" class="external">http://www.uef.fi/en/studies/</a>
+            </p>
 
             <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to Finland — administrative tasks
@@ -41,7 +41,7 @@
             </h4>
 
             <p class="cosi-p">
-                All non-EU students should have Finnish student residence permit already before coming to Finland (<a href="/" class="external">Residence permit application for studies</a>). You can start the application process online, but please visit the Finnish Embassy very soon after having the admission letter. Only then they will start processing the application, and also take fingerprints for biometric residence permit card. If you wait until later in summer, you might not have the permit by September.
+                All non-EU students should have Finnish student residence permit already before coming to Finland (<a href="https://migri.fi/en/residence-permit-application-for-studies" class="external">Residence permit application for studies</a>). You can start the application process online, but please visit the Finnish Embassy very soon after having the admission letter. Only then they will start processing the application, and also take fingerprints for biometric residence permit card. If you wait until later in summer, you might not have the permit by September.
             </p>
 
             <p class="cosi-p">
@@ -49,7 +49,7 @@
             </p>
 
             <p class="cosi-p">
-                <a href="/" class="external">Mobility notification to Finland</a>
+                <a href="https://migri.fi/en/mobility-notification-to-finland" class="external">Mobility notification to Finland</a>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -57,11 +57,11 @@
             </h4>
 
             <p class="cosi-p">
-                The best option for student housing is the student housing company <a href="/" class="external">"Joensuun Elli"</a>. You can see all information needed in their website. There you can also find an online application form. We recommend you to apply for housing as soon as you receive the admission letter. Please state in your housing application, that you are an Erasmus+ EMJMD COSI student. This might make your chances of getting a furnished room better. Otherwise, they will offer you an unfurnished room by default. All flats of “Joensuun Elli” are within 5 kilometers from the city center and university. They are connected to the university by local buses and biking routes.
+                The best option for student housing is the student housing company <a href="http://www.joensuunelli.fi/en/" class="external">"Joensuun Elli"</a>. You can see all information needed in their website. There you can also find an online application form. We recommend you to apply for housing as soon as you receive the admission letter. Please state in your housing application, that you are an Erasmus+ EMJMD COSI student. This might make your chances of getting a furnished room better. Otherwise, they will offer you an unfurnished room by default. All flats of “Joensuun Elli” are within 5 kilometers from the city center and university. They are connected to the university by local buses and biking routes.
             </p>
 
             <p class="cosi-p">
-                Please note, that the housing situation in Joensuu has been difficult in the last few years. You should accept the housing offer as soon as you receive it, even if it’s not your number one choice of location or type. Otherwise there is a risk that you will not get a new offer for housing. Your lease will always begin in the beginning of a month.
+                Please note, that the housing situation in Joensuu has been difficult in the last few years. You should accept the housing offer as soon as you receive it, even if it's not your number one choice of location or type. Otherwise there is a risk that you will not get a new offer for housing. Your lease will always begin in the beginning of a month.
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -81,7 +81,7 @@
             </p>
 
             <p class="cosi-p">
-                <a href="/" class="external">Registration instructions for new international Master's degree students</a>
+                <a href="https://kamu.uef.fi/en/student-book/registration-for-new-students/" class="external">Registration instructions for new international Master's degree students</a>
             </p>
 
             <p class="cosi-p">
@@ -90,6 +90,10 @@
 
             <p class="cosi-p">
                 We strongly recommend to join the international student orientation on first week of September. All courses of your 3rd semester will end by December 17, but you are welcome to stay in Joensuu until you move to your semester 4 destination in January.
+            </p>
+
+            <p class="cosi-p mt-12">
+                <a href="http://www.facebook.com/itasuomenyliopisto.UEF" class="external">UEF Facebook</a>
             </p>
         </div>
     </div>

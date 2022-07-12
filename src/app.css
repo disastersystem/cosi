@@ -108,6 +108,11 @@ a.external {
     text-decoration: underline;
 }
 
+a.external-dark {
+    color: #8EE4FF;
+    text-decoration: underline;
+}
+
 a.internal {
     text-decoration: none;
 }
