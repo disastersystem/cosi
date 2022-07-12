@@ -45,10 +45,10 @@
                     </h6>
                     <h3 class="text-white cosi-title-4 mb-2" style="color: #fff;">Master Thesis opportunities are published</h3>
                     <p class="cosi-p cosi-text-light-purple">
-                        A choice of MT topics/hosting institutions are available on Claroline platform.
+                        A choice of MT topics/hosting institutions are available on <a href="https://ead-sciences.univ-st-etienne.fr/index.php?language=english" class="external-dark">Claroline platform</a>.
                     </p>
                     <p class="cosi-p cosi-text-light-purple">
-                        Check also ERASMUSINTERN
+                        Check also <a href="http://erasmusintern.org/" class="external-dark">ERASMUSINTERN</a>
                     </p>
                 </div>
 
@@ -76,6 +76,18 @@
                 <div class="mt-16">
                     <CirclePoint/>
                     <h6 class="text-white text-xs italic mb-1" style="color: #EEEEEE;">
+                        <span style="font-weight: 200;">15. nov. 2022</span>
+                        <span style="font-weight: 400;">12.00 pm (UTC time)</span>
+                    </h6>
+                    <h3 class="text-white cosi-title-4 mb-2" style="color: #fff;">Students planning to go to another country start visa application</h3>
+                    <p class="cosi-p cosi-text-light-purple">
+                        Please note that early visa application might be needed for some countries (up to 2 months before placement starts).
+                    </p>
+                </div>
+
+                <div class="mt-16">
+                    <CirclePoint/>
+                    <h6 class="text-white text-xs italic mb-1" style="color: #EEEEEE;">
                         <span style="font-weight: 200;">20. nov. 2022</span>
                         <span style="font-weight: 400;">12.00 pm (UTC time)</span>
                     </h6>
@@ -93,7 +105,7 @@
                     </h6>
                     <h3 class="text-white cosi-title-4 mb-2" style="color: #fff;">Placement Agreements are edited and signed</h3>
                     <p class="cosi-p cosi-text-light-purple">
-                        Students fill in and send back to administrative coordinator the MT form to allow us to edit a placement agreement. Ask to host institution and tell us if:
+                        Students fill in and send back to administrative coordinator the <a href="http://goo.gl/forms/Oe9HABDtBg" class="external-dark">MT form</a> to allow us to edit a placement agreement. Ask to host institution and tell us if:
                     </p>
                     <ul class="cosi-ul">
                         <li style="color: #D9D7FF;">The placement agreement should be in French or English.</li>
@@ -182,11 +194,11 @@
             <h2 class="cosi-title-2 mb-4">Finance your Master Thesis</h2>
 
             <p class="cosi-p">
-                Placement during semester 4 is generally paid. It is for instance legally compulsory to pay trainees at least 554.40 € per month in France. We’ll strive to ensure that our industrial and academic partners provide at least this amount to trainees. Most of our industrial partners offer internships that provide a substantial allowance, that is above this minimum.
+                Placement during semester 4 is generally paid. It is for instance legally compulsory to pay trainees at least 554.40 € per month in France. We'll strive to ensure that our industrial and academic partners provide at least this amount to trainees. Most of our industrial partners offer internships that provide a substantial allowance, that is above this minimum.
             </p>
 
             <p class="cosi-p">
-                In addition, you can apply to the <a href="/scholarships/explora">Explo'ra scholarship</a> (please refer to the specific calendar for Master Thesis).
+                In addition, you can apply to the <a href="/scholarship/explora" class="external">Explo'ra scholarship</a> (please refer to the specific calendar for Master Thesis).
             </p>
         </div>
     </div>

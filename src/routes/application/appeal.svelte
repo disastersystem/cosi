@@ -55,7 +55,7 @@
             <ol class="cosi-ol">
                 <li>If the applicant does not agree with the final decision of the Eligibility and Selection committee, then s/he may appeal this decision before the Academic & Management Board.
                 </li>
-                <li>In order to be valid, the appeal must be in writing, using following letter of settlement template (page 2 of this document) signed and dated, and send (in .pdf format) by the applicant to the attention of: Associate Professor Seyed Ali Amirshahi, Head of Academic & Management Board and Academic Coordinator (s.ali.amirshahi@ntnu.no) and Katrine Moe, Administrative Coordinator (katrine.moe@ntnu.no).
+                <li>In order to be valid, the appeal must be in writing, using following <a href="https://studntnu-my.sharepoint.com/:w:/g/personal/seyedaa_ntnu_no/EZ-lc8R-oUhKjjxHi98QnVABh8OmQU_e995Pz6iL0k6fWw?e=ghN8aS" class="external">letter of settlement template</a> (page 2 of this document) signed and dated, and send (in .pdf format) by the applicant to the attention of: Associate Professor Seyed Ali Amirshahi, Head of Academic & Management Board and Academic Coordinator (s.ali.amirshahi@ntnu.no) and Katrine Moe, Administrative Coordinator (katrine.moe@ntnu.no).
                 </li>
                 <li>The appeal must be submitted within thirty (30) days following the publication of selection outcome at the latest.
                 </li>

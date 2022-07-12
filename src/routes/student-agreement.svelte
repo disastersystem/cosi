@@ -19,7 +19,7 @@
                 Institution Norwegian University of Science and Technology during the inception week.
             </p>
             <a
-                href="/about"
+                href="https://mastercolorscience.files.wordpress.com/2021/03/cosi_student_agreement_template.pdf"
                 class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
                 style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;"
             >

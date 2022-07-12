@@ -8,7 +8,7 @@
 {#if type !== 'disabled'}
     <a href="{path}">
         <div class="relative flex justify-between items-center p-6" style="background: #F8F7FC; border-radius: 16px;">
-            <div>
+            <div class="pr-4 md:pr-20">
                 <div>
                     <h3 class="cosi-title-5">{ title }</h3>
                 </div>
@@ -20,7 +20,7 @@
 
             {#if type === 'internal'}
                 <div class="absolute bottom-4 right-4 flex">
-                    <span class="uppercase text-xs">Learn more</span>
+                    <span class="uppercase text-xs hidden md:block">Read More</span>
                     <img class="ml-2" src="/icons/arrow-right-black.svg" alt="">
                 </div>
             {:else if type === 'external'}

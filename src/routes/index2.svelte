@@ -3,9 +3,15 @@
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
-    <div class="flex justify-center px-6">
-        <div class="flex justify-between items-center px-6 mt-40 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40" style="max-width: 1400px;">
-            <div class="w-full lg:w-2/3 md:pr-20" style="max-width: 650px;">
+    <div class="flex justify-center">
+        <div class="grid grid-cols-2" style="max-width: 2000px;">
+            <div class="flex justify-end">
+            <div class="
+                    w-full lg:w-2/3
+                    mt-40 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40
+                    pb-40 md:pr-20"
+                style="max-width: 650px;"
+            >
                 <h3 class="uppercase" style="color: #253A90; font-weight: 400; margin-bottom: 5px; color: #5853A0;">
                     Erasmus Mundus + Joint Master Degree
                 </h3>
@@ -31,15 +37,16 @@
                     </div>
                 </a>
             </div>
+        </div>
 
-            <div class="md:hidden lg:block">
-                <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px;">
-                <!-- <img src="people.jpg" alt="" class="hidden md:hidden lg:block" style="width: 500px;"> -->
+            <div class="md:hidden lg:block" style="height: 100%; overflow: hidden;">
+                <!-- <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px;"> -->
+                <img src="people.jpg" alt="" class="hidden md:hidden lg:block" style="height: 100%; object-fit: cover; object-position: top right;">
             </div>
         </div>
     </div>
 
-    <div class="mobility-container relative flex justify-center mt-40">
+    <div class="mobility-container relative flex justify-center">
         <div>
             <div class="flex justify-center">
                 <div style="max-width: 1000px;">
@@ -64,20 +71,13 @@
                 <div class="grid grid-cols-2 gap-4 md:grid-cols-4 px-4 lg:px-0">
                     <div class="mb-4">
                         <!-- <a href="https://ntnu.no" target="_blank"> -->
-                            <div class="relative">
-                                <img src="/ntnu.png" alt="">
-                                <img src="/ntnu-logo.svg" alt="" class="w-10 absolute right-4 bottom-4">
-                            </div>
-
+                            <img src="/ntnu.png" alt="">
                             <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">Norwegian University of Science and Technology</h5>
                             <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Gjøvik, Norway</h6>
                         <!-- </a> -->
                     </div>
                     <div class="mb-4">
-                        <div class="relative">
-                            <img src="/uef.png" alt="">
-                            <img src="/uef-logo.svg" alt="" class="w-9 absolute right-4 bottom-4">
-                        </div>
+                        <img src="/uef.png" alt="">
                         <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">
                             University of Eastern Finland
                         </h5>
@@ -86,18 +86,12 @@
                         </h6>
                     </div>
                     <div class="mb-4">
-                        <div class="relative">
-                            <img src="/ujm.png" alt="">
-                            <img src="/ujm-logo.svg" alt="" class="w-7 absolute right-4 bottom-4">
-                        </div>
+                        <img src="/ujm.png" alt="">
                         <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">Jean Monnet University</h5>
                         <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Saint-Étienne, France</h6>
                     </div>
                     <div class="mb-4">
-                        <div class="relative">
-                            <img src="/ugr.png" alt="">
-                            <img src="/ugr-logo.svg" alt="" class="w-12 absolute right-4 bottom-4">
-                        </div>
+                        <img src="/ugr.png" alt="">
                         <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">University of Granada</h5>
                         <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Granada, Spain</h6>
                     </div>
@@ -381,35 +375,35 @@
 
                 <a href="/courses" class="relative p-10 md:mx-6" style="border: 1px solid #ddd; border-radius: 15px;">
                     <div class="flex justify-center">
-                        <img src="/icons/book-blob.svg" alt="" style="height: 44px;">
+                        <img src="icons/book.svg" alt="" style="height: 30px;">
                     </div>
                     <h3 class="cosi-title-4 mt-4 text-center">Courses</h3>
                     <p style="color: #2A2E4F;" class="text-center">
                         Read more about the curriculum and semester mobility
                     </p>
-                    <img src="/icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
                 </a>
 
                 <a href="/career" class="relative p-10 md:mr-2 mt-4 md:mt-0" style="border: 1px solid #ddd; border-radius: 20px;">
                     <div class="flex justify-center">
-                        <img src="/icons/suitcase-blob.svg" alt="" style="height: 44px;">
+                        <img src="icons/suitcase2.svg" alt="" style="height: 30px;">
                     </div>
                     <h3 class="cosi-title-4 mt-4 text-center">Career prospects</h3>
                     <p style="color: #2A2E4F;" class="text-center">
                         Read more about your work opportunities after graduation
                     </p>
-                    <img src="/icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
                 </a>
 
                 <a href="/research" class="relative p-10 md:ml-4 mt-4 md:mt-0" style="border: 1px solid #ddd; border-radius: 20px;">
                     <div class="flex justify-center">
-                        <img src="/icons/vial-blob.svg" alt="" style="height: 44px;">
+                        <img src="icons/science.svg" alt="" style="height: 30px;">
                     </div>
                     <h3 class="cosi-title-4 mt-4 text-center">Research</h3>
                     <p style="color: #2A2E4F;" class="text-center">
                         Read more about COSI research and theses subjects
                     </p>
-                    <img src="/icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
                 </a>
 
             </div>

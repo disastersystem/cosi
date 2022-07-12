@@ -8,7 +8,7 @@
                 props: {
                     groups: [
                         {
-                            title: '<h2 class="cosi-title-2 mt-20 mb-4">Available scolarships at programme start</h2>',
+                            title: '<h2 class="cosi-title-2 mt-12 mb-4">Available scolarships at programme start</h2>',
                             scholarships: [
                                 { slug: '/scholarship/emjmd', title: 'Erasmus + EMJMD scholarships', summary: `
                                     <p class="cosi-p">Covers all the duration of the programme (24 months)</p>
@@ -34,7 +34,7 @@
                             ]
                         },
                         {
-                            title: '<h3 class="cosi-title-3 mt-10 mb-4">Additional financial support & scholarships</h3>',
+                            title: '<h3 class="cosi-title-3 mt-8 mb-4">Additional financial support & scholarships</h3>',
                             scholarships: [
                                 { slug: '/scholarship/international-attractiveness', title: 'University Jean Monnet Foundation scholarships - "International attractiveness"', summary: `
                                     <p class="cosi-p">Granted for the first year of the programme</p>
@@ -62,7 +62,7 @@
                             ]
                         },
                         {
-                            title: '<h2 class="cosi-title-2 mt-20 mb-4">Available scolarships during the programme</h2>',
+                            title: '<h2 class="cosi-title-2 mt-12 mb-4">Available scolarships during the programme</h2>',
                             scholarships: [
                                 { slug: '/scholarship/explora', title: 'Explo\'ra scholarships', summary: `
                                     <ul class="cosi-ul">
@@ -78,7 +78,7 @@
                             ]
                         },
                         {
-                            title: '<h3 class="cosi-title-3 mt-10 mb-4">Additional financial support & scholarships</h3>',
+                            title: '<h3 class="cosi-title-3 mt-8 mb-4">Additional financial support & scholarships</h3>',
                             scholarships: [
                                 { slug: '/scholarship/international-mobility', title: 'University Jean Monnet Foundation scholarships - "International mobility"', summary: `
                                     <ul class="cosi-ul">
@@ -151,15 +151,16 @@
 
             <p class="cosi-headline">
                 We implement an ambitious scholarship policy to allow all students with outstanding academic background to join our programmes.
-            </p>
-            <p class="cosi-p">
-                Scholarships attribution is merit-based: same selection criteria, methods and decision-making for selection to the programme itself are applied to attribute scholarships, attribution is based on absolute selection outcome ranking of applicants.  Learning performance during first year of the programme is used to grant scholarships during the second year of the programme. All scholarships are cumulative, expect E+EMJMD and Eiffel scholarship (holders of these scholarships cannot apply to additional scholarships).
-            </p>
-            <p class="cosi-p italic font-bold">
                 If you apply to COSI on time, your application will be automatically considered for all scholarships mentioned in this page!
             </p>
+            <!-- <p class="cosi-p">
+                Scholarships attribution is merit-based: same selection criteria, methods and decision-making for selection to the programme itself are applied to attribute scholarships, attribution is based on absolute selection outcome ranking of applicants.  Learning performance during first year of the programme is used to grant scholarships during the second year of the programme. All scholarships are cumulative, expect E+EMJMD and Eiffel scholarship (holders of these scholarships cannot apply to additional scholarships).
+            </p> -->
+            <!-- <p class="cosi-p italic font-bold">
+                If you apply to COSI on time, your application will be automatically considered for all scholarships mentioned in this page!
+            </p> -->
 
-            <h2 class="cosi-title-2 mt-16" id="attribution">
+            <h2 class="cosi-title-2 mt-12" id="attribution">
                 Scholarships attribution
             </h2>
             <p class="cosi-p mt-4">
@@ -192,7 +193,7 @@
             {/each}
 
 
-            <h2 class="cosi-title-2 mt-20">
+            <h2 class="cosi-title-2 mt-12">
                 Additional financial support
             </h2>
             <p class="cosi-p mt-4">
@@ -213,25 +214,28 @@
                     subtitle={'Grant search engine powered by CampusFrance'}
                     path={'https://test.com'}
                 /> -->
-                <a href="http://www.campusfrance.org/fria/bourse/index.html#app=faac&193-si=0" target="_blank">
-                    <div class="relative flex justify-between items-center p-6" style="border: 1px solid #ddd; border-radius: 16px;">
-                        <div>
-                            <div>
-                                <h3 class="cosi-title-5">CampusBourse</h3>
+                <!-- <div class="flex"> -->
+                    <a href="http://www.campusfrance.org/fria/bourse/index.html#app=faac&193-si=0" target="_blank">
+                        <div class="relative flex justify-between items-center p-6" style="background: #F8F7FC; border-radius: 16px;">
+                            <div class="pr-16">
+                                <div>
+                                    <h3 class="cosi-title-5">CampusBourse</h3>
+                                </div>
+                                <div>
+                                    <p class="cosi-p" style="margin-bottom: 0px;">Grant search engine powered by CampusFrance</p>
+                                </div>
+                                <div class="mt-2 p-2" style="background: #C41162;">
+                                    <img src="/campusfrance.svg" alt="">
+                                </div>
                             </div>
-                            <div>
-                                <p class="cosi-p" style="margin-bottom: 0px;">Grant search engine powered by CampusFrance</p>
-                            </div>
-                            <div class="mt-2 p-2" style="background: #C41162;">
-                                <img src="/campusfrance.svg" alt="">
+                            <div class="absolute top-6 right-4 flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
                             </div>
                         </div>
-                        <div class="absolute bottom-4 right-4 flex">
-                            <div class="uppercase text-xs pr-0 mr-0">Read more</div>
-                            <img class="ml-2" src="/icons/arrow-right-black.svg" alt="">
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                <!-- </div> -->
             </div>
 
             <p class="cosi-p mt-6">
@@ -243,25 +247,28 @@
                     subtitle={''}
                     path={'https://test.com'}
                 /> -->
-                <a href="https://www.mastersportal.com/pages/the-global-study-awards/#fflt:SP_GSA1" target="_blank">
-                    <div class="relative flex justify-between items-center p-6" style="border: 1px solid #ddd; border-radius: 16px;">
-                        <div>
-                            <div>
-                                <h3 class="cosi-title-5">The Global Study Awards</h3>
+                <!-- <div class="flex"> -->
+                    <a href="https://www.mastersportal.com/pages/the-global-study-awards/#fflt:SP_GSA1" target="_blank">
+                        <div class="relative flex justify-between items-center p-6" style="background: #F8F7FC; border-radius: 16px;">
+                            <div class="pr-16">
+                                <div>
+                                    <h3 class="cosi-title-5">The Global Study Awards</h3>
+                                </div>
+                                <div>
+                                    <p class="cosi-p" style="margin-bottom: 0px;"></p>
+                                </div>
+                                <div class="mt-4">
+                                    <img src="/globalstudyawards.png" alt="" style="width: 160px;">
+                                </div>
                             </div>
-                            <div>
-                                <p class="cosi-p" style="margin-bottom: 0px;"></p>
-                            </div>
-                            <div class="mt-4">
-                                <img src="/globalstudyawards.png" alt="" style="width: 160px;">
+                            <div class="absolute top-6 right-4 flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
                             </div>
                         </div>
-                        <div class="absolute bottom-4 right-4 flex">
-                            <div class="uppercase text-xs pr-0 mr-0">Read more</div>
-                            <img class="ml-2" src="/icons/arrow-right-black.svg" alt="">
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                <!-- </div> -->
             </div>
             <div class="mt-4 mb-4">
                 <!-- <LinkCard
@@ -274,28 +281,31 @@
                     </div>
                 </LinkCard> -->
 
-                <a href="https://www.scholarshipportal.com/" target="_blank">
-                    <div class="relative flex justify-between items-center p-6" style="border: 1px solid #ddd; border-radius: 16px;">
-                        <div>
-                            <div>
-                                <h3 class="cosi-title-5">Scholarship Portal EU</h3>
+                <!-- <div class="flex"> -->
+                    <a href="https://www.scholarshipportal.com/" target="_blank">
+                        <div class="relative flex justify-between items-center p-6" style="background: #F8F7FC; border-radius: 16px;">
+                            <div class="pr-16">
+                                <div>
+                                    <h3 class="cosi-title-5">Scholarship Portal EU</h3>
+                                </div>
+                                <div>
+                                    <p class="cosi-p" style="margin-bottom: 0px;"></p>
+                                </div>
+                                <div class="mt-2">
+                                    <img src="/logo_scholarshipportal_white_background.png" alt="" style="width: 300px;">
+                                </div>
                             </div>
-                            <div>
-                                <p class="cosi-p" style="margin-bottom: 0px;"></p>
-                            </div>
-                            <div class="mt-2">
-                                <img src="/logo_scholarshipportal_white_background.png" alt="" style="width: 300px;">
+                            <div class="absolute top-6 right-4 flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
                             </div>
                         </div>
-                        <div class="absolute bottom-4 right-4 flex">
-                            <div class="uppercase text-xs pr-0 mr-0">Read more</div>
-                            <img class="ml-2" src="/icons/arrow-right-black.svg" alt="">
-                        </div>
-                    </div>
-                </a>
+                    </a>
+                <!-- </div> -->
             </div>
 
-            <h3 class="cosi-title-3 mb-4 mt-10">Syrian students living in exile in France</h3>
+            <h3 class="cosi-title-3 mb-4 mt-8">Syrian students living in exile in France</h3>
             <p class="cosi-p">
                 In the framework of the French aid program to Syria and Syrian nationals currently in France, the government launched a new scholarship program:
                 <a href="http://www.campusfrance.org/fr/programme_syrie" class="external">
@@ -310,13 +320,13 @@
                 Loans
             </h2>
             <p class="cosi-p mt-4">
-                Applicants to COSI from Programme countries are eligible to Erasmus+ Master Degree Loans opportunities (up to 18,000 € for two years) to finance their studies. Loans will be offered by participating banks and student loan agencies on favorable conditions to mobile students, including, better than market interest rates and up to two years to allow graduates to get into a job before beginning repayment. This programme will start rolling out earl 2015, visit EACEA website for more info.
+                Applicants to COSI from <a href="http://ec.europa.eu/programmes/erasmus-plus/about/who-can-take-part_en" class="external">Programme countries</a> are eligible to Erasmus+ Master Degree Loans opportunities (up to 18,000 € for two years) to finance their studies. Loans will be offered by participating banks and student loan agencies on favorable conditions to mobile students, including, better than market interest rates and up to two years to allow graduates to get into a job before beginning repayment. This programme will start rolling out earl 2015, visit <a href="http://ec.europa.eu/education/opportunities/higher-education/masters-loans_en.htm" class="external">EACEA website for more info.</a>
             </p>
             <p class="cosi-p mt-4">
                 Two French banks begin offering EU-guaranteed loans to Master's students going to or coming from France.
             </p>
             <p class="cosi-p mt-4">
-                The two banks, Banque Populaire and Caisse d'Epargne, are now offering loans both to French students who want to take a Master's degree in one of the 32 Erasmus+ Programme countries, as well as students from Programme countries who want to study in France.
+                The two banks, <a href="http://www.banquepopulaire.fr/portailinternet/Catalogue/Produits/Pages/pret-erasmus.aspx" class="external">Banque Populaire</a> and <a href="https://www.caisse-epargne.fr/particuliers/emprunter/financer-ses-etudes" class="external">Caisse d'Epargne</a>, are now offering loans both to French students who want to take a Master's degree in one of the 32 Erasmus+ <a href="http://ec.europa.eu/programmes/erasmus-plus/about/who-can-take-part_en" class="external">Programme countries</a>, as well as students from Programme countries who want to study in France.
             </p>
             <p class="cosi-p mt-4">
                 Administrative staff is available to provide applicants any information needed for them to apply for a loan.

@@ -17,6 +17,7 @@
 
     const labs = [
         { name: 'Spectral Color Research group', adress: 'Joensuu', url: 'https://sites.uef.fi/spectral/' },
+        { name: 'Institute of Photonics', adress: 'Joensuu', url: 'https://sites.uef.fi/photonics/' },
         // { name: 'InFotonics Center', adress: 'Joensuu', url: '' },
         { name: 'Color imaging lab', adress: 'Granada', url: 'http://colorimaginglab.ugr.es/' },
         { name: 'Optics department', adress: 'Granada', url: 'http://optica.ugr.es/' },

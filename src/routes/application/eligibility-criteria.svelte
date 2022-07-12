@@ -1,6 +1,6 @@
 <script>
     import {fly} from 'svelte/transition'
-    import LinkCard from '../../components/LinkCard.svelte'
+    // import LinkCard from '../../components/LinkCard.svelte'
     import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 </script>
 
@@ -30,15 +30,15 @@
                     general page with information about Erasmus Mundus Joint Master Degrees.
                 </a>
             </p>
-            <h3 class="cosi-title-3 mt-12 mb-6">
+            <h3 class="cosi-title-3 mt-12 mb-4">
                 Administrative process
             </h3>
             <ul class="cosi-ul">
-                <li>Compliance with the application process calendar and deadlines</li>
-                <li>Authenticity, completeness, certification (scan of original document or certified translation), translation (English version only) of application files</li>
+                <li>Compliance with the application process calendar and deadlines.</li>
+                <li>Authenticity, completeness, certification (scan of original document or certified translation), translation (English version only) of application files.</li>
             </ul>
-            
-            <h3 class="cosi-title-3 mt-12 mb-6">
+
+            <h3 class="cosi-title-3 mt-12 mb-4">
                 Academic prerequisites
             </h3>
             <p class="cosi-p">
@@ -54,7 +54,7 @@
                 <li><span class="font-bold">Knowledge of English</span>, i.e. Applicants have to demonstrate that they meet the level B2 within the CEFR (exemptions from the need to document level B2 are native English speakers and students who have completed a degree in an English-speaking country).</li>
             </ul>
 
-            <h3 class="cosi-title-3 mt-12 mb-6">
+            <h3 class="cosi-title-3 mt-12 mb-4">
                 Adequate financial resources
             </h3>
             <p class="cosi-p">
@@ -67,7 +67,7 @@
                 Erasmus+ Joint Master Degree scholarship holders are exempted of this requirement.
             </p>
 
-            <h3 class="cosi-title-3 mt-12 mb-6">
+            <h3 class="cosi-title-3 mt-12 mb-4">
                 For information
             </h3>
             <p class="cosi-p">
@@ -88,7 +88,19 @@
             </p>
 
             <div class="mt-16 flex">
-                <LinkCard title={'Apply to COSI'} path={'/application/apply'} />
+                <!-- <LinkCard title={'Apply to COSI'} path={'/application/apply'} /> -->
+                <a
+                    href="/application/apply"
+                    class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                    style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;"
+                >
+                    <div class="flex items-center">
+                        <div class="uppercase pr-4">Apply to COSI</div>
+                        <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#fff"/>
+                        </svg>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

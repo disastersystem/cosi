@@ -25,7 +25,7 @@
             <ul class="cosi-ul">
                 <li>Ohta, Noboru, and Alan Robertson. Colorimetry: fundamentals and applications. John Wiley & Sons, 2006T.
                 </li>
-                <li>Billmeyer and Saltzman's principles of color technology</li>
+                <li><a href="https://books.google.fr/books/about/Billmeyer_and_Saltzman_s_principles_of_c.html?id=Ss_vAAAAMAAJ&redir_esc=y" class="external">Billmeyer and Saltzman's principles of color technology</a></li>
                 <li>Cormen, C. Leiserson, and R. Rivest, “Introduction to Algorithms,” The MIT Press, 1990.
                 </li>
                 <li>J. Kleinberg and E. Tardos , “Algorithm Design“, Pearson International Edition, 2006.
@@ -46,11 +46,11 @@
                 Literature and study materials
             </h2>
             <ul class="cosi-ul">
-                <li>"Introduction to Algorithms"
-                    <a href="/scholarships/explora" class="external">http://lecturenotesforall.blogspot.fr/2011/05/introduction-to-algorithms-cormen-ppt.html</a>
+                <li>
+                    <a href="http://lecturenotesforall.blogspot.fr/2011/05/introduction-to-algorithms-cormen-ppt.html" class="external">"Introduction to Algorithms"</a>
                 </li>
-                <li>"Algorithm Design" <a href="http://www.cs.princeton.edu/~wayne/kleinberg-tardos/" class="external">http://www.cs.princeton.edu/~wayne/kleinberg-tardos/</a></li>
-                <li>The OpenCV Tutorials, <a href="http://docs.opencv.org/opencv_tutorials.pdf" class="external">http://docs.opencv.org/opencv_tutorials.pdf</a></li>
+                <li><a href="http://www.cs.princeton.edu/~wayne/kleinberg-tardos/" class="external">"Algorithm Design"</a></li>
+                <li><a href="http://docs.opencv.org/opencv_tutorials.pdf" class="external">The OpenCV Tutorials</a></li>
             </ul>
         </div>
     </div>

@@ -73,7 +73,7 @@
                 I cannot pay such participation costs, are scholarship grants available?
             </h2>
             <p class="cosi-p">
-                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. Very generous scholarships are available.
+                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. <a href="/scholarships" class="external">Very generous scholarships are available</a>.
             </p>
             <p class="cosi-p">
                 COSI is managed by European public universities as a non-profit organization. Participation costs reflect real costs occurred by delivering the programme. Potential benefits are directly re-invested as student scholarships.
@@ -91,14 +91,12 @@
                 <li>Full access to COSI curriculum (courses, offer of master thesis in the industry, exams, thesis examinations).</li>
                 <li>Social insurance and full insurance cover during the entire period of the programme.</li>
                 <li>Student affairs services including administrative counselling, degree delivery, support for banking, housing, and immigration affairs.</li>
-                <li>Full access to any scientific courses offered by hosting universities.
-                </li>
+                <li>Full access to any scientific courses offered by hosting universities.</li>
                 <li>Full access to hosting universities' libraries and online resources.</li>
-                <li>Full access to hosting universities' services (culture, sports, health, …).</li>
+                <li>Full access to hosting universities' services (culture, sports, health, ...).</li>
                 <li>Dedicated local language courses.</li>
-                <li>Special tutoring / mentoring by an Academic Advisor; access to COSI events and networking activities with industry and alumni.
-                </li>
-                <li>Learn more about other services and benefits of joining the COSI programme.</li>
+                <li>Special tutoring / mentoring by an Academic Advisor; access to COSI events and networking activities with industry and alumni.</li>
+                <!-- <li>Learn more about other services and benefits of joining the COSI programme.</li> -->
             </ul>
             <p class="cosi-p">
                 Accommodation and travel expenses are not covered by the participation costs. You can find here (coming soon) a “rule of thumb” budgeting of the 2 years programme based on cost of living to self-assess your financial ability to join as a self-sponsored student.

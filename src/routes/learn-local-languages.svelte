@@ -24,14 +24,14 @@
                 Following French courses during semester 1 is awarded by 2 ECTS and mentioned within the Diploma Supplement.
             </p>
             <p class="cosi-p">
-                Courses are offered by our partner Centre International de Langue et Civilisation CILEC
+                Courses are offered by our partner <a href="https://cilec.univ-st-etienne.fr/fr/" class="external">Centre International de Langue et Civilisation</a> (CILEC).
             </p>
             <p class="cosi-p">
                 For COSI students, French language courses (during fall semester 1 are optional, although we strongly encouraged you to join to make the best of you French experience) and free of charge (2h per week for a total of 24h)
             </p>
-            <p class="cosi-p">
+            <!-- <p class="cosi-p">
                 For CIMET students, French language courses during fall semester 1 are optional (although we strongly encouraged you to join to make the best of you French experience), and cost € 179 (2h per week for a total of 24h). French language courses during spring semester 2 are optional and free of charge.
-            </p>
+            </p> -->
 
             <h2 class="cosi-title-2 mb-4 mt-10">
                 Learn Spanish
@@ -40,7 +40,7 @@
                 Following Spanish courses during semester 2 is awarded by 2 ECTS and mentioned within the Diploma Supplement.
             </p>
             <p class="cosi-p">
-                Courses are offered by our partner Centro de lenguas (CLM).
+                Courses are offered by our partner <a href="http://www.clm-granada.com/indexing.htm" class="external">Centro de lenguas</a> (CLM).
             </p>
             <p class="cosi-p">
                 For COSI students, Spanish language courses (during the spring semester 2 are optional) and free of charge (2h per week for a total of 24h).
@@ -50,7 +50,7 @@
                 Erasmus+ Online Linguistic Support
             </h2>
             <p class="cosi-p">
-                As Erasmus+ beneficiaries, you can benefit from this <a href="http://test.com" class="external">language assessment / learning programme</a>
+                As Erasmus+ beneficiaries, you can benefit from this <a href="https://academy.europa.eu/local/euacademy/pages/course/community-overview.php?title=learn-a-new-language" class="external">language assessment / learning programme</a>
             </p>
         </div>
     </div>
