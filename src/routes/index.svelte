@@ -8,44 +8,104 @@
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
-    <div class="flex justify-center px-6">
-        <div class="flex justify-between items-center px-6 mt-40 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40" style="max-width: 1400px;">
-            <div class="w-full lg:w-2/3 md:pr-20" style="max-width: 650px;">
-                <h3 class="uppercase" style="color: #253A90; font-weight: 400; margin-bottom: 5px; color: #5853A0;">
-                    Erasmus Mundus + Joint Master Degree
-                </h3>
-
-                <h1 class="cosi-title-1">
-                    Become a leading expert in colour science
-                </h1>
-
-                <p style="color: #54567C; margin-top: 0.8em;">
-                    2-year Master degree in Applied Colour Science,<br> brought to you by 4 European leading universities
-                </p>
-
-                <a
-                    href="/about/overview-of-program"
-                    class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
-                    style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;"
+    <div class="flex items-center" style="margin-top: 71px; background: #FDF8F5;">
+        <div class="flex justify-center">
+            <!-- mt-60 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40 -->
+            <div class="flex justify-center">
+                <div class="
+                    pl-10 md:pl-6 lg:pl-20 xl:pl-20 2xl:pl-40
+                    pt-12 pb-12 md:pr-20"
                 >
-                    <div class="flex items-center">
-                        <div class="uppercase pr-4">Learn about COSI</div>
+                    <h3 class="uppercase text-sm md:text-md" style="margin-bottom: 5px; color: #5853A0;">
+                        Erasmus Mundus + Joint Master Degree
+                    </h3>
+
+                    <!-- <h1 class="text-4xl hidden lg:block">
+                        Become&nbsp;a&nbsp;leading&nbsp;expert<br>in&nbsp;colour&nbsp;science
+                    </h1> -->
+                    <!-- <h1 class="text-5xl" style="line-height: 1.1em;">
+                        Become&nbsp;a<br>leading&nbsp;expert<br>in&nbsp;colour&nbsp;science
+                    </h1> -->
+                    <h1 class="text-4xl font-bold xl:text-5xl xl:font-normal" style="color: #253A90; line-height: 1.1em;">
+                        Become&nbsp;a&nbsp;leading<br>expert&nbsp;in&nbsp;colour<br>science
+                    </h1>
+
+                    <p style="color: #54567C; margin-top: 0.8em;">
+                        2-year Master degree in Applied Colour Science,<br> brought to you by 4 European leading universities
+                    </p>
+
+                    <a
+                        href="/about/overview-of-program"
+                        class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                        style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;"
+                    >
+                        <div class="flex items-center">
+                            <div class="uppercase pr-4">Learn about COSI</div>
+                            <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#fff"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <!-- background-color: #E2AA3A; -->
+        <div class="w-full hidden md:flex flex justify-end" style="height: 100%; overflow: hidden;">
+            <!-- <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px;"> -->
+            <!-- border-bottom-left-radius: 1000px; border-top-left-radius: 1000px; -->
+            <img
+                src="people-smaller3.png" alt=""
+                class="hidden md:block"
+                style="height: 100%; object-fit: cover; object-position: top right;"
+            >
+        </div>
+    </div>
+
+    <div class="flex justify-center px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-20 mb-20" style="max-width: 1000px;">
+        <div class="w-full pr-10">
+            <div style="height: 40px;">
+                <!-- <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
+                <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;"> -->
+                <img src="icons/dollar-green.svg" alt="" style="display: inline-block; height: 100%;">
+            </div>
+            <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
+                Generous Scholarships
+            </h2>
+            <p style="color: #54567C;">
+                ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
+                scholarship strategy to attract the best international students
+            </p>
+            <div class="flex mt-6">
+                <a href="/scholarships" class=" px-4 py-2 flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
+                focus:ring-offset-gray-100 focus:ring-indigo-500"
+                style="font-size: 13px; font-weight: bold; text-decoration: none; background: #fff;
+                border: 1px solid #253A90; color: #253A90; border-radius: 1000px;">
+                    <span>Scholarship overview</span>
+                    <div class="pl-2">
                         <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#fff"/>
+                            <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
                         </svg>
                     </div>
                 </a>
             </div>
-
-            <div class="md:hidden lg:block">
-                <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px; border-top-left-radius: 800px; border-bottom-left-radius: 800px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
-                <!-- <img src="people.jpg" alt="" class="hidden md:hidden lg:block" style="width: 500px;"> -->
-                <!-- border-radius: 50% 0%; -->
+        </div>
+        <div class="w-full pl-0 md:pl-10 mt-16 md:mt-0">
+            <div style="height: 40px;">
+                <img src="icons/medal-yellow.svg" alt="" style="display: inline-block; height: 100%;">
             </div>
+            <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
+                Global academic excellence meeting worldwide markets
+            </h2>
+            <p style="color: #54567C;">
+                Over the years COSI graduates have been employed in world leading industries and universities.
+            </p>
         </div>
     </div>
+</div>
 
-    <div class="mobility-container relative flex justify-center mt-40">
+    <div class="mobility-container relative flex justify-center">
         <div>
             <div class="flex justify-center">
                 <div style="max-width: 1000px;">
@@ -57,7 +117,7 @@
                             </h5>
                         </div>
                         <div>
-                            <h4 class="pt-2" style="color: white; font-weight: 400;">
+                            <h4 class="pt-1" style="color: white; font-weight: 400;">
                                 A programme as interdisciplinary and innovative as COSI could not be provided at
                                 any single institution
                             </h4>
@@ -70,20 +130,13 @@
                 <div class="grid grid-cols-2 gap-4 md:grid-cols-4 px-4 lg:px-0">
                     <div class="mb-4">
                         <!-- <a href="https://ntnu.no" target="_blank"> -->
-                            <div class="relative">
-                                <img src="/ntnu.png" alt="">
-                                <img src="/ntnu-logo.svg" alt="" class="w-10 absolute right-4 bottom-4">
-                            </div>
-
+                            <img src="/ntnu.png" alt="">
                             <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">Norwegian University of Science and Technology</h5>
                             <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Gjøvik, Norway</h6>
                         <!-- </a> -->
                     </div>
                     <div class="mb-4">
-                        <div class="relative">
-                            <img src="/uef.png" alt="">
-                            <img src="/uef-logo.svg" alt="" class="w-9 absolute right-4 bottom-4">
-                        </div>
+                        <img src="/uef.png" alt="">
                         <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">
                             University of Eastern Finland
                         </h5>
@@ -92,18 +145,12 @@
                         </h6>
                     </div>
                     <div class="mb-4">
-                        <div class="relative">
-                            <img src="/ujm.png" alt="">
-                            <img src="/ujm-logo.svg" alt="" class="w-7 absolute right-4 bottom-4">
-                        </div>
+                        <img src="/ujm.png" alt="">
                         <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">Jean Monnet University</h5>
                         <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Saint-Étienne, France</h6>
                     </div>
                     <div class="mb-4">
-                        <div class="relative">
-                            <img src="/ugr.png" alt="">
-                            <img src="/ugr-logo.svg" alt="" class="w-12 absolute right-4 bottom-4">
-                        </div>
+                        <img src="/ugr.png" alt="">
                         <h5 class="cosi-title-5 mt-4 text-center" style="color: #fff;">University of Granada</h5>
                         <h6 class="cosi-title-6 text-center" style="color: #fff; margin-top: 4px; font-weight: normal;">Granada, Spain</h6>
                     </div>
@@ -173,11 +220,9 @@
 
     <div class="flex justify-center px-6">
         <div style="max-width: 1000px;">
-            <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-40">
+            <!-- <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-40">
                 <div class="w-full pr-10">
                     <div style="height: 40px;">
-                        <!-- <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
-                        <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;"> -->
                         <img src="icons/dollar-green.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
                     <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
@@ -187,19 +232,6 @@
                         ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
                         scholarship strategy to attract the best international students
                     </p>
-                    <!-- <a href="/scholarships" class="flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
-                    focus:ring-offset-gray-100 focus:ring-indigo-500"
-                    style="margin-top: 20px; font-size: 13px; font-weight: bold; text-decoration: none; background: #fff; border: 1px solid #253A90; color: #253A90; padding: 10px 30px; border-radius: 1000px;">
-                        <span class="pr-2">Scholarship overview</span>
-                        <div class="pl-2">
-                            <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
-                            </svg>
-                        </div>
-                    </a> -->
-                    <!-- <a href="/scholarships" class="flex uppercase mt-4" style="font-size: 15px; font-weight: bold; color: #253A90; text-decoration: none;">
-                        <span class="pr-2">Scholarship overview</span> <img src="icons/arrow-right.svg" alt="">
-                    </a> -->
                     <div class="flex mt-6">
                         <a href="/scholarships" class=" px-4 py-2 flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
                         focus:ring-offset-gray-100 focus:ring-indigo-500"
@@ -225,7 +257,7 @@
                         Over the years COSI graduates have been employed in world leading industries and universities.
                     </p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="grid grid-cols-1 md:grid-cols-2 mt-0 md:mt-16">
                 <div class="flex-1 mt-16 md:mt-0">
@@ -387,35 +419,35 @@
 
                 <a href="/courses" class="relative p-10 md:mx-6" style="border: 1px solid #ddd; border-radius: 15px;">
                     <div class="flex justify-center">
-                        <img src="/icons/book-blob.svg" alt="" style="height: 44px;">
+                        <img src="icons/book.svg" alt="" style="height: 30px;">
                     </div>
                     <h3 class="cosi-title-4 mt-4 text-center">Courses</h3>
                     <p style="color: #2A2E4F;" class="text-center">
                         Read more about the curriculum and semester mobility
                     </p>
-                    <img src="/icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
                 </a>
 
                 <a href="/career" class="relative p-10 md:mr-2 mt-4 md:mt-0" style="border: 1px solid #ddd; border-radius: 20px;">
                     <div class="flex justify-center">
-                        <img src="/icons/suitcase-blob.svg" alt="" style="height: 44px;">
+                        <img src="icons/suitcase2.svg" alt="" style="height: 30px;">
                     </div>
                     <h3 class="cosi-title-4 mt-4 text-center">Career prospects</h3>
                     <p style="color: #2A2E4F;" class="text-center">
                         Read more about your work opportunities after graduation
                     </p>
-                    <img src="/icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
                 </a>
 
                 <a href="/research" class="relative p-10 md:ml-4 mt-4 md:mt-0" style="border: 1px solid #ddd; border-radius: 20px;">
                     <div class="flex justify-center">
-                        <img src="/icons/vial-blob.svg" alt="" style="height: 44px;">
+                        <img src="icons/science.svg" alt="" style="height: 30px;">
                     </div>
                     <h3 class="cosi-title-4 mt-4 text-center">Research</h3>
                     <p style="color: #2A2E4F;" class="text-center">
                         Read more about COSI research and theses subjects
                     </p>
-                    <img src="/icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
+                    <img src="icons/arrow-right-black.svg" alt="" class="absolute right-4 bottom-4">
                 </a>
 
             </div>
