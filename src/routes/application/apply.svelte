@@ -25,6 +25,9 @@
             <h3 class="cosi-title-3">
                 Apply before January 10th 2022
             </h3>
+            <p class="cosi-p italic mt-2">
+                Application received after this deadline will not be taken into consideration.
+            </p>
             <p class="cosi-p mt-10">
                 We have a double phase selection. First you need to apply on <a class="external" href="https://fsweb.no/soknadsweb/login.jsf">Søknadsweb</a>, then if your application pass our
                 administrative screening, you will be required to upload additional documents on the <a class="external" href="https://international-sciencemasters.univ-st-etienne.fr/login">UJM plateform</a>.
@@ -32,12 +35,13 @@
                 10. January and 01. March.
             </p>
             <p class="cosi-p">
-                If you have any questions, do not hesitate to <a href="/contact" class="external">contact us</a>.
+                <!-- If you have any questions, do not hesitate to <a href="/contact" class="external">contact us</a>. -->
+                If you have any need for clarification on COSI programme / eligibility prior to application or if you encounter technical issues during your online application do not hesitate to <a href="/contact" class="external">contact us</a> (mscosi@studier.ntnu.no).
             </p>
 
             <h3 class="cosi-title-4 mb-4 mt-16">1. Make sure you are eligible to apply</h3>
             <p class="cosi-p">
-                Read carefully <a class="external" href="/about/overview-of-program">about COSI programme</a> and make sure you are <a class="external" href="/application/eligibility-criteria">eligible to apply</a>.
+                Read carefully <a class="external" href="/about/overview-of-program" target="_blank">about COSI programme</a> and make sure you are <a class="external" href="/application/eligibility-criteria" target="_blank">eligible to apply</a>.
             </p>
             <!-- <p class="cosi-p">
                 All applicants must document the following in order for their applications to be considered for admission:
@@ -71,17 +75,17 @@
             </h2>
             <p class="cosi-p">
                 Determine if you are from a Programme or Partner country:
-                <a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" class="external">
+                <a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" target="_blank" class="external">
                     Lists of eligible countries
                 </a>
             </p>
             <p class="cosi-p">
-                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. Very <a class="external" href="/scholarships">generous scholarships</a> are available.
+                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. Very <a class="external" target="_blank" href="/scholarships">generous scholarships</a> are available.
             </p>
             <p class="cosi-p">
                 Self-funded students will be able to pay participation costs in three instalments.
             </p>
-            <a href="/participation-costs" class="external">What do I pay for?</a>
+            <a href="/participation-costs" target="_blank" class="external">What do I pay for?</a>
 
             <h4 class="cosi-title-4 mt-12 mb-4">3. Prepare your application files</h4>
             <p class="cosi-p">
@@ -108,7 +112,7 @@
                 <li>
                     Motivation letter: Motivation must be documented by means of a motivation letter containing information about the applicant's reason for applying, their interest in the programme, their ideas of applied research and their professional development plan. In addition:
                     <ul class="cosi-ul ml-4">
-                        <li>State and argument your preferred choice of <a href="/courses" class="external">mobility for semester 2 and 3</a>.</li>
+                        <li>State and argument your preferred choice of <a href="/courses" target="_blank" class="external">mobility for semester 2 and 3</a>.</li>
                         <li>Clearly declare that you've never benefited from an Erasmus Mundus Master Course grant.</li>
                         <li>Indicate your references.</li>
                     </ul>
@@ -117,7 +121,7 @@
                     Documented last 5 years residence history:
                     <ul class="cosi-ul ml-4">
                         <li>
-                            Document where you explain your residency during the last 5 years Current residence certificate in accordance with your municipality normal registration rules AND a certificate from your place of work, study or training issued by the employer or institution in question. Both documents must have been issued within 12 months before the submission deadline. The place of residence should be verified on the basis of the provision of the documents listed in the <a href="https://www.consilium.europa.eu/prado/en/search-by-document-country.html" class="external">PRADO website</a>. Past residence certificate(s) (last five years only)
+                            Document where you explain your residency during the last 5 years Current residence certificate in accordance with your municipality normal registration rules AND a certificate from your place of work, study or training issued by the employer or institution in question. Both documents must have been issued within 12 months before the submission deadline. The place of residence should be verified on the basis of the provision of the documents listed in the <a href="https://www.consilium.europa.eu/prado/en/search-by-document-country.html" target="_blank" class="external">PRADO website</a>. Past residence certificate(s) (last five years only)
                         </li>
                     </ul>
                 </li>
@@ -127,13 +131,13 @@
                 4. Apply to søknadsweb
             </h4>
             <p class="cosi-p">
-                When your documents are ready, go to <a class="external" href="https://fsweb.no/soknadsweb/login.jsf">Søknadsweb</a>
+                When your documents are ready, go to <a class="external" target="_blank" href="https://fsweb.no/soknadsweb/login.jsf">Søknadsweb</a>
             </p>
             <p class="cosi-p">
                 Step-by-step recipe to register on Søknadsweb:
             </p>
             <ul class="cosi-ul">
-                <li>Go to the <a class="external" href="https://fsweb.no/soknadsweb/login.jsf">application portal Søknadsweb</a>.</li>
+                <li>Go to the <a class="external" target="_blank" href="https://fsweb.no/soknadsweb/login.jsf">application portal Søknadsweb</a>.</li>
                 <li>Select language in the top right corner where it says "Norsk bokmål".</li>
                 <li>Choose institution: "Norwegian University of Science and Technology"</li>
                 <li>Click on "International Applicant".</li>
@@ -152,6 +156,16 @@
                 You can change your application as many times as you like up until the deadline.
             </p>
 
+            <ul class="cosi-ul mt-12 pt-4 italic" style="color: #494949; border-top: 1px solid #ddd;">
+                <li>Applications by email will not be taken into consideration at any time.</li>
+                <li>
+                    Information relating to individuals (personal data) is collected and used in accordance with the Regulation (EC) N° 45/2001 of the European Parliament and of the Council of 18.12.2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L8 of 12.1.2001, p. 1).
+                </li>
+                <li>
+                    Personal data will be sent to the Education, Audiovisual and Culture Executive Agency and may be used by other bodies involved in the management of EMJMD acting as stakeholders of the programme (i.e. European Commission, Erasmus+ National Offices, EU Delegations, Erasmus Mundus Student and EM) for facilitating the student access to the joint programme. Please find here the privacy statement for processing of personal data collected via the EACEA Mobility Data Base.
+                </li>
+            </ul>
+
             <h3 class="cosi-title-2 text-center mt-20">
                 You're all done!
             </h3>
@@ -165,6 +179,7 @@
             <!-- <div class="flex justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 14px;"><path d="M374.6 310.6l-160 160C208.4 476.9 200.2 480 192 480s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 370.8V64c0-17.69 14.33-31.1 31.1-31.1S224 46.31 224 64v306.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0S387.1 298.1 374.6 310.6z"/></svg>
             </div> -->
+
         </div>
     </div>
 
