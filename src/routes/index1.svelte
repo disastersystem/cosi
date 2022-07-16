@@ -426,7 +426,7 @@
 <style>
     .mobility-container {
         background: #5853A0;
-        background-image: url("grid2.svg");
+        background-image: url("/grid2.svg");
         background-repeat: repeat-y repeat-x;
     }
 </style>

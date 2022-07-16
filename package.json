@@ -4,6 +4,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"deploy": "npm run build && npx gh-pages -d dist -t true",
 		"package": "vite package",
 		"preview": "vite preview",
 		"prepare": "vite sync",
@@ -12,16 +13,17 @@
 	"devDependencies": {
 		"@rgossiaux/svelte-headlessui": "^1.0.2",
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.7",
 		"eslint": "^8.16.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"gh-pages": "^4.0.0",
 		"postcss": "^8.4.14",
 		"svelte": "^3.44.0",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.4",
 		"vite": "^2.9.14"
 	},
-	"type": "module",
-	"dependencies": {}
+	"type": "module"
 }

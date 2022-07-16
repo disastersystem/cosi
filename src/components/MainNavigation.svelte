@@ -32,9 +32,11 @@
 
     <div class="hidden lg:flex items-center">
         <!-- sveltekit:prefetch  -->
-        <a on:click={closeDropdowns} href="/" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
-            Home
-        </a>
+        <div>
+            <a on:click={closeDropdowns} href="/" class="mr-2 rounded-md px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+                Home
+            </a>
+        </div>
 
         <div class="relative inline-block text-left">
             <!-- border border-gray-300 shadow-sm -->
@@ -119,11 +121,11 @@
             </Transition>
         </div>
 
-        <a on:click={closeDropdowns} href="/career" class="text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        <a on:click={closeDropdowns} href="/career" class="rounded-md px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             Career prospects
         </a>
 
-        <a sveltekit:prefetch on:click={closeDropdowns} href="/research" class="ml-2 mr-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        <a sveltekit:prefetch on:click={closeDropdowns} href="/research" class="ml-2 mr-2 rounded-md px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             Research
         </a>
 
@@ -214,7 +216,7 @@
             </Transition>
         </div>
 
-        <a on:click={closeDropdowns} href="/news" class="ml-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+        <a on:click={closeDropdowns} href="/news" class="ml-2 rounded-md px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
             News
         </a>
     </div>
@@ -596,12 +598,12 @@
         display: flex;
         justify-content: space-between;
     }
-    nav div a {
+    /* nav div a {
         display: block;
         padding: 15px 15px;
         color: #000;
         text-decoration: none;
-    }
+    } */
 
     .cosi-border-right {
         border-right: 1px solid rgba(161, 152, 209, 0.425);

@@ -8,6 +8,7 @@
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
+    <!-- EAE0D5 -->
     <div class="flex items-center" style="margin-top: 71px; background: #FDF8F5;">
         <div class="flex justify-center">
             <!-- mt-60 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40 -->
@@ -56,48 +57,56 @@
         </div>
     </div>
 
-    <div class="flex justify-center px-6">
-    <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-20 mb-20" style="max-width: 1000px;">
-        <div class="w-full pr-10">
-            <div style="height: 40px;">
-                <!-- <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
-                <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;"> -->
-                <img src="icons/dollar-green.svg" alt="" style="display: inline-block; height: 100%;">
-            </div>
+    <!-- <div class="flex justify-center px-6">
+        <div style="width: 1000px;">
             <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
-                Generous Scholarships
+                Why join
             </h2>
-            <p style="color: #54567C;">
-                ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
-                scholarship strategy to attract the best international students.
-            </p>
-            <div class="flex mt-6">
-                <a href="/scholarships" class=" px-4 py-2 flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
-                focus:ring-offset-gray-100 focus:ring-indigo-500"
-                style="font-size: 13px; font-weight: bold; text-decoration: none; background: #fff;
-                border: 1px solid #253A90; color: #253A90; border-radius: 1000px;">
-                    <span>Scholarship overview</span>
-                    <div class="pl-2">
-                        <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
-                        </svg>
-                    </div>
-                </a>
-            </div>
         </div>
-        <div class="w-full pl-0 md:pl-10 mt-16 md:mt-0">
-            <div style="height: 40px;">
-                <img src="icons/medal-yellow.svg" alt="" style="display: inline-block; height: 100%;">
+    </div> -->
+
+    <div class="flex justify-center px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-20 mb-20" style="max-width: 1000px;">
+            <div class="w-full pr-10">
+                <div style="height: 40px;">
+                    <!-- <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
+                    <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;"> -->
+                    <img src="icons/dollar-green.svg" alt="" style="display: inline-block; height: 100%;">
+                </div>
+                <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
+                    Generous Scholarships
+                </h2>
+                <p style="color: #54567C;">
+                    ERASMUS+ financial support and close links with industrial partners allow us to offer an ambitious
+                    scholarship strategy to attract the best international students.
+                </p>
+                <div class="flex mt-6">
+                    <a href="/scholarships" class=" px-4 py-2 flex items-center uppercase focus:outline-none focus:ring-2 focus:ring-offset-2
+                    focus:ring-offset-gray-100 focus:ring-indigo-500"
+                    style="font-size: 13px; font-weight: bold; text-decoration: none; background: #fff;
+                    border: 1px solid #253A90; color: #253A90; border-radius: 1000px;">
+                        <span>Scholarship overview</span>
+                        <div class="pl-2">
+                            <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.52728 0.803755L6.17141 0.193726C6.44415 -0.0645752 6.88517 -0.0645752 7.155 0.193726L12.7954 5.53286C13.0682 5.79116 13.0682 6.20884 12.7954 6.46439L7.155 11.8063C6.88227 12.0646 6.44125 12.0646 6.17141 11.8063L5.52728 11.1962C5.25165 10.9352 5.25745 10.5093 5.53889 10.2537L9.03515 7.09915H0.696351C0.310456 7.09915 0 6.80513 0 6.43966V5.56034C0 5.19487 0.310456 4.90085 0.696351 4.90085H9.03515L5.53889 1.74628C5.25455 1.49073 5.24874 1.0648 5.52728 0.803755Z" fill="#253A90"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
-                Global academic excellence meeting worldwide markets
-            </h2>
-            <p style="color: #54567C;">
-                Over the years COSI graduates have been employed in world leading industries and universities.
-            </p>
+            <div class="w-full pl-0 md:pl-10 mt-16 md:mt-0">
+                <div style="height: 40px;">
+                    <img src="icons/medal-yellow.svg" alt="" style="display: inline-block; height: 100%;">
+                </div>
+                <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
+                    Global academic excellence meeting worldwide markets
+                </h2>
+                <p style="color: #54567C;">
+                    Over the years COSI graduates have been employed in world leading industries and universities.
+                </p>
+            </div>
         </div>
     </div>
-</div>
 
     <div class="mobility-container relative flex justify-center">
         <div>
@@ -105,8 +114,8 @@
                 <div style="max-width: 1000px;">
                     <div class="grid grid-cols-2 px-6 lg:px-0 py-20">
                         <div>
-                            <h2 class="cosi-title-2 mb-3 text-white">Built-in European Mobility</h2>
-                            <h5 class="cosi-title-5" style="font-weight: normal; color: white;">
+                            <h2 class="cosi-title-2 mb-3 text-white" style="color: white;">Built-in European Mobility</h2>
+                            <h5 class="cosi-title-5" style="font-weight: normal; color: white; font-size: 16px;">
                                 Live & learn in 4 different campuses
                             </h5>
                         </div>
@@ -474,7 +483,7 @@
 <style>
     .mobility-container {
         background: #5853A0;
-        background-image: url("grid2.svg");
+        background-image: url("/grid2.svg");
         background-repeat: repeat-y repeat-x;
     }
 </style>
