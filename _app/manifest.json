@@ -1,0 +1,551 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "immutable/start-65987796.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-ab270473.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/about/overview-of-program.svelte",
+      "src/routes/academic-services.svelte",
+      "src/routes/alumni.svelte",
+      "src/routes/amb.svelte",
+      "src/routes/application/appeal.svelte",
+      "src/routes/application/apply.svelte",
+      "src/routes/application/eligibility-criteria.svelte",
+      "src/routes/application/faq.svelte",
+      "src/routes/awarded-degrees.svelte",
+      "src/routes/career.svelte",
+      "src/routes/contact.svelte",
+      "src/routes/corporate-relations.svelte",
+      "src/routes/courses.svelte",
+      "src/routes/diploma.svelte",
+      "src/routes/finland.svelte",
+      "src/routes/france.svelte",
+      "src/routes/guest-lecturer.svelte",
+      "src/routes/index.svelte",
+      "src/routes/index1.svelte",
+      "src/routes/learn-local-languages.svelte",
+      "src/routes/learning-outcomes.svelte",
+      "src/routes/legal-notice.svelte",
+      "src/routes/masters-thesis.svelte",
+      "src/routes/news/[id].svelte",
+      "src/routes/news.svelte",
+      "src/routes/norway.svelte",
+      "src/routes/participation-costs.svelte",
+      "src/routes/preparatory-reading.svelte",
+      "src/routes/qab.svelte",
+      "src/routes/research.svelte",
+      "src/routes/scholarship/[id].svelte",
+      "src/routes/scholarships-disbursment.svelte",
+      "src/routes/scholarships.svelte",
+      "src/routes/social-media.svelte",
+      "src/routes/spain.svelte",
+      "src/routes/student-agreement.svelte",
+      "src/routes/summer-internship.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "immutable/pages/__layout.svelte-d99bbe82.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_TransitionRoot-cb159723.js",
+      "_index-ab270473.js"
+    ],
+    "css": [
+      "immutable/assets/pages/__layout.svelte-9ec228ce.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "immutable/error.svelte-359f2b4d.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js"
+    ]
+  },
+  "src/routes/about/overview-of-program.svelte": {
+    "file": "immutable/pages/about/overview-of-program.svelte-be857c79.js",
+    "src": "src/routes/about/overview-of-program.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_LinkCard-605525f7.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/academic-services.svelte": {
+    "file": "immutable/pages/academic-services.svelte-35118206.js",
+    "src": "src/routes/academic-services.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/alumni.svelte": {
+    "file": "immutable/pages/alumni.svelte-3c47e127.js",
+    "src": "src/routes/alumni.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/amb.svelte": {
+    "file": "immutable/pages/amb.svelte-55be57ff.js",
+    "src": "src/routes/amb.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/application/appeal.svelte": {
+    "file": "immutable/pages/application/appeal.svelte-b04bf4ec.js",
+    "src": "src/routes/application/appeal.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/application/apply.svelte": {
+    "file": "immutable/pages/application/apply.svelte-175fe9d3.js",
+    "src": "src/routes/application/apply.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Point-7159a9a6.js",
+      "_Breadcrumbs-90e33b81.js"
+    ],
+    "css": [
+      "immutable/assets/Point.svelte_svelte_type_style_lang-b8c3a593.css"
+    ]
+  },
+  "src/routes/application/eligibility-criteria.svelte": {
+    "file": "immutable/pages/application/eligibility-criteria.svelte-90da22c4.js",
+    "src": "src/routes/application/eligibility-criteria.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/application/faq.svelte": {
+    "file": "immutable/pages/application/faq.svelte-d162f052.js",
+    "src": "src/routes/application/faq.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_TransitionRoot-cb159723.js",
+      "_Breadcrumbs-90e33b81.js",
+      "_index-ab270473.js"
+    ],
+    "css": [
+      "immutable/assets/pages/application/faq.svelte-ce2736cb.css"
+    ]
+  },
+  "src/routes/awarded-degrees.svelte": {
+    "file": "immutable/pages/awarded-degrees.svelte-98a1e741.js",
+    "src": "src/routes/awarded-degrees.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_LinkCard-605525f7.js",
+      "_Breadcrumbs-90e33b81.js",
+      "_index-0c289c09.js"
+    ]
+  },
+  "src/routes/career.svelte": {
+    "file": "immutable/pages/career.svelte-5a2c0a0f.js",
+    "src": "src/routes/career.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "immutable/pages/contact.svelte-1ec5fd1b.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/corporate-relations.svelte": {
+    "file": "immutable/pages/corporate-relations.svelte-98848941.js",
+    "src": "src/routes/corporate-relations.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_Breadcrumbs-90e33b81.js",
+      "_index-0c289c09.js"
+    ]
+  },
+  "src/routes/courses.svelte": {
+    "file": "immutable/pages/courses.svelte-683de222.js",
+    "src": "src/routes/courses.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/diploma.svelte": {
+    "file": "immutable/pages/diploma.svelte-9c371032.js",
+    "src": "src/routes/diploma.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/finland.svelte": {
+    "file": "immutable/pages/finland.svelte-47978ce7.js",
+    "src": "src/routes/finland.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/france.svelte": {
+    "file": "immutable/pages/france.svelte-53b759ef.js",
+    "src": "src/routes/france.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/guest-lecturer.svelte": {
+    "file": "immutable/pages/guest-lecturer.svelte-ad7105a6.js",
+    "src": "src/routes/guest-lecturer.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "immutable/pages/index.svelte-34ea6192.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js"
+    ],
+    "css": [
+      "immutable/assets/pages/index1.svelte-f483691c.css"
+    ]
+  },
+  "src/routes/index1.svelte": {
+    "file": "immutable/pages/index1.svelte-cf42881a.js",
+    "src": "src/routes/index1.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js"
+    ],
+    "css": [
+      "immutable/assets/pages/index1.svelte-f483691c.css"
+    ]
+  },
+  "src/routes/learn-local-languages.svelte": {
+    "file": "immutable/pages/learn-local-languages.svelte-4642d657.js",
+    "src": "src/routes/learn-local-languages.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/learning-outcomes.svelte": {
+    "file": "immutable/pages/learning-outcomes.svelte-6803f28d.js",
+    "src": "src/routes/learning-outcomes.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/legal-notice.svelte": {
+    "file": "immutable/pages/legal-notice.svelte-35c72776.js",
+    "src": "src/routes/legal-notice.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/masters-thesis.svelte": {
+    "file": "immutable/pages/masters-thesis.svelte-3045984a.js",
+    "src": "src/routes/masters-thesis.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_Point-7159a9a6.js",
+      "_Breadcrumbs-90e33b81.js",
+      "_index-0c289c09.js"
+    ],
+    "css": [
+      "immutable/assets/Point.svelte_svelte_type_style_lang-b8c3a593.css"
+    ]
+  },
+  "src/routes/news/[id].svelte": {
+    "file": "immutable/pages/news/_id_.svelte-7ffa8839.js",
+    "src": "src/routes/news/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ],
+    "css": [
+      "immutable/assets/Point.svelte_svelte_type_style_lang-b8c3a593.css"
+    ]
+  },
+  "src/routes/news.svelte": {
+    "file": "immutable/pages/news.svelte-0fb3154c.js",
+    "src": "src/routes/news.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_LinkCard-605525f7.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/norway.svelte": {
+    "file": "immutable/pages/norway.svelte-616afca5.js",
+    "src": "src/routes/norway.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/participation-costs.svelte": {
+    "file": "immutable/pages/participation-costs.svelte-d58afbba.js",
+    "src": "src/routes/participation-costs.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/preparatory-reading.svelte": {
+    "file": "immutable/pages/preparatory-reading.svelte-2a5cba94.js",
+    "src": "src/routes/preparatory-reading.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/qab.svelte": {
+    "file": "immutable/pages/qab.svelte-ba59ff57.js",
+    "src": "src/routes/qab.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/research.svelte": {
+    "file": "immutable/pages/research.svelte-3a11dbaa.js",
+    "src": "src/routes/research.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/scholarship/[id].svelte": {
+    "file": "immutable/pages/scholarship/_id_.svelte-2b011d69.js",
+    "src": "src/routes/scholarship/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ],
+    "css": [
+      "immutable/assets/Point.svelte_svelte_type_style_lang-b8c3a593.css"
+    ]
+  },
+  "src/routes/scholarships-disbursment.svelte": {
+    "file": "immutable/pages/scholarships-disbursment.svelte-ad584c69.js",
+    "src": "src/routes/scholarships-disbursment.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/scholarships.svelte": {
+    "file": "immutable/pages/scholarships.svelte-2e31f634.js",
+    "src": "src/routes/scholarships.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_LinkCard-605525f7.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/social-media.svelte": {
+    "file": "immutable/pages/social-media.svelte-df56425d.js",
+    "src": "src/routes/social-media.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/spain.svelte": {
+    "file": "immutable/pages/spain.svelte-bca59e38.js",
+    "src": "src/routes/spain.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/student-agreement.svelte": {
+    "file": "immutable/pages/student-agreement.svelte-815851cd.js",
+    "src": "src/routes/student-agreement.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "src/routes/summer-internship.svelte": {
+    "file": "immutable/pages/summer-internship.svelte-e264f469.js",
+    "src": "src/routes/summer-internship.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-0c289c09.js",
+      "_Breadcrumbs-90e33b81.js"
+    ]
+  },
+  "_index-22cdd14c.js": {
+    "file": "immutable/chunks/index-22cdd14c.js"
+  },
+  "_index-ab270473.js": {
+    "file": "immutable/chunks/index-ab270473.js",
+    "imports": [
+      "_index-22cdd14c.js"
+    ]
+  },
+  "_TransitionRoot-cb159723.js": {
+    "file": "immutable/chunks/TransitionRoot-cb159723.js",
+    "imports": [
+      "_index-22cdd14c.js",
+      "_index-ab270473.js"
+    ]
+  },
+  "_index-0c289c09.js": {
+    "file": "immutable/chunks/index-0c289c09.js",
+    "imports": [
+      "_index-22cdd14c.js"
+    ]
+  },
+  "_LinkCard-605525f7.js": {
+    "file": "immutable/chunks/LinkCard-605525f7.js",
+    "imports": [
+      "_index-22cdd14c.js"
+    ]
+  },
+  "_Breadcrumbs-90e33b81.js": {
+    "file": "immutable/chunks/Breadcrumbs-90e33b81.js",
+    "imports": [
+      "_index-22cdd14c.js"
+    ]
+  },
+  "_Point-7159a9a6.js": {
+    "file": "immutable/chunks/Point-7159a9a6.js",
+    "imports": [
+      "_index-22cdd14c.js"
+    ],
+    "css": [
+      "immutable/assets/Point.svelte_svelte_type_style_lang-b8c3a593.css"
+    ]
+  }
+}
