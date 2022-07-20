@@ -20,7 +20,7 @@
     function closeDrawer() { drawer = false }
 </script>
 
-<nav class="z-10 p-0">
+<nav class="z-10 px-6 py-2 md:px-10">
     <div>
         <a href="/" style="padding: 0; padding-top: 4px; padding-bottom: 2px;">
             <div class="flex items-center">
@@ -79,41 +79,41 @@
                             <div class="py-1" role="none" style="width: 216px;">
                                 <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
                                 <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">About</h3>
-                                <a on:click={closeDropdowns} href="/about/overview-of-program" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Overview of program</a>
-                                <a on:click={closeDropdowns} href="/corporate-relations" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Corporate relations</a>
-                                <a on:click={closeDropdowns} href="/social-media" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-3">Social media</a>
-                                <a on:click={closeDropdowns} href="/alumni" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-4">Alumni</a>
-                                <a on:click={closeDropdowns} href="/legal-notice" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-5">Legal notice</a>
+                                <a on:click={closeDropdowns} href="/about/overview-of-program" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Overview of program</a>
+                                <a on:click={closeDropdowns} href="/corporate-relations" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Corporate relations</a>
+                                <a on:click={closeDropdowns} href="/social-media" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-3">Social media</a>
+                                <a on:click={closeDropdowns} href="/alumni" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-4">Alumni</a>
+                                <a on:click={closeDropdowns} href="/legal-notice" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-5">Legal notice</a>
                             </div>
                         </div>
                         <div class="cosi-border-right pt-4 pb-4">
                             <div class="py-1 pl-4" role="none" style="width: 254px;">
                                 <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">Program structure</h3>
-                                <a on:click={closeDropdowns} href="/courses" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-6">Courses</a>
-                                <a on:click={closeDropdowns} href="/learning-outcomes" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-7">Learning outcomes</a>
-                                <a on:click={closeDropdowns} href="/awarded-degrees" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-8">Awarded degrees</a>
-                                <a on:click={closeDropdowns} href="/summer-internship" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-9">Summer internship</a>
-                                <a on:click={closeDropdowns} href="/masters-thesis" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-10">Master's thesis</a>
-                                <a on:click={closeDropdowns} href="/student-agreement" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-11">Student agreement</a>
+                                <a on:click={closeDropdowns} href="/courses" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-6">Courses</a>
+                                <a on:click={closeDropdowns} href="/learning-outcomes" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-7">Learning outcomes</a>
+                                <a on:click={closeDropdowns} href="/awarded-degrees" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-8">Awarded degrees</a>
+                                <a on:click={closeDropdowns} href="/summer-internship" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-9">Summer internship</a>
+                                <a on:click={closeDropdowns} href="/masters-thesis" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-10">Master's thesis</a>
+                                <a on:click={closeDropdowns} href="/student-agreement" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-11">Student agreement</a>
                             </div>
                         </div>
                         <div class="cosi-border-right pt-4 pb-4">
                             <div class="py-1 pl-4" role="none" style="width: 250px;">
                                 <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">Costs and funding</h3>
-                                <a on:click={closeDropdowns} href="/participation-costs" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-12">Participation costs</a>
-                                <a on:click={closeDropdowns} href="/scholarships" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-13">Scholarships and finance</a>
-                                <a on:click={closeDropdowns} href="/scholarships-disbursment" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-14">Scholarship disbursment</a>
+                                <a on:click={closeDropdowns} href="/participation-costs" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-12">Participation costs</a>
+                                <a on:click={closeDropdowns} href="/scholarships" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-13">Scholarships and finance</a>
+                                <a on:click={closeDropdowns} href="/scholarships-disbursment" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-14">Scholarship disbursment</a>
                             </div>
                         </div>
                         <div class="pt-4 pb-4 pr-4">
                             <div class="py-1 pl-4" role="none" style="width: 250px;">
                                 <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">Prepare your stay</h3>
-                                <a on:click={closeDropdowns} href="/norway" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-15">Norway</a>
-                                <a on:click={closeDropdowns} href="/france" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-16">France</a>
-                                <a on:click={closeDropdowns} href="/spain" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-17">Spain</a>
-                                <a on:click={closeDropdowns} href="/finland" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-18">Finland</a>
-                                <a on:click={closeDropdowns} href="/preparatory-reading" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-19">Preparatory reading</a>
-                                <a on:click={closeDropdowns} href="/learn-local-languages" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-20">Learn local languages</a>
+                                <a on:click={closeDropdowns} href="/norway" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-15">Norway</a>
+                                <a on:click={closeDropdowns} href="/france" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-16">France</a>
+                                <a on:click={closeDropdowns} href="/spain" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-17">Spain</a>
+                                <a on:click={closeDropdowns} href="/finland" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-18">Finland</a>
+                                <a on:click={closeDropdowns} href="/preparatory-reading" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-19">Preparatory reading</a>
+                                <a on:click={closeDropdowns} href="/learn-local-languages" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-20">Learn local languages</a>
                             </div>
                         </div>
                     </div>
@@ -162,10 +162,10 @@
                         <div>
                             <div class="py-1" role="none" style="width: 240px;">
                                 <!-- <h3 class="cosi-title-4 px-4 py-2">Application</h3> -->
-                                <a on:click={closeDropdowns} href="/application/eligibility-criteria" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Application eligibility criteria</a>
-                                <a on:click={closeDropdowns} href="/application/apply" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Apply to COSI</a>
-                                <a on:click={closeDropdowns} href="/application/appeal" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">Appeal procedure</a>
-                                <a on:click={closeDropdowns} href="/application/faq" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">FAQ</a>
+                                <a on:click={closeDropdowns} href="/application/eligibility-criteria" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Application eligibility criteria</a>
+                                <a on:click={closeDropdowns} href="/application/apply" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Apply to COSI</a>
+                                <a on:click={closeDropdowns} href="/application/appeal" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">Appeal procedure</a>
+                                <a on:click={closeDropdowns} href="/application/faq" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">FAQ</a>
                             </div>
                         </div>
                     </div>
@@ -206,9 +206,9 @@
                         <div>
                             <div class="py-1" role="none" style="width: 240px;">
                                 <!-- <h3 class="cosi-title-4 px-4 py-2">Application</h3> -->
-                                <a on:click={closeDropdowns} href="/contact" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Contact</a>
-                                <a on:click={closeDropdowns} href="/academic-services" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Academic services</a>
-                                <a on:click={closeDropdowns} href="/guest-lecturer" class="cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">Be our guest lecturer</a>
+                                <a on:click={closeDropdowns} href="/contact" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Contact</a>
+                                <a on:click={closeDropdowns} href="/academic-services" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Academic services</a>
+                                <a on:click={closeDropdowns} href="/guest-lecturer" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-2">Be our guest lecturer</a>
                             </div>
                         </div>
                     </div>
@@ -267,7 +267,11 @@
             <div style="background: #5853A0;" class="ml-auto relative max-w-xs w-full h-full shadow-xl py-4 pb-12 flex flex-col overflow-y-auto">
                 <div class="px-4 flex items-center justify-between">
                     <h2 class="text-lg font-medium cosi-light-purple">Menu</h2>
-                    <button on:click={ closeDrawer } type="button" class="-mr-2 w-10 h-10 p-2 rounded-md flex items-center justify-center cosi-light-purple">
+                    <button
+                        on:click={ closeDrawer }
+                        type="button"
+                        class="-mr-2 w-10 h-10 p-2 rounded-md flex items-center justify-center cosi-light-purple"
+                    >
                         <span class="sr-only">Close menu</span>
                         <!-- Heroicon name: outline/x -->
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -283,12 +287,6 @@
                         <li>
                             <a on:click={ closeDrawer } href="/" class="block px-2 py-3 cosi-light-purple">Home</a>
                         </li>
-                        <!-- <li>
-                            <a href="/research" class="block px-2 py-3">Research</a>
-                        </li>
-                        <li>
-                            <a href="/career-prospects" class="block px-2 py-3">Career prospects</a>
-                        </li> -->
                     </ul>
 
                     <!-- Only have overflow-x-hidden while animation!!!!!!!!!!!!!! -->
@@ -325,10 +323,10 @@
                                 <DisclosurePanel>
                                     <div class="p-4">
                                         <a on:click={ closeDrawer } href="/about/overview-of-program" class="block mb-6 cosi-light-purple">Overview of program</a>
-                                        <a on:click={ closeDrawer } href="/corporate-relations" class="block mb-6 cosi-light-purple">Corporate relations</a>
-                                        <a on:click={ closeDrawer } href="/social-media" class="block mb-6 cosi-light-purple">Social media</a>
-                                        <a on:click={ closeDrawer } href="/alumni" class="block mb-6 cosi-light-purple">Alumni</a>
-                                        <a on:click={ closeDrawer } href="/legal-notice" class="block mb-6 cosi-light-purple">Legal notice</a>
+                                        <a on:click={ closeDrawer } href="/corporate-relations" class="block mb-6 mt-4  cosi-light-purple">Corporate relations</a>
+                                        <a on:click={ closeDrawer } href="/social-media" class="block mb-6 mt-4  cosi-light-purple">Social media</a>
+                                        <a on:click={ closeDrawer } href="/alumni" class="block mb-6 mt-4 cosi-light-purple">Alumni</a>
+                                        <a on:click={ closeDrawer } href="/legal-notice" class="block mb-6 mt-4  cosi-light-purple">Legal notice</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -367,11 +365,11 @@
                                 <DisclosurePanel>
                                     <div class="p-4 cosi-light-purple">
                                         <a on:click={ closeDrawer } href="/courses" class="block mb-6 cosi-light-purple">Courses</a>
-                                        <a on:click={ closeDrawer } href="/learning-outcomes" class="block mb-6 cosi-light-purple">Learning outcomes</a>
-                                        <a on:click={ closeDrawer } href="/awarded-degrees" class="block mb-6 cosi-light-purple">Awarded degrees</a>
-                                        <a on:click={ closeDrawer } href="/summer-internship" class="block mb-6 cosi-light-purple">Summer internship</a>
-                                        <a on:click={ closeDrawer } href="/masters-thesis" class="block mb-6 cosi-light-purple">Master's thesis</a>
-                                        <a on:click={ closeDrawer } href="/student-agreement" class="block mb-6 cosi-light-purple">Student agreement</a>
+                                        <a on:click={ closeDrawer } href="/learning-outcomes" class="mt-4 block mb-6 cosi-light-purple">Learning outcomes</a>
+                                        <a on:click={ closeDrawer } href="/awarded-degrees" class="mt-4 block mb-6 cosi-light-purple">Awarded degrees</a>
+                                        <a on:click={ closeDrawer } href="/summer-internship" class="mt-4 block mb-6 cosi-light-purple">Summer internship</a>
+                                        <a on:click={ closeDrawer } href="/masters-thesis" class="mt-4 block mb-6 cosi-light-purple">Master's thesis</a>
+                                        <a on:click={ closeDrawer } href="/student-agreement" class="mt-4 block mb-6 cosi-light-purple">Student agreement</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -410,8 +408,8 @@
                                 <DisclosurePanel>
                                     <div class="p-4">
                                         <a on:click={ closeDrawer } href="/participation-costs" class="block mb-6 cosi-light-purple">Participation costs</a>
-                                        <a on:click={ closeDrawer } href="/scholarships" class="block mb-6 cosi-light-purple">Scholarships and finance</a>
-                                        <a on:click={ closeDrawer } href="/scholarships-disbursment" class="block mb-6 cosi-light-purple">Scholarships disbursment</a>
+                                        <a on:click={ closeDrawer } href="/scholarships" class="mt-4 block mb-6 cosi-light-purple">Scholarships and finance</a>
+                                        <a on:click={ closeDrawer } href="/scholarships-disbursment" class="mt-4 block mb-6 cosi-light-purple">Scholarships disbursment</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -459,9 +457,9 @@
                                 <DisclosurePanel>
                                     <div class="p-4">
                                         <a on:click={ closeDrawer } href="/application/eligibility-criteria" class="block mb-6 cosi-light-purple">Application eligibility criteria</a>
-                                        <a on:click={ closeDrawer } href="/application/apply" class="block mb-6 cosi-light-purple">Apply to COSI</a>
-                                        <a on:click={ closeDrawer } href="/application/appeal" class="block mb-6 cosi-light-purple">Appeal procedure</a>
-                                        <a on:click={ closeDrawer } href="/application/faq" class="block mb-6 cosi-light-purple">FAQ</a>
+                                        <a on:click={ closeDrawer } href="/application/apply" class="mt-4 block mb-6 cosi-light-purple">Apply to COSI</a>
+                                        <a on:click={ closeDrawer } href="/application/appeal" class="mt-4 block mb-6 cosi-light-purple">Appeal procedure</a>
+                                        <a on:click={ closeDrawer } href="/application/faq" class="mt-4 block mb-6 cosi-light-purple">FAQ</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -500,11 +498,11 @@
                                 <DisclosurePanel>
                                     <div class="p-4">
                                         <a on:click={ closeDrawer } href="/norway" class="block mb-6 cosi-light-purple">Norway</a>
-                                        <a on:click={ closeDrawer } href="/france" class="block mb-6 cosi-light-purple">France</a>
-                                        <a on:click={ closeDrawer } href="/spain" class="block mb-6 cosi-light-purple">Spain</a>
-                                        <a on:click={ closeDrawer } href="/finland" class="block mb-6 cosi-light-purple">Finland</a>
-                                        <a on:click={ closeDrawer } href="/preparatory-reading" class="block mb-6 cosi-light-purple">Preparatory readings</a>
-                                        <a on:click={ closeDrawer } href="/learn-local-languages" class="block mb-6 cosi-light-purple">Learn local languages</a>
+                                        <a on:click={ closeDrawer } href="/france" class="mt-4 block mb-6 cosi-light-purple">France</a>
+                                        <a on:click={ closeDrawer } href="/spain" class="mt-4 block mb-6 cosi-light-purple">Spain</a>
+                                        <a on:click={ closeDrawer } href="/finland" class="mt-4 block mb-6 cosi-light-purple">Finland</a>
+                                        <a on:click={ closeDrawer } href="/preparatory-reading" class="mt-4 block mb-6 cosi-light-purple">Preparatory readings</a>
+                                        <a on:click={ closeDrawer } href="/learn-local-languages" class="mt-4 block mb-6 cosi-light-purple">Learn local languages</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -543,8 +541,8 @@
                                 <DisclosurePanel>
                                     <div class="p-4">
                                         <a on:click={ closeDrawer } href="/contact" class="block mb-6 cosi-light-purple">Contact</a>
-                                        <a on:click={ closeDrawer } href="/academic-services" class="block mb-6 cosi-light-purple">Academic services</a>
-                                        <a on:click={ closeDrawer } href="/guest-lecturer" class="block mb-6 cosi-light-purple">Be our guest lecturer</a>
+                                        <a on:click={ closeDrawer } href="/academic-services" class="mt-4 block mb-6 cosi-light-purple">Academic services</a>
+                                        <a on:click={ closeDrawer } href="/guest-lecturer" class="mt-4 block mb-6 cosi-light-purple">Be our guest lecturer</a>
                                     </div>
                                 </DisclosurePanel>
                             </Transition>
@@ -594,16 +592,17 @@
         left: 0;
         right: 0;
         border-bottom: 1px solid #ddd;
-        padding: 10px 40px;
+        /* padding: 10px 40px; */
         display: flex;
         justify-content: space-between;
     }
-    /* nav div a {
+
+    .cosi-menu-link {
         display: block;
         padding: 15px 15px;
         color: #000;
         text-decoration: none;
-    } */
+    }
 
     .cosi-border-right {
         border-right: 1px solid rgba(161, 152, 209, 0.425);

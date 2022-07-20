@@ -88,11 +88,11 @@
                 What next?
             </h2>
             <p class="cosi-p">
-                Thinking about working in the EU? Apply for the <a href="http://www.eu-bluecard.com/" class="external">EU blue card</a>.
+                Thinking about working in the EU? Apply for the <a href="http://www.eu-bluecard.com/" target="_blank" class="external">EU blue card</a>.
             </p>
             <p class="cosi-p">
-                Please keep in touch with us, we count on <a href="/alumni" class="external">alumni</a> to be ambassadors or our programmes,
-                and why not <a href="/guest-lecturer" class="external">teach a course module</a>.
+                Please keep in touch with us, we count on <a href="/alumni" target="_blank" class="external">alumni</a> to be ambassadors or our programmes,
+                and why not <a href="/guest-lecturer" target="_blank" class="external">teach a course module</a>.
             </p>
         </div>
     </div>

@@ -39,7 +39,7 @@
                 Local academic coordinators are responsible for
             </h2>
             <ul class="cosi-ul">
-                <li>Implementation of <a href="/amb" class="external">AMB</a> and <a href="/qab" class="external">QAB</a> decisions
+                <li>Implementation of <a href="/amb" target="_blank" class="external">AMB</a> and <a href="/qab" target="_blank" class="external">QAB</a> decisions
                 </li>
                 <li>Ensuring overall consistency of curriculum in their institutions and recruitment of lecturers and guest lecturers
                 </li>

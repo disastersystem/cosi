@@ -1,9 +1,8 @@
 <script>
-    // let pages = [['/alumni', 'Home'], ['/alumni', 'Scholarships overview'], ['/alumni', 'Free-waivers']]
     export let pages = []
 </script>
 
-<div class="flex items-center mb-4">
+<div class="flex flex-wrap items-center mb-4">
     {#each pages as page, i}
         <a href="{ page[0] }" class={pages.length-1 === i ? 'text-gray-400 truncate' : 'external truncate'}>
             { page[1] }

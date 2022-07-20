@@ -23,13 +23,16 @@
                 Bosnian CIMET student Samra Tanovic, who've undertook her master thesis at the Color Imaging Lab, was interviewed for the TV show 'Tesis', in channel 'Canal Sur 2'. The interview was broadcasted on May the 6th, 2011. She is designing an algorithm to detect electrical wires automatically using an infrared camera, to avoid helicopter accidents.
             </p>
 
-            <iframe
-                width="766" height="378" src="https://www.youtube.com/embed/wAfGPieu8uc"
-                title="Una estudiante bosnia en la Universidad de Granada: Erasmus e investigadora"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-            ></iframe>
+            <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+                <iframe
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                    src="https://www.youtube.com/embed/wAfGPieu8uc"
+                    title="Una estudiante bosnia en la Universidad de Granada: Erasmus e investigadora"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
 
             <h2 class="cosi-title-2 mt-10 mb-4">
                 Alumni embrace careers as researchers
@@ -53,9 +56,9 @@
                 It was also a very fruitful academic year for CIMET cohort 1 (2008-2010) alumni, with 2 PhD defenses:
             </p>
             <ul class="cosi-ul">
-                <li>Hasan SHEIKH FARIDUL defended his PhD on <span class="font-bold">"Analysis of 3D Color Matches for the Creation and Consumption of Video Content"</span>. He did his PhD at Technicolor. During his PhD he published several patents and papers. One of his papers on “Survey of Color Mapping and its Applications” was published in <a href="https://sites.google.com/site/infofaridulhasan/" class="external">Stars in Eurographics 2014</a>. Hasan works now as a postdoctoral researcher at the Security & Content Protection Labs of Technicolor Research and Innovation.
+                <li>Hasan SHEIKH FARIDUL defended his PhD on <span class="font-bold">"Analysis of 3D Color Matches for the Creation and Consumption of Video Content"</span>. He did his PhD at Technicolor. During his PhD he published several patents and papers. One of his papers on “Survey of Color Mapping and its Applications” was published in <a href="https://sites.google.com/site/infofaridulhasan/" target="_blank" class="external">Stars in Eurographics 2014</a>. Hasan works now as a postdoctoral researcher at the Security & Content Protection Labs of Technicolor Research and Innovation.
                 </li>
-                <li>Raju SHRESTHA defended his PhD on <a href="http://english.hig.no/imt/research/colourlab/news/raju_shrestha_defended_phd_thesis" class="external"><span class="font-bold">"Multispectral imaging: Fast acquisition, capability extension, and quality evaluation"</span></a> the 9th of December 2014. He published during his PhD 16 peer-reviewed scientific publications, including 3 journal papers.</li>
+                <li>Raju SHRESTHA defended his PhD on <a href="http://english.hig.no/imt/research/colourlab/news/raju_shrestha_defended_phd_thesis" target="_blank" class="external"><span class="font-bold">"Multispectral imaging: Fast acquisition, capability extension, and quality evaluation"</span></a> the 9th of December 2014. He published during his PhD 16 peer-reviewed scientific publications, including 3 journal papers.</li>
             </ul>
         </div>
     </div>

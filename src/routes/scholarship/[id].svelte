@@ -27,7 +27,7 @@
                     Computational Color and Spectral Imaging (2018-2020) 50% fee-waiver scholarship:
                 </p>
 
-                <div>
+                <div class="text-sm mt-6">
                     <div class="grid grid-cols-3">
                         <h5 class="cosi-title-5 mb-4">Installments</h5>
                         <h5 class="cosi-title-5 mb-4 text-right">Programme Country</h5>
@@ -127,7 +127,7 @@
                         The Eiffel Excellence Scholarship Programme was established by the French Ministry of Foreign Affairs and International Development to enable French higher education establishments to attract top foreign students to enroll in their master's and PhD courses. Applicants to COSI may apply to this scholarship, providing they contact us in due time (early application). This scholarship targets the very best students, applicants must be short-listed and “sponsored” directly by University Jean Monnet (coordinating institution of COSI).
                     </h2>
                     <p class="cosi-p">
-                        <a href="http://www.campusfrance.org/en/eiffel" alt="" class="external">Read more here</a>
+                        <a href="http://www.campusfrance.org/en/eiffel" alt="" target="_blank" class="external">Read more here</a>
                     </p>
 
                     <h2 class="cosi-title-2 mt-12 mb-6">
@@ -593,13 +593,13 @@
                         Grant awarded
                     </h2>
                     <p class="cosi-p">
-                        The actual amount of the scholarships will vary if you are considered from (nationality or residence) a Programme country (i.e. member states of the EU and former Yugoslav, Republic of Macedonia, Iceland, Liechtenstein, Norway, Turkey) or Partner country (the rest of the world) and if your country of residence is situated at less or more of 4000 km from the city of Gjøvik, Norway (campus of COSI coordinating institution). Please refer to <a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" class="external">this page</a> to know if you come from a Programme of Partner country, and this <a href="https://erasmus-plus.ec.europa.eu/resources-and-tools/distance-calculator" class="external">online distance calculator</a> to know distance between your place of residence and Gjøvik.
+                        The actual amount of the scholarships will vary if you are considered from (nationality or residence) a Programme country (i.e. member states of the EU and former Yugoslav, Republic of Macedonia, Iceland, Liechtenstein, Norway, Turkey) or Partner country (the rest of the world) and if your country of residence is situated at less or more of 4000 km from the city of Gjøvik, Norway (campus of COSI coordinating institution). Please refer to <a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" class="external" target="_blank">this page</a> to know if you come from a Programme of Partner country, and this <a href="https://erasmus-plus.ec.europa.eu/resources-and-tools/distance-calculator" target="_blank" class="external">online distance calculator</a> to know distance between your place of residence and Gjøvik.
                     </p>
                     <p class="cosi-p">
                         Scholarship amounts for 2020-2022:
                     </p>
 
-                    <div class="mt-6">
+                    <div class="text-sm mt-6">
                         <div class="grid grid-cols-4">
                             <h5 class="cosi-title-5 mb-4">Type of costs covered</h5>
                             <h5 class="cosi-title-5 mb-4 text-right">Programme Country</h5>
@@ -644,11 +644,11 @@
                     <ul class="cosi-ul">
                         <li>No restriction in terms of nationality, Erasmus+ EMJMD  scholarships can be offered to students from any country of the world.
                         </li>
-                        <li>E+ EMJMD scholarships are linked to a specific programme. To benefit from this scholarship, you must have applied, been selected as a scholarship holder and then have administratively enrolled in the COSI programme. Therefore, administrative and academic <a href="/application/eligibility-criteria" class="external">eligibility criteria for COSI</a> selection apply.
+                        <li>E+ EMJMD scholarships are linked to a specific programme. To benefit from this scholarship, you must have applied, been selected as a scholarship holder and then have administratively enrolled in the COSI programme. Therefore, administrative and academic <a href="/application/eligibility-criteria" class="external" target="_blank">eligibility criteria for COSI</a> selection apply.
                         </li>
                         <li>Applicants should apply to COSI programme before the first deadline to allow selection committee to consider them for an E+EMJMD attribution.</li>
                         <li>In addition, applicants wishing to be considered for an E+EMJMD scholarship along with their application should make sure that they cannot at the same time be beneficiaries of a grant for student or staff mobility in the framework of other higher education programmes funded by the European Union budget, and vice versa. Please note as well that scholarships holders are awarded for a student's participation in the complete Erasmus+ Joint master Degree programme and cannot transfer university credits from course taken prior to their enrollment […] for the purpose of reducing their mandatory activities in the joint programme. (Erasmus+ programme guide 2015)</li>
-                        <li>One individual may apply for an E+EMJMD scholarship to any of the Erasmus+ Erasmus Mundus courses of their choice (see the <a href="https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en" class="external">EMJMD catalogue website</a>), but for a given academic year the number of applications must be limited to maximum three different joint programmes. Applicants who do not comply with this rule may have their applications cancelled by the European Union.</li>
+                        <li>One individual may apply for an E+EMJMD scholarship to any of the Erasmus+ Erasmus Mundus courses of their choice (see the <a href="https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en" target="_blank" class="external">EMJMD catalogue website</a>), but for a given academic year the number of applications must be limited to maximum three different joint programmes. Applicants who do not comply with this rule may have their applications cancelled by the European Union.</li>
                         <li>The Erasmus+ EMJMD scholarship cannot be held concurrently with other scholarships mention in this website.</li>
                     </ul>
 
@@ -656,7 +656,7 @@
                         Selection criteria
                     </h2>
                     <ul class="cosi-ul">
-                        <li>This scholarship is awarded to best-ranked applicants during the selection committee following the first application deadline. Same <a href="/application/appeal" class="external">selection criteria used to assess application</a> to the programme itself are therefore used. These criteria are based on the overall academic achievements and motivation of the applicants.
+                        <li>This scholarship is awarded to best-ranked applicants during the selection committee following the first application deadline. Same <a href="/application/appeal" target="_blank" class="external">selection criteria used to assess application</a> to the programme itself are therefore used. These criteria are based on the overall academic achievements and motivation of the applicants.
                         </li>
                         <li>
                             However, scholarship attribution policy respect, for applicants with similar academic level, European Union recommendations at intake level to achieve geographic balance:
@@ -727,7 +727,7 @@
                     </a>
 
                     <p class="cosi-p mt-20 pt-4 italic" style="color: #494949; border-top: 1px solid #ddd;">
-                        Please note that the legal basis and documentation that prevails for determining scholarships amount is the English version and latest version of the <a href="http://ec.europa.eu/programmes/erasmus-plus/documents/erasmus-plus-programme-guide_en.pdf" class="external">Erasmus programme guide</a>, pages 101 (valid as of 10/10/2014). You can find additional information on <a href="http://ec.europa.eu/programmes/erasmus-plus/documents/erasmus-plus-programme-guide_en.pdf" class="external">calculation of scholarships</a> on the EACEA website as well.
+                        Please note that the legal basis and documentation that prevails for determining scholarships amount is the English version and latest version of the <a href="http://ec.europa.eu/programmes/erasmus-plus/documents/erasmus-plus-programme-guide_en.pdf" target="_blank" class="external">Erasmus programme guide</a>, pages 101 (valid as of 10/10/2014). You can find additional information on <a href="http://ec.europa.eu/programmes/erasmus-plus/documents/erasmus-plus-programme-guide_en.pdf" target="_blank" class="external">calculation of scholarships</a> on the EACEA website as well.
                     </p>
                 `
             },
@@ -736,7 +736,7 @@
                 title: 'Explo\'RA scholarships',
                 content: `
                     <h2 class="cosi-headline mb-4">
-                        <a href="https://mastercolorscience.files.wordpress.com/2015/03/bourse_explo_ra_sup_brochure_de_presentation.pdf" class="external">Explo'RA scholarships</a> are funded by the French administrative area “Rhône Alpes” government where Jean Monnet University is located. Number of scholarships and fund awarded are likely to change from one year to another. You should not therefore rely upon those additional scholarships to plan and secure your budget to enroll in a Programme; but this could substantially contribute to your travel and living costs during semester 3 and semester 4 (Master Thesis).
+                        <a href="https://mastercolorscience.files.wordpress.com/2015/03/bourse_explo_ra_sup_brochure_de_presentation.pdf" target="_blank" class="external">Explo'RA scholarships</a> are funded by the French administrative area “Rhône Alpes” government where Jean Monnet University is located. Number of scholarships and fund awarded are likely to change from one year to another. You should not therefore rely upon those additional scholarships to plan and secure your budget to enroll in a Programme; but this could substantially contribute to your travel and living costs during semester 3 and semester 4 (Master Thesis).
                     </h2>
                     <h2 class="cosi-title-2 mt-12 mb-6">
                         Grant awarded
@@ -770,7 +770,7 @@
                     </p>
                     <p class="cosi-p">
                         The overall process (in French) and up to date documents can be found at:<br>
-                        <a class="external" href="https://www.univ-st-etienne.fr/fr/international-1/etudiant-ujm/a-telecharger/kit-de-mobilite-en-bilateral-hors-erasmus-2016-2017.html">
+                        <a class="external" href="https://www.univ-st-etienne.fr/fr/international-1/etudiant-ujm/a-telecharger/kit-de-mobilite-en-bilateral-hors-erasmus-2016-2017.html" target="_blank">
                             https://www.univ-st-etienne.fr/fr/international-1/etudiant-ujm/a-telecharger/kit-de-mobilite-en-bilateral-hors-erasmus-2016-2017.html
                         </a>
                     </p>
@@ -805,7 +805,7 @@
 
 <script>
     import {fly} from 'svelte/transition'
-    import CirclePoint from '../../components/Point.svelte'
+    // import CirclePoint from '../../components/Point.svelte'
     import BreadCrumbs from '../../components/Breadcrumbs.svelte'
     export let scholarship
 </script>

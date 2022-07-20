@@ -28,7 +28,7 @@
             </p>
             <p class="cosi-p">
                 Find your country on this link to determine if your from a partner country or not:
-                <a class="external" href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries">
+                <a class="external" target="_blank" href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries">
                     https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries
                 </a>
             </p>
@@ -78,7 +78,7 @@
                 I cannot pay such participation costs, are scholarship grants available?
             </h2>
             <p class="cosi-p">
-                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. <a href="/scholarships" class="external">Very generous scholarships are available</a>.
+                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. <a href="/scholarships" target="_blank" class="external">Very generous scholarships are available</a>.
             </p>
             <p class="cosi-p">
                 COSI is managed by European public universities as a non-profit organization. Participation costs reflect real costs occurred by delivering the programme. Potential benefits are directly re-invested as student scholarships.
@@ -111,11 +111,11 @@
                 Determine if you're from a Programme of Partner country
             </h2>
             <p class="cosi-p">
-                Find your country on this link to determine if your from a partner country or not: <a class="external" href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries">https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries</a>
+                Find your country on this link to determine if your from a partner country or not: <a class="external" target="_blank" href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries">https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries</a>
             </p> -->
             <p class="cosi-p mt-20 pt-4 italic" style="color: #494949; border-top: 1px solid #ddd;">
                 Please note that the legal basis and documentation that prevails for determining if you are from a
-                Programme or Partner country is the English version and latest version of the <a href="https://test.com">Erasmus programme guide</a>,
+                Programme or Partner country is the English version and latest version of the <a href="https://test.com" target="_blank" class="external">Erasmus programme guide</a>,
                 pages 24 to 26 (valid as of 10/10/2014).
             </p>
         </div>

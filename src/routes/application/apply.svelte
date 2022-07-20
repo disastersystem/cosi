@@ -29,14 +29,14 @@
                 Application received after this deadline will not be taken into consideration.
             </p>
             <p class="cosi-p mt-10">
-                We have a double phase selection. First you need to apply on <a class="external" href="https://fsweb.no/soknadsweb/login.jsf">Søknadsweb</a>, then if your application pass our
-                administrative screening, you will be required to upload additional documents on the <a class="external" href="https://international-sciencemasters.univ-st-etienne.fr/login">UJM plateform</a>.
+                We have a double phase selection. First you need to apply on <a class="external" target="_blank" href="https://fsweb.no/soknadsweb/login.jsf">Søknadsweb</a>, then if your application pass our
+                administrative screening, you will be required to upload additional documents on the <a class="external" href="https://international-sciencemasters.univ-st-etienne.fr/login" target="_blank">UJM plateform</a>.
                 Follow the 4 steps below to complete the first phase, you'll be notified of the next steps some time between
                 10. January and 01. March.
             </p>
             <p class="cosi-p">
                 <!-- If you have any questions, do not hesitate to <a href="/contact" class="external">contact us</a>. -->
-                If you have any need for clarification on COSI programme / eligibility prior to application or if you encounter technical issues during your online application do not hesitate to <a href="/contact" class="external">contact us</a> (mscosi@studier.ntnu.no).
+                If you have any need for clarification on COSI programme / eligibility prior to application or if you encounter technical issues during your online application do not hesitate to <a href="/contact" target="_blank" class="external">contact us</a> (mscosi@studier.ntnu.no).
             </p>
 
             <h3 class="cosi-title-4 mb-4 mt-16">1. Make sure you are eligible to apply</h3>
@@ -205,7 +205,7 @@
                     </h6>
                     <h3 class="text-white cosi-title-4 mb-2" style="color: #fff;">Application deadline "scholarships"</h3>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Apply to COSI before this deadline and you'll be directly considered (no additional application) for <a href="/scholarships" class="external-dark">Erasmus+ EMJMD scholarships and COSI scholarship</a>.
+                        Apply to COSI before this deadline and you'll be directly considered (no additional application) for <a href="/scholarships" target="_blank" class="external-dark">Erasmus+ EMJMD scholarships and COSI scholarship</a>.
                     </h4>
                 </div>
 
@@ -259,7 +259,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Selection Committee</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        COSI <a href="/amb" class="external-dark">academic and management board</a> select students.
+                        COSI <a href="/amb" target="_blank" class="external-dark">academic and management board</a> select students.
                     </h4>
                 </div>
 
@@ -277,7 +277,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Notification of Short-list</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Short-listed students for <a href="/scholarships" class="external-dark">E+EMJMD scholarships</a> are informed. Applicants who are not contacted for interviews may however be selected as self-financed students.
+                        Short-listed students for <a href="/scholarships" target="_blank" class="external-dark">E+EMJMD scholarships</a> are informed. Applicants who are not contacted for interviews may however be selected as self-financed students.
                     </h4>
                 </div>
 
@@ -305,7 +305,7 @@
                         Applicants who were contacted for interview must send certified and translated copies of their diploma and transcripts to COSI consortium by the 30th of March 2020.
                     </p>
                     <p class="cosi-p cosi-text-light-purple">
-                        Non-successful applicants or successful student without scholarships attributed can <a href="/application/appeal" class="external-dark">appeal of the selection committee decisions</a>. Only aggregated statistics on applicants and selected students are published to ensure confidentiality of applicants. Original certificates of admission are sent to successful applicants.
+                        Non-successful applicants or successful student without scholarships attributed can <a href="/application/appeal" target="_blank" class="external-dark">appeal of the selection committee decisions</a>. Only aggregated statistics on applicants and selected students are published to ensure confidentiality of applicants. Original certificates of admission are sent to successful applicants.
                     </p>
                 </div>
 
@@ -323,7 +323,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Prepare your stay in Norway</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Successful applicants are encouraged to immediately <a href="/norway" class="external-dark">prepare their stay in Norway</a>, and notably immigration process.
+                        Successful applicants are encouraged to immediately <a href="/norway" target="_blank" class="external-dark">prepare their stay in Norway</a>, and notably immigration process.
                     </h4>
                 </div>
 
@@ -412,7 +412,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">End of E+EMJMD re-allocation</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        <a href="/scholarship/emjmd" class="external-dark">E+EMJMD scholarships</a> may be re-allocated to students in the reserve list till this date in case of applicants withdraw.
+                        <a href="/scholarship/emjmd" target="_blank" class="external-dark">E+EMJMD scholarships</a> may be re-allocated to students in the reserve list till this date in case of applicants withdraw.
                     </h4>
                 </div>
 
@@ -423,7 +423,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Student agreement signature</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Effective enrollment of successful applicant is subject of conclusion and signing of a <a href="/student-agreement" class="external-dark">student agreement</a> between the student and COSI consortium providing for rights and obligation of both parties.
+                        Effective enrollment of successful applicant is subject of conclusion and signing of a <a href="/student-agreement" target="_blank" class="external-dark">student agreement</a> between the student and COSI consortium providing for rights and obligation of both parties.
                     </h4>
                 </div>
 

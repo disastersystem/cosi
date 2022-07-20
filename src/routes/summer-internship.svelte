@@ -38,7 +38,7 @@
                 <li>Universidad de Granada: "A Matlab GUI to explore first and second order image statistical descriptors" (already attributed).</li>
             </ul>
             <p class="cosi-p mt-6">
-                Please use <a href="http://goo.gl/forms/Oe9HABDtBg" class="external">this form</a> to allow University Jean Monnet admnistrative staff to edit your placement agreement - irrespective of the place of your internship. Detailed signature process is available on <a href="/masters-thesis" class="external">this webpage</a>.
+                Please use <a href="http://goo.gl/forms/Oe9HABDtBg" target="_blank" class="external">this form</a> to allow University Jean Monnet admnistrative staff to edit your placement agreement - irrespective of the place of your internship. Detailed signature process is available on <a href="/masters-thesis" target="_blank" class="external">this webpage</a>.
             </p>
         </div>
     </div>

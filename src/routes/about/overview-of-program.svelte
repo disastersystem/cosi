@@ -10,6 +10,21 @@
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
+    <div class="mt-40 pt-12 pl-12 pr-10 mr-10 fixed top-0 left-0 hidden 2xl:block" style="width: 350px;">
+        <p class="cosi-p">Jump to:</p>
+        <ul class="cosi-ol">
+            <li><a class="external text-sm" href="#complementary-expertise">Complementary expertise & integrated approach</a></li>
+            <li><a class="external text-sm" href="#interdisciplinarity">Interdisciplinarity</a></li>
+            <li><a class="external text-sm" href="#mobility">Built-in Mobility</a></li>
+            <li><a class="external text-sm" href="#curriculum-and-mobility">Integrated curriculum and mobility</a></li>
+            <li><a class="external text-sm" href="#academic-services">Integrated academic services</a></li>
+            <li><a class="external text-sm" href="#governance">Integrated governance</a></li>
+            <li><a class="external text-sm" href="#research-base">Applied research base</a></li>
+            <li><a class="external text-sm" href="#learning-outcomes">Harmonized validation of<br>learning outcomes</a></li>
+            <li><a class="external text-sm" href="#family">The COSI Family</a></li>
+        </ul>
+    </div>
+
     <div class="flex justify-center px-6">
         <div class="mt-40" style="max-width: 766px;">
             <BreadCrumbs pages={[
@@ -30,45 +45,53 @@
             <div>
                 <div class="flex mb-10 mt-10">
                     <div class="flex w-1/2 pr-2">
-                        <div class="mr-4" style="width: 36px;">
-                            <img src="../ntnu-logo-color.png" alt="">
-                        </div>
                         <div>
                             <h3 class="cosi-title-4 mb-3">Colour and Visual Computing</h3>
-                            <p>Norwegian University of<br>Science and Technology</p>
-                            <p class="italic" style="color: #649E97;">Gjøvik, Norway</p>
+                            <div class="flex">
+                                <img src="../ntnu-logo-color.png" alt="" style="height: 32px;">
+                                <div class="pl-4">
+                                    <p>Norwegian University of<br>Science and Technology</p>
+                                    <p class="italic" style="color: #649E97;">Gjøvik, Norway</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="flex w-1/2 pl-2">
-                        <div class="mr-4" style="width: 40px;">
-                            <img src="../ugr-logo-color.svg" alt="">
-                        </div>
                         <div>
                             <h3 class="cosi-title-4 mb-3">Photonics, Image and Vision</h3>
-                            <p>University of Granada</p>
-                            <p class="italic" style="color: #649E97;">Granada, Spain</p>
+                            <div class="flex">
+                                <img src="../ugr-logo-color.svg" alt="" style="height: 36px;">
+                                <div class="pl-4">
+                                    <p>University of Granada</p>
+                                    <p class="italic" style="color: #649E97;">Granada, Spain</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="flex">
                     <div class="flex w-1/2 pr-2">
-                        <div class="mr-4" style="width: 40px;">
-                            <img src="../uef-logo-color.svg" alt="">
-                        </div>
                         <div>
                             <h3 class="cosi-title-4 mb-3">Computational Spectral Imaging</h3>
-                            <p>University of Eastern Finland</p>
-                            <p class="italic" style="color: #649E97;">Joensuu, Finland</p>
+                            <div class="flex">
+                                <img src="../uef-logo-color.svg" alt="" style="height: 32px;">
+                                <div class="pl-4">
+                                    <p>University of Eastern Finland</p>
+                                    <p class="italic" style="color: #649E97;">Joensuu, Finland</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="flex w-1/2 pl-2">
-                        <div class="mr-4 pl-1" style="width: 40px;">
-                            <img src="../ujm-logo-color.png" alt="">
-                        </div>
                         <div>
                             <h3 class="cosi-title-4 mb-3">Color image modelling<br>and understanding</h3>
-                            <p>Jean Monnet University</p>
-                            <p class="italic" style="color: #649E97;">Saint-Étienne, France</p>
+                            <div class="flex">
+                                <img src="../ujm-logo-color.png" alt="" style="height: 36px;">
+                                <div class="pl-4">
+                                    <p>Jean Monnet University</p>
+                                    <p class="italic" style="color: #649E97;">Saint-Étienne, France</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,23 +99,23 @@
 
             <h2 class="cosi-title-2 mt-16 mb-4">Complementary expertise & integrated approach</h2>
             <p class="cosi-p">
-                COSI is the answer to the lessons drawn from pioneer courses implementation, its intimacy to industry challenges and the continuing efforts of the founding partners to further unite and increase the attractiveness of the consortium.
+                COSI is the answer to the lessons drawn from implementation of pioneer courses, its intimacy to industry challenges and the continuing efforts of the founding partners to further unite and increase the attractiveness of the consortium.
             </p>
             <p class="cosi-p">
                 A programme as interdisciplinary and innovative as COSI would need to mobilize such a broad field of knowledge that it could not be provided at any single institution. This is why COSI is a highly integrated Master, encapsulating a collaborative model based on horizontal cooperation, applied at each stage of design, implementation and institutional learning.
             </p>
-            <p class="cosi-p">
-                A <a href="/corporate-relations" class="external">strong culture of dialogue and cooperation with industry</a> has also been instrumental to achieve the right balance of academia/industry partnerships in COSI. In practice, these knowledge exchanges take shape into cross-licensing and jointly developed industrial projects.
+            <p class="cosi-p" id="interdisciplinarity">
+                A <a href="/corporate-relations" target="_blank" class="external">strong culture of dialogue and cooperation with industry</a> has also been instrumental to achieve the right balance of academia/industry partnerships in COSI. In practice, these knowledge exchanges take shape into cross-licensing and jointly developed industrial projects.
             </p>
 
-            <h2 class="cosi-title-2 mt-16 mb-4">Interdisciplinarity</h2>
+            <h2 class="cosi-title-2 mt-10 mb-4">Interdisciplinarity</h2>
             <p class="cosi-p">
                 The program is broadly interdisciplinary with color imaging being the string that holds everything in place. Over the year the graduates of the COSI program have been able to join different universities and industries leading the field in Color Imaging, Spectral Imaging, Computer Graphics, Multimedia Technologies, Photonics, Optics, and Vision.
             </p>
             <p class="cosi-p">
                 The courses in the COSI program are structured so that the skills learnt can address the needs of a diverse range of sectors (multimedia, health care, cosmetic, automotive, and food-processing) bridging a talent gap in the industry where colour imaging experts are in high demand. The two areas of focus are spectral technologies and applied colour imaging.
             </p>
-            <p class="cosi-p">
+            <p class="cosi-p" id="mobility">
                 COSI is brought to you by a world leading university-business cooperation of four European universities, and partnership with over 15 academic and over 10 industrial leaders across the globe.
             </p>
 
@@ -103,7 +126,7 @@
             <p class="cosi-p">
                 At COSI students have the chance to experience studying in at least two and at most four different European universities with an international faculty of local and international guest lecturers.
             </p>
-            <p class="cosi-p">
+            <p class="cosi-p" id="curriculum-and-mobility">
                 This starts by the first semester of studies being held in Norway, the second semester in France or Spain (depending on your preferred specialty) and the third semester in Norway or Finland (again depending on your preferred specialty). The fourth semester which is fully dedicated to the Master Thesis could then be performed at any university or industry across the globe! Add the six weeks industrial internships the students take between the second and third semester and you see how we at COSI have tried to get the most out of your two year master studies.
             </p>
 
@@ -151,20 +174,15 @@
             </ul>
 
             <p class="cosi-p mt-6">
-                Learning technologies such as online-teaching allow us to offer a <a href="/courses" class="external">high-quality course catalogue</a> which is flexible, evolving over time and consistent in content and sequence. This is made possible thanks to the use of innovative teaching delivery methods, universities cross-fertilization and mutual learning through academic and staff mobility and backed-up by strong quality assurance.
+                Learning technologies such as online-teaching allow us to offer a <a href="/courses" target="_blank" class="external">high-quality course catalogue</a> which is flexible, evolving over time and consistent in content and sequence. This is made possible thanks to the use of innovative teaching delivery methods, universities cross-fertilization and mutual learning through academic and staff mobility and backed-up by strong quality assurance.
             </p>
-            <p class="cosi-p">
-                Students spent an equal period of stay at each university. To allow <a href="/courses" class="external">mobility to bring a true added-value to the programme</a>, we've limited the range of mobility choices on the basis of the partners' research and teaching main focus area. The two concentration tracks (spectral technologies and applied colour imaging) are designed around the core competences of the Norwegian University of Science and Technology and the University of Eastern Finland.
+            <p class="cosi-p" id="academic-services">
+                Students spent an equal period of stay at each university. To allow <a href="/courses" target="_blank" class="external">mobility to bring a true added-value to the programme</a>, we've limited the range of mobility choices on the basis of the partners' research and teaching main focus area. The two concentration tracks (spectral technologies and applied colour imaging) are designed around the core competences of the Norwegian University of Science and Technology and the University of Eastern Finland.
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated academic services</h2>
-            <p class="cosi-p">
-                COSI administrative staff works jointly to ensure the best possible <a href="/academic-services" class="external">academic services</a> to COSI students, notably by simplification of administrative procedures for mobile students and better integration in the local environment, the main two challenges that Erasmus students typically face.
-            </p>
-
-            <h2 class="cosi-title-2 mt-10 mb-4">Applied research base</h2>
-            <p class="cosi-p">
-                Inter-institutional knowledge transfer provides for a <a href="/research" class="external">common research framework</a>, unique at the international level. COSI is the brainpower of 8 public research labs and 14 industry partners' talents pools and massive R&D investments.
+            <p class="cosi-p" id="governance">
+                COSI administrative staff works jointly to ensure the best possible <a href="/academic-services" target="_blank" class="external">academic services</a> to COSI students, notably by simplification of administrative procedures for mobile students and better integration in the local environment, the main two challenges that Erasmus students typically face.
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated governance</h2>
@@ -180,7 +198,7 @@
                 </li>
             </ul>
 
-            <div class="mt-6 mb-4">
+            <div class="mt-6 mb-4" id="research-base">
                 <LinkCard
                     title={'Academic Management Board'}
                     subtitle={'How we ensure quality'}
@@ -193,6 +211,11 @@
                 subtitle={'How we plan vision and strategy long-term'}
                 path={'/qab'}
             />
+
+            <h2 class="cosi-title-2 mt-16 mb-4">Applied research base</h2>
+            <p class="cosi-p" id="learning-outcomes">
+                Inter-institutional knowledge transfer provides for a <a href="/research" target="_blank" class="external">common research framework</a>, unique at the international level. COSI is the brainpower of 8 public research labs and 14 industry partners' talents pools and massive R&D investments.
+            </p>
 
             <h2 class="cosi-title-2 mt-12 mb-4">Harmonized validation of learning outcomes</h2>
             <p class="cosi-p">
@@ -208,17 +231,35 @@
                 <li>
                     Shared examination methodologies and performance assessment criteria. In addition, efforts are made through continuous dialogue to tackle cultural differences between COSI professors with respect to expectations linked to a given mark. An example is the evaluation process of the master thesis, which is conducted by an international jury of at least 2 different universities and one practitioner of the given field of research.
                 </li>
-                <li>
+                <li id="family">
                     Recognized awarded degrees and common Diploma Supplement.
                 </li>
             </ul>
 
             <h2 class="cosi-title-2 mt-12 mb-4">The COSI Family</h2>
             <p class="cosi-p">
-                This is what makes COSI such a unique programme with a distinct character. Joining COSI is more than joining a Master programme, it's a <a href="/social-media" class="external">community</a>; a community of alumni with networking activities between cohorts, a community of practice with research, practitioners and policy makers.
+                This is what makes COSI such a unique programme with a distinct character. Joining COSI is more than joining a Master programme, it's a <a href="/social-media" target="_blank" class="external">community</a>; a community of alumni with networking activities between cohorts, a community of practice with research, practitioners and policy makers.
                 But you won't only be in contact with the COSI community, during open courses COSI students have many opportunities to mingle with local and international students and you can decide to enroll in virtually any scientific course offered by our partners.
             </p>
 
         </div>
     </div>
 </main>
+
+<style>
+    /* :target {
+        position: relative;
+        top: -120px; 
+        visibility: hidden;
+        vertical-align: top;
+        padding-top: 40px;
+        margin-top: -40px;
+        display: inline-block;
+    } */
+    /* a[name]:not([href]){
+        display: block;    
+        position: relative;     
+        top: -100px;
+        visibility: hidden;
+    } */
+</style>

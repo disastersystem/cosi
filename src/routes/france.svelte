@@ -26,25 +26,25 @@
 
             <ul class="cosi-ul">
                 <li>
-                    <a href="http://portail.univ-st-etienne.fr/bienvenue/universite-jean-monnet-welcomes-you-204691.kjsp?RH=ACCUEIL" class="external">University English portal</a>
+                    <a href="http://portail.univ-st-etienne.fr/bienvenue/universite-jean-monnet-welcomes-you-204691.kjsp?RH=ACCUEIL" target="_blank" class="external">University English portal</a>
                 </li>
                 <li>
-                    <a href="http://www.campusfrance.org/en/rubrique/vivre-en-france" class="external">General info for international student living in France</a>
+                    <a href="http://www.campusfrance.org/en/rubrique/vivre-en-france" target="_blank" class="external">General info for international student living in France</a>
                 </li>
                 <li>
-                    <a href="http://www.campusfrance.org/en/rubrique/vivre-en-france" class="external">General info for international student living in France</a>
+                    <a href="http://www.campusfrance.org/en/rubrique/vivre-en-france" target="_blank" class="external">General info for international student living in France</a>
                 </li>
                 <li>
-                    <a href="http://saint-etiennetourisme.com/?lang=en" class="external">What to do in Saint-Etienne</a>
+                    <a href="http://saint-etiennetourisme.com/?lang=en" target="_blank" class="external">What to do in Saint-Etienne</a>
                 </li>
                 <li>
-                    <a href="http://www.france.fr/en/welcome-france.html" class="external">Info on living in France</a>
+                    <a href="http://www.france.fr/en/welcome-france.html" target="_blank" class="external">Info on living in France</a>
                 </li>
                 <li>
-                    <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" class="external">Discover Lyon and Saint-Etienne!</a>
+                    <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" target="_blank" class="external">Discover Lyon and Saint-Etienne!</a>
                 </li>
                 <li>
-                    <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" class="external">Saint-Etienne: a student city</a>
+                    <a href="http://lyon-university.org/practical-information/discover-lyon-and-saint-etienne--182164.kjsp?RH=PENdis&RF=1337965877562" target="_blank" class="external">Saint-Etienne: a student city</a>
                 </li>
             </ul>
 
@@ -70,29 +70,29 @@
             <p class="cosi-p">Options are (rent mentioned applied for the 2020/2021 academic year and is indicative only, they might be slightly revised in July 2020):
             </p>
             <ul class="cosi-ul">
-                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/RAMI%2520h%25C3%25A9bergement%2520bilingue.pdf" class="external">Résidence des Arts - Maison Internationale</a>
+                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/RAMI%2520h%25C3%25A9bergement%2520bilingue.pdf" target="_blank" class="external">Résidence des Arts - Maison Internationale</a>
                 </li>
-                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/N%25C3%25A9or%25C3%25A9side%2520Tr%25C3%25A9filerie%2520%2520h%25C3%25A9bergement%2520bilingueAnn%25C3%25A9e.pdf" class="external">Résidence Néoréside Tréfilerie</a>
+                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/N%25C3%25A9or%25C3%25A9side%2520Tr%25C3%25A9filerie%2520%2520h%25C3%25A9bergement%2520bilingueAnn%25C3%25A9e.pdf" target="_blank" class="external">Résidence Néoréside Tréfilerie</a>
                 </li>
-                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/N%25C3%25A9or%25C3%25A9side%2520Bellevue%2520h%25C3%25A9bergement%2520bilingueAnn%25C3%25A9e.pdf" class="external">Résidence Néoréside Bellevue</a>
+                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/N%25C3%25A9or%25C3%25A9side%2520Bellevue%2520h%25C3%25A9bergement%2520bilingueAnn%25C3%25A9e.pdf" target="_blank" class="external">Résidence Néoréside Bellevue</a>
                 </li>
-                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/LITTRE%2520h%25C3%25A9bergement%2520bilingue.pdf" class="external">Résidence Le Littré</a>
+                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/LITTRE%2520h%25C3%25A9bergement%2520bilingue.pdf" target="_blank" class="external">Résidence Le Littré</a>
                 </li>
-                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/ESTUDINES%2520h%25C3%25A9bergement%2520bilingueAnn%25C3%25A9e.pdf" class="external">Résidence Les Estudines - Jules Ferry</a></li>
+                <li><a href="https://cdn.website-editor.net/9d802a9e77324ea49af5974d51d75a28/files/uploaded/ESTUDINES%2520h%25C3%25A9bergement%2520bilingueAnn%25C3%25A9e.pdf" target="_blank" class="external">Résidence Les Estudines - Jules Ferry</a></li>
             </ul>
             <p class="text-xs uppercase font-bold">N.B.1</p>
             <p class="cosi-p">As an international student enrolled in a Higher Education Institution in France, you are eligible to the student housing allowance called "APL", generally around 160€ for a studio and 100€ for a room (actual amount depends on each particular situation). Therefore exact monthly rent to be paid, once the housing allowance is deducted, cannot not be planned precisely.
             </p>
-            <p class="cosi-p">The APL is calculated from the date of deposit of your application at the <a href="http://www.caf.fr/" class="external">CAF</a> ("Caisse Allocations Familiales") and paid monthly on your French bank account.
+            <p class="cosi-p">The APL is calculated from the date of deposit of your application at the <a href="http://www.caf.fr/" target="_blank" class="external">CAF</a> ("Caisse Allocations Familiales") and paid monthly on your French bank account.
             </p>
             <p class="cosi-p">A translated and certified copy of your birth certificate (in French) will be required to deposit your student housing benefit application. This can be done in France upon arrival.</p>
             <p class="text-xs uppercase font-bold">N.B.2</p>
             <p class="cosi-p">Considering expenses to be made upon arrival (deposit, registration fees, home insurance, installation costs, …) it is advised to students to plan at least 1000 € of housing expenses the first week of arrival. It is also advise not to arrive on a Sunday (no help desk) and considering you will probably have to do shopping before settling down (no bed linen in some residence). Shops are closed on Sundays in France.</p>
             <p class="text-xs uppercase font-bold">N.B.3</p>
-            <p class="cosi-p">The home insurance can be contracted from our <a href="http://www.ca-loirehauteloire.fr/home-part.html" class="external">banking partner</a> upon arrival in France.</p>
+            <p class="cosi-p">The home insurance can be contracted from our <a href="http://www.ca-loirehauteloire.fr/home-part.html" target="_blank" class="external">banking partner</a> upon arrival in France.</p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
-                2. You need to officially commit to the Programme by completing a Letter of commitment in this <a href="https://docs.google.com/forms/d/e/1FAIpQLScRWX9_MqemDlWD_qR0-qSalX4OixsCc_D8c2K4R4T1HZPJCg/viewform" class="external">online form</a>.
+                2. You need to officially commit to the Programme by completing a Letter of commitment in this <a href="https://docs.google.com/forms/d/e/1FAIpQLScRWX9_MqemDlWD_qR0-qSalX4OixsCc_D8c2K4R4T1HZPJCg/viewform" target="_blank" class="external">online form</a>.
             </h4>
             <p class="cosi-p">
                 In the form you need to provide additional info regarding housing & banking service, your financial ability to cover expenses associated to your participation in the Programme and the cost of living during the full period of your enrolment in the Programme need to be informed.
@@ -136,26 +136,26 @@
             </h5>
 
             <p class="cosi-p">
-                If you are a national of a member state of the European Union (EU) or the European Economic Area (EEA) - Iceland, Liechtenstein, Norway - or of Switzerland, you are not required to have a specific visa to study in France, a passport of ID card is sufficient. Do not forget to apply before arrival and bring your <a href="http://ec.europa.eu/social/main.jsp?catId=559" class="external">European health insurance card</a> that will allow you to benefit from heath insurance in France at no costs if you're under 28 years old.
+                If you are a national of a member state of the European Union (EU) or the European Economic Area (EEA) - Iceland, Liechtenstein, Norway - or of Switzerland, you are not required to have a specific visa to study in France, a passport of ID card is sufficient. Do not forget to apply before arrival and bring your <a href="http://ec.europa.eu/social/main.jsp?catId=559" target="_blank" class="external">European health insurance card</a> that will allow you to benefit from heath insurance in France at no costs if you're under 28 years old.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
                 Non-European students
             </h5>
             <p class="cosi-p">
-                While we'll follow-up and provide any possible support during your visa application (notably by communicating directly with your consulate to advocate for your application and detail compliance of your application with legal criteria as detailed <a href="http://www.campusfrance.org/en/page/long-term-visa-used-residence-permit-vls-ts" class="external">here</a>) please note that this procedure is ultimately your own and sole responsibility and that the granting of the visa is the prerogative of the French government; the Consortium is not able to guarantee successful award of the French visa.
+                While we'll follow-up and provide any possible support during your visa application (notably by communicating directly with your consulate to advocate for your application and detail compliance of your application with legal criteria as detailed <a href="http://www.campusfrance.org/en/page/long-term-visa-used-residence-permit-vls-ts" target="_blank" class="external">here</a>) please note that this procedure is ultimately your own and sole responsibility and that the granting of the visa is the prerogative of the French government; the Consortium is not able to guarantee successful award of the French visa.
             </p>
             <p class="cosi-p">Based on our previous experience, visa issues demand much time and attention. Sometimes it might take up to 4 months. For a more effective result, please start with the visa paperwork as soon as possible, (i.e. as soon as you've received the certificate of admission and certificate of residence). Pay attention to small details, such as photos format or amount of passport pages to be copied; double-check all your forms and the data you fill in. Always have copies of originals (good idea to have them in a digital form, too) for your own administration, as well as when submitting applications, since sometimes consulates do not return any documents (make sure you make several copies of the certificate of admission, of the official scholarship confirmation letter from the European Commission; of the insurance policy statement and the insurance card, etc). Rules at embassies change often, so be sure you get the most updated information on the required documents. You should keep your Administrative Coordinator informed if you face visa problems.
             </p>
             <p class="cosi-p">It may be better if your passport is valid for at least 2-3 years before your planned date of arrival to avoid problems with receiving passport while you study and with lack of pages in your passport if you already had a lot of visas in. Some countries require it to be valid for at least one year to issue a visa.
             </p>
-            <p class="cosi-p">You need to apply to an <a href="http://www.campusfrance.org/en/page/long-term-visa-used-residence-permit-vls-ts" class="external">Extended-stay student visa, with residency permit (VLS-TS)</a>. It is important that you request a visa valid 1 year, irrespective of the in-built mobility scheme of the Programme. This visa will serve as a residence permit after completed the right procedure upon arrival, or, for citizens of Algeria only, a “visa “D” Long séjour“.
+            <p class="cosi-p">You need to apply to an <a href="http://www.campusfrance.org/en/page/long-term-visa-used-residence-permit-vls-ts" target="_blank" class="external">Extended-stay student visa, with residency permit (VLS-TS)</a>. It is important that you request a visa valid 1 year, irrespective of the in-built mobility scheme of the Programme. This visa will serve as a residence permit after completed the right procedure upon arrival, or, for citizens of Algeria only, a “visa “D” Long séjour“.
             </p>
-            <p class="cosi-p">Check first if you're a citizen of one of the <a href="http://www.campusfrance.org/en/page/a-country-using-cef-procedure" class="external">following 35 countries</a> (so-called "countries using CEF procedure"):</p>
+            <p class="cosi-p">Check first if you're a citizen of one of the <a href="http://www.campusfrance.org/en/page/a-country-using-cef-procedure" target="_blank" class="external">following 35 countries</a> (so-called "countries using CEF procedure"):</p>
             
-            <p class="cosi-p">If so, you will have to register with your local Campus France office to apply for admission and obtain a student visa, using the <a href="https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html?codeLangue=EN" class="external">online CEF procedure</a>. You need to register, then follow the option available for student already accepted to a programme. Your <a href="http://www.campusfrance.org/en/espaces/map" class="external">local Campus France office</a> will be your main contact person during your visa application. Please indicate clearly to Campus France that you have already been selected by Universty Jean Monnet (by enclosing to your online file your certificate of preliminary admission and certificate of residence).
+            <p class="cosi-p">If so, you will have to register with your local Campus France office to apply for admission and obtain a student visa, using the <a href="https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html?codeLangue=EN" target="_blank" class="external">online CEF procedure</a>. You need to register, then follow the option available for student already accepted to a programme. Your <a href="http://www.campusfrance.org/en/espaces/map" target="_blank" class="external">local Campus France office</a> will be your main contact person during your visa application. Please indicate clearly to Campus France that you have already been selected by Universty Jean Monnet (by enclosing to your online file your certificate of preliminary admission and certificate of residence).
             </p>
-            <p class="cosi-p">If not, you need to submit to the <a href="http://latitudefrance.diplomatie.gouv.fr/AnnuaireCarto.html" class="external">nearest French consulate of place of residence</a> your application for an extended-stay visa, along with any supporting documents required by the consulate. Supporting documents are generally the following (this list varies from one country to another; you should always contact and consult the relevant consular authority of your place of residence):
+            <p class="cosi-p">If not, you need to submit to the <a href="http://latitudefrance.diplomatie.gouv.fr/AnnuaireCarto.html" target="_blank" class="external">nearest French consulate of place of residence</a> your application for an extended-stay visa, along with any supporting documents required by the consulate. Supporting documents are generally the following (this list varies from one country to another; you should always contact and consult the relevant consular authority of your place of residence):
             </p>
 
             <ul class="cosi-ul">
@@ -176,7 +176,7 @@
                 Cost of the visa itself may vary depending on your home country, from 50 €  to 200 €.
             </p>
             <p class="text-xs uppercase font-bold">N.B.1.</p>
-            <p class="cosi-p">The same process must be undertake and type of visa requested in case you plan to work in France during the work placement to complete the Master Thesis in Semester 4. A 1 year <a href="http://www.campusfrance.org/en/page/long-term-visa-used-residence-permit-vls-ts" class="external">Extended-stay student visa, with residency permit (VLS-TS)</a> is better even if you plan to stay less than six months because it makes you eligible to the housing allowance.</p>
+            <p class="cosi-p">The same process must be undertake and type of visa requested in case you plan to work in France during the work placement to complete the Master Thesis in Semester 4. A 1 year <a href="http://www.campusfrance.org/en/page/long-term-visa-used-residence-permit-vls-ts" target="_blank" class="external">Extended-stay student visa, with residency permit (VLS-TS)</a> is better even if you plan to stay less than six months because it makes you eligible to the housing allowance.</p>
             <p class="text-xs uppercase font-bold">N.B.2.</p>
             <p class="cosi-p">French consulate in Syria has been closed. Syrian nationals must therefore, when possible, consult French consulate in Jordan, Lebanon or Turkey.
             </p>
@@ -187,7 +187,7 @@
                 If you live in an EU country but are not a citizen, you will have to apply for a student visa at the French consulate in the country in which you reside. Even if the CEF procedure is used in your country of origin, you do not have to return there in order to apply for admission to a French institution of higher education.
             </p>
             <p class="cosi-p">
-                You can also find information on the <a href="http://ec.europa.eu/immigration/what-do-i-need-before-leaving/france/student_en#" class="external">EU Immigration Portal</a> regarding the visa application process.
+                You can also find information on the <a href="http://ec.europa.eu/immigration/what-do-i-need-before-leaving/france/student_en#" target="_blank" class="external">EU Immigration Portal</a> regarding the visa application process.
             </p>
             
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -232,15 +232,15 @@
                 </li>
                 <li>
                     1 ID photograph (official guidelines and standards for photograph quality)<br>
-                    <a href="http://www.consulfrance-losangeles.org/spip.php?article773" class="external">http://www.consulfrance-losangeles.org/spip.php?article773</a><br>
-                    <a href="http://www.diplomatie.gouv.fr/en/IMG/pdf/sample_photos_france.pdf" class="external">http://www.diplomatie.gouv.fr/en/IMG/pdf/sample_photos_france.pdf</a>
+                    <a href="http://www.consulfrance-losangeles.org/spip.php?article773" target="_blank" class="external break-all">http://www.consulfrance-losangeles.org/spip.php?article773</a><br>
+                    <a href="http://www.diplomatie.gouv.fr/en/IMG/pdf/sample_photos_france.pdf" target="_blank" class="external break-all">http://www.diplomatie.gouv.fr/en/IMG/pdf/sample_photos_france.pdf</a>
                 </li>
                 <li>
                     certificate of admission (provided by the Consortium)
                 </li>
                 <li>copy of first pages of the passport</li>
                 <li>
-                    <a href="http://ec.europa.eu/social/main.jsp?catId=559" class="external">European health insurance card</a> for European student (to be exempted from French health insurance fees)
+                    <a href="http://ec.europa.eu/social/main.jsp?catId=559" target="_blank" class="external">European health insurance card</a> for European student (to be exempted from French health insurance fees)
                 </li>
                 <li>COSI students (personal insurance certificate from Marsh)</li>
             </ul>
@@ -264,7 +264,7 @@
             <ul class="cosi-ul">
                 <li>In any case: copy of passport and certificate of registration
                 </li>
-                <li>see <a href="http://master-colourscience.eu/pre-arrival-process/housing-options/" class="external" style="color: red;">this page</a> for details (guarantor, forms, ...)
+                <li>see <a href="http://master-colourscience.eu/pre-arrival-process/housing-options/" target="_blank" class="external" style="color: red;">this page</a> for details (guarantor, forms, ...)
                 </li>
             </ul>
 
@@ -336,7 +336,7 @@
             </h5>
 
             <p class="cosi-p">
-                Don't forget to bring some cash in Euros (at least 200 € for travel expenses). From <a href="http://www.aeroportsdeparis.fr/en/homepage" class="external">Paris Charles de Gaulle airport</a> (CDG) , you can either:
+                Don't forget to bring some cash in Euros (at least 200 € for travel expenses). From <a href="http://www.aeroportsdeparis.fr/en/homepage" target="_blank" class="external">Paris Charles de Gaulle airport</a> (CDG) , you can either:
             </p>
 
             <ul class="cosi-ul">
@@ -349,18 +349,18 @@
                 N.B.
             </p>
             <p class="cosi-p">
-                Train tickets can be purchased upon arrival directly at the train station by cash or <a href="http://en.voyages-sncf.com/en/" class="external">online</a> (and delivered to your home country). Train tickets are usually available only 3 months before the date of departure. If you book online, don't forget to print the ticket or reference number.
+                Train tickets can be purchased upon arrival directly at the train station by cash or <a href="http://en.voyages-sncf.com/en/" target="_blank" class="external">online</a> (and delivered to your home country). Train tickets are usually available only 3 months before the date of departure. If you book online, don't forget to print the ticket or reference number.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
-                Coming to Saint-Etienne from Lyon (“Lyon Saint Exupéry“, LYS)
+                Coming to Saint-Etienne from Lyon ("Lyon Saint Exupéry", LYS)
             </h5>
             <p class="cosi-p">
-                Don't forget to bring some cash in Euros (at least 200 € for travel expenses). From <a href="http://www.lyonaeroports.com/eng" class="external">“Lyon Saint Exupéry” airport</a> (LYS), you must:
+                Don't forget to bring some cash in Euros (at least 200 € for travel expenses). From <a href="http://www.lyonaeroports.com/eng" target="_blank" class="external">"Lyon Saint Exupéry" airport</a> (LYS), you must:
             </p>
             <ul class="cosi-ul">
-                <li>Then take the <a href="http://www.rhonexpress.fr/boutique/grandpublic/?lang=us" class="external">Rhonexpress train</a> from Lyon airport to the train station “Lyon Part-Dieu“, the journey takes 30 minutes and cost around 15 €.</li>
-                <li>When you're in Lyon Part-Dieu, take another regional train (“TER“) to Saint Etienne (“Saint Etienne Chateaucreux“). There is a train running every 30 minutes, the journey takes 45 minutes and cost around 12 €.</li>
+                <li>Then take the <a href="http://www.rhonexpress.fr/boutique/grandpublic/?lang=us" target="_blank" class="external">Rhonexpress train</a> from Lyon airport to the train station "Lyon Part-Dieu", the journey takes 30 minutes and cost around 15 €.</li>
+                <li>When you're in Lyon Part-Dieu, take another regional train ("TER") to Saint Etienne ("Saint Etienne Chateaucreux"). There is a train running every 30 minutes, the journey takes 45 minutes and cost around 12 €.</li>
             </ul>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -406,15 +406,15 @@
                 We recommend two cheap and convenient hotels in Saint-Etienne in case you don't have a room booked:
             </p>
             <ul class="cosi-ul">
-                <li><a href="http://www.cis-st-etienne.com/fr/" class="external">Centre international de séjour</a> (from 24,10 euro per night)
+                <li><a href="http://www.cis-st-etienne.com/fr/" target="_blank" class="external">Centre international de séjour</a> (from 24,10 euro per night)
                 </li>
-                <li><a href="http://www.hotel-bb.com/en/hotels/saint-etienne.htm" class="external">Hotel BnB - La Terasse</a> (from 45 EUR per night)
+                <li><a href="http://www.hotel-bb.com/en/hotels/saint-etienne.htm" target="_blank" class="external">Hotel BnB - La Terasse</a> (from 45 EUR per night)
                 </li>
-                <li><a href="http://www.hotel-lecarnot.fr/" class="external">Hotel Blanc Le Carnot</a> (from 35 EUR per night)
+                <li><a href="http://www.hotel-lecarnot.fr/" target="_blank" class="external">Hotel Blanc Le Carnot</a> (from 35 EUR per night)
                 </li>
-                <li><a href="http://www.residhotel.com/st-etienne-centre.html" class="external">Hotel Residhotel</a> (from 19 EUR per night)
+                <li><a href="http://www.residhotel.com/st-etienne-centre.html" target="_blank" class="external">Hotel Residhotel</a> (from 19 EUR per night)
                 </li>
-                <li><a href="http://www.crous-lyon.fr/html/-residence-des-arts-76-.html" class="external">Residence des Arts</a> (from 45 EUR per night)</li>
+                <li><a href="http://www.crous-lyon.fr/html/-residence-des-arts-76-.html" target="_blank" class="external">Residence des Arts</a> (from 45 EUR per night)</li>
             </ul>
 
             <p class="cosi-p">

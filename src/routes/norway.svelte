@@ -25,7 +25,7 @@
 
             <ul class="cosi-ul">
                 <li>
-                    <a href="https://www.ntnu.edu/" class="external">
+                    <a href="https://www.ntnu.edu/" target="_blank" class="external">
                         Norwegian University of Science and Technology (english portal)
                     </a>
                 </li>
@@ -60,7 +60,7 @@
             </h5>
 
             <p class="cosi-p">
-                Go to the UDI website: <a href="https://www.udi.no/en/" class="external">www.udi.no/en/</a>, use their standard country selector to see what documentation you will need in your student permit application. Almost all non-EU/EEA citizens, with a few exceptions, should be able to register an application for a student residence permit online at <a href="https://www.udi.no" class="external">www.udi.no</a>.
+                Go to the UDI website: <a href="https://www.udi.no/en/" target="_blank" class="external">www.udi.no/en/</a>, use their standard country selector to see what documentation you will need in your student permit application. Almost all non-EU/EEA citizens, with a few exceptions, should be able to register an application for a student residence permit online at <a href="https://www.udi.no" target="_blank" class="external">www.udi.no</a>.
             </p>
 
             <p class="cosi-p">
@@ -78,7 +78,7 @@
             <p class="cosi-p">
                 Your entry visa will be issued with a deadline on it. If you are in some way impacted and you cannot arrive within the deadline, contact NTNU.
                 When you have received your entry visa from the Norwegian Directorate of Immigration (UDI) you may book your flights.
-                The closest airport to Gjøvik is <a href="https://avinor.no/flyplass/oslo/)" class="external">OSL Gardermoen International Airport</a>. We recommend students book their flight to this airport.
+                The closest airport to Gjøvik is <a href="https://avinor.no/flyplass/oslo/)" target="_blank" class="external">OSL Gardermoen International Airport</a>. We recommend students book their flight to this airport.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -146,7 +146,7 @@
             </p>
 
             <p class="cosi-p">
-                More information about booking student housing here: <a href="https://www.ntnu.edu/lifeandhousing/gjovik/housing" class="external">https://www.ntnu.edu/lifeandhousing/gjovik/housing</a>
+                More information about booking student housing here: <a href="https://www.ntnu.edu/lifeandhousing/gjovik/housing" target="_blank" class="external break-all">https://www.ntnu.edu/lifeandhousing/gjovik/housing</a>
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -165,8 +165,8 @@
 
             <p class="cosi-p">
                 Madeleine Brørs Midtgaard, Advisor International Office<br>
-                <a href="https://www.ntnu.no/ansatte/madeleine.b.midtgaard" class="external">https://www.ntnu.no/ansatte/madeleine.b.midtgaard</a><br>
-                e-mail: <a href="mailto:international@gjovik.ntnu.no">international@gjovik.ntnu.no</a>
+                <a href="https://www.ntnu.no/ansatte/madeleine.b.midtgaard" target="_blank" class="external break-all">https://www.ntnu.no/ansatte/madeleine.b.midtgaard</a><br>
+                e-mail: <a href="mailto:international@gjovik.ntnu.no" class="external break-all">international@gjovik.ntnu.no</a>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -187,7 +187,7 @@
             </ul>
 
             <p class="cosi-p">
-                A tip is to download ticketing app on your phone. <a href="https://entur.no/" class="external">Entur</a> for all travels or <a href="https://www.vy.no/en/app" class="external">VY</a> for train services.
+                A tip is to download ticketing app on your phone. <a href="https://entur.no/" target="_blank" class="external">Entur</a> for all travels or <a href="https://www.vy.no/en/app" target="_blank" class="external">VY</a> for train services.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -195,7 +195,7 @@
             </h5>
 
             <p class="cosi-p">
-                Check out their FAQ for <a href="https://www.sit.no/en/news/faq-moving-sit" class="external">moving in</a>.
+                Check out their FAQ for <a href="https://www.sit.no/en/news/faq-moving-sit" target="_blank" class="external break-all">moving in</a>.
             </p>
 
             <p class="cosi-p">
@@ -207,7 +207,7 @@
             </h5>
 
             <p class="cosi-p">
-                Please see our website for International Week for more information. <a href="https://www.ntnu.edu/lifeandhousing/gjovik/new-student" class="external">https://www.ntnu.edu/lifeandhousing/gjovik/new-student</a>
+                Please see our website for International Week for more information. <a href="https://www.ntnu.edu/lifeandhousing/gjovik/new-student" target="_blank" class="external break-all">https://www.ntnu.edu/lifeandhousing/gjovik/new-student</a>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -283,7 +283,7 @@
             </p>
 
             <ol class="cosi-ol">
-                <li>Fill out your registration at <a href="https://www.udi.no" class="external">www.udi.no</a>. You should do this after arriving in Norway, but before meeting with the police</li>
+                <li>Fill out your registration at <a href="https://www.udi.no" target="_blank" class="external">www.udi.no</a>. You should do this after arriving in Norway, but before meeting with the police</li>
                 <li>
                     Get your registration certificate:<br>
                     Join a NTNU group appointment during orientation week to meet with Immigration at the police station. Please do not book your own appointment if you are planning to join a group appointment. If you are unable to participate in the group appointments, you can book your own appointment at the same time you fill out the online application. Please note that the process of getting your own appointment could take several weeks.

@@ -28,7 +28,7 @@
                 Eligibility criteria
             </h3>
             <p class="cosi-p">
-                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" class="external">lists of eligible countries</a>)
+                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" target="_blank" class="external">lists of eligible countries</a>)
             </p>
 
             <h2 class="cosi-title-2 mt-12 mb-6">
@@ -78,7 +78,7 @@
                 <li>Your LinkedIn page if you have one in the cover email.</li>
             </ul>
 
-            <p class="cosi-p mt-12">
+            <p class="cosi-p mt-12 break-all">
                 Application are to be sent with the subject line<br>"[NAME_MASTER]_Guest_Lecturer_Application_SURNAME_NAME".
             </p>
 

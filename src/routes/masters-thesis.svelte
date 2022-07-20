@@ -50,10 +50,10 @@
                     </h6>
                     <h3 class="text-white cosi-title-4 mb-2" style="color: #fff;">Master Thesis opportunities are published</h3>
                     <p class="cosi-p cosi-text-light-purple">
-                        A choice of MT topics/hosting institutions are available on <a href="https://ead-sciences.univ-st-etienne.fr/index.php?language=english" class="external-dark">Claroline platform</a>.
+                        A choice of MT topics/hosting institutions are available on <a href="https://ead-sciences.univ-st-etienne.fr/index.php?language=english" target="_blank" class="external-dark">Claroline platform</a>.
                     </p>
                     <p class="cosi-p cosi-text-light-purple">
-                        Check also <a href="http://erasmusintern.org/" class="external-dark">ERASMUSINTERN</a>
+                        Check also <a href="http://erasmusintern.org/" target="_blank" class="external-dark">ERASMUSINTERN</a>
                     </p>
                 </div>
 
@@ -110,7 +110,7 @@
                     </h6>
                     <h3 class="text-white cosi-title-4 mb-2" style="color: #fff;">Placement Agreements are edited and signed</h3>
                     <p class="cosi-p cosi-text-light-purple">
-                        Students fill in and send back to administrative coordinator the <a href="http://goo.gl/forms/Oe9HABDtBg" class="external-dark">MT form</a> to allow us to edit a placement agreement. Ask to host institution and tell us if:
+                        Students fill in and send back to administrative coordinator the <a href="http://goo.gl/forms/Oe9HABDtBg" target="_blank" class="external-dark">MT form</a> to allow us to edit a placement agreement. Ask to host institution and tell us if:
                     </p>
                     <ul class="cosi-ul">
                         <li style="color: #D9D7FF;">The placement agreement should be in French or English.</li>
@@ -203,7 +203,7 @@
             </p>
 
             <p class="cosi-p">
-                In addition, you can apply to the <a href="/scholarship/explora" class="external">Explo'ra scholarship</a> (please refer to the specific calendar for Master Thesis).
+                In addition, you can apply to the <a target="_blank" href="/scholarship/explora" class="external">Explo'ra scholarship</a> (please refer to the specific calendar for Master Thesis).
             </p>
         </div>
     </div>

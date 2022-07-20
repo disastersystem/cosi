@@ -28,8 +28,8 @@
             <!-- <p class="cosi-headline">
             </p> -->
 
-            <div class="w-full mt-12" style="width: 500px;">
-                <form action="#" method="POST">
+            <div class="w-full mt-12" style="width: 100%; max-width: 500px;">
+                <form action="#" method="POST" class="w-full" style="width: 100%;">
                     <label for="email" class="block text-sm font-medium text-gray-700">
                         Your e-mail
                     </label>
@@ -38,7 +38,7 @@
                         type="text" name="email" id="email"
                         autocomplete="email"
                         class="w-full p-3 focus:ring-indigo-500 focus:border-indigo-500 mt-1
-                        block w-full sm:text-sm border border-gray-400 rounded-md"
+                        block sm:text-sm border border-gray-400 rounded-md"
                     />
 
                     <label for="message" class="mt-6 block text-sm font-medium text-gray-700">
@@ -67,6 +67,10 @@
                         </button>
                     </div>
                 </form>
+
+                <p class="opacity-0">
+                    ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd ddd 
+                </p>
             </div>
         </div>
     </div>

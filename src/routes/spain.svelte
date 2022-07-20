@@ -26,16 +26,16 @@
 
             <ul class="cosi-ul">
                 <li>
-                    <a href="http://www.ugr.university/" class="external">University of Granada</a>
+                    <a href="http://www.ugr.university/" target="_blank" class="external">University of Granada</a>
                 </li>
                 <li>
-                    <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/estudiantes_ugr?lang=en" class="external">International Relations and University Development Cooperation Office</a>
+                    <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/estudiantes_ugr?lang=en" target="_blank" class="external">International Relations and University Development Cooperation Office</a>
                 </li>
                 <li>
-                    <a href="http://internacional.ugr.es/pages/guias-y-folletos/guiaestudianteinternacional20102011" class="external">The International Student Guide</a>
+                    <a href="http://internacional.ugr.es/pages/guias-y-folletos/guiaestudianteinternacional20102011" target="_blank" class="external">The International Student Guide</a>
                 </li>
                 <li>
-                    <a href="http://www.turgranada.es/en/" class="external">The province of Granada</a>
+                    <a href="http://www.turgranada.es/en/" target="_blank" class="external">The province of Granada</a>
                 </li>
             </ul>
 
@@ -50,19 +50,19 @@
             <ul class="cosi-ul">
                 <li>The best way to find info on where to live in Granada is the COSI alumni network. Connect with them @ Facebook.
                 </li>
-                <li>You can take part in the <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/nuevas-iniciativas-para-estudiantes-internacionales" class="external">Buddy Programme</a> (Programa Mentor) for International Students at the UGR to find support from the very beginning of your exchange period from one of the UGR students, who can help you throughout your stay in Granada.
+                <li>You can take part in the <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/nuevas-iniciativas-para-estudiantes-internacionales" target="_blank" class="external">Buddy Programme</a> (Programa Mentor) for International Students at the UGR to find support from the very beginning of your exchange period from one of the UGR students, who can help you throughout your stay in Granada.
                 </li>
-                <li>The <a href="http://estudiantes.ugr.es/alojamiento" class="external">UGR's Accomodation Service</a> provides information and assistance concerning all the options open to students searching for somewhere to live during their stay (shared flats, with a family, halls of residence,…)
+                <li>The <a href="http://estudiantes.ugr.es/alojamiento" target="_blank" class="external">UGR's Accomodation Service</a> provides information and assistance concerning all the options open to students searching for somewhere to live during their stay (shared flats, with a family, halls of residence,…)
                 </li>
-                <li>A very useful website offering <a href="http://estudiantes.ugr.es/alojamiento" class="external">shared student's (fully-equipped) apartments</a>  services in Granada only!
+                <li>A very useful website offering <a href="http://estudiantes.ugr.es/alojamiento" target="_blank" class="external">shared student's (fully-equipped) apartments</a>  services in Granada only!
                 </li>
-                <li>The well-know <a href="https://www.airbnb.com/" class="external">airbnb</a>.
+                <li>The well-know <a href="https://www.airbnb.com/" target="_blank" class="external">airbnb</a>.
                 </li>
                 <li>www.erasmate.com focuses on (international) student-to-student housing for short term periods and can be used for free by students.</li>
-                <li>The <a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" class="external">Emperador Carlos V Residence Hall</a> can be a good alternative.</li>
+                <li>The <a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" target="_blank" class="external">Emperador Carlos V Residence Hall</a> can be a good alternative.</li>
                 <li>Eurocongres offers you different shared apartment or university residence in the center of Granada at a walking distance to the COSI venue.
                 </li>
-                <li><a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" class="external">ABILILLA Apartments</a> offers you fully equipped apartments in downtown Granada. The apartments are located in a typical “corrala” and very close to the city center and to the Center of Modern Languages (where you will receive Spanish classes).</li>
+                <li><a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" target="_blank" class="external">ABILILLA Apartments</a> offers you fully equipped apartments in downtown Granada. The apartments are located in a typical “corrala” and very close to the city center and to the Center of Modern Languages (where you will receive Spanish classes).</li>
             </ul>
 
             <p class="cosi-p font-bold mt-6" style="margin-bottom: 6px;">
@@ -94,19 +94,19 @@
             </p>
 
             <ul class="cosi-ul">
-                <li>Madrid: <a href="http://www.iberia.com/fr/?gclid=COCGht7guMoCFUJmGwodTuQA1A" class="external">Ibera</a>
+                <li>Madrid: <a href="http://www.iberia.com/fr/?gclid=COCGht7guMoCFUJmGwodTuQA1A" target="_blank" class="external">Ibera</a>
                 </li>
-                <li>Barcelona: <a href="http://www.vueling.com/en" class="external">Vueling</a>
+                <li>Barcelona: <a href="http://www.vueling.com/en" target="_blank" class="external">Vueling</a>
                 </li>
-                <li>Palma de Mallorca: <a href="http://www.opodo.fr/vol/compagnie-aerienne/UX/air-europa/?MPortal=google&mktportal=google&CMP=fr-kw-gg-fl5-232107&gclid=CJqMm-3guMoCFYu4GwodM-4BWg" class="external">Air Europa</a></li>
+                <li>Palma de Mallorca: <a href="http://www.opodo.fr/vol/compagnie-aerienne/UX/air-europa/?MPortal=google&mktportal=google&CMP=fr-kw-gg-fl5-232107&gclid=CJqMm-3guMoCFYu4GwodM-4BWg" target="_blank" class="external">Air Europa</a></li>
             </ul>
 
-            <p class="cosi-p">Check also <a href="http://skyscanner.com/" class="external">Skyscanner</a> to compare flight options to several cities.
+            <p class="cosi-p">Check also <a href="http://skyscanner.com/" target="_blank" class="external">Skyscanner</a> to compare flight options to several cities.
             </p>
             <p class="cosi-p">The airport of Granada is 16 kilometres away from the city.  Taking a taxi is the fastest option to get you to Granada. The ride will cost you around 27€.
             </p>
             <p class="cosi-p">You can also take the bus to the city centre. The ticket costs 3€ and the ride takes approximately 40 minutes.</p>
-            <p class="cosi-p"><a href="http://www.aena.es/csee/Satellite/Aeropuerto-Federico-Garcia-Lorca-Granada-Jaen/en/Page/1237554498674/">Bus info here.</a></p>
+            <p class="cosi-p"><a href="http://www.aena.es/csee/Satellite/Aeropuerto-Federico-Garcia-Lorca-Granada-Jaen/en/Page/1237554498674/" target="_blank" class="external">Bus info here.</a></p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
                 By Plane direct to Malaga
@@ -120,7 +120,7 @@
             </p>
 
             <p class="cosi-p">
-                You can get a bus from Malaga airport to Granada bus station. This route has several stops along the way and takes 2 hours and 30 minutes. The price is around 11€. <a href="https://www.alsa.es/en/" class="external">Bus info here</a>.
+                You can get a bus from Malaga airport to Granada bus station. This route has several stops along the way and takes 2 hours and 30 minutes. The price is around 11€. <a href="https://www.alsa.es/en/" target="_blank" class="external">Bus info here</a>.
             </p>
 
             <p class="cosi-title-6">
@@ -136,7 +136,7 @@
             </p>
 
             <p class="cosi-p">
-                For international tickets, you should visit <a href="http://www.eurolines.com/" class="external">Eurolines</a>.
+                For international tickets, you should visit <a href="http://www.eurolines.com/" target="_blank" class="external">Eurolines</a>.
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -152,7 +152,7 @@
             </h5>
 
             <p class="cosi-p">
-                Students who are citizens of the European Union, Iceland, Liechtenstein, Norway or Switzerland are not required to get a visa for Spain since they already have the right to residency, nor are they required to apply for a residence permit. COSI students citizens of EU member country, from countries belonging to the EEA Agreement (Norway, Iceland and Liechtenstein) or from the Swiss Confederation are however required to register, once in Spain, to Central Register of Foreign Citizens (Registro Central de Extranjeros) at the Main Office for Foreign Residents (Oficina de Extranjeros). Application form, supporting documentation and guidelies in english are available <a href="http://internacional.ugr.es/pages/movilidad/estudiantes/entrantes/residenciainspain?lang=en#__doku_international_students_registration_at_the_foreign_office_in_granadanon-eu_students_from_non-eu_universities" class="external">here</a>. The “OFFICIAL ERASMUS STUDENT CREDENTIAL” will be issued by UGR in case certificates of admission issued by UJM and URG are not sufficient. You can provide a copy of the <a href="http://ec.europa.eu/social/main.jsp?catId=559" class="external">European health insurance card</a> if you have one (recommend in addition to COSI health insurance) or the insurance certificate that has been sent to you by our insurance service provider Marsh.
+                Students who are citizens of the European Union, Iceland, Liechtenstein, Norway or Switzerland are not required to get a visa for Spain since they already have the right to residency, nor are they required to apply for a residence permit. COSI students citizens of EU member country, from countries belonging to the EEA Agreement (Norway, Iceland and Liechtenstein) or from the Swiss Confederation are however required to register, once in Spain, to Central Register of Foreign Citizens (Registro Central de Extranjeros) at the Main Office for Foreign Residents (Oficina de Extranjeros). Application form, supporting documentation and guidelies in english are available <a href="http://internacional.ugr.es/pages/movilidad/estudiantes/entrantes/residenciainspain?lang=en#__doku_international_students_registration_at_the_foreign_office_in_granadanon-eu_students_from_non-eu_universities" target="_blank" class="external">here</a>. The “OFFICIAL ERASMUS STUDENT CREDENTIAL” will be issued by UGR in case certificates of admission issued by UJM and URG are not sufficient. You can provide a copy of the <a href="http://ec.europa.eu/social/main.jsp?catId=559" target="_blank" class="external">European health insurance card</a> if you have one (recommend in addition to COSI health insurance) or the insurance certificate that has been sent to you by our insurance service provider Marsh.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -160,7 +160,7 @@
             </h5>
 
             <p class="cosi-p">
-                Non-European COSI students may also enter Spain without the need of a visa, because they are registered in UJM, a European university., although it is recommended to apply for an entry visa. If COSI students didn’t apply to an entry visa, they should, immediately upon arrival, apply to be included in the Central Foreign Persons Register, following these instructions (link broken). Erasmus+ EMJMD and Consortium scholarships can serve as Accreditation of economic means, amount granted being mentioned in UGR’s certificate of admission (/invitation letters).
+                Non-European COSI students may also enter Spain without the need of a visa, because they are registered in UJM, a European university., although it is recommended to apply for an entry visa. If COSI students didn't apply to an entry visa, they should, immediately upon arrival, apply to be included in the Central Foreign Persons Register, following these instructions (link broken). Erasmus+ EMJMD and Consortium scholarships can serve as Accreditation of economic means, amount granted being mentioned in UGR's certificate of admission (/invitation letters).
             </p>
 
             <p class="cosi-p">
@@ -182,7 +182,17 @@
             <p class="cosi-p">
                 Here is a map with direction from the train station "Lyon Part Dieu":
             </p>
-            <iframe title="Map with direction from the train station Lyon Part Dieu" width="766" height="720" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d11131.999147260954!2d4.868907386094228!3d45.77119452176874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e2!4m5!1s0x47f4ea62e23824a5:0x45b1b59a949df8a6!2sLyon-Part-Dieu,%20Lyon!3m2!1d45.760574!2d4.859393!4m5!1s0x47f4ea96f40e9689:0x286a2e6b63f74067!2sConsulat%20Général%20d'Espagne,%201%20Rue%20Louis%20Guérin,%2069100%20Villeurbanne!3m2!1d45.779142!2d4.860618!5e0!3m2!1sen!2sfr!4v1423499192649"></iframe>
+            <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+                <iframe
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                    title="Map with direction from the train station Lyon Part Dieu"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d11131.999147260954!2d4.868907386094228!3d45.77119452176874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e2!4m5!1s0x47f4ea62e23824a5:0x45b1b59a949df8a6!2sLyon-Part-Dieu,%20Lyon!3m2!1d45.760574!2d4.859393!4m5!1s0x47f4ea96f40e9689:0x286a2e6b63f74067!2sConsulat%20Général%20d'Espagne,%201%20Rue%20Louis%20Guérin,%2069100%20Villeurbanne!3m2!1d45.779142!2d4.860618!5e0!3m2!1sen!2sfr!4v1423499192649"
+                ></iframe>
+            </div>
 
             <p class="cosi-p mt-4">
                 No appointment is necessary, but opening hours are Monday to Friday, from 8:30 AM to 1:00 PM. We advise you to make a call before leaving to make sure the consulate is opened before leaving Saint Etienne.
@@ -202,11 +212,11 @@
                 </li>
                 <li>A medical certificate (of less than three months) stating that you are fit and healthy and that you do have any contagious diseases + 1 photocopy (in case the OFII medical certificate is not accepted, we can ask the doctor base at University Jean Monnet to produce a new one).
                 </li>
-                <li>Your SMERRA “ Attestation d’affiliation à la sécurité sociale” + your CEAM card (Carte Européenne  d’Assurance Maladie) or the replacement certificate of the card + 1 photocopy.
+                <li>Your SMERRA “ Attestation d'affiliation à la sécurité sociale” + your CEAM card (Carte Européenne  d'Assurance Maladie) or the replacement certificate of the card + 1 photocopy.
                 </li>
                 <li>Two Forms EX00 filled and signed. You can download those forms here in French or English.
                 </li>
-                <li>Bank account statements (yours or your parent’s), payroll sheets, or any other documents to prove you have at least 531,52 €/month available during your stay in Spain. In case your a EMJMD schoarlishp holder, your admission letter / student agreement might help you to justify future source of income
+                <li>Bank account statements (yours or your parent's), payroll sheets, or any other documents to prove you have at least 531,52 €/month available during your stay in Spain. In case your a EMJMD schoarlishp holder, your admission letter / student agreement might help you to justify future source of income
                 </li>
                 <li>An extract of criminal record (“bulletin 3 de casier judiciaire”) if your stay in Spain is longer than 6 months. You can request (for free) such a record online (click on “Commencer la procédure”), here for students born in Franceand there for students (including French nationals) not born in France. The record will be delivered to you by mail.
                 </li>
@@ -232,7 +242,7 @@
                 </li>
                 <li>Residence visa in force.
                 </li>
-                <li>Certificate of criminal record* (that is, the police clearance certificate) issued by the authorities of the foreigner’s home country.
+                <li>Certificate of criminal record* (that is, the police clearance certificate) issued by the authorities of the foreigner's home country.
                 </li>
                 <li>Some passport-size photographs.
                 </li>
@@ -273,7 +283,7 @@
             </p>
 
             <p class="cosi-p">
-                In case of doubt, please contact Ms Sara Horcas: <a href="mailto:intlerasmus@ugr.es" class="external">intlerasmus at ugr.es</a>, <a href="mailto:intlmobility@ugr.es" class="external">intlmobility at ugr.es</a>, <a href="mailto:intlerasmusmundus@ugr.es" class="external">intlerasmusmundus at ugr.es</a> (copy your administrative coordinator).
+                In case of doubt, please contact Ms Sara Horcas: <a href="mailto:intlerasmus@ugr.es" class="external">intlerasmus at ugr.es</a>, <a href="mailto:intlmobility@ugr.es" class="external">intlmobility at ugr.es</a>, <a href="mailto:intlerasmusmundus@ugr.es" class="external break-all">intlerasmusmundus at ugr.es</a> (copy your administrative coordinator).
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -294,7 +304,7 @@
 
             <ul class="cosi-ul">
                 <li>Copy of your Identity Card or Passport</li>
-                <li>Certified copy of your Bachelor’s degree (or equivalent)</li>
+                <li>Certified copy of your Bachelor's degree (or equivalent)</li>
                 <li>Photograph</li>
             </ul>
 
@@ -305,8 +315,8 @@
             <ul class="cosi-ul">
                 <li>Copy of your passport (or identity card in case of EU students)
                     (Important: It is advisable to always provide us with the passport unless you are a Spanish National, but not essential; EU identity cards will be accepted as long as they provide us with the main information generally stated on the passport: date and place of birth, sex, place and date of issue, date of expiry, etc.)</li>
-                <li>Certified copy of your Bachelor’s Degree (B.Sc. diploma or equivalent, the same one as the one produced during the application). This bachelor degree certificate has to be attested by the Spanish Embassy or by the Foreign Ministry of the Home Country.</li>
-                <li>Certified official translation of your Bachelor’s Degree (B.Sc. diploma or equivalent) in case your official Bachelor’s Degree is not in Spanish, Italian, French, Portuguese or English. This bachelor degree certificate has to be attested by the Spanish Embassy or the Embassy of your country in Spain (for this you may need an attestation of the Foreign Ministry of your home country).
+                <li>Certified copy of your Bachelor's Degree (B.Sc. diploma or equivalent, the same one as the one produced during the application). This bachelor degree certificate has to be attested by the Spanish Embassy or by the Foreign Ministry of the Home Country.</li>
+                <li>Certified official translation of your Bachelor's Degree (B.Sc. diploma or equivalent) in case your official Bachelor's Degree is not in Spanish, Italian, French, Portuguese or English. This bachelor degree certificate has to be attested by the Spanish Embassy or the Embassy of your country in Spain (for this you may need an attestation of the Foreign Ministry of your home country).
                 </li>
                 <li>Certified copy of your transcripts (academic records) and an official translation in case your transcripts are not in Spanish, Italian, French, Portuguese or English.
                 </li>
@@ -340,7 +350,7 @@
             </p>
 
             <p class="cosi-p">
-                <a href="http://www.hcch.net/index_en.php?act=states.listing" class="external">List of countries that have signed the "The Hague Accords"</a>
+                <a href="http://www.hcch.net/index_en.php?act=states.listing" target="_blank" class="external">List of countries that have signed the "The Hague Accords"</a>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
