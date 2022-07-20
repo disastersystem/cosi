@@ -26,12 +26,12 @@
                 Eligibility criteria
             </h2>
             <p class="cosi-p">
-                Below are the minimum requirements to be eligible for COSI programme. Please note that <a class="external" href="/scholarships" target="_blank">additional eligibility
+                Below are the minimum requirements to be eligible for COSI programme. Please note that <a class="external" href="/scholarships" target="_self">additional eligibility
                 requirements apply for applicants to be considered for an Erasmus+ Join Master scholarship</a>, notably
                 ineligibility of applicants who have already benefited from an Erasmus Mundus Master Course scholarship.
             </p>
             <p class="cosi-p">
-                Here you can also find the <a class="external" href="https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters-scholarships" target="_blank">
+                Here you can also find the <a class="external" href="https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters-scholarships" target="_self">
                     general page with information about Erasmus Mundus Joint Master Degrees.
                 </a>
             </p>

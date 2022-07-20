@@ -14,14 +14,14 @@
             <!-- mt-60 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40 -->
             <div class="flex justify-center">
                 <div class="
-                    pl-10 md:pl-6 lg:pl-20 xl:pl-20 1xl:pl-20 2xl:pl-60
+                    pl-6 md:pl-6 lg:pl-20 xl:pl-20 1xl:pl-20 2xl:pl-60
                     pt-12 pb-12 md:pr-20 2xl:pr-40"
                 >
                     <h3 class="uppercase text-sm md:text-md" style="margin-bottom: 5px; color: #5853A0;">
                         Erasmus Mundus + Joint Master Degree
                     </h3>
 
-                    <h1 class="text-4xl font-bold xl:text-5xl xl:font-normal" style="color: #253A90; line-height: 1.1em;">
+                    <h1 class="text-4xl font-bold xl:text-5xl xl:font-semibold" style="color: #253A90; line-height: 1.1em;">
                         Become&nbsp;a&nbsp;leading<br>expert&nbsp;in&nbsp;colour<br>science
                     </h1>
 
@@ -132,7 +132,7 @@
             <div style="max-width: 1000px;" class="mb-20">
                 <div class="grid grid-cols-2 gap-4 md:grid-cols-4 px-4 lg:px-0">
                     <div class="mb-4">
-                        <!-- <a href="https://ntnu.no" target="_blank"> -->
+                        <!-- <a href="https://ntnu.no" target="_self"> -->
                             <div class="relative">
                                 <img src="/ntnu.png" alt="">
                                 <img src="/ntnu-logo.svg" alt="" class="absolute right-4 bottom-4 w-12">

@@ -65,10 +65,10 @@
 
                         <h4 class="font-bold mb-2">Mandatory courses</h4>
                         <ul class="cosi-ul">
-                            <li><a href="https://www.ntnu.edu/studies/courses/IDIG4002#tab=omEmnet" target="_blank" class="external">Computer Graphics Fundamentals and Applications</a></li>
-                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4304#tab=omEmnet" target="_blank" class="external">Cross-media Colour Reproduction</a></li>
-                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4305#tab=omEmnet" target="_blank" class="external">Introduction to Color Image Processing and Analysis</a></li>
-                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4135#tab=omEmnet" target="_blank" class="external">Introduction to Research on Colour and Visual Computing</a></li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IDIG4002#tab=omEmnet" target="_self" class="external">Computer Graphics Fundamentals and Applications</a></li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4304#tab=omEmnet" target="_self" class="external">Cross-media Colour Reproduction</a></li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4305#tab=omEmnet" target="_self" class="external">Introduction to Color Image Processing and Analysis</a></li>
+                            <li><a href="https://www.ntnu.edu/studies/courses/IMT4135#tab=omEmnet" target="_self" class="external">Introduction to Research on Colour and Visual Computing</a></li>
                         </ul>
 
                         <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
@@ -96,17 +96,17 @@
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-advanced-image-processing.pdf" target="_blank" class="external">Advanced image processing</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-3d-models-in-computer-vision.pdf" target="_blank" class="external">3D models in computer vision</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-light-matter-interaction-and-materials-appearance.pdf" target="_blank" class="external">Light matter interaction and materials <br>appearance: from physics to virtual reality</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/from-statistics-to-data-mining.pdf" target="_blank" class="external">From statistics to data mining</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-advanced-image-processing.pdf" target="_self" class="external">Advanced image processing</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-3d-models-in-computer-vision.pdf" target="_self" class="external">3D models in computer vision</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/10/cosi-ujm-light-matter-interaction-and-materials-appearance.pdf" target="_self" class="external">Light matter interaction and materials <br>appearance: from physics to virtual reality</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/from-statistics-to-data-mining.pdf" target="_self" class="external">From statistics to data mining</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/digital-innovation-and-entrepreneurship.pdf" target="_blank" class="external">Digital innovation and entrepreneurship</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/pattern-recognition.pdf" target="_blank" class="external">Pattern recognition</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/11/cosi-ujm-real-time-3d-visualization.pdf" target="_blank" class="external">Real-time 3D visualization</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/digital-innovation-and-entrepreneurship.pdf" target="_self" class="external">Digital innovation and entrepreneurship</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/03/pattern-recognition.pdf" target="_self" class="external">Pattern recognition</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2019/11/cosi-ujm-real-time-3d-visualization.pdf" target="_self" class="external">Real-time 3D visualization</a></li>
                                 <li>French Language and Culture</li>
                             </ul>
                         </div>
@@ -123,18 +123,18 @@
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_advanced_optoelectronics.pdf" target="_blank" class="external">Advanced optoelectronics</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_computer_vision.pdf" target="_blank" class="external">Computer vision</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_spectral_science.pdf" target="_blank" class="external">Advanced colour and spectral imaging</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_advanced_optoelectronics.pdf" target="_self" class="external">Advanced optoelectronics</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_computer_vision.pdf" target="_self" class="external">Computer vision</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_spectral_science.pdf" target="_self" class="external">Advanced colour and spectral imaging</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_course_guide_optical_sensors.pdf" target="_blank" class="external">Optical sensors</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_course_guide_remote_imaging_sensing.pdf" target="_blank" class="external">Remote imaging and sensing</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_data_science.pdf" target="_blank" class="external">Data science</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_advanced_color_image_processing.pdf" target="_blank" class="external">Advanced color and image processing</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_human_perception_cognition.pdf" target="_blank" class="external">Human perception and cognition</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_course_guide_optical_sensors.pdf" target="_self" class="external">Optical sensors</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_course_guide_remote_imaging_sensing.pdf" target="_self" class="external">Remote imaging and sensing</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_data_science.pdf" target="_self" class="external">Data science</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_advanced_color_image_processing.pdf" target="_self" class="external">Advanced color and image processing</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/2020-2022_cosi_course_guide_human_perception_cognition.pdf" target="_self" class="external">Human perception and cognition</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
@@ -150,7 +150,7 @@
                     <h2 class="cosi-title-2 mb-4">Summer</h2>
                     <div class="pb-10 pt-8 px-10" style="border: 1px solid #ddd; max-width: 600px; border-radius: 10px;">
                         <h2 class="cosi-title-4 text-center mb-4">Internship</h2>
-                        <p class="text-center italic">At one of the <a href="/corporate-relations" target="_blank" class="external">associate industrial partners.</a></p>
+                        <p class="text-center italic">At one of the <a href="/corporate-relations" target="_self" class="external">associate industrial partners.</a></p>
                     </div>
                 </div>
                 
@@ -172,18 +172,18 @@
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=57223355&Kieli=6" target="_blank" class="external">Applications on photonics</a></li>
-                                <li><a href="https://www3.uef.fi/documents/2412730/2515197/IMLEX_UEF_course_descriptions.pdf/66615164-7995-4048-a6a0-cd53dfeb7431" target="_blank" class="external">Advanced spectral imaging devices</a></li>
-                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=37060979&haettuOpas=-1" target="_blank" class="external">Color science laboratory</a></li>
-                                <li><a href="https://weboodi.uef.fi/weboodi/opasopintjakstied.jsp?MD5avain=1a45f51b-a226-4ba3-ba1c-5777c1582ef0&Kieli=6&OpinKohd=49421901&KaytOpasPvm=1&sortJarj=6&palaaOpinKohtHak=0" target="_blank" class="external">Industrial group project</a></li>
-                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/advanced-deep-learning-course-descriptions-1.docx" target="_blank" class="external">Advanced deep learning</a></li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=57223355&Kieli=6" target="_self" class="external">Applications on photonics</a></li>
+                                <li><a href="https://www3.uef.fi/documents/2412730/2515197/IMLEX_UEF_course_descriptions.pdf/66615164-7995-4048-a6a0-cd53dfeb7431" target="_self" class="external">Advanced spectral imaging devices</a></li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=37060979&haettuOpas=-1" target="_self" class="external">Color science laboratory</a></li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opasopintjakstied.jsp?MD5avain=1a45f51b-a226-4ba3-ba1c-5777c1582ef0&Kieli=6&OpinKohd=49421901&KaytOpasPvm=1&sortJarj=6&palaaOpinKohtHak=0" target="_self" class="external">Industrial group project</a></li>
+                                <li><a href="https://mastercolorscience.files.wordpress.com/2020/05/advanced-deep-learning-course-descriptions-1.docx" target="_self" class="external">Advanced deep learning</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
                                 <li>Eye tracking</li>
                                 <li>Robotics and XR</li>
-                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=37060979&haettuOpas=-1" target="_blank" class="external">Graph mining</a></li>
+                                <li><a href="https://weboodi.uef.fi/weboodi/opintjakstied.jsp?OpinKohd=37060979&haettuOpas=-1" target="_self" class="external">Graph mining</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Optional courses (extra ECTS granted)</h4>
@@ -204,16 +204,16 @@
 
                             <h4 class="font-bold mb-2">Mandatory courses</h4>
                             <ul class="cosi-ul">
-                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4895#tab=omEmnet" target="_blank" class="external">Specialisation in colour imaging</a></li>
-                                <li><a href="https://www.ntnu.edu/studies/courses/IDIG4003#tab=omEmnet" target="_blank" class="external">Appearance, perception and measurement</a></li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4895#tab=omEmnet" target="_self" class="external">Specialisation in colour imaging</a></li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IDIG4003#tab=omEmnet" target="_self" class="external">Appearance, perception and measurement</a></li>
                             </ul>
 
                             <h4 class="font-bold mt-6 mb-2">Elective courses</h4>
                             <ul class="cosi-ul">
-                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4884#tab=omEmnet" target="_blank" class="external">Advanced colour management</a></li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4884#tab=omEmnet" target="_self" class="external">Advanced colour management</a></li>
                                 <li>Specialisation in video processing</li>
-                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4894#tab=omEmnet" target="_blank" class="external">Advanced project work</a></li>
-                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4392#tab=omEmnet" target="_blank" class="external">Deep learning for visual computing</a></li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4894#tab=omEmnet" target="_self" class="external">Advanced project work</a></li>
+                                <li><a href="https://www.ntnu.edu/studies/courses/IMT4392#tab=omEmnet" target="_self" class="external">Deep learning for visual computing</a></li>
                                 <li>Other elective course upon eligibility</li>
                             </ul>
 
@@ -236,7 +236,7 @@
 
 
             <div class="flex justify-center mt-16">
-                <a href="/awarded-degrees" target="_blank" class="mt-10" style="display: inline-block; font-size: 13px; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
+                <a href="/awarded-degrees" target="_self" class="mt-10" style="display: inline-block; font-size: 13px; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;">
                     <div class="flex items-center">
                         <div class="uppercase pr-4">Awarded degrees</div>
                         <svg width="12" height="11" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">

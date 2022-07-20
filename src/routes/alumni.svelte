@@ -56,9 +56,9 @@
                 It was also a very fruitful academic year for CIMET cohort 1 (2008-2010) alumni, with 2 PhD defenses:
             </p>
             <ul class="cosi-ul">
-                <li>Hasan SHEIKH FARIDUL defended his PhD on <span class="font-bold">"Analysis of 3D Color Matches for the Creation and Consumption of Video Content"</span>. He did his PhD at Technicolor. During his PhD he published several patents and papers. One of his papers on “Survey of Color Mapping and its Applications” was published in <a href="https://sites.google.com/site/infofaridulhasan/" target="_blank" class="external">Stars in Eurographics 2014</a>. Hasan works now as a postdoctoral researcher at the Security & Content Protection Labs of Technicolor Research and Innovation.
+                <li>Hasan SHEIKH FARIDUL defended his PhD on <span class="font-bold">"Analysis of 3D Color Matches for the Creation and Consumption of Video Content"</span>. He did his PhD at Technicolor. During his PhD he published several patents and papers. One of his papers on “Survey of Color Mapping and its Applications” was published in <a href="https://sites.google.com/site/infofaridulhasan/" class="external">Stars in Eurographics 2014</a>. Hasan works now as a postdoctoral researcher at the Security & Content Protection Labs of Technicolor Research and Innovation.
                 </li>
-                <li>Raju SHRESTHA defended his PhD on <a href="http://english.hig.no/imt/research/colourlab/news/raju_shrestha_defended_phd_thesis" target="_blank" class="external"><span class="font-bold">"Multispectral imaging: Fast acquisition, capability extension, and quality evaluation"</span></a> the 9th of December 2014. He published during his PhD 16 peer-reviewed scientific publications, including 3 journal papers.</li>
+                <li>Raju SHRESTHA defended his PhD on <a href="http://english.hig.no/imt/research/colourlab/news/raju_shrestha_defended_phd_thesis" class="external"><span class="font-bold">"Multispectral imaging: Fast acquisition, capability extension, and quality evaluation"</span></a> the 9th of December 2014. He published during his PhD 16 peer-reviewed scientific publications, including 3 journal papers.</li>
             </ul>
         </div>
     </div>

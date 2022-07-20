@@ -28,7 +28,7 @@
                 Eligibility criteria
             </h3>
             <p class="cosi-p">
-                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" target="_blank" class="external">lists of eligible countries</a>)
+                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" target="_self" class="external">lists of eligible countries</a>)
             </p>
 
             <h2 class="cosi-title-2 mt-12 mb-6">

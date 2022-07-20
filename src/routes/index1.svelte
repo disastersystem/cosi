@@ -69,7 +69,7 @@
             <div style="max-width: 1000px;" class="mb-20">
                 <div class="grid grid-cols-2 gap-4 md:grid-cols-4 px-4 lg:px-0">
                     <div class="mb-4">
-                        <!-- <a href="https://ntnu.no" target="_blank"> -->
+                        <!-- <a href="https://ntnu.no" target="_self"> -->
                             <div class="relative">
                                 <img src="/ntnu.png" alt="">
                                 <img src="/ntnu-logo.svg" alt="" class="w-10 absolute right-4 bottom-4">

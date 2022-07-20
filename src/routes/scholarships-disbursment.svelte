@@ -18,24 +18,24 @@
 
             <h1 class="cosi-title-1">Scholarship disbursment</h1>
             <p class="cosi-p">
-                You'll find in <a href="https://mastercolorscience.files.wordpress.com/2015/07/scholarship_disbusement.xlsx" target="_blank" class="external">this table</a> the disbursement calendar for 2015-2017 scholarships directly managed by University Jean Monnet on behalf of the COSI consoritum.
+                You'll find in <a href="https://mastercolorscience.files.wordpress.com/2015/07/scholarship_disbusement.xlsx" target="_self" class="external">this table</a> the disbursement calendar for 2015-2017 scholarships directly managed by University Jean Monnet on behalf of the COSI consoritum.
             </p>
 
             <p class="cosi-p">
-                Fee-waivers are directly subtracted to Participation Costs charged to student every academic year (<a href="/participation-costs" target="_blank" class="external">see COSI Participation Costs</a>).
+                Fee-waivers are directly subtracted to Participation Costs charged to student every academic year (<a href="/participation-costs" target="_self" class="external">see COSI Participation Costs</a>).
             </p>
             <p class="cosi-p">
                 The scholarships below are not managed directly by University Jean Monnet. Please refer to dedicated pages for info on disbursement info.
             </p>
             <ul class="cosi-ul">
-                <li><a href="/scholarship/explora" target="_blank" class="external">Explo'RA scholarships</a></li>
+                <li><a href="/scholarship/explora" target="_self" class="external">Explo'RA scholarships</a></li>
                 <li>Scholarships from University of Eastern Finland</li>
-                <li><a href="/scholarship/international-attractiveness" target="_blank" class="external">UJM Foundation scholarships - international attractiveness</a></li>
-                <li><a href="/scholarship/international-mobility" target="_blank"class="external">UJM Foundation scholarships - international mobility</a></li>
+                <li><a href="/scholarship/international-attractiveness" target="_self" class="external">UJM Foundation scholarships - international attractiveness</a></li>
+                <li><a href="/scholarship/international-mobility" target="_self"class="external">UJM Foundation scholarships - international mobility</a></li>
             </ul>
             <p class="cosi-p">
-                If you're not sure in which category you belong, refer to <a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" target="_blank" class="external">this page</a> (list of programme and partner countries)
-                and/or the <a href="https://erasmus-plus.ec.europa.eu/resources-and-tools/distance-calculator" target="_blank" class="external">Erasmus+ distance calculator</a> (to check if your country of residence is situated at less or more than 400 km) or ask your administrative coordinator.
+                If you're not sure in which category you belong, refer to <a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" target="_self" class="external">this page</a> (list of programme and partner countries)
+                and/or the <a href="https://erasmus-plus.ec.europa.eu/resources-and-tools/distance-calculator" target="_self" class="external">Erasmus+ distance calculator</a> (to check if your country of residence is situated at less or more than 400 km) or ask your administrative coordinator.
             </p>
         </div>
     </div>

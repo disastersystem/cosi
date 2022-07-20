@@ -137,7 +137,7 @@
                 Step-by-step recipe to register on Søknadsweb:
             </p>
             <ul class="cosi-ul">
-                <li>Go to the <a class="external" target="_blank" href="https://fsweb.no/soknadsweb/login.jsf">application portal Søknadsweb</a>.</li>
+                <li>Go to the <a class="external" ttarget="_blank" href="https://fsweb.no/soknadsweb/login.jsf">application portal Søknadsweb</a>.</li>
                 <li>Select language in the top right corner where it says "Norsk bokmål".</li>
                 <li>Choose institution: "Norwegian University of Science and Technology"</li>
                 <li>Click on "International Applicant".</li>
@@ -205,7 +205,7 @@
                     </h6>
                     <h3 class="text-white cosi-title-4 mb-2" style="color: #fff;">Application deadline "scholarships"</h3>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Apply to COSI before this deadline and you'll be directly considered (no additional application) for <a href="/scholarships" target="_blank" class="external-dark">Erasmus+ EMJMD scholarships and COSI scholarship</a>.
+                        Apply to COSI before this deadline and you'll be directly considered (no additional application) for <a href="/scholarships" target="_self" class="external-dark">Erasmus+ EMJMD scholarships and COSI scholarship</a>.
                     </h4>
                 </div>
 
@@ -259,7 +259,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Selection Committee</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        COSI <a href="/amb" target="_blank" class="external-dark">academic and management board</a> select students.
+                        COSI <a href="/amb" target="_self" class="external-dark">academic and management board</a> select students.
                     </h4>
                 </div>
 
@@ -277,7 +277,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Notification of Short-list</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Short-listed students for <a href="/scholarships" target="_blank" class="external-dark">E+EMJMD scholarships</a> are informed. Applicants who are not contacted for interviews may however be selected as self-financed students.
+                        Short-listed students for <a href="/scholarships" target="_self" class="external-dark">E+EMJMD scholarships</a> are informed. Applicants who are not contacted for interviews may however be selected as self-financed students.
                     </h4>
                 </div>
 
@@ -305,7 +305,7 @@
                         Applicants who were contacted for interview must send certified and translated copies of their diploma and transcripts to COSI consortium by the 30th of March 2020.
                     </p>
                     <p class="cosi-p cosi-text-light-purple">
-                        Non-successful applicants or successful student without scholarships attributed can <a href="/application/appeal" target="_blank" class="external-dark">appeal of the selection committee decisions</a>. Only aggregated statistics on applicants and selected students are published to ensure confidentiality of applicants. Original certificates of admission are sent to successful applicants.
+                        Non-successful applicants or successful student without scholarships attributed can <a href="/application/appeal" target="_self" class="external-dark">appeal of the selection committee decisions</a>. Only aggregated statistics on applicants and selected students are published to ensure confidentiality of applicants. Original certificates of admission are sent to successful applicants.
                     </p>
                 </div>
 
@@ -323,7 +323,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Prepare your stay in Norway</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Successful applicants are encouraged to immediately <a href="/norway" target="_blank" class="external-dark">prepare their stay in Norway</a>, and notably immigration process.
+                        Successful applicants are encouraged to immediately <a href="/norway" target="_self" class="external-dark">prepare their stay in Norway</a>, and notably immigration process.
                     </h4>
                 </div>
 
@@ -412,7 +412,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">End of E+EMJMD re-allocation</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        <a href="/scholarship/emjmd" target="_blank" class="external-dark">E+EMJMD scholarships</a> may be re-allocated to students in the reserve list till this date in case of applicants withdraw.
+                        <a href="/scholarship/emjmd" target="_self" class="external-dark">E+EMJMD scholarships</a> may be re-allocated to students in the reserve list till this date in case of applicants withdraw.
                     </h4>
                 </div>
 
@@ -423,7 +423,7 @@
                     </h6>
                     <h2 class="text-white cosi-title-4 mb-2" style="color: #fff;">Student agreement signature</h2>
                     <h4 class="cosi-p cosi-text-light-purple">
-                        Effective enrollment of successful applicant is subject of conclusion and signing of a <a href="/student-agreement" target="_blank" class="external-dark">student agreement</a> between the student and COSI consortium providing for rights and obligation of both parties.
+                        Effective enrollment of successful applicant is subject of conclusion and signing of a <a href="/student-agreement" target="_self" class="external-dark">student agreement</a> between the student and COSI consortium providing for rights and obligation of both parties.
                     </h4>
                 </div>
 
