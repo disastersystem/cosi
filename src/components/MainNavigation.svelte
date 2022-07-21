@@ -17,7 +17,7 @@
     function toggleContact() { menu.about = false; menu.application = false; menu.contact = !menu.contact }
 
     function openDrawer() { drawer = true; document.querySelector('body').style.overflowY = 'hidden' }
-    function closeDrawer() { drawer = false; console.log('hello'); document.querySelector('body').style.overflowY = 'auto' }
+    function closeDrawer() { console.log('awdawd'); drawer = false; document.querySelector('body').style.overflowY = 'auto' }
 </script>
 
 <nav class="z-10 px-6 py-2 md:px-10">
@@ -79,7 +79,7 @@
                             <div class="py-1" role="none" style="width: 216px;">
                                 <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
                                 <h3 class="cosi-title-4 px-4 py-2" style="color: #fff;">About</h3>
-                                <a on:click={closeDropdowns} href="/about/overview-of-program" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Overview of program</a>
+                                <a on:click={closeDropdowns} href="/about/overview-of-program" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-0">Overview of programme</a>
                                 <a on:click={closeDropdowns} href="/corporate-relations" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-1">Corporate relations</a>
                                 <a on:click={closeDropdowns} href="/social-media" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-3">Social media</a>
                                 <a on:click={closeDropdowns} href="/alumni" class="cosi-menu-link cosi-light-purple block px-4 py-2 text-sm" role="menuitem" tabindex="0" id="menu-item-4">Alumni</a>
@@ -228,6 +228,7 @@
     </div>
 </nav>
 
+<!-- <div on:click={ closeDrawer } class:active={ drawer } class="hidden fixed z-40 inset-0 bg-black bg-opacity-25"></div> -->
 <!--
     Mobile side-menu
 -->
@@ -307,7 +308,7 @@
                                                 </svg> -->
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 cosi-light-purple" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
-                                                  </svg>
+                                                </svg>
                                             {:else}
                                                 <!-- <svg class="h-5 w-5 cosi-light-purple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
@@ -331,7 +332,7 @@
                             >
                                 <DisclosurePanel>
                                     <div class="pl-10 pr-4 py-4 bg-black bg-opacity-10">
-                                        <a on:click={ closeDrawer } href="/about/overview-of-program" class="block pt-4 pb-4 cosi-light-purple">Overview of program</a>
+                                        <a on:click={ closeDrawer } href="/about/overview-of-program" class="block pt-4 pb-4 cosi-light-purple">Overview of programme</a>
                                         <a on:click={ closeDrawer } href="/corporate-relations" class="block pt-4 pb-4 cosi-light-purple">Corporate relations</a>
                                         <a on:click={ closeDrawer } href="/social-media" class="block pt-4 pb-4 cosi-light-purple">Social media</a>
                                         <a on:click={ closeDrawer } href="/alumni" class="block pt-4 pb-4    cosi-light-purple">Alumni</a>

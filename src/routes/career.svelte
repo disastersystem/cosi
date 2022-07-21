@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Career prospects - COSI</title>
-    <meta name="description" content="">
+    <meta name="description" content="At the COSI programme you'll acquire skills and qualifications that will be widely recognized and understood by other education institutions and the labour market. Over the years COSI graduates have been employed in world leading industries and universities.">
 </svelte:head>
 
 <script>

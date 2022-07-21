@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Courses - COSI</title>
-    <meta name="description" content="">
+    <meta name="description" content="The courses in the COSI program are structured so that the skills learnt address the needs of a diverse range of sectors, bridging a talent gap in the industry where colour imaging experts are in high demand. The two areas of focus are spectral technologies and applied colour imaging.">
 </svelte:head>
 
 <script context="module">

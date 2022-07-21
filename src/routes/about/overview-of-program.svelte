@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Overview of program - COSI</title>
+    <title>Overview of programme - COSI</title>
     <meta name="description" content="">
 </svelte:head>
 
@@ -10,29 +10,14 @@
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
-    <div class="mt-40 pt-12 pl-12 pr-10 mr-10 fixed top-0 left-0 hidden 2xl:block" style="width: 350px;">
-        <p class="cosi-p">Jump to:</p>
-        <ul class="cosi-ol">
-            <li><a class="external text-sm" href="#complementary-expertise">Complementary expertise & integrated approach</a></li>
-            <li><a class="external text-sm" href="#interdisciplinarity">Interdisciplinarity</a></li>
-            <li><a class="external text-sm" href="#mobility">Built-in Mobility</a></li>
-            <li><a class="external text-sm" href="#curriculum-and-mobility">Integrated curriculum and mobility</a></li>
-            <li><a class="external text-sm" href="#academic-services">Integrated academic services</a></li>
-            <li><a class="external text-sm" href="#governance">Integrated governance</a></li>
-            <li><a class="external text-sm" href="#research-base">Applied research base</a></li>
-            <li><a class="external text-sm" href="#learning-outcomes">Harmonized validation of<br>learning outcomes</a></li>
-            <li><a class="external text-sm" href="#family">The COSI Family</a></li>
-        </ul>
-    </div>
-
     <div class="flex justify-center px-6">
-        <div class="mt-40" style="max-width: 766px;">
+        <div class="mt-40 ml-0 xl:ml-20 2xl:ml-60" style="max-width: 766px;">
             <BreadCrumbs pages={[
                 ['/', 'Home'],
-                ['/about/overview-of-program', 'Overview of program']
+                ['/about/overview-of-program', 'Overview of programme']
             ]} />
 
-            <h1 class="cosi-title-1">Overview of program</h1>
+            <h1 class="cosi-title-1">Overview of programme</h1>
 
             <p class="cosi-headline">
                 We are bridging a talent gap in the colour industry where colour imaging experts are in high demand.
@@ -97,6 +82,7 @@
                 </div>
             </div>
 
+            <div id="complementary-expertise"></div>
             <h2 class="cosi-title-2 mt-16 mb-4">Complementary expertise & integrated approach</h2>
             <p class="cosi-p">
                 COSI is the answer to the lessons drawn from implementation of pioneer courses, its intimacy to industry challenges and the continuing efforts of the founding partners to further unite and increase the attractiveness of the consortium.
@@ -104,8 +90,9 @@
             <p class="cosi-p">
                 A programme as interdisciplinary and innovative as COSI would need to mobilize such a broad field of knowledge that it could not be provided at any single institution. This is why COSI is a highly integrated Master, encapsulating a collaborative model based on horizontal cooperation, applied at each stage of design, implementation and institutional learning.
             </p>
-            <p class="cosi-p" id="interdisciplinarity">
+            <p class="cosi-p">
                 A <a href="/corporate-relations" target="_self" class="external">strong culture of dialogue and cooperation with industry</a> has also been instrumental to achieve the right balance of academia/industry partnerships in COSI. In practice, these knowledge exchanges take shape into cross-licensing and jointly developed industrial projects.
+                <span id="interdisciplinarity"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Interdisciplinarity</h2>
@@ -115,8 +102,9 @@
             <p class="cosi-p">
                 The courses in the COSI program are structured so that the skills learnt can address the needs of a diverse range of sectors (multimedia, health care, cosmetic, automotive, and food-processing) bridging a talent gap in the industry where colour imaging experts are in high demand. The two areas of focus are spectral technologies and applied colour imaging.
             </p>
-            <p class="cosi-p" id="mobility">
+            <p class="cosi-p">
                 COSI is brought to you by a world leading university-business cooperation of four European universities, and partnership with over 15 academic and over 10 industrial leaders across the globe.
+                <span id="mobility"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Built-in Mobility</h2>
@@ -126,8 +114,9 @@
             <p class="cosi-p">
                 At COSI students have the chance to experience studying in at least two and at most four different European universities with an international faculty of local and international guest lecturers.
             </p>
-            <p class="cosi-p" id="curriculum-and-mobility">
+            <p class="cosi-p">
                 This starts by the first semester of studies being held in Norway, the second semester in France or Spain (depending on your preferred specialty) and the third semester in Norway or Finland (again depending on your preferred specialty). The fourth semester which is fully dedicated to the Master Thesis could then be performed at any university or industry across the globe! Add the six weeks industrial internships the students take between the second and third semester and you see how we at COSI have tried to get the most out of your two year master studies.
+                <span id="curriculum-and-mobility"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated curriculum and mobility</h2>
@@ -176,13 +165,15 @@
             <p class="cosi-p mt-6">
                 Learning technologies such as online-teaching allow us to offer a <a href="/courses" target="_self" class="external">high-quality course catalogue</a> which is flexible, evolving over time and consistent in content and sequence. This is made possible thanks to the use of innovative teaching delivery methods, universities cross-fertilization and mutual learning through academic and staff mobility and backed-up by strong quality assurance.
             </p>
-            <p class="cosi-p" id="academic-services">
+            <p class="cosi-p">
                 Students spent an equal period of stay at each university. To allow <a href="/courses" target="_self" class="external">mobility to bring a true added-value to the programme</a>, we've limited the range of mobility choices on the basis of the partners' research and teaching main focus area. The two concentration tracks (spectral technologies and applied colour imaging) are designed around the core competences of the Norwegian University of Science and Technology and the University of Eastern Finland.
+                <span id="academic-services"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated academic services</h2>
-            <p class="cosi-p" id="governance">
+            <p class="cosi-p">
                 COSI administrative staff works jointly to ensure the best possible <a href="/academic-services" target="_self" class="external">academic services</a> to COSI students, notably by simplification of administrative procedures for mobile students and better integration in the local environment, the main two challenges that Erasmus students typically face.
+                <span id="governance"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated governance</h2>
@@ -198,7 +189,7 @@
                 </li>
             </ul>
 
-            <div class="mt-6 mb-4" id="research-base">
+            <div class="mt-6 mb-4">
                 <LinkCard
                     title={'Academic Management Board'}
                     subtitle={'How we ensure quality'}
@@ -212,9 +203,11 @@
                 path={'/qab'}
             />
 
+            <div id="research-base"></div>
             <h2 class="cosi-title-2 mt-16 mb-4">Applied research base</h2>
-            <p class="cosi-p" id="learning-outcomes">
+            <p class="cosi-p">
                 Inter-institutional knowledge transfer provides for a <a href="/research" target="_self" class="external">common research framework</a>, unique at the international level. COSI is the brainpower of 8 public research labs and 14 industry partners' talents pools and massive R&D investments.
+                <span id="learning-outcomes"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-12 mb-4">Harmonized validation of learning outcomes</h2>
@@ -242,6 +235,24 @@
                 But you won't only be in contact with the COSI community, during open courses COSI students have many opportunities to mingle with local and international students and you can decide to enroll in virtually any scientific course offered by our partners.
             </p>
 
+        </div>
+
+        <div
+            class="self-start mt-40 ml-10 pt-12 pl-12 pr-10 mr-10 sticky top-10 hidden xl:block"
+            style="width: 350px;"
+        >
+            <p class="cosi-p">Jump to:</p>
+            <ul class="cosi-ol">
+                <li><a class="external text-sm" href="#complementary-expertise">Complementary expertise & integrated approach</a></li>
+                <li><a class="external text-sm" href="#interdisciplinarity">Interdisciplinarity</a></li>
+                <li><a class="external text-sm" href="#mobility">Built-in Mobility</a></li>
+                <li><a class="external text-sm" href="#curriculum-and-mobility">Integrated curriculum and mobility</a></li>
+                <li><a class="external text-sm" href="#academic-services">Integrated academic services</a></li>
+                <li><a class="external text-sm" href="#governance">Integrated governance</a></li>
+                <li><a class="external text-sm" href="#research-base">Applied research base</a></li>
+                <li><a class="external text-sm" href="#learning-outcomes">Harmonized validation of<br>learning outcomes</a></li>
+                <li><a class="external text-sm" href="#family">The COSI Family</a></li>
+            </ul>
         </div>
     </div>
 </main>

@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Spain: prepare your stay - COSI</title>
-    <meta name="description" content="">
+    <meta name="description" content="The University of Granada: linking past, present, and future.">
 </svelte:head>
 
 <script>
@@ -9,6 +9,24 @@
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
+    <!-- <div class="mt-40 pt-12 pl-12 pr-10 mr-10 fixed top-0 left-0 hidden 2xl:block" style="width: 350px;">
+        <p class="cosi-p">Jump to:</p>
+        <ul class="cosi-ol">
+            <li><a class="external text-sm" href="#complementary-expertise">Useful links during your stay</a></li>
+            <li>
+                <a class="external text-sm" href="#interdisciplinarity">Coming to Spain — administrative tasks</a>
+                <ul class="cosi-ol">
+                    <li><a href="#banking" class="external text-sm">Read about available housing options and banking services</a></li>
+                    <li><a href="#banking" class="external text-sm">Book a flight / prepare travel</a></li>
+                    <li><a href="#banking" class="external text-sm">Apply for a visa</a></li>
+                    <li><a href="#banking" class="external text-sm">Prepare documentation you'll need during your study</a></li>
+                    <li><a href="#banking" class="external text-sm">Join the “Induction week”</a></li>
+                    <li><a href="#banking" class="external text-sm">Registration for diploma</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> -->
+
     <div class="flex justify-center mt-40 mb-20">
         <div class="content-max-width">
             <!-- <h1 class="cosi-title-1">Spain</h1> -->
@@ -26,16 +44,16 @@
 
             <ul class="cosi-ul">
                 <li>
-                    <a href="http://www.ugr.university/" target="_self" class="external">University of Granada</a>
+                    <a href="http://www.ugr.university/" target="_blank" class="external">University of Granada</a>
                 </li>
                 <li>
-                    <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/estudiantes_ugr?lang=en" target="_self" class="external">International Relations and University Development Cooperation Office</a>
+                    <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/estudiantes_ugr?lang=en" target="_blank" class="external">International Relations and University Development Cooperation Office</a>
                 </li>
                 <li>
-                    <a href="http://internacional.ugr.es/pages/guias-y-folletos/guiaestudianteinternacional20102011" target="_self" class="external">The International Student Guide</a>
+                    <a href="http://internacional.ugr.es/pages/guias-y-folletos/guiaestudianteinternacional20102011" target="_blank" class="external">The International Student Guide</a>
                 </li>
                 <li>
-                    <a href="http://www.turgranada.es/en/" target="_self" class="external">The province of Granada</a>
+                    <a href="http://www.turgranada.es/en/" target="_blank" class="external">The province of Granada</a>
                 </li>
             </ul>
 
@@ -50,19 +68,19 @@
             <ul class="cosi-ul">
                 <li>The best way to find info on where to live in Granada is the COSI alumni network. Connect with them @ Facebook.
                 </li>
-                <li>You can take part in the <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/nuevas-iniciativas-para-estudiantes-internacionales" target="_self" class="external">Buddy Programme</a> (Programa Mentor) for International Students at the UGR to find support from the very beginning of your exchange period from one of the UGR students, who can help you throughout your stay in Granada.
+                <li>You can take part in the <a href="http://internacional.ugr.es/pages/perfiles/estudiantes/nuevas-iniciativas-para-estudiantes-internacionales" target="_blank" class="external">Buddy Programme</a> (Programa Mentor) for International Students at the UGR to find support from the very beginning of your exchange period from one of the UGR students, who can help you throughout your stay in Granada.
                 </li>
-                <li>The <a href="http://estudiantes.ugr.es/alojamiento" target="_self" class="external">UGR's Accomodation Service</a> provides information and assistance concerning all the options open to students searching for somewhere to live during their stay (shared flats, with a family, halls of residence,…)
+                <li>The <a href="http://estudiantes.ugr.es/alojamiento" target="_blank" class="external">UGR's Accomodation Service</a> provides information and assistance concerning all the options open to students searching for somewhere to live during their stay (shared flats, with a family, halls of residence,…)
                 </li>
-                <li>A very useful website offering <a href="http://estudiantes.ugr.es/alojamiento" target="_self" class="external">shared student's (fully-equipped) apartments</a>  services in Granada only!
+                <li>A very useful website offering <a href="http://estudiantes.ugr.es/alojamiento" target="_blank" class="external">shared student's (fully-equipped) apartments</a>  services in Granada only!
                 </li>
-                <li>The well-know <a href="https://www.airbnb.com/" target="_self" class="external">airbnb</a>.
+                <li>The well-know <a href="https://www.airbnb.com/" target="_blank" class="external">airbnb</a>.
                 </li>
                 <li>www.erasmate.com focuses on (international) student-to-student housing for short term periods and can be used for free by students.</li>
-                <li>The <a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" target="_self" class="external">Emperador Carlos V Residence Hall</a> can be a good alternative.</li>
+                <li>The <a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" target="_blank" class="external">Emperador Carlos V Residence Hall</a> can be a good alternative.</li>
                 <li>Eurocongres offers you different shared apartment or university residence in the center of Granada at a walking distance to the COSI venue.
                 </li>
-                <li><a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" target="_self" class="external">ABILILLA Apartments</a> offers you fully equipped apartments in downtown Granada. The apartments are located in a typical “corrala” and very close to the city center and to the Center of Modern Languages (where you will receive Spanish classes).</li>
+                <li><a href="http://www.resa.es/eng/Residences/Emperador-Carlos-V" target="_blank" class="external">ABILILLA Apartments</a> offers you fully equipped apartments in downtown Granada. The apartments are located in a typical “corrala” and very close to the city center and to the Center of Modern Languages (where you will receive Spanish classes).</li>
             </ul>
 
             <p class="cosi-p font-bold mt-6" style="margin-bottom: 6px;">
@@ -94,19 +112,19 @@
             </p>
 
             <ul class="cosi-ul">
-                <li>Madrid: <a href="http://www.iberia.com/fr/?gclid=COCGht7guMoCFUJmGwodTuQA1A" target="_self" class="external">Ibera</a>
+                <li>Madrid: <a href="http://www.iberia.com/fr/?gclid=COCGht7guMoCFUJmGwodTuQA1A" target="_blank" class="external">Ibera</a>
                 </li>
-                <li>Barcelona: <a href="http://www.vueling.com/en" target="_self" class="external">Vueling</a>
+                <li>Barcelona: <a href="http://www.vueling.com/en" target="_blank" class="external">Vueling</a>
                 </li>
-                <li>Palma de Mallorca: <a href="http://www.opodo.fr/vol/compagnie-aerienne/UX/air-europa/?MPortal=google&mktportal=google&CMP=fr-kw-gg-fl5-232107&gclid=CJqMm-3guMoCFYu4GwodM-4BWg" target="_self" class="external">Air Europa</a></li>
+                <li>Palma de Mallorca: <a href="http://www.opodo.fr/vol/compagnie-aerienne/UX/air-europa/?MPortal=google&mktportal=google&CMP=fr-kw-gg-fl5-232107&gclid=CJqMm-3guMoCFYu4GwodM-4BWg" target="_blank" class="external">Air Europa</a></li>
             </ul>
 
-            <p class="cosi-p">Check also <a href="http://skyscanner.com/" target="_self" class="external">Skyscanner</a> to compare flight options to several cities.
+            <p class="cosi-p">Check also <a href="http://skyscanner.com/" target="_blank" class="external">Skyscanner</a> to compare flight options to several cities.
             </p>
             <p class="cosi-p">The airport of Granada is 16 kilometres away from the city.  Taking a taxi is the fastest option to get you to Granada. The ride will cost you around 27€.
             </p>
             <p class="cosi-p">You can also take the bus to the city centre. The ticket costs 3€ and the ride takes approximately 40 minutes.</p>
-            <p class="cosi-p"><a href="http://www.aena.es/csee/Satellite/Aeropuerto-Federico-Garcia-Lorca-Granada-Jaen/en/Page/1237554498674/" target="_self" class="external">Bus info here.</a></p>
+            <p class="cosi-p"><a href="http://www.aena.es/csee/Satellite/Aeropuerto-Federico-Garcia-Lorca-Granada-Jaen/en/Page/1237554498674/" target="_blank" class="external">Bus info here.</a></p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
                 By Plane direct to Malaga
@@ -120,7 +138,7 @@
             </p>
 
             <p class="cosi-p">
-                You can get a bus from Malaga airport to Granada bus station. This route has several stops along the way and takes 2 hours and 30 minutes. The price is around 11€. <a href="https://www.alsa.es/en/" target="_self" class="external">Bus info here</a>.
+                You can get a bus from Malaga airport to Granada bus station. This route has several stops along the way and takes 2 hours and 30 minutes. The price is around 11€. <a href="https://www.alsa.es/en/" target="_blank" class="external">Bus info here</a>.
             </p>
 
             <p class="cosi-title-6">
@@ -136,7 +154,7 @@
             </p>
 
             <p class="cosi-p">
-                For international tickets, you should visit <a href="http://www.eurolines.com/" target="_self" class="external">Eurolines</a>.
+                For international tickets, you should visit <a href="http://www.eurolines.com/" target="_blank" class="external">Eurolines</a>.
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -152,7 +170,7 @@
             </h5>
 
             <p class="cosi-p">
-                Students who are citizens of the European Union, Iceland, Liechtenstein, Norway or Switzerland are not required to get a visa for Spain since they already have the right to residency, nor are they required to apply for a residence permit. COSI students citizens of EU member country, from countries belonging to the EEA Agreement (Norway, Iceland and Liechtenstein) or from the Swiss Confederation are however required to register, once in Spain, to Central Register of Foreign Citizens (Registro Central de Extranjeros) at the Main Office for Foreign Residents (Oficina de Extranjeros). Application form, supporting documentation and guidelies in english are available <a href="http://internacional.ugr.es/pages/movilidad/estudiantes/entrantes/residenciainspain?lang=en#__doku_international_students_registration_at_the_foreign_office_in_granadanon-eu_students_from_non-eu_universities" target="_self" class="external">here</a>. The “OFFICIAL ERASMUS STUDENT CREDENTIAL” will be issued by UGR in case certificates of admission issued by UJM and URG are not sufficient. You can provide a copy of the <a href="http://ec.europa.eu/social/main.jsp?catId=559" target="_self" class="external">European health insurance card</a> if you have one (recommend in addition to COSI health insurance) or the insurance certificate that has been sent to you by our insurance service provider Marsh.
+                Students who are citizens of the European Union, Iceland, Liechtenstein, Norway or Switzerland are not required to get a visa for Spain since they already have the right to residency, nor are they required to apply for a residence permit. COSI students citizens of EU member country, from countries belonging to the EEA Agreement (Norway, Iceland and Liechtenstein) or from the Swiss Confederation are however required to register, once in Spain, to Central Register of Foreign Citizens (Registro Central de Extranjeros) at the Main Office for Foreign Residents (Oficina de Extranjeros). Application form, supporting documentation and guidelies in english are available <a href="http://internacional.ugr.es/pages/movilidad/estudiantes/entrantes/residenciainspain?lang=en#__doku_international_students_registration_at_the_foreign_office_in_granadanon-eu_students_from_non-eu_universities" target="_blank" class="external">here</a>. The “OFFICIAL ERASMUS STUDENT CREDENTIAL” will be issued by UGR in case certificates of admission issued by UJM and URG are not sufficient. You can provide a copy of the <a href="http://ec.europa.eu/social/main.jsp?catId=559" target="_blank" class="external">European health insurance card</a> if you have one (recommend in addition to COSI health insurance) or the insurance certificate that has been sent to you by our insurance service provider <a href="/insurance" target="_blank" class="external">Marsh</a>.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -350,7 +368,7 @@
             </p>
 
             <p class="cosi-p">
-                <a href="http://www.hcch.net/index_en.php?act=states.listing" target="_self" class="external">List of countries that have signed the "The Hague Accords"</a>
+                <a href="http://www.hcch.net/index_en.php?act=states.listing" target="_blank" class="external">List of countries that have signed the "The Hague Accords"</a>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -362,7 +380,7 @@
             </h4>
 
             <p class="cosi-p">
-                To obtain the COSI Master Degree at the University of Granada the Spanish Government demands the same documentation required for the enrolment, otherwise the university will ultimately not be able to issue the Master Degree Title
+                To obtain the COSI Master Degree at the University of Granada the Spanish Government demands the same documentation required for the enrolment, otherwise the university will ultimately not be able to issue the Master Degree Title. Please also note that in Spain students have to pay a fee to get the diploma.
             </p>
 
             <p class="cosi-p">

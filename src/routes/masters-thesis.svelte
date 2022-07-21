@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Master's thesis - COSI</title>
-    <meta name="description" content="">
+    <meta name="description" content="The Master Thesis is a cornerstone of our programmes. It will allow you to bridge the knowledge and skills you've developed during the past three semesters with a first-hand work experience that will kick-off your career.">
 </svelte:head>
 
 <script>

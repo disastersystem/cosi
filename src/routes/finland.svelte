@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Finland: prepare your stay - COSI</title>
-    <meta name="description" content="">
+    <meta name="description" content="How to get ready on time to go to the University of Eastern Finland, Finland, Joennsu.">
 </svelte:head>
 
 <script>
@@ -27,10 +27,10 @@
             
             <ul class="cosi-ul">
                 <li>
-                    <a href="https://kamu.uef.fi/en/" target="_self" class="external">Kamu: instructions, tools and links to various services for students</a>
+                    <a href="https://kamu.uef.fi/en/" target="_blank" class="external">Kamu: instructions, tools and links to various services for students</a>
                 </li>
                 <li>
-                    <a href="http://www.facebook.com/itasuomenyliopisto.UEF" target="_self" class="external">UEF Facebook</a>
+                    <a href="http://www.facebook.com/itasuomenyliopisto.UEF" target="_blank" class="external">UEF Facebook</a>
                 </li>
             </ul>
 
@@ -52,12 +52,12 @@
 
             <h5 class="cosi-title-5 mt-6 mb-1">Non-EU students</h5>
             <p class="cosi-p">
-                All non-EU students should have Finnish student residence permit already before coming to Finland (<a href="https://migri.fi/en/residence-permit-application-for-studies" target="_self" class="external">Residence permit application for studies</a>). You can start the application process online, but please visit the Finnish Embassy very soon after having the admission letter. Only then they will start processing the application, and also take fingerprints for biometric residence permit card. If you wait until later in summer, you might not have the permit by September.
+                All non-EU students should have Finnish student residence permit already before coming to Finland (<a href="https://migri.fi/en/residence-permit-application-for-studies" target="_blank" class="external">Residence permit application for studies</a>). You can start the application process online, but please visit the Finnish Embassy very soon after having the admission letter. Only then they will start processing the application, and also take fingerprints for biometric residence permit card. If you wait until later in summer, you might not have the permit by September.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">EU students</h5>
             <p class="cosi-p">
-                If you have a Residence Permit in an EU country and the permit is valid throughout the 3rd semester, you can make a <a href="https://migri.fi/en/mobility-notification-to-finland" target="_self" class="external">Mobility notification to Finland</a>. In that case you don't need a residence permit for Finland. Please check with the coordinators if your current residence permit will allow mobility to Finland.
+                If you have a Residence Permit in an EU country and the permit is valid throughout the 3rd semester, you can make a <a href="https://migri.fi/en/mobility-notification-to-finland" target="_blank" class="external">Mobility notification to Finland</a>. In that case you don't need a residence permit for Finland. Please check with the coordinators if your current residence permit will allow mobility to Finland.
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -65,7 +65,7 @@
             </h4>
 
             <p class="cosi-p">
-                The best option for student housing is the student housing company <a href="http://www.joensuunelli.fi/en/" target="_self" class="external">"Joensuun Elli"</a>. You can see all information needed in their website. There you can also find an online application form. We recommend you to apply for housing as soon as you receive the admission letter. Please state in your housing application, that you are an Erasmus+ EMJMD COSI student. This might make your chances of getting a furnished room better. Otherwise, they will offer you an unfurnished room by default. All flats of “Joensuun Elli” are within 5 kilometers from the city center and university. They are connected to the university by local buses and biking routes.
+                The best option for student housing is the student housing company <a href="http://www.joensuunelli.fi/en/" target="_blank" class="external">"Joensuun Elli"</a>. You can see all information needed in their website. There you can also find an online application form. We recommend you to apply for housing as soon as you receive the admission letter. Please state in your housing application, that you are an Erasmus+ EMJMD COSI student. This might make your chances of getting a furnished room better. Otherwise, they will offer you an unfurnished room by default. All flats of “Joensuun Elli” are within 5 kilometers from the city center and university. They are connected to the university by local buses and biking routes.
             </p>
 
             <p class="cosi-p">
@@ -89,7 +89,7 @@
             </p>
 
             <p class="cosi-p">
-                <a href="https://kamu.uef.fi/en/student-book/registration-for-new-students/" target="_self" class="external">Registration instructions for new international Master's degree students</a>
+                <a href="https://kamu.uef.fi/en/student-book/registration-for-new-students/" target="_blank" class="external">Registration instructions for new international Master's degree students</a>
             </p>
 
             <p class="cosi-p">

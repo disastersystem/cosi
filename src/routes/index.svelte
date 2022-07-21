@@ -1,6 +1,6 @@
 <svelte:head>
-    <title>COSI - Computational Colour and Spectral Imaging</title>
-    <meta name="description" content="">
+    <title>COSI - Master degree in Applied Colour Science.</title>
+    <meta name="description" content="Become a leading expert in colour science! The COSI master programme is a Erasmus Mundus + Joint Master Degree. A 2-year Master degree in Applied Colour Science, brought to you by 4 European leading universities. The master is designed and operated by a unique world leading university-business cooperation of 4 European universities, many academic partners and industrial leaders across the globe.">
 </svelte:head>
 
 <script>
