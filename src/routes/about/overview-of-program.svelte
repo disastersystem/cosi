@@ -5,6 +5,7 @@
 
 <script>
     import {fly} from 'svelte/transition'
+    // import Scroller from '@sveltejs/svelte-scroller'
     import LinkCard from '../../components/LinkCard.svelte'
     import BreadCrumbs from '../../components/Breadcrumbs.svelte'
 </script>
@@ -21,8 +22,6 @@
 
             <p class="cosi-headline">
                 We are bridging a talent gap in the colour industry where colour imaging experts are in high demand.
-            </p>
-            <p class="cosi-headline">
                 To achieve this four European Universities are combining their skills and knowledge to offer a two year (120 ECTS) Erasmus Mundus + Joint Master Degree on “Computational Colour and Spectral Imaging (COSI)”.
                 The COSI program is organized by a team of experts in:
             </p>
@@ -31,7 +30,7 @@
                 <div class="flex mb-10 mt-10">
                     <div class="flex w-1/2 pr-2">
                         <div>
-                            <h3 class="cosi-title-4 mb-3">Colour and Visual Computing</h3>
+                            <h3 class="cosi-title-5 mb-3">Colour and Visual Computing</h3>
                             <div class="flex">
                                 <img src="../ntnu-logo-color.png" alt="" style="height: 32px;">
                                 <div class="pl-4">
@@ -43,7 +42,7 @@
                     </div>
                     <div class="flex w-1/2 pl-2">
                         <div>
-                            <h3 class="cosi-title-4 mb-3">Photonics, Image and Vision</h3>
+                            <h3 class="cosi-title-5 mb-3">Photonics, Image and Vision</h3>
                             <div class="flex">
                                 <img src="../ugr-logo-color.svg" alt="" style="height: 36px;">
                                 <div class="pl-4">
@@ -57,7 +56,7 @@
                 <div class="flex">
                     <div class="flex w-1/2 pr-2">
                         <div>
-                            <h3 class="cosi-title-4 mb-3">Computational Spectral Imaging</h3>
+                            <h3 class="cosi-title-5 mb-3">Computational Spectral Imaging</h3>
                             <div class="flex">
                                 <img src="../uef-logo-color.svg" alt="" style="height: 32px;">
                                 <div class="pl-4">
@@ -69,7 +68,7 @@
                     </div>
                     <div class="flex w-1/2 pl-2">
                         <div>
-                            <h3 class="cosi-title-4 mb-3">Color image modelling<br>and understanding</h3>
+                            <h3 class="cosi-title-5 mb-3">Color image modelling<br>and understanding</h3>
                             <div class="flex">
                                 <img src="../ujm-logo-color.png" alt="" style="height: 36px;">
                                 <div class="pl-4">
@@ -241,10 +240,14 @@
             class="self-start mt-40 ml-10 pt-12 pl-12 pr-10 mr-10 sticky top-10 hidden xl:block"
             style="width: 350px;"
         >
-            <p class="cosi-p">Jump to:</p>
-            <ul class="cosi-ol">
-                <li><a class="external text-sm" href="#complementary-expertise">Complementary expertise & integrated approach</a></li>
-                <li><a class="external text-sm" href="#interdisciplinarity">Interdisciplinarity</a></li>
+            <p class="cosi-title-5 mb-4">On this page</p>
+            <ul class="cosi-ul" style="list-style: none; border-left: 1px solid #ddd;">
+                <li>
+                    <a class="external text-sm" href="#complementary-expertise">Complementary expertise & integrated approach</a>
+                </li>
+                <li>
+                    <a class="external text-sm" href="#interdisciplinarity">Interdisciplinarity</a>
+                </li>
                 <li><a class="external text-sm" href="#mobility">Built-in Mobility</a></li>
                 <li><a class="external text-sm" href="#curriculum-and-mobility">Integrated curriculum and mobility</a></li>
                 <li><a class="external text-sm" href="#academic-services">Integrated academic services</a></li>
