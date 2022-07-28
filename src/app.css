@@ -120,3 +120,42 @@ a.internal {
 .cosi-text-light-purple {
     color: #D9D7FF;
 }
+
+.cosi-maintitle {
+    color: #253A90;
+    line-height: 1.2em !important;
+}
+.cosi-erasmus {
+    margin-bottom: 5px;
+    color: #5853A0;
+}
+.cosi-main-subtitle {
+    color: #54567C;
+    margin-top: 0.8em;
+}
+.cosi-mainaction {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #253A90;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 1000px;
+}
+
+.fade-up {
+    transform: translateY(50px);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+}
+/* .in-view {
+    transform: none;
+    opacity: 1;
+} */
+.in-view.fade-up, .in-view .fade-up{ 
+    transform: none;
+    opacity: 1;
+}

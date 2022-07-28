@@ -62,6 +62,7 @@
                                 { type: 'external', slug: 'https://eur-manutech-sleight.universite-lyon.fr/', title: 'MANUTECH SLEIGHT Graduate School scholarships', summary: `
                                     <ul class="cosi-ul">
                                         <li>8000€ (25% upon display of school certificate and a French Bank account, 25% paid in December, on condition of attendance at courses, 25% paid in March on condition of attendance at courses and 25% paid at the end of the academic year and will be conditioned to participation at all exams)</li>
+                                        <span class="section-anchor" id="scholarship-during"></span>
                                     </ul>
                                 ` }
                             ]
@@ -94,6 +95,7 @@
                                     <ul class="cosi-ul">
                                         <li>800€/ month during 8 months : 8000€</li>
                                     </ul>
+                                    <span class="section-anchor" id="additional-financial-support"></span>
                                 ` }
                             ]
                         }
@@ -112,41 +114,8 @@
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
-    <div class="flex justify-center mt-40 mb-20">
-        <!-- <div class="mt-40 pt-14 pl-6 pr-10 mr-10 sticky top-0" style="width: 350px;">
-            <p class="cosi-p">Jump to:</p>
-            <ul class="cosi-ol">
-                <li>
-                    <a class="external text-sm" href="#attribution">How scholarships are attributed</a>
-                </li>
-                <li>
-                    <a class="external text-sm" href="#attribution">Available scolarships at programme start</a>
-                    <ul class="cosi-ol mt-2">
-                        <li>
-                            <a class="external text-sm" href="#attribution">Additional financial support & scholarships</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a class="external text-sm" href="#attribution">Available scolarships during the programme</a>
-                    <ul class="cosi-ol mt-2">
-                        <li>
-                            <a class="external text-sm" href="#attribution">Additional financial support & scholarships</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a class="external text-sm" href="#attribution">Additional financial support</a>
-                    <ul class="cosi-ol mt-2">
-                        <li>
-                            <a class="external text-sm" href="#attribution">Syrian students living in exile in France</a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a class="external text-sm" href="#attribution">Loans</a></li>
-                <li><a class="external text-sm" href="#attribution">Part-time jobs</a></li>
-            </ul>
-        </div> -->
-
-        <div style="max-width: 766px;">
+    <div class="flex justify-center">
+        <div class="mt-40 ml-0 xl:ml-20 2xl:ml-60" style="max-width: 766px;">
             <BreadCrumbs pages={[
                 ['/', 'Home'],
                 ['/scholarships', 'Scholarships and finance']
@@ -157,6 +126,7 @@
             <p class="cosi-headline">
                 We implement an ambitious scholarship policy to allow all students with outstanding academic background to join our programmes.
                 If you apply to COSI on time, your application will be automatically considered for all scholarships mentioned in this page!
+                <span class="section-anchor" id="scholarship-attribution"></span>
             </p>
             <!-- <p class="cosi-p">
                 Scholarships attribution is merit-based: same selection criteria, methods and decision-making for selection to the programme itself are applied to attribute scholarships, attribution is based on absolute selection outcome ranking of applicants.  Learning performance during first year of the programme is used to grant scholarships during the second year of the programme. All scholarships are cumulative, expect E+EMJMD and Eiffel scholarship (holders of these scholarships cannot apply to additional scholarships).
@@ -175,6 +145,7 @@
                 <li>Same selection criteria, methods and decision-making for selection to the programme itself are applied to attribute scholarships.</li>
                 <li>Attribution is based on absolute selection outcome ranking of applicants.</li>
                 <li>Learning performance during first year of the programme is used to grant scholarships during the second year of the programme.</li>
+                <span class="section-anchor" id="scholarship-start"></span>
                 <li>All scholarships are cumulative, expect E+EMJMD and Eiffel scholarship (holders of these scholarships cannot apply to additional scholarships).</li>
             </ul>
 
@@ -319,6 +290,7 @@
             </p>
             <p class="cosi-p">
                 Application should be done directly by the University Jean Monnet. Please contact your administrative coordinator if applicable.
+                <span class="section-anchor" id="loans"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-12">
@@ -335,6 +307,7 @@
             </p>
             <p class="cosi-p mt-4">
                 Administrative staff is available to provide applicants any information needed for them to apply for a loan.
+                <span class="section-anchor" id="part-time-jobs"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-12">
@@ -349,6 +322,25 @@
                 <li>COSI is a full-time programme that require a full investment from the student and give little room for a professional activity</li>
             </ul>
 
+        </div>
+
+        <div
+            class="table-of-contents self-start mt-40 ml-10 pt-12 pl-12 pr-10 mr-10 sticky top-10 hidden xl:block"
+            style="width: 350px;"
+        >
+            <p class="cosi-title-5 mb-4">Table of Contents</p>
+            <ul class="cosi-ul" style="list-style: none; border-left: 1px solid #ddd;">
+                <li>
+                    <a class="external text-sm" href="#scholarship-attribution">How scholarships are attributed</a>
+                </li>
+                <li>
+                    <a class="external text-sm" href="#scholarship-start">Available scolarships at programme start</a>
+                </li>
+                <li><a class="external text-sm" href="#scholarship-during">Available scolarships during the programme</a></li>
+                <li><a class="external text-sm" href="#additional-financial-support">Additional financial support</a></li>
+                <li><a class="external text-sm" href="#loans">Loans</a></li>
+                <li><a class="external text-sm" href="#part-time-jobs">Part-time jobs</a></li>
+            </ul>
         </div>
     </div>
 </main>

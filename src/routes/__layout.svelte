@@ -1,5 +1,7 @@
 <script>
-    import "../app.css";
+    import "../app.css"
+    // import '@animxyz/core'
+
     import MainNavigation from '../components/MainNavigation.svelte'
     import Footer from '../components/Footer.svelte'
 </script>

@@ -4,12 +4,62 @@
 </svelte:head>
 
 <script>
-    import {fly} from 'svelte/transition'
+    // import {fly} from 'svelte/transition'
+
+    // function actionWhenInViewport(e) {
+    //     const observer = new IntersectionObserver(entries => {
+    //         if (entries[0].isIntersecting) {
+    //             // element in viewport
+    //             console.log(entries)
+    //         }
+    //     }, options)
+
+    //     observer.observe(e)
+    // }
+
+    import { onMount } from 'svelte'
+
+	onMount(() => {
+        let options = {
+            root: null,
+            rootMargin: '0px 0px -50px 0px',
+            threshold: 0
+        }
+
+        let callback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view')
+                    observer.unobserve(entry.target)
+                }
+            })
+            //   entry.boundingClientRect
+            //   entry.intersectionRatio
+            //   entry.intersectionRect
+            //   entry.isIntersecting
+            //   entry.rootBounds
+            //   entry.target
+            //   entry.time
+        }
+
+        const sections = Array.from(document.getElementsByClassName('section'))
+        let observer = new IntersectionObserver(callback, options)
+
+        for (let section of sections) {
+            const fadeups = section.getElementsByClassName('fade-delay')
+            for (let count = 0; count < fadeups.length; count++) {
+                fadeups[count].setAttribute('style', 'transition-delay: ' + count * 0.5 + 's')
+            }
+
+            observer.observe(section)
+        }
+	})
 </script>
 
-<main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
+<!-- in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }} -->
+<main>
     <!-- EAE0D5 -->
-    <div class="flex items-center" style="margin-top: 71px; background: #FDF8F5;">
+    <div class="section fade-up flex items-center" style="margin-top: 62px; background: #FDF8F5;">
         <div class="flex justify-center">
             <!-- mt-60 sm:mt-40 md:mt-40 lg:mt-40 xl:mt-40 2xl:mt-40 -->
             <div class="flex justify-center">
@@ -17,22 +67,24 @@
                     pl-6 md:pl-6 lg:pl-20 xl:pl-20 1xl:pl-20 2xl:pl-60
                     pt-12 pb-12 md:pr-20 2xl:pr-40"
                 >
-                    <h3 class="uppercase text-sm md:text-md" style="margin-bottom: 5px; color: #5853A0;">
-                        Erasmus Mundus + Joint Master Degree
-                    </h3>
+                    <div class="fade-up fade-delay ">
+                        <h3 class="uppercase text-sm md:text-md cosi-erasmus">
+                            Erasmus Mundus + Joint Master Degree
+                        </h3>
 
-                    <h1 class="text-4xl font-bold xl:text-5xl xl:font-semibold" style="color: #253A90; line-height: 1.1em;">
-                        Become&nbsp;a&nbsp;leading<br>expert&nbsp;in&nbsp;colour<br>science
-                    </h1>
+                        <h1 class="cosi-maintitle text-4xl xl:text-5xl font-bold xl:font-semibold">
+                            Become&nbsp;a&nbsp;leading<br>expert&nbsp;in&nbsp;colour<br>science
+                        </h1>
+                    </div>
 
-                    <p style="color: #54567C; margin-top: 0.8em;">
+                    <p class="fade-up fade-delay cosi-main-subtitle">
                         2-year Master degree in Applied Colour Science,<br> brought to you by 4 European leading universities
                     </p>
 
                     <a
                         href="/about/overview-of-program"
-                        class="mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
-                        style="display: inline-block; font-size: 13px; font-weight: bold; text-decoration: none; background: #253A90; color: white; padding: 10px 30px; border-radius: 1000px;"
+                        class="
+                            fade-up fade-delay mt-10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 cosi-mainaction"
                     >
                         <div class="flex items-center">
                             <div class="uppercase pr-4">Learn about COSI</div>
@@ -45,35 +97,41 @@
             </div>
         </div>
 
-    <!-- background-color: #E2AA3A; -->
+        <!-- background-color: #E2AA3A; -->
         <div class="w-full hidden md:flex flex justify-end" style="height: 100%; overflow: hidden;">
             <!-- <img src="camera.png" alt="" class="hidden md:hidden lg:block" style="width: 500px;"> -->
             <!-- border-bottom-left-radius: 1000px; border-top-left-radius: 1000px; -->
-            <img
-                src="people-smaller3.png" alt=""
-                class="hidden md:block"
-                style="height: 100%; object-fit: cover; object-position: top right;"
-            >
+
+            <!-- <div style="width: 970px; height: 572px;"> -->
+                <img
+                    src="people-smaller3.png" alt=""
+                    class="hidden md:block"
+                    style="height: 100%; object-fit: cover; object-position: top left;"
+                >
+            <!-- </div> -->
         </div>
     </div>
 
-    <!-- <div class="flex justify-center px-6">
+    <div class="section fade-up flex justify-center px-6 mt-20 md:mt-20 mb-8">
         <div style="width: 1000px;">
-            <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
-                Why join
+            <h2 class="cosi-title-2 mb-2" style="color: #253A90; margin-top: 10px;">
+                <!-- Why join -->
+                <!-- What makes us unique -->
+                <!-- Why you should join -->
+                A master program you won't<br>find anywhere else
             </h2>
         </div>
-    </div> -->
+    </div>
 
-    <div class="flex justify-center px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-20 mb-20" style="max-width: 1000px;">
+    <div class="section fade-up flex justify-center px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 mb-20" style="max-width: 1000px;">
             <div class="w-full pr-10">
                 <div style="height: 40px;">
                     <!-- <img src="icons/dollar.svg" alt="" style="display: inline-block; height: 100%;">
                     <img src="icons/grad-hat.svg" alt="" style="display: inline-block; height: 100%;"> -->
                     <img src="icons/dollar-green.svg" alt="" style="display: inline-block; height: 100%;">
                 </div>
-                <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
+                <h2 class="cosi-title-4 mb-2" style="margin-top: 10px;">
                     Generous Scholarships
                 </h2>
                 <p style="color: #54567C;">
@@ -98,7 +156,7 @@
                 <div style="height: 40px;">
                     <img src="icons/medal-yellow.svg" alt="" style="display: inline-block; height: 100%;">
                 </div>
-                <h2 class="cosi-title-2 mb-2" style="margin-top: 10px;">
+                <h2 class="cosi-title-4 mb-2" style="margin-top: 10px;">
                     Global academic excellence meeting worldwide markets
                 </h2>
                 <p style="color: #54567C;">
@@ -108,13 +166,13 @@
         </div>
     </div>
 
-    <div class="mobility-container relative flex justify-center">
+    <div class="section fade-up mobility-container relative flex justify-center">
         <div>
             <div class="flex justify-center">
                 <div style="max-width: 1000px;">
-                    <div class="grid grid-cols-2 px-6 lg:px-0 py-20">
+                    <div class="grid grid-cols-2 px-6 lg:px-0 pt-20 pb-12">
                         <div>
-                            <h2 class="cosi-title-2 mb-3 text-white" style="color: white;">Built-in European Mobility</h2>
+                            <h2 class="cosi-title-4 mb-3 text-white" style="color: white;">Built-in European Mobility</h2>
                             <h5 class="cosi-title-5" style="font-weight: normal; color: white; font-size: 16px;">
                                 Live & learn in 4 different campuses
                             </h5>
@@ -243,7 +301,7 @@
 
     </div>
 
-    <div class="flex justify-center px-6">
+    <div class="section fade-up flex justify-center px-6">
         <div style="max-width: 1000px;">
             <!-- <div class="grid grid-cols-1 md:grid-cols-2 mt-20 md:mt-40">
                 <div class="w-full pr-10">
@@ -309,7 +367,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                         </svg> -->
                     </div>
-                    <h2 class="cosi-title-2 mt-1 mb-2">
+                    <h2 class="cosi-title-4 mt-1 mb-2">
                         Customized academic and administrative services
                     </h2>
                     <p style="color: #54567C;">
@@ -321,7 +379,7 @@
                     <div style="height: 40px;">
                         <img src="icons/grad-yellow.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
-                    <h2 class="cosi-title-2 mt-2 mb-2">
+                    <h2 class="cosi-title-4 mt-2 mb-2">
                         An education you won't find anywhere else
                     </h2>
                     <p style="color: #54567C;">
@@ -338,7 +396,7 @@
                     <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg> -->
-                    <h2 class="cosi-title-2 mt-2 mb-2">
+                    <h2 class="cosi-title-4 mt-2 mb-2">
                         International recognition
                     </h2>
                     <p style="color: #54567C;">
@@ -350,7 +408,7 @@
                     <div style="height: 40px;">
                         <img src="icons/suitcase-red.svg" alt="" style="display: inline-block; height: 100%;">
                     </div>
-                    <h2 class="cosi-title-2 mt-2 mb-2">
+                    <h2 class="cosi-title-4 mt-2 mb-2">
                         Worldwide employability
                     </h2>
                     <p style="color: #54567C;">
@@ -361,7 +419,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center mt-40 px-6">
+    <div class="section fade-up flex justify-center mt-40 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
             <h2 class="cosi-title-2 mb-2" style="color: #253A90;">Partners</h2>
 
@@ -418,7 +476,7 @@
         </div>
     </div>
 
-    <div class="flex justify-center mt-40 mb-20 px-6">
+    <div class="section fade-up flex justify-center mt-40 mb-20 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
             <h2 class="cosi-title-2 font-bold text-center mb-3">Call for applications study years 2022 - 2024</h2>
             <h3 class="text-center" style="font-weight: 500; font-style: italic;">Apply from 8. oct 2021 to January 10th 2022</h3>
@@ -437,7 +495,8 @@
         </div>
     </div>
 
-    <div class="flex justify-center mt-40 px-6">
+    <!-- xyz="fade-25% left-75%" -->
+    <div class="section fade-up read-more flex justify-center mt-40 px-6">
         <div style="max-width: 1000px; flex-grow: 1;">
             <h2 class="cosi-title-2 mb-8 text-center" style="color: #253A90;">Learn more about</h2>
             <div class="grid grid-cols-1 md:grid-cols-3">

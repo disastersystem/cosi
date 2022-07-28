@@ -4,10 +4,43 @@
 </svelte:head>
 
 <script>
-    import {fly} from 'svelte/transition'
     // import Scroller from '@sveltejs/svelte-scroller'
-    import LinkCard from '../../components/LinkCard.svelte'
     import BreadCrumbs from '../../components/Breadcrumbs.svelte'
+    import LinkCard from '../../components/LinkCard.svelte'
+    import { fly } from 'svelte/transition'
+    // import { onMount } from 'svelte'
+
+	// onMount(() => {
+    //     let options = {
+    //         root: null,
+    //         rootMargin: '0px',
+    //         threshold: 0.5
+    //     }
+
+    //     let tableOfContents = document.querySelectorAll('.table-of-contents li a')
+    //     let activeLinks = []
+
+    //     let callback = (entries, observer) => {
+    //         if (entries[0].isIntersecting) {
+    //             activeLinks.forEach(link => { link.style.fontWeight = 'normal' })
+    //             // console.log('a[href="#' + entries[0].target + '"]')
+    //             const link = document.querySelector('a[href="#' + entries[0].target.id + '"]')
+    //             // const link = tableOfContents.forEach(item => item.href == '#'+entries[0].target.id)
+    //             // for (const link of tableOfContents) {
+    //             //     console.log(link.href)
+    //             // }
+    //             link.style.fontWeight = 'bold'
+    //             activeLinks.push(link)
+    //         }
+    //     }
+
+    //     const observer = new IntersectionObserver(callback, options)
+
+    //     const sections = document.querySelectorAll('.section-anchor')
+    //     sections.forEach(el => observer.observe(el))
+	// })
+
+    // TODO: onDismount?
 </script>
 
 <main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -81,7 +114,7 @@
                 </div>
             </div>
 
-            <div id="complementary-expertise"></div>
+            <div class="section-anchor" id="complementary-expertise"></div>
             <h2 class="cosi-title-2 mt-16 mb-4">Complementary expertise & integrated approach</h2>
             <p class="cosi-p">
                 COSI is the answer to the lessons drawn from implementation of pioneer courses, its intimacy to industry challenges and the continuing efforts of the founding partners to further unite and increase the attractiveness of the consortium.
@@ -91,7 +124,7 @@
             </p>
             <p class="cosi-p">
                 A <a href="/corporate-relations" target="_self" class="external">strong culture of dialogue and cooperation with industry</a> has also been instrumental to achieve the right balance of academia/industry partnerships in COSI. In practice, these knowledge exchanges take shape into cross-licensing and jointly developed industrial projects.
-                <span id="interdisciplinarity"></span>
+                <span class="section-anchor" id="interdisciplinarity"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Interdisciplinarity</h2>
@@ -103,7 +136,7 @@
             </p>
             <p class="cosi-p">
                 COSI is brought to you by a world leading university-business cooperation of four European universities, and partnership with over 15 academic and over 10 industrial leaders across the globe.
-                <span id="mobility"></span>
+                <span class="section-anchor" id="mobility"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Built-in Mobility</h2>
@@ -115,7 +148,7 @@
             </p>
             <p class="cosi-p">
                 This starts by the first semester of studies being held in Norway, the second semester in France or Spain (depending on your preferred specialty) and the third semester in Norway or Finland (again depending on your preferred specialty). The fourth semester which is fully dedicated to the Master Thesis could then be performed at any university or industry across the globe! Add the six weeks industrial internships the students take between the second and third semester and you see how we at COSI have tried to get the most out of your two year master studies.
-                <span id="curriculum-and-mobility"></span>
+                <span class="section-anchor" id="curriculum-and-mobility"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated curriculum and mobility</h2>
@@ -166,13 +199,13 @@
             </p>
             <p class="cosi-p">
                 Students spent an equal period of stay at each university. To allow <a href="/courses" target="_self" class="external">mobility to bring a true added-value to the programme</a>, we've limited the range of mobility choices on the basis of the partners' research and teaching main focus area. The two concentration tracks (spectral technologies and applied colour imaging) are designed around the core competences of the Norwegian University of Science and Technology and the University of Eastern Finland.
-                <span id="academic-services"></span>
+                <span class="section-anchor" id="academic-services"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated academic services</h2>
             <p class="cosi-p">
                 COSI administrative staff works jointly to ensure the best possible <a href="/academic-services" target="_self" class="external">academic services</a> to COSI students, notably by simplification of administrative procedures for mobile students and better integration in the local environment, the main two challenges that Erasmus students typically face.
-                <span id="governance"></span>
+                <span class="section-anchor" id="governance"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated governance</h2>
@@ -202,11 +235,11 @@
                 path={'/qab'}
             />
 
-            <div id="research-base"></div>
+            <div class="section-anchor" id="research-base"></div>
             <h2 class="cosi-title-2 mt-16 mb-4">Applied research base</h2>
             <p class="cosi-p">
                 Inter-institutional knowledge transfer provides for a <a href="/research" target="_self" class="external">common research framework</a>, unique at the international level. COSI is the brainpower of 8 public research labs and 14 industry partners' talents pools and massive R&D investments.
-                <span id="learning-outcomes"></span>
+                <span class="section-anchor" id="learning-outcomes"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-12 mb-4">Harmonized validation of learning outcomes</h2>
@@ -223,7 +256,7 @@
                 <li>
                     Shared examination methodologies and performance assessment criteria. In addition, efforts are made through continuous dialogue to tackle cultural differences between COSI professors with respect to expectations linked to a given mark. An example is the evaluation process of the master thesis, which is conducted by an international jury of at least 2 different universities and one practitioner of the given field of research.
                 </li>
-                <li id="family">
+                <li class="section-anchor" id="family">
                     Recognized awarded degrees and common Diploma Supplement.
                 </li>
             </ul>
@@ -237,10 +270,10 @@
         </div>
 
         <div
-            class="self-start mt-40 ml-10 pt-12 pl-12 pr-10 mr-10 sticky top-10 hidden xl:block"
+            class="table-of-contents self-start mt-40 ml-10 pt-12 pl-12 pr-10 mr-10 sticky top-10 hidden xl:block"
             style="width: 350px;"
         >
-            <p class="cosi-title-5 mb-4">On this page</p>
+            <p class="cosi-title-5 mb-4">Table of Contents</p>
             <ul class="cosi-ul" style="list-style: none; border-left: 1px solid #ddd;">
                 <li>
                     <a class="external text-sm" href="#complementary-expertise">Complementary expertise & integrated approach</a>
