@@ -9,23 +9,23 @@
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
-    <div class="flex justify-center mt-40 mb-20">
-        <div class="content-max-width">
+    <div class="flex justify-center px-6">
+        <div class="content-max-width mt-40 ml-0 xl:ml-20 2xl:ml-60">
             <!-- <h1 class="cosi-title-1">Norwegian University of Science and Technology</h1> -->
             <BreadCrumbs pages={[
                 ['/', 'Home'],
                 ['/norway', 'Norway']
             ]} />
 
-            <h1 class="cosi-title-1">Norway - prepare your stay</h1>
-
+            <h1 class="cosi-title-1">Norway - prepare your stay <span id="useful-links"></span></h1>
+            
             <h2 class="cosi-title-2 mb-4 mt-16">
                 Useful links during your stay
             </h2>
 
             <ul class="cosi-ul">
                 <li>
-                    <a href="https://www.ntnu.edu/" target="_blank" class="external">
+                    <a href="https://www.ntnu.edu/" target="_blank" class="cosi-new-tab external">
                         Norwegian University of Science and Technology (english portal)
                     </a>
                 </li>
@@ -33,6 +33,7 @@
 
             <h2 class="cosi-title-2 mb-4 mt-16">
                 Coming to Norway — administrative tasks
+                <span id="admission-letter"></span>
             </h2>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -41,6 +42,7 @@
 
             <p class="cosi-p">
                 Congratulations! You have been accepted to the COSI program and will receive your letter of admission by email.
+                <span id="residence-permit"></span>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -60,7 +62,7 @@
             </h5>
 
             <p class="cosi-p">
-                Go to the UDI website: <a href="https://www.udi.no/en/" target="_blank" class="external">www.udi.no/en/</a>, use their standard country selector to see what documentation you will need in your student permit application. Almost all non-EU/EEA citizens, with a few exceptions, should be able to register an application for a student residence permit online at <a href="https://www.udi.no" target="_blank" class="external">www.udi.no</a>.
+                Go to the UDI website: <a href="https://www.udi.no/en/" target="_blank" class="cosi-new-tab external">www.udi.no/en/</a>, use their standard country selector to see what documentation you will need in your student permit application. Almost all non-EU/EEA citizens, with a few exceptions, should be able to register an application for a student residence permit online at <a href="https://www.udi.no" target="_blank" class="cosi-new-tab external">www.udi.no</a>.
             </p>
 
             <p class="cosi-p">
@@ -78,7 +80,7 @@
             <p class="cosi-p">
                 Your entry visa will be issued with a deadline on it. If you are in some way impacted and you cannot arrive within the deadline, contact NTNU.
                 When you have received your entry visa from the Norwegian Directorate of Immigration (UDI) you may book your flights.
-                The closest airport to Gjøvik is <a href="https://avinor.no/flyplass/oslo/)" target="_blank" class="external">OSL Gardermoen International Airport</a>. We recommend students book their flight to this airport.
+                The closest airport to Gjøvik is <a href="https://avinor.no/flyplass/oslo/)" target="_blank" class="cosi-new-tab external">OSL Gardermoen International Airport</a>. We recommend students book their flight to this airport.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -114,6 +116,7 @@
                 <li>A bank statement showing that you have a minimum of NOK 123 519 in your bank account.</li>
                 <li>The bank statement cannot be more than three months old.</li>
                 <li>The bank statement can be in any currency.</li>
+                <span id="housing"></span>
                 <li>All documentation must be in English or come with an English translation.</li>
             </ul>
 
@@ -146,7 +149,7 @@
             </p>
 
             <p class="cosi-p">
-                More information about booking student housing here: <a href="https://www.ntnu.edu/lifeandhousing/gjovik/housing" target="_blank" class="external break-all">https://www.ntnu.edu/lifeandhousing/gjovik/housing</a>
+                More information about booking student housing here: <a href="https://www.ntnu.edu/lifeandhousing/gjovik/housing" target="_blank" class="external cosi-new-tab break-all">https://www.ntnu.edu/lifeandhousing/gjovik/housing</a>
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -165,8 +168,9 @@
 
             <p class="cosi-p">
                 Madeleine Brørs Midtgaard, Advisor International Office<br>
-                <a href="https://www.ntnu.no/ansatte/madeleine.b.midtgaard" target="_blank" class="external break-all">https://www.ntnu.no/ansatte/madeleine.b.midtgaard</a><br>
-                e-mail: <a href="mailto:international@gjovik.ntnu.no" class="external break-all">international@gjovik.ntnu.no</a>
+                <a href="https://www.ntnu.no/ansatte/madeleine.b.midtgaard" target="_blank" class="cosi-new-tab external break-all">https://www.ntnu.no/ansatte/madeleine.b.midtgaard</a><br>
+                e-mail: <a href="mailto:international@gjovik.ntnu.no" class="cosi-new-tab external break-all">international@gjovik.ntnu.no</a>
+                <span id="arrival"></span>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -187,7 +191,7 @@
             </ul>
 
             <p class="cosi-p">
-                A tip is to download ticketing app on your phone. <a href="https://entur.no/" target="_blank" class="external">Entur</a> for all travels or <a href="https://www.vy.no/en/app" target="_blank" class="external">VY</a> for train services.
+                A tip is to download ticketing app on your phone. <a href="https://entur.no/" target="_blank" class="cosi-new-tab external">Entur</a> for all travels or <a href="https://www.vy.no/en/app" target="_blank" class="cosi-new-tab external">VY</a> for train services.
             </p>
 
             <h5 class="cosi-title-5 mt-6 mb-1">
@@ -195,7 +199,7 @@
             </h5>
 
             <p class="cosi-p">
-                Check out their FAQ for <a href="https://www.sit.no/en/news/faq-moving-sit" target="_blank" class="external break-all">moving in</a>.
+                Check out their FAQ for <a href="https://www.sit.no/en/news/faq-moving-sit" target="_blank" class="cosi-new-tab external break-all">moving in</a>.
             </p>
 
             <p class="cosi-p">
@@ -207,7 +211,8 @@
             </h5>
 
             <p class="cosi-p">
-                Please see our <a href="https://www.ntnu.edu/lifeandhousing/gjovik/new-student" target="_blank" class="external break-all">website for International Week</a> for more information.
+                Please see our <a href="https://www.ntnu.edu/lifeandhousing/gjovik/new-student" target="_blank" class="cosi-new-tab external break-all">website for International Week</a> for more information.
+                <span id="police"></span>
             </p>
 
             <h4 class="cosi-title-4 mt-10 mb-4">
@@ -283,7 +288,7 @@
             </p>
 
             <ol class="cosi-ol">
-                <li>Fill out your registration at <a href="https://www.udi.no" target="_blank" class="external">www.udi.no</a>. You should do this after arriving in Norway, but before meeting with the police</li>
+                <li>Fill out your registration at <a href="https://www.udi.no" target="_blank" class="cosi-new-tab external">www.udi.no</a>. You should do this after arriving in Norway, but before meeting with the police</li>
                 <li>
                     Get your registration certificate:<br>
                     Join a NTNU group appointment during orientation week to meet with Immigration at the police station. Please do not book your own appointment if you are planning to join a group appointment. If you are unable to participate in the group appointments, you can book your own appointment at the same time you fill out the online application. Please note that the process of getting your own appointment could take several weeks.
@@ -297,6 +302,25 @@
                     </ul>
                 </li>
             </ol>
+        </div>
+
+        <div
+            class="table-of-contents self-start mt-40 ml-10 pt-12 pl-12 pr-10 mr-10 sticky top-10 hidden xl:block"
+            style="width: 350px;"
+        >
+            <p class="cosi-title-5 mb-4">Table of Contents</p>
+            <ul class="cosi-ul" style="list-style: none; border-left: 1px solid #ddd;">
+                <li>
+                    <a class="external text-sm" href="#useful-links">Useful link during stay</a>
+                </li>
+                <li>
+                    <a class="external text-sm" href="#admission-letter">Admission letter</a>
+                </li>
+                <li><a class="external text-sm" href="#residence-permit">Residence permit</a></li>
+                <li><a class="external text-sm" href="#housing">Housing</a></li>
+                <li><a class="external text-sm" href="#arrival">Arrival in Norway</a></li>
+                <li><a class="external text-sm" href="#police">Register at Police</a></li>
+            </ul>
         </div>
     </div>
 </main>

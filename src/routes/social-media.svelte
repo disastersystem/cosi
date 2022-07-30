@@ -6,6 +6,7 @@
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -23,13 +24,13 @@
             </h2>
 
             <p class="cosi-p">
-                <a href="https://www.facebook.com/groups/21733014280/" target="_self" class="external">Master CIMET Erasmus Mundus Facebook group</a> is the CIMET / COSI students and alumni network, self-moderated. Here is the place to connect with future, current and past students!
+                <ExternalLink url="https://www.facebook.com/groups/21733014280/">Master CIMET Erasmus Mundus Facebook group</ExternalLink> is the CIMET / COSI students and alumni network, self-moderated. Here is the place to connect with future, current and past students!
             </p>
             <p class="cosi-p">
-                Find the <a href="https://www.facebook.com/groups/MyCOSI/" target="_self" class="external">Master COSI Facebook group</a> is here.
+                Find the <ExternalLink url="https://www.facebook.com/groups/MyCOSI/">Master COSI Facebook group</ExternalLink> here.
             </p>
             <p class="cosi-p">
-                The <a href="https://www.linkedin.com/groups/2726905/" target="_self" class="external">European Master Degrees in Color Science LinkedIn group</a> brings together our programmes' students, alumni, faculty, project teams, academic and industrial partners and colour science professionals.
+                The <ExternalLink url="https://www.linkedin.com/groups/2726905/">European Master Degrees in Color Science LinkedIn group</ExternalLink> brings together our programmes' students, alumni, faculty, project teams, academic and industrial partners and colour science professionals.
             </p>
             <p class="cosi-p">
                 We encourage you, as a COSI student, to join the group to connect with peers, potential employers and be informed of what's new in our Programmes. This group is moderated by the Consortium; we want it professional and focused on the industry's trends and development, job opportunities and professional networking. Do not hesitate to contribute.

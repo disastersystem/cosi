@@ -6,6 +6,7 @@
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -30,7 +31,10 @@
             <ul class="cosi-ul">
                 <li>Ohta, Noboru, and Alan Robertson. Colorimetry: fundamentals and applications. John Wiley & Sons, 2006T.
                 </li>
-                <li><a href="https://books.google.fr/books/about/Billmeyer_and_Saltzman_s_principles_of_c.html?id=Ss_vAAAAMAAJ&redir_esc=y" target="_self" class="external">Billmeyer and Saltzman's principles of color technology</a></li>
+                <li>
+                    <ExternalLink url="https://books.google.fr/books/about/Billmeyer_and_Saltzman_s_principles_of_c.html?id=Ss_vAAAAMAAJ&redir_esc=y">
+                        Billmeyer and Saltzman's principles of color technology
+                    </ExternalLink>
                 <li>Cormen, C. Leiserson, and R. Rivest, “Introduction to Algorithms,” The MIT Press, 1990.
                 </li>
                 <li>J. Kleinberg and E. Tardos , “Algorithm Design“, Pearson International Edition, 2006.
@@ -52,10 +56,20 @@
             </h2>
             <ul class="cosi-ul">
                 <li>
-                    <a href="http://lecturenotesforall.blogspot.fr/2011/05/introduction-to-algorithms-cormen-ppt.html" target="_self" class="external">"Introduction to Algorithms"</a>
+                    <ExternalLink url="http://lecturenotesforall.blogspot.fr/2011/05/introduction-to-algorithms-cormen-ppt.html">
+                        "Introduction to Algorithms"
+                    </ExternalLink>
                 </li>
-                <li><a href="http://www.cs.princeton.edu/~wayne/kleinberg-tardos/" target="_self" class="external">"Algorithm Design"</a></li>
-                <li><a href="http://docs.opencv.org/opencv_tutorials.pdf" target="_self" class="external">The OpenCV Tutorials</a></li>
+                <li>
+                    <ExternalLink url="http://www.cs.princeton.edu/~wayne/kleinberg-tardos/">
+                        "Algorithm Design"
+                    </ExternalLink>
+                </li>
+                <li>
+                    <ExternalLink url="http://docs.opencv.org/opencv_tutorials.pdf">
+                        The OpenCV Tutorials
+                    </ExternalLink>
+                </li>
             </ul>
         </div>
     </div>

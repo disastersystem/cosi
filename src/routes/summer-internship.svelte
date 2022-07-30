@@ -6,6 +6,8 @@
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
+    import InternalLink from '../components/InternalLink.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -38,7 +40,7 @@
                 <li>Universidad de Granada: "A Matlab GUI to explore first and second order image statistical descriptors" (already attributed).</li>
             </ul>
             <p class="cosi-p mt-6">
-                Please use <a href="http://goo.gl/forms/Oe9HABDtBg" target="_self" class="external">this form</a> to allow University Jean Monnet admnistrative staff to edit your placement agreement - irrespective of the place of your internship. Detailed signature process is available on <a href="/masters-thesis" target="_self" class="external">this webpage</a>.
+                Please use <ExternalLink url="http://goo.gl/forms/Oe9HABDtBg">this form</ExternalLink> to allow University Jean Monnet admnistrative staff to edit your placement agreement - irrespective of the place of your internship. Detailed signature process is available on <InternalLink url="/masters-thesis">this webpage</InternalLink>.
             </p>
         </div>
     </div>

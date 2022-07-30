@@ -4,8 +4,9 @@
 </svelte:head>
 
 <script>
-    import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
+    import {fly} from 'svelte/transition'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -28,9 +29,7 @@
             </p>
             <p class="cosi-p">
                 Find your country on this link to determine if your from a partner country or not:
-                <a class="external" target="_self" href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries">
-                    https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries
-                </a>
+                <ExternalLink url="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries">https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries</ExternalLink>
             </p>
 
             <h2 class="cosi-title-2 mt-12 mb-6">
@@ -78,7 +77,7 @@
                 I cannot pay such participation costs, are scholarship grants available?
             </h2>
             <p class="cosi-p">
-                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. <a href="/scholarships" target="_self" class="external">Very generous scholarships are available</a>.
+                Participation costs (covering “tuition fees” and insurance) should not, in any case discourage you from applying if you have the required academic background. <ExternalLink url="/scholarships">Very generous scholarships are available</ExternalLink>.
             </p>
             <p class="cosi-p">
                 COSI is managed by European public universities as a non-profit organization. Participation costs reflect real costs occurred by delivering the programme. Potential benefits are directly re-invested as student scholarships.
@@ -115,7 +114,7 @@
             </p> -->
             <p class="cosi-p mt-20 pt-4 italic" style="color: #494949; border-top: 1px solid #ddd;">
                 Please note that the legal basis and documentation that prevails for determining if you are from a
-                Programme or Partner country is the English version and latest version of the <a href="https://test.com" target="_self" class="external">Erasmus programme guide</a>,
+                Programme or Partner country is the English version and latest version of the <ExternalLink url="http://ec.europa.eu/programmes/erasmus-plus/documents/erasmus-plus-programme-guide_en.pdf">Erasmus programme guide</ExternalLink>,
                 pages 24 to 26 (valid as of 10/10/2014).
             </p>
         </div>

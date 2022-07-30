@@ -6,6 +6,7 @@
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -49,7 +50,7 @@
                 Graduate impact survey
             </h3>
             <p class="cosi-p">
-                Check out the annual <a href="http://www.em-a.eu/en/erasmus-mundus/graduate-impact-survey.html" target="_self" class="external">Erasmus Mundus Graduate Impact Survey</a> from EMA.
+                Check out the annual <ExternalLink url="http://www.em-a.eu/en/erasmus-mundus/graduate-impact-survey.html">Erasmus Mundus Graduate Impact Survey</ExternalLink> from EMA.
             </p>
         </div>
     </div>

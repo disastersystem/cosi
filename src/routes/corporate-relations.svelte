@@ -1,12 +1,208 @@
 <svelte:head>
     <title>Coporate relations / expert talks - COSI</title>
-    <meta name="description" content="">
+    <meta name="description" content="To enhance its outreach, capacity and effectiveness, the consortium has partnered with a large number of partners from the academic and private sector.">
 </svelte:head>
 
 <script>
     import BgLogo from '../components/BgLogo.svelte'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
     import {fly} from 'svelte/transition'
+
+    export let industry = [
+        {
+            name: 'Meta Platforms, Inc.',
+            country: 'USA',
+            logoUrl: '/partners/industry/meta.png',
+            logoWidth: 170,
+            url: 'https://about.facebook.com/'
+        },
+        {
+            name: 'Hewlett-Packard (HP)',
+            country: 'Spain',
+            logoUrl: '/partners/industry/hp.png',
+            logoWidth: 70,
+            url: 'https://www.hp.com/'
+        },
+        {
+            name: 'Huawei',
+            country: 'France',
+            logoUrl: '/partners/industry/Huawei.png',
+            logoWidth: 70,
+            url: 'https://www.huawei.com/en/'
+        },
+        {
+            name: 'Sedoptica',
+            country: 'Spain',
+            logoUrl: '/partners/industry/sedoptica.png',
+            logoWidth: 220,
+            url: 'https://www.sedoptica.es/'
+        },
+        {
+            name: 'COGNEX',
+            country: 'Germany',
+            logoUrl: '/partners/industry/COGNEX.png',
+            logoWidth: 160,
+            url: 'https://www.cognex.com/'
+        },
+        {
+            name: 'Vilmorin-Mikado',
+            country: 'France',
+            logoUrl: '/partners/industry/vilmori-mikado.png',
+            logoWidth: 150,
+            url: 'https://www.vilmorinmikado.com/'
+        },
+        {
+            name: 'Barco',
+            country: 'France',
+            logoUrl: '/partners/industry/barco.png',
+            logoWidth: 80,
+            url: 'https://www.barco.com/en/'
+        },
+        {
+            name: 'Huddly',
+            country: 'Norway',
+            logoUrl: '/partners/industry/huddly.png',
+            logoWidth: 140,
+            url: 'https://www.huddly.com/'
+        },
+        {
+            name: 'BARBIERI electronic snc',
+            country: 'Italy',
+            logoUrl: '/partners/industry/BARBIERI.png',
+            logoWidth: 220,
+            url: 'https://www.barbierielectronic.com/'
+        },
+        {
+            name: 'MIHALY SAS',
+            country: 'France',
+            logoUrl: '/partners/industry/mihaly.png',
+            logoWidth: 150,
+            url: 'https://www.mihalygroup.fr/index-eng.html'
+        },
+        {
+            name: '3DUniversum',
+            country: 'Netherlands',
+            logoUrl: '/partners/industry/3DUniversum.png',
+            logoWidth: 90,
+            url: 'https://3duniversum.com/'
+        },
+        {
+            name: 'Spektralion AS',
+            country: 'Norway',
+            logoUrl: '/partners/industry/Spektralion.png',
+            logoWidth: 170,
+            url: '/'
+        },
+        {
+            name: 'DXO',
+            country: 'France',
+            logoUrl: '/partners/industry/DXO.png',
+            logoWidth: 120,
+            url: 'https://www.dxo.com/'
+        },
+        {
+            name: 'Chromasens',
+            country: 'Germany',
+            logoUrl: '/partners/industry/Chromasens.png',
+            logoWidth: 180,
+            url: 'https://www.chromasens.de/en'
+        },
+        {
+            name: 'Picterus',
+            country: 'Norway',
+            logoUrl: '/partners/industry/picterus.png',
+            logoWidth: 170,
+            url: 'https://www.picterus.com/'
+        }
+    ]
+
+    export let academic = [
+        {
+            name: 'KU Leuven',
+            country: 'Belgium',
+            logoUrl: '/partners/academic/kuleuven_cmyk_logo-2.png',
+            logoWidth: 120,
+            url: 'https://www.kuleuven.be/english/'
+        },
+        {
+            name: 'University of Zagreb',
+            country: 'Croatia',
+            logoUrl: '/partners/academic/university of Zagreb.png',
+            logoWidth: 80,
+            url: 'https://www.unizg.hr/homepage/'
+        },
+        {
+            name: 'University of Milan Bicocca',
+            country: 'Italy',
+            logoUrl: '/partners/academic/University of Milan Bicocca 1.png',
+            logoWidth: 80,
+            url: 'https://en.unimib.it/'
+        },
+        {
+            name: 'National Cheng Kung University',
+            country: 'Taiwan',
+            logoUrl: '/partners/academic/img-layout-inspo 1.png',
+            logoWidth: 80,
+            url: 'https://web.ncku.edu.tw/'
+        },
+        {
+            name: 'Toyohashi University of Technology',
+            country: 'Japan',
+            logoUrl: '/partners/academic/Group 27.png',
+            logoWidth: 130,
+            url: 'https://www.tut.ac.jp/english/'
+        },
+        {
+            name: 'Federal University of Minas Gerais',
+            country: 'Brazil',
+            logoUrl: '/partners/academic/ufmg logo 1.png',
+            logoWidth: 120,
+            url: 'https://ufmg.br/'
+        },
+        {
+            name: 'Tribhuvan University',
+            country: 'Nepal',
+            logoUrl: '/partners/academic/Tribhuvan University.png',
+            logoWidth: 80,
+            url: 'https://tribhuvan-university.edu.np/'
+        },
+        {
+            name: 'University of Minho',
+            country: 'Portugal',
+            logoUrl: '/partners/academic/Universidade do Minho logo.png',
+            logoWidth: 110,
+            url: 'https://www.uminho.pt/EN/Pages/default.aspx'
+        },
+        {
+            name: 'Chulalongkorn University',
+            country: 'Thailand',
+            logoUrl: '/partners/academic/Chulalongkorn University logo.png',
+            logoWidth: 120,
+            url: 'https://www.chula.ac.th/en/'
+        },
+        {
+            name: 'Technological University of Tajikistan',
+            country: 'Tajikistan',
+            logoUrl: '/partners/academic/Technological University of Tajikistan 1.png',
+            logoWidth: 80,
+            url: 'https://www.chula.ac.th/en/'
+        },
+        {
+            name: 'Khulna University',
+            country: 'Bangladesh',
+            logoUrl: '/partners/academic/Khulna University logo.png',
+            logoWidth: 60,
+            url: 'https://www.ku.ac.bd/'
+        },
+        {
+            name: 'Amirkabir University of Technology',
+            country: 'Iran',
+            logoUrl: '/partners/academic/Amirkabir University of Technology.png',
+            logoWidth: 110,
+            url: 'https://aut.ac.ir/en'
+        }
+    ]
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -17,13 +213,14 @@
                 ['/corporate-relations', 'Corporate Relations']
             ]} />
 
-            <h1 class="cosi-title-1">Corporate relations</h1>
-            <!-- <h2 class="cosi-title-2">
-                Partners
-            </h2> -->
+            <h1 class="cosi-title-1">
+                Corporate relations
+            </h1>
+
             <h2 class="cosi-title-2 mt-20 mb-4">
                 Partners
             </h2>
+
             <p class="cosi-headline">
                 To enhance its outreach, capacity and effectiveness, the consortium has partnered with a large number of partners from the academic and private sector.
             </p>
@@ -34,174 +231,39 @@
 
             <div class="flex justify-center flex-wrap">
             <!-- <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"> -->
-                <BgLogo>
-                    <img src="partners/industry/meta.png" alt="" style="width: 170px; display:block;">
-                    <a href="https://about.facebook.com/" target="_self" class="external mt-4">Meta Platforms, Inc.</a>
-                    <p class="cosi-p italic p-0 m-0">USA</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/hp.png" alt="" style="width: 70px;">
-                    <a href="https://www.hp.com/" target="_self" class="external mt-4">Hewlett-Packard (HP)</a>
-                    <p class="cosi-p italic p-0 m-0">Spain</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/Huawei.png" alt="" style="width: 70px;">
-                    <a href="https://www.huawei.com/en/" target="_self" class="external mt-4">Huawei</a>
-                    <p class="cosi-p italic p-0 m-0">France</p>
-                </BgLogo>
-                    
-                <BgLogo>
-                    <img src="partners/industry/sedoptica.png" alt="" style="width: 220px;">
-                    <a href="https://www.sedoptica.es/" target="_self" class="external mt-4">Sedoptica</a>
-                    <p class="cosi-p italic p-0 m-0">Spain</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/COGNEX.png" alt="" style="width: 160px;">
-                    <a href="https://www.cognex.com/" target="_self" class="external mt-4">COGNEX</a>
-                    <p class="cosi-p italic p-0 m-0">Germany</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/vilmori-mikado.png" alt="" style="width: 150px;">
-                    <a href="https://www.vilmorinmikado.com/" target="_self" class="external mt-4">Vilmorin-Mikado</a>
-                    <p class="cosi-p italic p-0 m-0">France</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/barco.png" alt="" style="width: 80px;">
-                    <a href="https://www.barco.com/en/" target="_self" class="external mt-4">Barco</a>
-                    <p class="cosi-p italic p-0 m-0">France</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/huddly.png" alt="" style="width: 140px;">
-                    <a href="https://www.huddly.com/" target="_self" class="external mt-4">Huddly</a>
-                    <p class="cosi-p italic p-0 m-0">Norway</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/BARBIERI.png" alt="" style="width: 220px;">
-                    <a href="https://www.barbierielectronic.com/" target="_self" class="external mt-4 text-center">BARBIERI electronic snc</a>
-                    <p class="cosi-p italic p-0 m-0">Italy</p>
-                </BgLogo>
-                
-                <BgLogo>
-                    <img src="partners/industry/mihaly.png" alt="" style="width: 150px;">
-                    <a href="https://www.mihalygroup.fr/index-eng.html" target="_self" class="external mt-4">MIHALY SAS</a>
-                    <p class="cosi-p italic p-0 m-0">France</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/3DUniversum.png" alt="" style="width: 90px;">
-                    <a href="https://3duniversum.com/" target="_self" class="external mt-4">3DUniversum</a>
-                    <p class="cosi-p italic p-0 m-0">Netherlands</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/Spektralion.png" alt="" style="width: 170px;">
-                    <a href="/" target="_self" class="external mt-4">Spektralion AS</a>
-                    <p class="cosi-p italic p-0 m-0">Norway</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/DXO.png" alt="" style="width: 120px;">
-                    <a href="https://www.dxo.com/" target="_self" class="external mt-4">DXO</a>
-                    <p class="cosi-p italic p-0 m-0">France</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/Chromasens.png" alt="" style="width: 180px;">
-                    <a href="https://www.chromasens.de/en" target="_self" class="external mt-4">Chromasens</a>
-                    <p class="cosi-p italic p-0 m-0">Germany</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/industry/picterus.png" alt="" style="width: 170px;">
-                    <a href="https://www.picterus.com/" target="_self" class="external mt-4">Picterus</a>
-                    <p class="cosi-p italic p-0 m-0">Norway</p>
-                </BgLogo>
+                {#each industry as partner}
+                    <BgLogo>
+                        <img src={ partner.logoUrl } alt="" class="block" style={"width: " + partner.logoWidth + "px;"}>
+                        <div class="text-center mt-4">
+                            <ExternalLink url={ partner.url }>
+                                { partner.name }
+                            </ExternalLink>
+                        </div>
+                        <p class="cosi-p italic p-0 m-0">
+                            { partner.country }
+                        </p>
+                    </BgLogo>
+                {/each}
             </div>
-
 
             <h3 class="cosi-title-4 mt-16 mb-8 text-center">
                 Academic partners
             </h3>
 
             <div class="flex justify-center flex-wrap">
-                <BgLogo>
-                    <img src="partners/academic/kuleuven_cmyk_logo-2.png" alt="" style="width: 120px; display:block;">
-                    <a href="https://www.kuleuven.be/english/" target="_self" class="external mt-4 text-center">KU Leuven</a>
-                    <p class="cosi-p italic p-0 m-0">Belgium</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/university of Zagreb.png" alt="" style="width: 80px; display:block;">
-                    <a href="https://www.unizg.hr/homepage/" target="_self" class="external mt-4 text-center">University of Zagreb</a>
-                    <p class="cosi-p italic p-0 m-0">Croatia</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/University of Milan Bicocca 1.png" alt="" style="width: 80px; display:block;">
-                    <a href="https://en.unimib.it/" target="_self" class="external mt-4 text-center">University of Milan Bicocca</a>
-                    <p class="cosi-p italic p-0 m-0">Italy</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/img-layout-inspo 1.png" alt="" style="width: 80px; display:block;">
-                    <a href="https://web.ncku.edu.tw/" target="_self" class="external mt-4 text-center">National Cheng Kung University</a>
-                    <p class="cosi-p italic p-0 m-0">Taiwan</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/Group 27.png" alt="" style="width: 130px; display:block;">
-                    <a href="https://www.tut.ac.jp/english/" target="_self" class="external mt-4 text-center">Toyohashi University of Technology</a>
-                    <p class="cosi-p italic p-0 m-0">Japan</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/ufmg logo 1.png" alt="" style="width: 120px; display:block;">
-                    <a href="https://ufmg.br/" target="_self" class="external mt-4 text-center">Federal University of Minas Gerais</a>
-                    <p class="cosi-p italic p-0 m-0">Brazil</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/Tribhuvan University.png" alt="" style="width: 80px; display:block;">
-                    <a href="https://tribhuvan-university.edu.np/" target="_self" class="external mt-4 text-center">Tribhuvan University</a>
-                    <p class="cosi-p italic p-0 m-0">Nepal</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/Universidade do Minho logo.png" alt="" style="width: 110px; display:block;">
-                    <a href="https://www.uminho.pt/EN/Pages/default.aspx" target="_self" class="external mt-4 text-center">University of Minho</a>
-                    <p class="cosi-p italic p-0 m-0">Portugal</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/Chulalongkorn University logo.png" alt="" style="width: 120px; display:block;">
-                    <a href="https://www.chula.ac.th/en/" target="_self" class="external mt-4 text-center">Chulalongkorn University</a>
-                    <p class="cosi-p italic p-0 m-0">Thailand</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/Technological University of Tajikistan 1.png" alt="" style="width: 80px; display:block;">
-                    <a href="https://tut.tj/?page_id=1751&lang=en" target="_self" class="external mt-4 text-center">Technological University of Tajikistan</a>
-                    <p class="cosi-p italic p-0 m-0">Tajikistan</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/Khulna University logo.png" alt="" style="width: 60px; display:block;">
-                    <a href="https://www.ku.ac.bd/" target="_self" class="external mt-4 text-center">Khulna University</a>
-                    <p class="cosi-p italic p-0 m-0">Bangladesh</p>
-                </BgLogo>
-
-                <BgLogo>
-                    <img src="partners/academic/Amirkabir University of Technology.png" alt="" style="width: 110px; display:block;">
-                    <a href="https://aut.ac.ir/en" target="_self" class="external mt-4 text-center">Amirkabir University of Technology</a>
-                    <p class="cosi-p italic p-0 m-0">Iran</p>
-                </BgLogo>
+                {#each academic as partner}
+                    <BgLogo>
+                        <img src={ partner.logoUrl } alt="" class="block" style={"width: " + partner.logoWidth + "px;"}>
+                        <div class="text-center mt-4">
+                            <ExternalLink url={ partner.url }>
+                                { partner.name }
+                            </ExternalLink>
+                        </div>
+                        <p class="cosi-p italic p-0 m-0">
+                            { partner.country }
+                        </p>
+                    </BgLogo>
+                {/each}
             </div>
 
             <h2 class="cosi-title-2 mt-20 mb-6">

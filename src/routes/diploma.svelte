@@ -6,6 +6,7 @@
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -23,7 +24,7 @@
             </p>
             <p class="cosi-p">University Jean Monnet Master's Degrees are edited by the Directorate of Training and Professional Integration, upon a list endorsed by the Faculty of Science and Technology, they are then signed by the President of the University the Rectorate. Circular No. 2006-202 of 8 December 2006 defining the guidelines for developing and issuing diplomas in the framework of the “LMD”.
             </p>
-            <p class="cosi-p">A degree is individual and unique. It is your responsibility to keep the original and to make copies. Forgery is punishable under Article 441-2 of the Criminal Code. A duplicate certificate can be provided upon presentation of proof. In case of destruction, loss or theft of a diploma degree, and subject to the submission of formal proof (claim form, receipt of a complaint, affidavit …), University Jean Monnet can issue a duplicate of the diploma. To request a duplicate of your diploma, fill in this <a href="https://mastercolorscience.files.wordpress.com/2015/02/fst_request_duplicate.pdf" target="_self" class="external">Request of diploma duplicate</a> (in French) and send it to the Administrative Coordinator. Translation in English of this form is available <a href="https://mastercolorscience.files.wordpress.com/2015/02/fst_request_duplicate_translation1.pdf" target="_self" class="external">here</a>.
+            <p class="cosi-p">A degree is individual and unique. It is your responsibility to keep the original and to make copies. Forgery is punishable under Article 441-2 of the Criminal Code. A duplicate certificate can be provided upon presentation of proof. In case of destruction, loss or theft of a diploma degree, and subject to the submission of formal proof (claim form, receipt of a complaint, affidavit...), University Jean Monnet can issue a duplicate of the diploma. To request a duplicate of your diploma, fill in this <ExternalLink url="https://mastercolorscience.files.wordpress.com/2015/02/fst_request_duplicate.pdf">Request of diploma duplicate</ExternalLink> (in French) and send it to the Administrative Coordinator. Translation in English of this form is available <ExternalLink url="https://mastercolorscience.files.wordpress.com/2015/02/fst_request_duplicate_translation1.pdf">here</ExternalLink>.
             </p>
 
             <h2 class="cosi-title-2 mt-12 mb-4">
@@ -46,17 +47,15 @@
             </h2>
             <p class="cosi-p">Your diploma/s can be collected at the University Jean Monnet, campus Carnot, Building B, 2nd Floor, office 121, from 9:00 am to 12:00 am. You must bring your provisional certificate and a valid ID / passport.
             </p>
-            <p class="cosi-p">In case you cannot come to Saint Etienne yourself but know someone who can collect your diploma/s on your behalf, you can fill in and send back to the Administrative Coordinator this <a href="https://mastercolorscience.files.wordpress.com/2015/02/fst_proxy_form_.pdf" target="_self" class="external">Proxy form</a> (in French). Translation in English of this form is available <a href="https://mastercolorscience.files.wordpress.com/2015/02/fst_proxy_form_translation1.pdf" target="_self" class="external">here</a>.</p>
+            <p class="cosi-p">In case you cannot come to Saint Etienne yourself but know someone who can collect your diploma/s on your behalf, you can fill in and send back to the Administrative Coordinator this <ExternalLink url="https://mastercolorscience.files.wordpress.com/2015/02/fst_proxy_form_.pdf">Proxy form</ExternalLink> (in French). Translation in English of this form is available <ExternalLink url="https://mastercolorscience.files.wordpress.com/2015/02/fst_proxy_form_translation1.pdf">here</ExternalLink>.</p>
             
             <h2 class="cosi-title-2 mt-12 mb-4">
                 Mailing delivery of your diploma(s)
             </h2>
             <p class="cosi-p">You can alternatively have your diploma(s) send to a city hall in France of a French embassy / consulate in your country of residence.
             </p>
-            <p class="cosi-p">If you wish so, please fill in and send back this <a href="https://mastercolorscience.files.wordpress.com/2015/02/fst_diploma_delivrery_request.pdf" target="_self" class="external">Delivery request</a> (in French) to the Administrative Coordinator. Translation in English of this form is available <a href="https://mastercolorscience.files.wordpress.com/2015/02/fst_diploma_delivrery_request_translation1.pdf" target="_self" class="external">here</a>.
+            <p class="cosi-p">If you wish so, please fill in and send back this <ExternalLink url="https://mastercolorscience.files.wordpress.com/2015/02/fst_diploma_delivrery_request.pdf">Delivery request</ExternalLink> (in French) to the Administrative Coordinator. Translation in English of this form is available <ExternalLink url="https://mastercolorscience.files.wordpress.com/2015/02/fst_diploma_delivrery_request_translation1.pdf">here</ExternalLink>.
             </p>
-            <p class="cosi-p">To open .pdf documents, you need <a href="http://get.adobe.com/reader/" target="_self" class="external">Adobe Reader</a>.</p>
-
         </div>
     </div>
 </main>

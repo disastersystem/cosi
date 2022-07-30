@@ -7,6 +7,7 @@
     // import Scroller from '@sveltejs/svelte-scroller'
     import BreadCrumbs from '../../components/Breadcrumbs.svelte'
     import LinkCard from '../../components/LinkCard.svelte'
+    import ExternalLink from '../../components/ExternalLink.svelte'
     import { fly } from 'svelte/transition'
     // import { onMount } from 'svelte'
 
@@ -123,7 +124,7 @@
                 A programme as interdisciplinary and innovative as COSI would need to mobilize such a broad field of knowledge that it could not be provided at any single institution. This is why COSI is a highly integrated Master, encapsulating a collaborative model based on horizontal cooperation, applied at each stage of design, implementation and institutional learning.
             </p>
             <p class="cosi-p">
-                A <a href="/corporate-relations" target="_self" class="external">strong culture of dialogue and cooperation with industry</a> has also been instrumental to achieve the right balance of academia/industry partnerships in COSI. In practice, these knowledge exchanges take shape into cross-licensing and jointly developed industrial projects.
+                A <ExternalLink url="/corporate-relations">strong culture of dialogue and cooperation with industry</ExternalLink> has also been instrumental to achieve the right balance of academia/industry partnerships in COSI. In practice, these knowledge exchanges take shape into cross-licensing and jointly developed industrial projects.
                 <span class="section-anchor" id="interdisciplinarity"></span>
             </p>
 
@@ -195,16 +196,16 @@
             </ul>
 
             <p class="cosi-p mt-6">
-                Learning technologies such as online-teaching allow us to offer a <a href="/courses" target="_self" class="external">high-quality course catalogue</a> which is flexible, evolving over time and consistent in content and sequence. This is made possible thanks to the use of innovative teaching delivery methods, universities cross-fertilization and mutual learning through academic and staff mobility and backed-up by strong quality assurance.
+                Learning technologies such as online-teaching allow us to offer a <ExternalLink url="/courses">high-quality course catalogue</ExternalLink> which is flexible, evolving over time and consistent in content and sequence. This is made possible thanks to the use of innovative teaching delivery methods, universities cross-fertilization and mutual learning through academic and staff mobility and backed-up by strong quality assurance.
             </p>
             <p class="cosi-p">
-                Students spent an equal period of stay at each university. To allow <a href="/courses" target="_self" class="external">mobility to bring a true added-value to the programme</a>, we've limited the range of mobility choices on the basis of the partners' research and teaching main focus area. The two concentration tracks (spectral technologies and applied colour imaging) are designed around the core competences of the Norwegian University of Science and Technology and the University of Eastern Finland.
+                Students spent an equal period of stay at each university. To allow <ExternalLink url="/courses">mobility to bring a true added-value to the programme</ExternalLink>, we've limited the range of mobility choices on the basis of the partners' research and teaching main focus area. The two concentration tracks (spectral technologies and applied colour imaging) are designed around the core competences of the Norwegian University of Science and Technology and the University of Eastern Finland.
                 <span class="section-anchor" id="academic-services"></span>
             </p>
 
             <h2 class="cosi-title-2 mt-10 mb-4">Integrated academic services</h2>
             <p class="cosi-p">
-                COSI administrative staff works jointly to ensure the best possible <a href="/academic-services" target="_self" class="external">academic services</a> to COSI students, notably by simplification of administrative procedures for mobile students and better integration in the local environment, the main two challenges that Erasmus students typically face.
+                COSI administrative staff works jointly to ensure the best possible <ExternalLink url="/academic-services">academic services</ExternalLink> to COSI students, notably by simplification of administrative procedures for mobile students and better integration in the local environment, the main two challenges that Erasmus students typically face.
                 <span class="section-anchor" id="governance"></span>
             </p>
 
@@ -238,7 +239,7 @@
             <div class="section-anchor" id="research-base"></div>
             <h2 class="cosi-title-2 mt-16 mb-4">Applied research base</h2>
             <p class="cosi-p">
-                Inter-institutional knowledge transfer provides for a <a href="/research" target="_self" class="external">common research framework</a>, unique at the international level. COSI is the brainpower of 8 public research labs and 14 industry partners' talents pools and massive R&D investments.
+                Inter-institutional knowledge transfer provides for a <ExternalLink url="/research">common research framework</ExternalLink>, unique at the international level. COSI is the brainpower of 8 public research labs and 14 industry partners' talents pools and massive R&D investments.
                 <span class="section-anchor" id="learning-outcomes"></span>
             </p>
 
@@ -263,7 +264,7 @@
 
             <h2 class="cosi-title-2 mt-12 mb-4">The COSI Family</h2>
             <p class="cosi-p">
-                This is what makes COSI such a unique programme with a distinct character. Joining COSI is more than joining a Master programme, it's a <a href="/social-media" target="_self" class="external">community</a>; a community of alumni with networking activities between cohorts, a community of practice with research, practitioners and policy makers.
+                This is what makes COSI such a unique programme with a distinct character. Joining COSI is more than joining a Master programme, it's a <ExternalLink url="/social-media">community</ExternalLink>; a community of alumni with networking activities between cohorts, a community of practice with research, practitioners and policy makers.
                 But you won't only be in contact with the COSI community, during open courses COSI students have many opportunities to mingle with local and international students and you can decide to enroll in virtually any scientific course offered by our partners.
             </p>
 

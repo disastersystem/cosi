@@ -75,7 +75,7 @@
             <!-- <div class="flex flex-wrap" style="max-width: 1200px;"> -->
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3" style="max-width: 1200px;">
                 {#each labs as lab}
-                    <a href="{lab.url}" target="_self" class="mb-6 block w-full">
+                    <a href="{lab.url}" target="_target" class="mb-6 block w-full">
                         <div class="flex justify-between items-center p-6 mx-3" style="border: 1px solid #ddd; border-radius: 16px;">
                             <div class="w-full">
                                 <div class="flex justify-between">

@@ -6,6 +6,8 @@
 <script>
     import LinkCard from '../components/LinkCard.svelte'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
+    import InternalLink from '../components/InternalLink.svelte'
     import {fly} from 'svelte/transition'
 </script>
 
@@ -88,11 +90,11 @@
                 What next?
             </h2>
             <p class="cosi-p">
-                Thinking about working in the EU? Apply for the <a href="http://www.eu-bluecard.com/" target="_self" class="external">EU blue card</a>.
+                Thinking about working in the EU? Apply for the <ExternalLink url="http://www.eu-bluecard.com/">EU blue card</ExternalLink>.
             </p>
             <p class="cosi-p">
-                Please keep in touch with us, we count on <a href="/alumni" target="_self" class="external">alumni</a> to be ambassadors or our programmes,
-                and why not <a href="/guest-lecturer" target="_self" class="external">teach a course module</a>.
+                Please keep in touch with us, we count on <InternalLink url="/alumni">alumni</InternalLink> to be ambassadors or our programmes,
+                and why not <InternalLink url="/guest-lectureri">teach a course module</InternalLink>.
             </p>
         </div>
     </div>

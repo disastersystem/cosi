@@ -47,7 +47,7 @@
                     justification of English proficiency you can pass the administrative check.
                 <p>
                 <p class="cosi-p">
-                    Please, see <a class="external" href="https://internacional.ugr.es/pages/politica-linguistica/tablasdecertificadosaceptadosporlaugr" target="_self">this page</a>
+                    Please, see <a class="cosi-new-tab external" href="https://internacional.ugr.es/pages/politica-linguistica/tablasdecertificadosaceptadosporlaugr" target="_blank">this page</a>
                     for alternative tests.
                 </p>
             `
@@ -56,7 +56,7 @@
             question: 'Am I eligible with a BS in textile industry <span class="text-sm">/</span> Electronics Engineering <span class="text-sm">/</span> Chemistry...?',
             answer: `
                 <p class="cosi-p">
-                    Please check carefully <a class="external" href="/application/eligibility-criteria" target="_self">this section</a> for academic background requirements.
+                    Please check carefully <a class="cosi-new-tab external" href="/application/eligibility-criteria" target="_blank">this section</a> for academic background requirements.
                 <p>
                 <p class="cosi-p">
                     We don't specifically target a given major at bachelor level, but rather applicants with a solid academic
@@ -91,7 +91,7 @@
                     You should first apply online to the Master's Degree. If you're selected, we'll guide you through the
                     Campus France application, if applicable. We're in direct contact with Campus France offices and
                     work toward simplifying as much as possible the CEF procedure for selected students.
-                    For more info on the CEF process and countries concerned, please visit these pages <a class="external" href="/france" target="_self">france</a>, <a class="external" href="/spain" target="_self">spain</a>, <a class="external" href="/norway" target="_self">norway</a>, <a class="external" href="/finland" target="_self">finland</a>.
+                    For more info on the CEF process and countries concerned, please visit these pages <a class="cosi-new-tab external" href="/france" target="_blank">france</a>, <a class="cosi-new-tab external" href="/spain" target="_blank">spain</a>, <a class="cosi-new-tab external" href="/norway" target="_blank">norway</a>, <a class="cosi-new-tab external" href="/finland" target="_blank">finland</a>.
                 <p>
             `
         }

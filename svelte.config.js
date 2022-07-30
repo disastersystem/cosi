@@ -7,6 +7,7 @@ import preprocess from "svelte-preprocess";
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
+		// customElement: true,
 		// paths: {
 		// 	base: dev ? '' : '/cosi',
 		// },

@@ -110,6 +110,7 @@
     import {fly} from 'svelte/transition'
     import LinkCard from '../components/LinkCard.svelte'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
     export let groups
 </script>
 
@@ -284,9 +285,7 @@
             <h3 class="cosi-title-3 mb-4 mt-8">Syrian students living in exile in France</h3>
             <p class="cosi-p">
                 In the framework of the French aid program to Syria and Syrian nationals currently in France, the government launched a new scholarship program:
-                <a href="http://www.campusfrance.org/fr/programme_syrie" target="_self" class="external break-all">
-                    http://www.campusfrance.org/fr/programme_syrie
-                </a>
+                <ExternalLink url="http://www.campusfrance.org/fr/programme_syrie">http://www.campusfrance.org/fr/programme_syrie</ExternalLink>
             </p>
             <p class="cosi-p">
                 Application should be done directly by the University Jean Monnet. Please contact your administrative coordinator if applicable.
@@ -297,13 +296,13 @@
                 Loans
             </h2>
             <p class="cosi-p mt-4">
-                Applicants to COSI from <a href="http://ec.europa.eu/programmes/erasmus-plus/about/who-can-take-part_en" target="_self" class="external">Programme countries</a> are eligible to Erasmus+ Master Degree Loans opportunities (up to 18,000 € for two years) to finance their studies. Loans will be offered by participating banks and student loan agencies on favorable conditions to mobile students, including, better than market interest rates and up to two years to allow graduates to get into a job before beginning repayment. This programme will start rolling out earl 2015, visit <a href="http://ec.europa.eu/education/opportunities/higher-education/masters-loans_en.htm" target="_self" class="external">EACEA website for more info.</a>
+                Applicants to COSI from <ExternalLink url="http://ec.europa.eu/programmes/erasmus-plus/about/who-can-take-part_en">Programme countries</ExternalLink> are eligible to Erasmus+ Master Degree Loans opportunities (up to 18,000 € for two years) to finance their studies. Loans will be offered by participating banks and student loan agencies on favorable conditions to mobile students, including, better than market interest rates and up to two years to allow graduates to get into a job before beginning repayment. This programme will start rolling out earl 2015, visit <ExternalLink url="http://ec.europa.eu/education/opportunities/higher-education/masters-loans_en.htm">EACEA website for more info</ExternalLink>.
             </p>
             <p class="cosi-p mt-4">
                 Two French banks begin offering EU-guaranteed loans to Master's students going to or coming from France.
             </p>
             <p class="cosi-p mt-4">
-                The two banks, <a href="http://www.banquepopulaire.fr/portailinternet/Catalogue/Produits/Pages/pret-erasmus.aspx" target="_self" class="external">Banque Populaire</a> and <a href="https://www.caisse-epargne.fr/particuliers/emprunter/financer-ses-etudes" target="_self" class="external">Caisse d'Epargne</a>, are now offering loans both to French students who want to take a Master's degree in one of the 32 Erasmus+ <a href="http://ec.europa.eu/programmes/erasmus-plus/about/who-can-take-part_en" target="_self" class="external">Programme countries</a>, as well as students from Programme countries who want to study in France.
+                The two banks, <ExternalLink url="http://www.banquepopulaire.fr/portailinternet/Catalogue/Produits/Pages/pret-erasmus.aspx">Banque Populaire</ExternalLink> and <ExternalLink url="https://www.caisse-epargne.fr/particuliers/emprunter/financer-ses-etudes">Caisse d'Epargne</ExternalLink>, are now offering loans both to French students who want to take a Master's degree in one of the 32 Erasmus+ <ExternalLink url="http://ec.europa.eu/programmes/erasmus-plus/about/who-can-take-part_en">Programme countries</ExternalLink>, as well as students from Programme countries who want to study in France.
             </p>
             <p class="cosi-p mt-4">
                 Administrative staff is available to provide applicants any information needed for them to apply for a loan.

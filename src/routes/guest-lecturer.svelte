@@ -6,6 +6,7 @@
 <script>
     import {fly} from 'svelte/transition'
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
+    import ExternalLink from '../components/ExternalLink.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -28,7 +29,7 @@
                 Eligibility criteria
             </h3>
             <p class="cosi-p">
-                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<a href="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries" target="_self" class="external">lists of eligible countries</a>)
+                Applicants must hold citizenship of an Erasmus+ Programme OR Partner countries (<ExternalLink url="https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries">lists of eligible countries</ExternalLink>)
             </p>
 
             <h2 class="cosi-title-2 mt-12 mb-6">

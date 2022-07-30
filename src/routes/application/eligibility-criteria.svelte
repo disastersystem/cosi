@@ -7,6 +7,7 @@
     import {fly} from 'svelte/transition'
     // import LinkCard from '../../components/LinkCard.svelte'
     import BreadCrumbs from '../../components/Breadcrumbs.svelte'
+    import ExternalLink from '../../components/ExternalLink.svelte'
 </script>
 
 <main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
@@ -26,14 +27,10 @@
                 Eligibility criteria
             </h2>
             <p class="cosi-p">
-                Below are the minimum requirements to be eligible for COSI programme. Please note that <a class="external" href="/scholarships" target="_self">additional eligibility
-                requirements apply for applicants to be considered for an Erasmus+ Join Master scholarship</a>, notably
-                ineligibility of applicants who have already benefited from an Erasmus Mundus Master Course scholarship.
+                Below are the minimum requirements to be eligible for COSI programme. Please note that <ExternalLink url="/scholarships">additional eligibility requirements apply for applicants to be considered for an Erasmus+ Join Master scholarship</ExternalLink>, notably ineligibility of applicants who have already benefited from an Erasmus Mundus Master Course scholarship.
             </p>
             <p class="cosi-p">
-                Here you can also find the <a class="external" href="https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters-scholarships" target="_self">
-                    general page with information about Erasmus Mundus Joint Master Degrees.
-                </a>
+                Here you can also find the <ExternalLink url="https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters-scholarships">general page with information about Erasmus Mundus Joint Master Degrees.</ExternalLink>
             </p>
             <h3 class="cosi-title-3 mt-12 mb-4">
                 Administrative process
