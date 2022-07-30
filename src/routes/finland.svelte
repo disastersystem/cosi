@@ -8,7 +8,7 @@
     import BreadCrumbs from '../components/Breadcrumbs.svelte'
 </script>
 
-<main class="px-6" in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
+<main in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
     <div class="flex justify-center px-6">
         <div class="content-max-width mt-40 ml-0 xl:ml-20 2xl:ml-60">
             <!-- <h1 class="cosi-title-1">Finland</h1> -->
